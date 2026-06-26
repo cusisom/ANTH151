@@ -11,12 +11,14 @@ website:
       - href: index.qmd
         text: Home
       - Evolution.qmd
+      - North_America.qmd
 
 format:
   html:
+    tbl-cap-location: bottom
     theme:
-      - superhero
-      - brand
+      - minty
+    brand: true
     css: styles.css
     toc: true
     toc-title: Contents
