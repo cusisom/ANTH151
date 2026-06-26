@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ANTH151"
+  site-url: "https://cusisom.github.io/ANTH151/"
+  repo-url: "https://github.com/cusisom/ANTH151"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - Evolution.qmd
+
+format:
+  html:
+    theme:
+      - superhero
+      - brand
+    css: styles.css
+    toc: true
+    toc-title: Contents
+    toc-location: left
+
+

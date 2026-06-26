@@ -1,0 +1,6 @@
+---
+title: "Anthropology 151: Emerging Humanity"
+image: images/migrations.png
+---
+
+Welcome to Anthropology 151: Emerging Humanity. This quarto site will act as a companion site to our Lamaku page. 
