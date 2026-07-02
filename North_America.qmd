@@ -2,6 +2,19 @@
 title: "Week Ten: Peopling of North America"
 ---
 
+::: {.callout-tip}
+## Key Points
+
+- [**Time Period:**]{ .underline } MIS 2 (Last Glacial Maximum) and MIS 1
+- [**Key Terms:**]{ .underline } Beringia, Cordilleran Ice Sheet, Laurentide Ice Sheet, Beringia Standstill,
+Kelp Highway, Ice-Free Corridor, Clovis/Clovis-First 
+- [**Summary:**]{ .underline } The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first 
+settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia
+after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America
+spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America).
+The primary hypotheses which aim to explain this process are the "Kelp Road" and "Ice-Free Corridor" hypotheses.
+:::
+
 ## Initial Upper Paleolithic Migrations
 
 We have been covering the Upper Paleolithic spread of *Homo sapiens* since the 

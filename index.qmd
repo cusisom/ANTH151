@@ -3,4 +3,23 @@ title: "Anthropology 151: Emerging Humanity"
 image: images/migrations.png
 ---
 
+![<details>
+  <summary>Figure: Cueva de las Manos</summary>
+  The above image is of the Cueva de lad Manos in Arggentina. It is a UNESCO World Heritage Site
+  dating back approximately 9,000 years ago (9 ka). The stenciled hand prints accompany painted images of 
+  people and local fauna (guanacos). While this is not a site that we will examine in this course, it does reflect the
+  sort of material we will ultimately be talking about. Here is a link to some more information about the site: 
+  [Cueva de las Manos](https://www.bradshawfoundation.com/south_america/cueva_de_los_manos/index.php>)
+</details>](Cuevadelasmanos.png){.lightbox}
+
+<details>
+  <summary>Cueva de las Manos</summary>
+  Content Content Content Content
+</details>
+
 Welcome to Anthropology 151: Emerging Humanity. This quarto site will act as a companion site to our Lamaku page. 
+
+<details>
+  <summary>Title</summary>
+  Content Content Content Content
+</details>
