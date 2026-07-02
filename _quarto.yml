@@ -4,6 +4,13 @@ project:
 
 website:
   title: "ANTH151"
+  website:
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Alert** - this is some information that you should pay attention to"
+    type: primary
+    position: below-navbar
   site-url: "https://cusisom.github.io/ANTH151/"
   repo-url: "https://github.com/cusisom/ANTH151"
   navbar:
