@@ -4,29 +4,44 @@ project:
 
 website:
   title: "ANTH151"
-  website:
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - this is some information that you should pay attention to"
-    type: primary
-    position: below-navbar
   site-url: "https://cusisom.github.io/ANTH151/"
   repo-url: "https://github.com/cusisom/ANTH151"
-  navbar:
-    left:
+  sidebar:
+    style: "docked"
+    collapse-level: 1
+    
+    contents:
       - href: index.qmd
         text: Home
-      - Evolution.qmd
-      - North_America.qmd
+        
+      - section: "Unit 1: Human Evolution"
+        collapse-level: 1
+        contents:
+        - href: Unit 1/Evolution.qmd
+          text: "Wk 1. Evolution"
+        
+      - section: "Unit 2: Ancient Migrations"
+        collapse-level: 1
+        contents:
+        - href: "Unit 2/North_America.qmd"
+          text: "Wk 10.Peopling of the Americas"
+        
+      - section: "Unit 3: Civilization"
+        collapse-level: 1
+        contents:
+      
 
 format:
   html:
     tbl-cap-location: bottom
     theme:
       - minty
+    grid:
+      margin-width: 0px
+      body-width: 1200px
     brand: true
     css: styles.css
+    from: markdown+emoji
     toc: true
     toc-title: Contents
     toc-location: left

@@ -20,3 +20,29 @@
   padding: 10px;
   border-bottom: 1px solid #dee2e6;
 }
+
+/* styles.css */
+@media (min-width: 992px) {
+  /* 1. Completely collapse the right-side margin structure */
+  .quarto-margin-sidebar, 
+  #quarto-margin-sidebar {
+    display: none !important;
+    width: 0px !important;
+  }
+
+  /* 2. Force the main text container to swallow the ghost tracks on the right */
+  main.content {
+    /* Tells the body text to stretch from track 4 all the way to the screen edge */
+    grid-column: 4 / screen-end !important;
+    
+    /* Dynamically balances the page using standard margins */
+    max-width: 1200px !important; 
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/* Targets the collapsible section headings in Quarto's sidebar */
+.sidebar-item-section > .sidebar-item-container > .sidebar-item-text.sidebar-link {
+  font-weight: bold !important;
+}

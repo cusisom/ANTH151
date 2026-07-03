@@ -1,5 +1,5 @@
 ---
-title: "Week Ten: Peopling of North America"
+title: "Week Ten: Peopling of North America (A)"
 ---
 
 ::: {.callout-tip}
@@ -24,11 +24,20 @@ West Asia and the Caucuses (~45 ka: Turkey, Iran, Armenia, Azerbaijan,
 Georgia), and into Northeast and East Asia (~45-40 ka: Russia (Siberia), 
 Mongolia, China). 
 
-![African and Eurasian Middle-to-Upper Paleolithic Migration Routes](migroutes1.png){.lightbox}
+![African and Eurasian Middle-to-Upper Paleolithic Migration Routes](../images/migroutes1.png){.lightbox}
 
-{{< video https://www.youtube.com/watch?v=IcdRkeTb6gM
-    title="Decent overview of migrstions through Eurasia"
->}}
+::: {.text-center}
+{{< video https://www.youtube.com/watch?v=lK4QrbkKboU width="500" height="281" >}}
+
+*Decent review of migrations*
+:::
+
+
+
+
+
+
+
 
 
 I will cover more on the South Asian route in the next 
@@ -114,23 +123,17 @@ and the beginning of the Mesolithic (and notice the same thing for the end of th
   + Northeastern extent reached by ~30 ka
     - Yana Rhinoceros Horn site (~32 ka)
 
-::: {layout-ncol=2}
+::: {#fig-migration layout-ncol=2}
 
-![IAMC:  Typically, 
-the designation of this path is referenced in regard to later migrations but since it is 
-the same corridor that is used in the Upper Paleolithic, it seems appropriate to use it here 
-as well. ](iamcsites.png){.lightbox}
+![IAMC: Typically, the designation of this path is referenced in regard to later migrations but since it is the same corridor 
+that is used in the Upper Paleolithic, it seems appropriate to use it here as well.](../images/iamcsites.png)
 
-![1: Bukhtarma Cave (grouped with the Altai Denisovan sites, is known for an interaction sphere between H. sapiens, Neanderthals, and Denisovans at around 47 ka)
-2: Kara-Bom (49-45 ka)
-3: Tolbor-16 (45 ka)
-4: Shiyu (45 ka)
-5: Yana (32 ka)
-6: Mal’ta (~24 ka)
-](yanasite.png){.lightbox}
+![1: Bukhtarma Cave (grouped with the Altai Denisovan sites, is known for an interaction sphere between H. sapiens, Neanderthals, 
+and Denisovans at around 47 ka) 2: Kara-Bom (49-45 ka) 3: Tolbor-16 (45 ka) 4: Shiyu (45 ka) 5: Yana (32 ka) 6: Mal’ta (~24 ka)](../images/yanasite.png)
 
 NE Asian migration routes
 :::
+
 
 Recall that the IAMC largely traverses northeast across Kazakhstan. The first 
 image from this group (Atelian Low Stand), illustrates the number archaeological sites in this 
