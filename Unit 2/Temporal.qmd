@@ -1,0 +1,145 @@
+---
+title: "Week 7: Understanding Time"
+subtitle: "**Establishing a Temporal Context**"
+---
+ 
+![](../images/dating-fossils.png){.lightbox width="50%"}
+ 
+::: {.callout-tip}
+## Key Points
+
+- [**Additional Assigned Reading:**]{ .underline } Ch. 7 in textbook; Section: [Dating Methods]{ .underline}
+- [**Key Terms:**]{ .underline } Beringia, Cordilleran Ice Sheet, Laurentide Ice Sheet, Beringia Standstill,
+Kelp Highway, Ice-Free Corridor, Clovis/Clovis-First 
+- [**Summary:**]{ .underline } The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first 
+settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia
+after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America
+spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America).
+The primary hypotheses which aim to explain this process are the "Kelp Road" and "Ice-Free Corridor" hypotheses.
+:::
+
+# Unit 2: Intent and Strategy
+
+This unit is designed to *walk* students through the spread of our species at the tail end of the [Paleolithic]{ .underline}.
+The emergence of *Homo sapiens* at approximately 300 ka illustrates the last branch on our evolutionary tree
+but in no way means that we stopped evolving. Along with other, co-existing hominins of the time, we continued
+to adapt to everchanging landscapes, develop new technologies and survival strategies, and explore the great expanses of this planet
+that humans had never seen. 
+
+We discussed what a species *is* for some length in the last unit. While we don't need to open the conversation
+of murky taxonomy back up here, I'd offer one more approach to considering what this taxon represents.
+Recall the term [**Ontogeny**]{ .underline} from our lecture on "Primate Characteristics". This term refers to the developmental
+history of an organism throughout it's individual lifetime. The word has also been co-opted in species discussions
+to reflect the evolutionary nature of a single species' existence. We can thus consider the Ontogeny of *Homo sapiens* and
+in doing so come to realize that we have only discussed it's infant years so far. The period of time from
+the origin of our species (~300 ka) until it began to *successfully* spread across the globe could, in this
+sense, be compared to the moment of a child's birth until the moment it can competantly walk on it's own. While
+not a perfect analogy it should evoke some degree of understanding about what's to come in our discussions.
+ 
+::: {style="float: left; margin-right: 15px; max-width: 20%;"}
+![](../images/zombie.png)
+
+:::
+
+Before we get to any of the material on new cultural adaptations and global exploration, however, we have to take some time to understand
+how it is that we know when and under what conditions our species began to navigate the Earth. That's right, buckle your seatbelts, it is time
+for us to have "the talk". Over the next couple of weeks we will thus be learning about *how* we "know" what we "know". Being that much of our understanding
+of human history and adaptation is dependant on time and environment, it is important that you come to understand our methods in reconstructing these
+contextual aspects of human paleontology and archaeology. I can't stress enough how important these methods are to our fields of study. Perhaps surprisingly, the methods that have become so important to us
+are not Anthropological methods at all but those of Geologists (Geochronology and Geochemistry/Biogeochemistry). Biological Anthropology and Archaeology are
+are fields which are inherently multidisciplinary. In this case, we want to study human evolution and cultural development and to do so we need to
+use the methods employed by Geologists to devlop a **Temporal Context** and a **Paleoenvironmental Context**. So here we go...
+
+<details>
+
+  <summary> :arrow_up: Anthropologists are Zombies!</summary>
+
+I once had a professor who refered to Anthropologists as Zombies because we have a tendancy of moving across disciplines and consuming their
+ideas and methods. I'm not sure this was meant as an entirely positive metaphor but I kinda dig it. It's not to say that we don't develop our
+own ideas (we certainly do) but more to say that we do not shut ourselves off from the incredibly useful work of other disciplines. Shout out to 
+Dr. Saetra here!
+
+</details>
+
+# Dating
+
+::: {.callout-important}
+
+This information reviews and expands on the sections in your assigned reading (Ch. 7: Dating Methods).
+:::
+
+The first thing that any student learns when it comes to establishing a temporal context in Paleontology and Archaeology is that there are
+two general approaches to this goal: **Relative Dating** and **Absolute (or Radiometric) Dating**. Before getting into the details of each
+we can summarize it with a colloquial analogy. In this hypothetical, let us say that the last time you travelled out of state was in the month of May.
+If someone were to ask "when was the last time you travelled out of state?" you could respond in two ways which could satisfy the question: you could say that
+you travelled just before the Summer or you could provide the exact date (say, 05/20/2026). The first response is less exact but in placing it in relative position to 
+a known time/event you provide the context that is typically appropriate for the question. This is an example of a Relative Date. If the question was a 
+bit more formal, however, this might not satisfy and you would want to provide the Absolute (or precise) Date. 
+
+::: {style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/dating.png){.lightbox}
+
+:::
+
+The image to the right highlights this. It shows successive layers of rock that we call **Strata** (see below). On the right side of these rocks are 
+indicators of Absolute age in Millions-of-Years (which we have been abbreviating Ma). The (±) symbol tells you that there is an error range for this date.
+It is known that our numerical dates are seldom 100% precise. Instead they are more likely to provide a range of dates within a certain degree of confidence. 
+Here the upper date is really suggesting that that stratum dates between approximately 115-125 Ma. More on that later. On the left of the rocks, under Relative Dating, there is simply
+an arrow showing that older rocks are on the bottom of this pile and younger ones are on top. This observation,
+known as **The Law of Superposition**, is really only part of the story. As suggested in my analogy above, to make this a bit more explicit we would indicate 
+that one of these layers represents a specific event (say like the date that you travveled out of state or, more to the point, the extinction of dinosaurs). With that we could use the relative 
+dating scheme to say that some strata are older than the extinction of dinosaurs and some are younger (like saying that you travelled before or after the Summer). While this
+brief overview should hopefully get the general difference between the two across, there are some important details of each that you will need to better understand in this class. 
+
+# Realtive Dating
+
+The beauty of relative dating is in it's ability to construct a logical timeline. In general discussion of history, specific dates are details that are 
+only necessary with narrow inquiry. If we reflect on our timeline of human evolution, for example, I'd be happy if you could recount that *Ardipithecus* came before *Australopithecus* which came
+before *Homo*. This is a relative dating timeline that can be redrawn in a couple of ways [*Diagram 1*]. 
+
+:::: {.columns}
+::: {.column width="5%"}
+### **A**
+:::
+
+::: {.column width="95%"}
+```{mermaid}
+flowchart LR
+		A1["*Ardipithecus*"] --> B1["*Australopithecus*"]
+		B1 --> C1["*Homo*"]
+```
+:::
+::::
+
+<br>
+
+:::: {.columns}
+::: {.column width="5%"}
+### **B**
+:::
+
+::: {.column width="95%"}
+```{mermaid}
+flowchart LR
+		H1["*H. habilis*"] --> H2["*H. erectus*"] 
+		H2 --> H3["*H. heidelbergensis*"]
+		H3 --> H4["*H. neanderthalensis*"]
+		H2 --> H5["*H. bodoensis*"]
+		H5 --> H6["*H. sapiens*"]
+```
+:::
+::::
+
+
+
+<details>
+
+  <summary> Diagram 1: Relative dating timelines</summary>
+
+Both of the above timelines illustrate the logic of relative dating. Though they do not give you numerical ages, such timelines do well to illustrate an order of events. In many discussions
+of history, these illustrations are sufficient to convey primary points. For instance, it was important for us to know that [bipedalism]{.underline} evolved before increased [encephalization]{.underline}.
+
+I should also point out that I used two controversal designations in the bottom timeline: *H. heidelbergensis* and *H. bodoensis*. For more information on this layout refer back to 
+our discussion in week 5 on "Post-*erectus* hominins".
+
+</details>

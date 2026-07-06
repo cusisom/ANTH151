@@ -25,6 +25,8 @@ website:
         contents:
         - href: "Unit 2/North_America.qmd"
           text: "Wk 10.Peopling of the Americas"
+        - href: "Unit 2/Temporal.qmd"
+          text: "Wk 7. Temporal Context"
         
       - section: "Unit 3: Civilization"
         collapse-level: 1
