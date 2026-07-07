@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Week 7: Understanding Time – ANTH151</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-cbbc44a06b6ab5512d326a67c40a5eb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Unit 2/North_America.html">Unit 2: Ancient Migrations</a></li><li class="breadcrumb-item"><a href="../Unit 2/Temporal.html">Wk 7. Temporal Context</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">ANTH151</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 1: Human Evolution</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Unit 1/Evolution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wk 1. Evolution</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Unit 2: Ancient Migrations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Unit 2/North_America.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wk 10.Peopling of the Americas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Unit 2/Temporal.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Wk 7. Temporal Context</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">Unit 3: Civilization</span></span>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#unit-2-intent-and-strategy" id="toc-unit-2-intent-and-strategy" class="nav-link active" data-scroll-target="#unit-2-intent-and-strategy">Unit 2: Intent and Strategy</a></li>
+  <li><a href="#dating" id="toc-dating" class="nav-link" data-scroll-target="#dating">Dating</a></li>
+  <li><a href="#relative-dating" id="toc-relative-dating" class="nav-link" data-scroll-target="#relative-dating">Relative Dating</a>
+  <ul class="collapse">
+  <li><a href="#sedimentary-rocks" id="toc-sedimentary-rocks" class="nav-link" data-scroll-target="#sedimentary-rocks">Sedimentary Rocks</a></li>
+  <li><a href="#strata-stratigraphy-and-superposition" id="toc-strata-stratigraphy-and-superposition" class="nav-link" data-scroll-target="#strata-stratigraphy-and-superposition">Strata, Stratigraphy, and Superposition</a></li>
+  <li><a href="#fossils-and-time" id="toc-fossils-and-time" class="nav-link" data-scroll-target="#fossils-and-time">Fossils and Time</a></li>
+  <li><a href="#time-markers" id="toc-time-markers" class="nav-link" data-scroll-target="#time-markers">Time Markers</a></li>
+  </ul></li>
+  <li><a href="#absolute-radiometric-dating" id="toc-absolute-radiometric-dating" class="nav-link" data-scroll-target="#absolute-radiometric-dating">Absolute (radiometric) Dating</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Unit 2/North_America.html">Unit 2: Ancient Migrations</a></li><li class="breadcrumb-item"><a href="../Unit 2/Temporal.html">Wk 7. Temporal Context</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Week 7: Understanding Time</h1>
+<p class="subtitle lead"><strong>Establishing a Temporal Context</strong></p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><a href="../images/dating-fossils.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../images/dating-fossils.png" class="img-fluid" style="width:50.0%"></a></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Key Points
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><u><strong>Additional Assigned Reading:</strong></u> Ch. 7 in textbook; Section: <u>Dating Methods</u></li>
+<li><u><strong>Key Terms:</strong></u> Beringia, Cordilleran Ice Sheet, Laurentide Ice Sheet, Beringia Standstill, Kelp Highway, Ice-Free Corridor, Clovis/Clovis-First</li>
+<li><u><strong>Summary:</strong></u> The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America). The primary hypotheses which aim to explain this process are the “Kelp Road” and “Ice-Free Corridor” hypotheses.</li>
+</ul>
+</div>
+</div>
+<section id="unit-2-intent-and-strategy" class="level1">
+<h1>Unit 2: Intent and Strategy</h1>
+<p>This unit is designed to <em>walk</em> students through the spread of our species at the tail end of the <u>Paleolithic</u>. The emergence of <em>Homo sapiens</em> at approximately 300 ka illustrates the last branch on our evolutionary tree but in no way means that we stopped evolving. Along with other, co-existing hominins of the time, we continued to adapt to everchanging landscapes, develop new technologies and survival strategies, and explore the great expanses of this planet that humans had never seen.</p>
+<p>We discussed what a species <em>is</em> for some length in the last unit. While we don’t need to open the conversation of murky taxonomy back up here, I’d offer one more approach to considering what this taxon represents. Recall the term <u><strong>Ontogeny</strong></u> from our lecture on “Primate Characteristics”. This term refers to the developmental history of an organism throughout it’s individual lifetime. The word has also been co-opted in species discussions to reflect the evolutionary nature of a single species’ existence. We can thus consider the Ontogeny of <em>Homo sapiens</em> and in doing so come to realize that we have only discussed its infant years so far. The period of time from the origin of our species (~300 ka) until it began to <em>successfully</em> spread across the globe could, in this sense, be compared to the moment of a child’s birth until the moment it can competantly walk on its own. While not a perfect analogy it should evoke some degree of understanding about what’s to come in our discussions.</p>
+<div style="float: left; margin-right: 15px; max-width: 20%;">
+<p><img src="../images/zombie.png" class="img-fluid"></p>
+</div>
+<p>Before we get to any of the material on new cultural adaptations and global exploration, however, we have to take some time to understand how it is that we know when and under what conditions our species began to navigate the Earth. That’s right, buckle your seatbelts, it is time for us to have “the talk”. Over the next couple of weeks we will thus be learning about <em>how</em> we “know” what we “know”. Being that much of our understanding of human history and adaptation is dependant on time and environment, it is important that you come to understand our methods in reconstructing these contextual aspects of human paleontology and archaeology. I can’t stress enough how important these methods are to our fields of study. Perhaps surprisingly, the methods that have become so important to us are not Anthropological methods at all but those of Geologists (Geochronology and Geochemistry/Biogeochemistry). Biological Anthropology and Archaeology are are fields which are inherently multidisciplinary. In this case, we want to study human evolution and cultural development and to do so we need to use the methods employed by Geologists to devlop a <strong>Temporal Context</strong> and a <strong>Paleoenvironmental Context</strong>. So here we go…</p>
+<details>
+<summary>
+<span class="emoji" data-emoji="arrow_up">⬆️</span> Anthropologists are Zombies!
+</summary>
+<p>I once had a professor who refered to Anthropologists as Zombies because we have a tendancy of moving across disciplines and consuming their ideas and methods. I’m not sure this was meant as an entirely positive metaphor but I kinda dig it. It’s not to say that we don’t develop our own ideas (we certainly do) but more to say that we do not shut ourselves off from the incredibly useful work of other disciplines. Shout out to Dr.&nbsp;Saetra here!</p>
+</details>
+</section>
+<section id="dating" class="level1">
+<h1>Dating</h1>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This information reviews and expands on the sections in your assigned reading (Ch. 7: Dating Methods).</p>
+</div>
+</div>
+<p>The first thing that any student learns when it comes to establishing a temporal context in Paleontology and Archaeology is that there are two general approaches to this goal: <strong>Relative Dating</strong> and <strong>Absolute (or Radiometric) Dating</strong>. Before getting into the details of each we can summarize it with a colloquial analogy. In this hypothetical, let us say that the last time you travelled out of state was in the month of May. If someone were to ask “when was the last time you travelled out of state?” you could respond in two ways which could satisfy the question: you could say that you travelled just before the Summer or you could provide the exact date (say, 05/20/2026). The first response is less exact but in placing it in relative position to a known time/event you provide the context that is typically appropriate for the question. This is an example of a Relative Date. If the question was a bit more formal, however, this might not satisfy and you would want to provide the Absolute (or precise) Date.</p>
+<div style="float: right; margin-left: 15px; max-width: 25%;">
+<p><a href="../images/dating.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../images/dating.png" class="img-fluid"></a></p>
+</div>
+<p>The image to the right highlights this. It shows successive layers of rock that we call <strong>Strata</strong> (see below). On the right side of these rocks are indicators of Absolute age in Millions-of-Years (which we have been abbreviating Ma). The (±) symbol tells you that there is an error range for this date. It is known that our numerical dates are seldom 100% precise. Instead they are more likely to provide a range of dates within a certain degree of confidence. Here the upper date is really suggesting that that stratum dates between approximately 115-125 Ma. More on that later. On the left of the rocks, under Relative Dating, there is simply an arrow showing that older rocks are on the bottom of this pile and younger ones are on top. This observation, known as <strong>The Law of Superposition</strong>, is really only part of the story. As suggested in my analogy above, to make this a bit more explicit we would indicate that one of these layers represents a specific event (say like the date that you travveled out of state or, more to the point, the extinction of dinosaurs). With that we could use the relative dating scheme to say that some strata are older than the extinction of dinosaurs and some are younger (like saying that you travelled before or after the Summer). While this brief overview should hopefully get the general difference between the two across, there are some important details of each that you will need to better understand in this class.</p>
+</section>
+<section id="relative-dating" class="level1">
+<h1>Relative Dating</h1>
+<p>The beauty of relative dating is in its ability to construct a logical timeline. In general discussion of history, specific dates are details that are only necessary with narrow inquiry. If we reflect on our timeline of human evolution, for example, I’d be happy if you could recount that <em>Ardipithecus</em> came before <em>Australopithecus</em> which came before <em>Homo</em>. This is a relative dating timeline that can be redrawn in a couple of ways [<em>Diagram 1</em>].</p>
+<div class="columns">
+<div class="column" style="width:5%;">
+<section id="a" class="level3">
+<h3 class="anchored" data-anchor-id="a"><strong>A</strong></h3>
+</section>
+</div><div class="column" style="width:95%;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+        A1["*Ardipithecus*"] --&gt; B1["*Australopithecus*"]
+        B1 --&gt; C1["*Homo*"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:5%;">
+<section id="b" class="level3">
+<h3 class="anchored" data-anchor-id="b"><strong>B</strong></h3>
+</section>
+</div><div class="column" style="width:95%;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+        H1["*H. habilis*"] --&gt; H2["*H. erectus*"] 
+        H2 --&gt; H3["*H. heidelbergensis*"]
+        H3 --&gt; H4["*H. neanderthalensis*"]
+        H2 --&gt; H5["*H. bodoensis*"]
+        H5 --&gt; H6["*H. sapiens*"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<details>
+<summary>
+Diagram 1: Relative dating timelines
+</summary>
+<p>Both of the above timelines illustrate the logic of relative dating. Though they do not give you numerical ages, such timelines do well to illustrate an order of events. In many discussions of history, these illustrations are sufficient to convey primary points. For instance, it was important for us to know that <u>bipedalism</u> evolved before increased <u>encephalization</u>.</p>
+<p>I should also point out that I used two controversal designations in the bottom timeline: <em>H. heidelbergensis</em> and <em>H. bodoensis</em>. For more information on this layout refer back to our discussion in week 5 on “Post-<em>erectus</em> hominins”.</p>
+</details>
+<section id="sedimentary-rocks" class="level3">
+<h3 class="anchored" data-anchor-id="sedimentary-rocks">Sedimentary Rocks</h3>
+<p>The foundation of relative dating methods is situated in <a href="https://www.usgs.gov/publications/sedimentology-general-introduction-and-definitions-fluvial-sediment-and-channel">Sedimentology</a> (the study of sedimentary rocks and the processes by which the are formed). If by chance you read the non-assigned sections of Chapter 7 in the textbook, you have learned that Sedimentary, Igneous, and Metamorphic are the three primary rock classes in Geology. We are interested in Sedimentary rocks here because (1) they are most likely to preserve fossils and (2) because they form in predictable chronological ways. As suggested by the name, Sedimentary rocks are formed by sediments of other materials. While largely sediments from other rocks, they are also regularly comprised of other materials (organic or inorganic). The original material (the sediments) come from the process of <strong>erosion</strong> which all matter is subjected to. Be it wind, rain, sun, or simply time, all things erode into smaller pieces. When this happens, the sediments begin a new life detached from their parent structure. Depending on the size of the eroded particle, a variety of energetic forces now act to move it from one spot to another. Energetic disparity across different regions therefore creates areas of high erosion (high energy environments) and areas of <strong>deposition</strong> (lower energy environments where sediments are deposited). Depositional environments are where we see the formation of sedimentary rocks and, ultimately, the best preservation of fossils.</p>
+</section>
+<section id="strata-stratigraphy-and-superposition" class="level3">
+<h3 class="anchored">Strata, Stratigraphy, and Superposition</h3>
+<p>To understand Relative Dating you must have knowledge of some rudimentary terms. Both <strong>Stratigraphy</strong> and the <strong>Law of Superposition</strong> are mentioned in the text, so we don’t need to spend too much time on them here. Stratigraphy is simply the study of <strong>Strata</strong>. While the text doesn’t provide much of a definition for strata, the term also quickly becomes self evident: each identifiable layer of sedimentary rock is refered to as a single stratum (<em>singular</em>) or, when multiple are discussed, layers of Strata (<em>plural</em>). With these details out of the way we can start to envision what is really meant by <strong>The Law of Superposition</strong>. Sediments are carried from the orignial structure that they eroded from by some energetic force (gravity, wind, water…) until the energy dwindles enough for the weight of the particle to overcome the transporting energy. Then it falls (becoming sediment). Being a low energy environment, this particle is not the only one that falls of in the area. Anything that has been energetically transported here faces this fate and becomes deposited as sediment just the same. We therefore have a “bed” of sediments that forms. This is essentially a sandbox (or a lake bed, river bed, and etcetera).</p>
+<p>[Sidenote: understanding the energy requirements for sediment transportation is actually pretty cool. When looking at depositional environments you can begin to form an idea of the original setting. If, for instance, you are hiking and come across a dried up river bed that has large stones scattered throughout, you can predict that the river was flowing fast and hard enough at this point to carry such large stones. If you then continue to follow it and notice that the stones get smaller, or just become beds of sand, you can observe how the flow of water changed in different parts of the river. Maybe it’s not all that cool to you, but I love this stuff. Such understanding has a tendency of making the world seem infinitely more awesome.]</p>
+<p>OK, now picture this depositional environment. It could be a sand dune or the bottom of a lake or ocean. In any case sediments are slowly accumulating and burying whatever lied there before. As more and more sediment piles up, the underlying material becomes subjected to more and more pressure and heat. Combine this with the groundwater that percolates through these materials and the sediments begin to literally glue together. This is the process of Sedimentary Rock formation. From here we can have little doubt what the <strong>Law of Superposition</strong> is all about. Physical structures succomb to erosion, eroded particles are carried away from from their parent structures until the transporting energy dissipates and they become sediments, sediments accumulate in depositional environments and bury the sediments that came before them, and finally the buried sediments (under the forces of pressure, heat, and moisture perculation) glue together to form distinct layers of rock. These are strata. The deepest strata, be necessity, formed before the strata above them. BAM! Superposition. Suffice it to say that this cycle starts all over again when that stratum is eventually exposed again to the elements and begins to erode. Check out the diagram below for an overview of this process [<em>Diagram 2</em>].</p>
+<div class="columns" style="display: flex; align-items: center; justify-content: space-between;">
+<div class="column" style="width:80%;">
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 582.67 458.52" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 454.52)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-454.52 578.67,-454.52 578.67,4 -4,4"></polygon>
+<!-- top_anchor -->
+<!-- Erosion of Particles -->
+<g id="node2" class="node">
+<title>Erosion of Particles</title>
+<polygon fill="#bbdefb" stroke="#0288d1" stroke-width="2.5" points="220.63,-246.76 90.63,-246.76 90.63,-203.76 220.63,-203.76 220.63,-246.76"></polygon>
+<text text-anchor="middle" x="155.63" y="-221.96" font-family="Helvetica,sans-Serif" font-size="11.00">Erosion of Particles</text>
+</g>
+<!-- top_anchor&#45;&gt;Erosion of Particles -->
+<!-- Transport -->
+<g id="node3" class="node">
+<title>Transport</title>
+<path fill="#e3f2fd" stroke="#555555" d="M244.06,-410.17C244.06,-410.17 138.06,-410.17 138.06,-410.17 132.06,-410.17 126.06,-404.17 126.06,-398.17 126.06,-398.17 126.06,-379.17 126.06,-379.17 126.06,-373.17 132.06,-367.17 138.06,-367.17 138.06,-367.17 244.06,-367.17 244.06,-367.17 250.06,-367.17 256.06,-373.17 256.06,-379.17 256.06,-379.17 256.06,-398.17 256.06,-398.17 256.06,-404.17 250.06,-410.17 244.06,-410.17"></path>
+<text text-anchor="middle" x="191.06" y="-385.37" font-family="Helvetica,sans-Serif" font-size="11.00">Transport</text>
+</g>
+<!-- Erosion of Particles&#45;&gt;Transport -->
+<g id="edge2" class="edge">
+<title>Erosion of Particles-&gt;Transport</title>
+<path fill="none" stroke="black" d="M160.34,-246.96C166.47,-275.24 177.23,-324.9 184.25,-357.28"></path>
+<polygon fill="black" stroke="black" points="180.85,-358.11 186.39,-367.14 187.69,-356.62 180.85,-358.11"></polygon>
+</g>
+<!-- Diminishing Energy -->
+<g id="node4" class="node">
+<title>Diminishing Energy</title>
+<path fill="#e8f5e9" stroke="#555555" d="M420.88,-450.52C420.88,-450.52 314.88,-450.52 314.88,-450.52 308.88,-450.52 302.88,-444.52 302.88,-438.52 302.88,-438.52 302.88,-419.52 302.88,-419.52 302.88,-413.52 308.88,-407.52 314.88,-407.52 314.88,-407.52 420.88,-407.52 420.88,-407.52 426.88,-407.52 432.88,-413.52 432.88,-419.52 432.88,-419.52 432.88,-438.52 432.88,-438.52 432.88,-444.52 426.88,-450.52 420.88,-450.52"></path>
+<text text-anchor="middle" x="367.88" y="-425.72" font-family="Helvetica,sans-Serif" font-size="11.00">Diminishing Energy</text>
+</g>
+<!-- Transport&#45;&gt;Diminishing Energy -->
+<g id="edge3" class="edge">
+<title>Transport-&gt;Diminishing Energy</title>
+<path fill="none" stroke="black" d="M256.15,-403.52C267.99,-406.23 280.44,-409.07 292.56,-411.83"></path>
+<polygon fill="black" stroke="black" points="292.1,-415.32 302.63,-414.13 293.66,-408.5 292.1,-415.32"></polygon>
+</g>
+<!-- Deposition -->
+<g id="node5" class="node">
+<title>Deposition</title>
+<path fill="#c8e6c9" stroke="#555555" d="M562.67,-337.44C562.67,-337.44 456.67,-337.44 456.67,-337.44 450.67,-337.44 444.67,-331.44 444.67,-325.44 444.67,-325.44 444.67,-306.44 444.67,-306.44 444.67,-300.44 450.67,-294.44 456.67,-294.44 456.67,-294.44 562.67,-294.44 562.67,-294.44 568.67,-294.44 574.67,-300.44 574.67,-306.44 574.67,-306.44 574.67,-325.44 574.67,-325.44 574.67,-331.44 568.67,-337.44 562.67,-337.44"></path>
+<text text-anchor="middle" x="509.67" y="-312.64" font-family="Helvetica,sans-Serif" font-size="11.00">Deposition</text>
+</g>
+<!-- Diminishing Energy&#45;&gt;Deposition -->
+<g id="edge4" class="edge">
+<title>Diminishing Energy-&gt;Deposition</title>
+<path fill="none" stroke="black" d="M394.88,-407.49C417.41,-389.53 449.67,-363.79 474.27,-344.18"></path>
+<polygon fill="black" stroke="black" points="476.65,-346.76 482.29,-337.79 472.29,-341.28 476.65,-346.76"></polygon>
+</g>
+<!-- Burial -->
+<g id="node6" class="node">
+<title>Burial</title>
+<path fill="#fff3e0" stroke="#555555" d="M562.67,-156.08C562.67,-156.08 456.67,-156.08 456.67,-156.08 450.67,-156.08 444.67,-150.08 444.67,-144.08 444.67,-144.08 444.67,-125.08 444.67,-125.08 444.67,-119.08 450.67,-113.08 456.67,-113.08 456.67,-113.08 562.67,-113.08 562.67,-113.08 568.67,-113.08 574.67,-119.08 574.67,-125.08 574.67,-125.08 574.67,-144.08 574.67,-144.08 574.67,-150.08 568.67,-156.08 562.67,-156.08"></path>
+<text text-anchor="middle" x="509.67" y="-131.28" font-family="Helvetica,sans-Serif" font-size="11.00">Burial</text>
+</g>
+<!-- Deposition&#45;&gt;Burial -->
+<g id="edge5" class="edge">
+<title>Deposition-&gt;Burial</title>
+<path fill="none" stroke="black" d="M509.67,-294.43C509.67,-262.74 509.67,-203.33 509.67,-166.54"></path>
+<polygon fill="black" stroke="black" points="513.17,-166.35 509.67,-156.35 506.17,-166.35 513.17,-166.35"></polygon>
+</g>
+<!-- Cementation -->
+<g id="node7" class="node">
+<title>Cementation</title>
+<path fill="#ffe0b2" stroke="#555555" d="M420.88,-43C420.88,-43 314.88,-43 314.88,-43 308.88,-43 302.88,-37 302.88,-31 302.88,-31 302.88,-12 302.88,-12 302.88,-6 308.88,0 314.88,0 314.88,0 420.88,0 420.88,0 426.88,0 432.88,-6 432.88,-12 432.88,-12 432.88,-31 432.88,-31 432.88,-37 426.88,-43 420.88,-43"></path>
+<text text-anchor="middle" x="367.88" y="-18.2" font-family="Helvetica,sans-Serif" font-size="11.00">Cementation</text>
+</g>
+<!-- Burial&#45;&gt;Cementation -->
+<g id="edge6" class="edge">
+<title>Burial-&gt;Cementation</title>
+<path fill="none" stroke="black" d="M482.67,-113.04C460.14,-95.08 427.88,-69.35 403.28,-49.74"></path>
+<polygon fill="black" stroke="black" points="405.26,-46.84 395.26,-43.34 400.9,-52.31 405.26,-46.84"></polygon>
+</g>
+<!-- Strata Formation -->
+<g id="node8" class="node">
+<title>Strata Formation</title>
+<path fill="#d7ccc8" stroke="#555555" d="M244.06,-83.36C244.06,-83.36 138.06,-83.36 138.06,-83.36 132.06,-83.36 126.06,-77.36 126.06,-71.36 126.06,-71.36 126.06,-52.36 126.06,-52.36 126.06,-46.36 132.06,-40.36 138.06,-40.36 138.06,-40.36 244.06,-40.36 244.06,-40.36 250.06,-40.36 256.06,-46.36 256.06,-52.36 256.06,-52.36 256.06,-71.36 256.06,-71.36 256.06,-77.36 250.06,-83.36 244.06,-83.36"></path>
+<text text-anchor="middle" x="191.06" y="-58.56" font-family="Helvetica,sans-Serif" font-size="11.00">Strata Formation</text>
+</g>
+<!-- Cementation&#45;&gt;Strata Formation -->
+<g id="edge7" class="edge">
+<title>Cementation-&gt;Strata Formation</title>
+<path fill="none" stroke="black" d="M302.79,-36.36C290.94,-39.06 278.49,-41.9 266.38,-44.67"></path>
+<polygon fill="black" stroke="black" points="265.27,-41.33 256.3,-46.97 266.83,-48.15 265.27,-41.33"></polygon>
+</g>
+<!-- Strata Formation&#45;&gt;Erosion of Particles -->
+<g id="edge8" class="edge">
+<title>Strata Formation-&gt;Erosion of Particles</title>
+<path fill="none" stroke="#0288d1" stroke-width="2" d="M186.35,-83.56C180.22,-111.84 169.46,-161.49 162.44,-193.88"></path>
+<polygon fill="#0288d1" stroke="#0288d1" stroke-width="2" points="159,-193.22 160.3,-203.73 165.84,-194.7 159,-193.22"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div><div class="column" style="padding-left: 5px;">
+<section id="the-sedimentary-rock-cycle" class="level2">
+<h2 class="anchored" data-anchor-id="the-sedimentary-rock-cycle">The Sedimentary Rock Cycle</h2>
+<p>The processes of sedimentation, cementation, and erosion are commonly considered to be <u>Uniformitarian</u> processes. It is a constant process by which our planet continues to recycle and reshape its principle structure.</p>
+</section>
+</div>
+</div>
+<p>But wait…how do we tell different strata apart? What makes them look different and what does this have to do with fossils and time?</p>
+<p>One of the beautiful things about sedimentary rocks being used as time markers is that they can often tell you about shifts in the environment. Darker strata, for instance, commonly reflect regions abundant with life where the decomposition of organic matter mixes with sediments to make these darker hues. White horizons could signify an abundance of quartz or could be dense bands of limestone (made up of shells from microscopic marine organisms). Bands of red strata might suggest that this layer was rich in iron which subsequently oxidized when exposed to high oxygen environments just as they can turn green in oxygen reducing environments. Whatever the case, the sedimentary rocks preserve the conditions of the depositional environments from which they formed. They lock these evidentary materials in stone and store them in the geological record.</p>
+<div id="fig-stratigraphy" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stratigraphy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/Zhangye.png" class="img-fluid figure-img"></p>
+<figcaption>An image from Zhangye National Park in Gansu, China. Known to be among the most colorful geological sequences in the world, this exposed landscape is comprised of sandstone and siltstone rich in iron oxide. Minerals such as hematite, chlorite, and goethite are illustrated in the colorful stratigraphuc bands</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../images/paintedhills.png" class="img-fluid figure-img"></p>
+<figcaption>The Painted Hills are a geological unit within the John Day Fossil Beds in Mitchell, Oregon. In addition to the iron oxide noticeable from the red bands, the Painted Hills boast layers of Volcanic Rhyolite (igneous material) that fell over the landscape and created horizons rich in deep purples.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stratigraphy-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Examples of Stratigraphy from around the world
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="fossils-and-time" class="level3">
+<h3 class="anchored" data-anchor-id="fossils-and-time">Fossils and Time</h3>
+<p>From here there should be little problem understanding how the relative dating of fossils takes place. These strata are far from isolated. In fact, many <strong>Stratigraphic Horizons</strong> represent the same period of time across huge continental masses. But it is not just the sedimentary matter that helps us to identify and define them. Even more useful to this cause are the fossils that get buried within these horizons in successive layers. Whether they are transported by the same energetic forces as the sediments themselves or they simply become buried in the environments that they die in, plants, animals, and even bacteria can become preserved in these strata. Such environments create tombs which encase the most structurally sound components of the organisms that get buried within (often shells, bones, and teeth). What this means is that successive strata have the ability to preserve a record of the life that existed on our planet hundreds, thousands, millions, and even billions of years ago. This is the record that allows to definitively say, “No, Dinosaurs and Humans did not coexist. Dinosuars went extinct long before the first human-like animals ever existed. In fact, barring the continued success of archosaurs (including dinosaurs but currently represented by crocodilians and birds), dinosaurs went extinct long before even the first primates evolved.” This is a succinct and scientifically accurate relative dating account of the history of life on our planet.</p>
+<p>But wait, there’s more…</p>
+<p>The most precise way to apply relative dating is in combination with absolute dating. Your assigned reading makes mention of <strong>Biostratigraphy</strong> but really does not give it its due justice. It states that “this form of dating looks at the context of a fossil or artifact and compares it to the other fossils and biological remains (plant and animal) found in the same stratigraphic layers.” I just don’t think that tells you much, so here is my attempt. First, one of the founding principles of biostratigraphy is that it can match strata from different parts of the world. Let’s say you have two stratigraphic sequences in different regions that look the same but vary in depth. This is a common occurence. The strata might be color patterned (say grey, green, black, grey, white, red) in East Africa and India. But in India the red stratum is two meters deep and in East Africa it is barely visible (or absent altogether). You might have a thought that they represent the same period of time but you really can’t tell. The best possible way of solving this riddle is to look at the fossils. Having not discussed it much, it may seem like the inclusion of fossils in strata is a rarity. Not really. There is <u>a lot</u> of life on this planet and most of it gets buried after death. While fossilization is a relatively rare occurence, even a rare occerence can have a large yield if the base material is abundant. In the right environment, fossils should be an expectation not a surprise. In most stories of fossil hunting (including my own) the struggle is not finding fossils <em>per se</em> but finding the desired fossils. In my previous research, for example, I was part of a team investigating the presence of <em>H. erectus</em> in a specific region of Ethiopia. While this was a daunting task which provided only a few quality specimens from this species, the region provided thousands of fossils from other animals. Though not our primary research goal, one important aspect of this project was establishing the specific context of the region at the time that <em>H. erectus</em> lived in it. It is largely due to these fossils and their quality as <u>Time Markers</u> and <u>Environmental Indicators</u> that we were successful in this goal. We will come back to the notion of fossils being environmental indicators in the next lecture. For now, let us focus on the massive potential of <strong>Biostratigraphy</strong> and its use in Relative Dating.</p>
+</section>
+<section id="time-markers" class="level3">
+<h3 class="anchored" data-anchor-id="time-markers">Time Markers</h3>
+<div style="float: right; margin-left: 15px; max-width: 25%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/trilobite.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Trilobite Fossil"><img src="../images/trilobite.png" class="img-fluid figure-img" alt="Trilobite Fossil"></a></p>
+<figcaption>Trilobite Fossil</figcaption>
+</figure>
+</div>
+</div>
+<p>Biostratigraphy is the study of fossil remains in stratigraphic contexts in order to (1) correlate strata from different environments and (2) provide evidence for the geologic age of strata within a stratigraphic sequence. The first aspect of this, referred to more specifically as <strong>Fuanal Correlation</strong>, is discussed above. This process allows geologists and paleontologists to match strata from different parts of the world which may have been separated through other geologic/geographic actions (plate techtonics, volcanic eruption, erosion of river valleys, and et cetera). The second approach to Biostratigraphy is the explicit use of fossils as time markers. Key to this effort is the identification of <strong>Index Fossils</strong>.</p>
+<p>Index Fossils come from species which are abundant in the fossil record, easy to identify, and have a relatively short geologic age. In meeting these criteria, these fossils not only have the power to identify specific strata from different regions (faunal correlation), but to delineate the specific period of time that that stratum represents. Consider the images to the right and below. On the right is a type of arthropod called a Trilobite. These animals crawled on the seafloor during the Paleozoic era hundreds of thousands of years ago. This specific type of Trilobite, however, has a much narrower existence appearing in the fossil record during the Early Cambrian and disappearing by the Middle Cambrian (existing from approximately 521 to 500 million years ago). This taxonomic order of Trilobite, known as <em>Redlichiida</em>, has a distinctive morphology which makes it easy to identify, it was short lived to other Orders of Trilobite (only existing for about 21 million years), and it was abundant and widespread during its existence. For a paleontologist, this fossil represents a specific moment in time. If one of these fossils is discovered during excavation the team can be confident that they are working in early-to-middle Cambrian beds.</p>
+<p>While some fossils can provide fairly narrow age ranges, most biostratigraphy is achieved through <em>indexing</em> multiple fossils from the same deposit. The image below illustrates a more realistic use of Index Fossils than the trilobite example. It shows an array of 7 fossils dispersed across a <em>stratigraphic column</em>, each associated with a white arrow indicating the species’ existence in the fossil record. Note that some of the age ranges overlap in some strata but not in others. This is how narrow age ranges are achieved for strata through biostratigraphy. Any one of these fossils could represent an age range of hundreds of thousands of years, but to find five different Index Fossils that overlap in a single stratigraphic horizon could narrow this age range down to tens of thousands of years.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/indexfossils.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Using Index Fossils"><img src="../images/indexfossils.png" class="img-fluid figure-img" alt="Using Index Fossils"></a></p>
+<figcaption>Using Index Fossils</figcaption>
+</figure>
+</div>
+<p>The final application of Biostratigraphy is to apply it alongside of Absolute Dating techniques. We will come to learn that there are only a handful of methods that can provide a numerical age range for fossil sites and they tend to be very specific about the materials they are being used on. For example, some of these methods can only be applied to volcanic rocks while others are only able to be applied on flowstones (stalctites and stalagmites) and corals. With such narrow applications it is no surprise that there are plenty of paleontological contexts where there are no options for absolute dating at all. This is where, again, Index Fossils come into play. We already know that the right fossil in one of these sites can be correlated with a statum elsewhere in the world. Now imagine that the correlated stratigraphy also exists in a region where the right materials for Absolute Dating exist. All of the sudden your correlated fossil can be directly associated with a numeric age.</p>
+<p>The image below helps exemplify this process. Consider for a moment that you are a researcher in Area A. This is the only site that does not have the needed material to obtain a numeric age for an assemblage. Despite this, it is still your goal to figure out roughly how old some of these fossils are. Let’s take the red spiral shell fossils, for instance. You know that similar fossils have been found in different parts of the world. In fact, Areas C, B, and D each seem to have a stratigraphic timeline similar to the progression of fossils found in your site. Knowing this, and knowing that the other research areas have absolute dates associated with certain fossils, can you come up with an estimate for the age of the red spiral shell fossils in your assemblage? You should be able to come up with a rough age of 60 Ma. The red spiral shell fossils, when considering all research areas, are sandwiched between a 50 Ma and a 70 Ma date range. Again, not perfect, but certainly better than nothing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../images/biostrat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Biostratigraphy and Absolute Dating"><img src="../images/biostrat.png" class="img-fluid figure-img" alt="Biostratigraphy and Absolute Dating"></a></p>
+<figcaption>Biostratigraphy and Absolute Dating</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="absolute-radiometric-dating" class="level1">
+<h1>Absolute (radiometric) Dating</h1>
+<div style="float: right; margin-left: 15px; max-width: 30%;">
+<p><a href="../images/meltclock.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../images/meltclock.jpg" class="img-fluid"></a></p>
+</div>
+<p>Absolute dating is better referred to as Radiometric dating. This is because, despite refined methods, seldom are obtained dates “absolute”. Any method applied in this venture has a range and a margin of error. Regardless, they are far more specific than anything obtained with relative dating, relying heavily on knowledge and understanding of Geochemistry and Particle Physics. The field of Geochronology (specialization in radiometric dating) explores the nature of matter and radiation. Thus, we will need to take a moment to discuss some fundamentals regarding the structure of atoms and the process of radioactive decay.</p>
+<p>You’ve likely seen a Periodic Table of Elements before (even if you never studied it). The elements represented in this table represent that smallest recognizable/identifiable units of matter. They are definable by their atomic structures, predominately the amount of protons and neutrons found in the nucleus. Elements, as seen in the periodic table, are defined by their Atomic Numbers, which are defined by the number of protons in the nucleus. Atoms that have 6 protons in their nucleus, for instance, all represent the element Carbon. The atomic number of an element is stable. If an atom has any higher or lower a proton count, it is not carbon. While the atomic number of an element is constant, the mass number is variable. The mass number of an element is the sum of protons and neutrons found in the nucleus.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/cusisom\.github\.io\/ANTH151\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>
