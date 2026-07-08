@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "ANTH151"
@@ -9,7 +8,6 @@ website:
   sidebar:
     style: "docked"
     collapse-level: 1
-    
     contents:
       - href: index.qmd
         text: Home
@@ -17,35 +15,35 @@ website:
       - section: "Unit 1: Human Evolution"
         collapse-level: 1
         contents:
-        - href: Unit 1/Evolution.qmd
-          text: "Wk 1. Evolution"
+          - href: "Unit 1/Evolution.qmd"
+            text: "Wk 1. Evolution"
         
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1
         contents:
-        - href: "Unit 2/North_America.qmd"
-          text: "Wk 10.Peopling of the Americas"
-        - href: "Unit 2/Temporal.qmd"
-          text: "Wk 7. Temporal Context"
+          - href: "Unit 2/North_America.qmd"
+            text: "Wk 10.Peopling of the Americas"
+          - href: "Unit 2/Temporal.qmd"
+            text: "Wk 7. Temporal Context"
         
       - section: "Unit 3: Civilization"
         collapse-level: 1
         contents:
-      
+          - href: index.qmd
+            text: "Unit 3 Coming Soon"
 
 format:
   html:
+    include-in-header: header.html
     tbl-cap-location: bottom
     theme:
       - minty
     grid:
       margin-width: 0px
       body-width: 1200px
-    brand: true
     css: styles.css
     from: markdown+emoji
     toc: true
     toc-title: Contents
     toc-location: left
-
 

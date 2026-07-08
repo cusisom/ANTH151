@@ -1,0 +1,19 @@
+<script>
+  // Automatically checks GitHub for updates every time the page loads
+  window.addEventListener('load', () => {
+    if (navigator.onLine) {
+      fetch(window.location.href, { method: 'HEAD', cache: 'no-cache' })
+        .then(response => {
+          const lastModified = response.headers.get('Last-Modified');
+          const localLastModified = localStorage.getItem('site_last_modified');
+          
+          if (lastModified && localLastModified && lastModified !== localLastModified) {
+            localStorage.setItem('site_last_modified', lastModified);
+            window.location.reload(true); // Force a single reload from server
+          } else if (lastModified) {
+            localStorage.setItem('site_last_modified', lastModified);
+          }
+        }).catch(err => console.log('Cache check skipped', err));
+    }
+  });
+</script>

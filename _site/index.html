@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ANTH151</title>
+<title>Anthropology 151: Emerging Humanity – ANTH151</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -42,13 +42,16 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cbbc44a06b6ab5512d326a67c40a5eb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -70,76 +73,269 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #C0C0C0;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #C0C0C0;
+background: #8B4513;
+      }
+</style>
+<script>
+
+  // Automatically checks GitHub for updates every time the page loads
+
+  window.addEventListener('load', () => {
+
+    if (navigator.onLine) {
+
+      fetch(window.location.href, { method: 'HEAD', cache: 'no-cache' })
+
+        .then(response => {
+
+          const lastModified = response.headers.get('Last-Modified');
+
+          const localLastModified = localStorage.getItem('site_last_modified');
+
+          
+
+          if (lastModified && localLastModified && lastModified !== localLastModified) {
+
+            localStorage.setItem('site_last_modified', lastModified);
+
+            window.location.reload(true); // Force a single reload from server
+
+          } else if (lastModified) {
+
+            localStorage.setItem('site_last_modified', lastModified);
+
+          }
+
+        }).catch(err => console.log('Cache check skipped', err));
+
+    }
+
+  });
+
+</script>
+
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ANTH151</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Anthropology 151: Emerging Humanity</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">ANTH151</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 1: Human Evolution</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Unit 1/Evolution.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wk 1. Evolution</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 2: Ancient Migrations</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Unit 2/North_America.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wk 10.Peopling of the Americas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Unit 2/Temporal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wk 7. Temporal Context</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Civilization</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Coming Soon</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#how-to-use-this-site" id="toc-how-to-use-this-site" class="nav-link" data-scroll-target="#how-to-use-this-site">How To Use This Site</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">ANTH151</h1>
+
+
+
+
+<p><a href="images/Cuevadelasmanos.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/Cuevadelasmanos.png" class="img-fluid" style="width:70.0%"></a></p>
+<details>
+<summary>
+Figure: Cueva de las Manos
+</summary>
+The above image is of the Cueva de las Manos in Argentina. It is a UNESCO World Heritage Site dating back approximately 9,000 years (9 ka). The stenciled hand prints accompany painted images of people and local fauna (e.g., guanacos). While this is not a site that we will examine in this course, it does reflect the sort of material we will ultimately be talking about. Here is a link to some more information about Cueva de las Manos: <a href="https://www.bradshawfoundation.com/south_america/cueva_de_los_manos/index.php">Cueva de las Manos</a>
+</details>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
+<p>Welcome to Anthropology 151: Emerging Humanity. This website will act as a companion to our Lamaku page. Some of the information here will be redundant if you read the syllabus but reviewing it twice is not a bad call. If you don’t need the general overview just skip down to the How To Use This Site section.</p>
+<p>Emerging Humanity is listed as “An introduction to human biological evolution and the archaeology of culture in the world prior to AD 1500”. More specifically the course is designed to foster an understanding of human development and culture changes through time from prehistory to the present (or near present) and across major regions of the globe. It is meant to both feature populations which varied in time and space as well as emphasize, at some point, unique cultural aspects of Hawaiian, Pacific, and/or Asian societies.</p>
+<p>My approach to designing this course is thus: we will learn about the origin of our species, <em>Homo sapiens</em> and the ancestral hominins that preceded us, track the spread of our species across the globe (or at least from Africa, through Eurasia, and into the Pacific and North America), and illustrate the rise of two complex civilizations after the emergence of agriculture. The course should map out a distinct trajectory that will end with the development of early Hawaiian civilizations and their unification.</p>
+<section id="syllabus" class="level4">
+<h4 class="anchored" data-anchor-id="syllabus">Syllabus</h4>
+<div style="margin-bottom: 20px;">
+<p><a class="btn btn-primary" href="files/Anthropology 151 fall 26 Online Async.pdf" download="Anthropology 151 fall 26 Online Async.pdf"> <i class="bi bi-download"></i> Download Syllabus </a></p>
 </div>
+<!-- Creates an interactive click-to-expand section -->
+<details>
+<summary style="cursor: pointer; color: #007bff; font-weight: bold; margin-bottom: 10px;">
+Preview Syllabus
+</summary>
+<iframe src="files/Anthropology 151 fall 26 Online Async.pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
+</iframe>
+</details>
+</section>
+<section id="exam-guide" class="level4">
+<h4 class="anchored" data-anchor-id="exam-guide">Exam Guide</h4>
+</section>
+</section>
+<section id="how-to-use-this-site" class="level1">
+<h1>How To Use This Site</h1>
+<section id="navigating" class="level4">
+<h4 class="anchored" data-anchor-id="navigating">Navigating <span class="emoji" data-emoji="airplane">✈️</span></h4>
+<p>Throughout the course you will navigate through 3 units of content on this site. Material for each unit can be found on the sidebar to the left. Expand each Unit tab to view a week-by-week list of course material. Each page will additionally display a Contents menu that can help you navigate from section to section. Since some of these materials will be Supplementary and some will be Assigned, each week’s page title will be followed by a (S) or an (A) respectively. The specific reading assignments are also noted under the Class Schedule and Reading Assignments heading in the syllabus.</p>
+</section>
+<section id="chapters" class="level4">
+<h4 class="anchored" data-anchor-id="chapters">“Chapters” <span class="emoji" data-emoji="book">📖</span></h4>
+<p>For lack of a better term, we can refer to the weekly content pages as chapters. These chapters will either review/expand on your assigned reading, provide you a window to view an assigned article (or articles) and review learning objectives for it (them), or comprise all of the content for that week on it’s own (reading content, videos, weblinks, and etcetera). Pay attention to the (S) or (A) signifiers next to each chapter title as these will tell you whether the chapter is Assigned or Supplimentary. The reading schedule is also viewable in the syllabus and will follow the following format:</p>
+<ul>
+<li>Assigned reading format:
+<ul>
+<li>textbook: ch.xx</li>
+<li>website: ch.&nbsp;xx</li>
+</ul></li>
+</ul>
+<p>Each Figure, Table, and Video in these web chapters is expandable by clicking on it. Some will also have drop down captions like the image above. Be sure to read through that information too when a website chapter is assigned.</p>
+<p>Articles will be presented in the same way as the syllabus above. There will be a window that can be expanded to read online as well as a button to download the PDF. These files will also be available on our Lamaku page.</p>
+</section>
+<section id="lamaku" class="level4">
+<h4 class="anchored" data-anchor-id="lamaku">Lamaku <span class="emoji" data-emoji="seedling">🌱</span></h4>
+<p>This site <u><strong>is not</strong></u> a replacement for our Lamaku page. All graded material will be obtained and submitted through Lamaku. Like this site, you can follow a week-by-week agenda with each week detailing what the assigned reading is and providing a link to the quiz for it. There is a <u>Content Browser</u> window on our course home page that is organized much the same way as the sidebar on this site. Use that to navigate to important files and unit specific content. For the week’s which are labeled <u>Exam</u>, there will be a link to the assignment overview and submission page.</p>
+<details>
+<summary>
+Get to know your instructor
+</summary>
+<div style="float: left; margin-right: 20px; margin-bottom: 10px;">
+<p><img src="images/Addis 1.jpg" class="img-fluid" style="border-radius: 8px;" width="150"></p>
+</div>
+<p><strong>Daniel Cusimano:</strong> I am a Doctoral Candidate here at UH. My field of study falls under the umbrella of Biological Anthropology and is specifically situated within Paleoanthropology (Unit 1 of this course). I have been conducting research in this field and in the field of Bioarchaeology since 2011 with published work on archaeological populations from the Near East and fossil sites in Ethiopia. My work has taken me all across the United States and as far as Ethiopia and China. My current research focuses on methods used to differentiate hominin species (human ancestors) in the fossil record and is directed at solving some current issues in Middle Pleistocene hominin systematics (colloquially refered to as “the muddle in the middle”).</p>
+<div style="clear: both;">
+
+</div>
+</details>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -215,7 +411,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/cusisom\.github\.io\/ANTH151\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -543,6 +739,38 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
