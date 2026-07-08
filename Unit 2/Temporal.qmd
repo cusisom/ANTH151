@@ -1,9 +1,15 @@
 ---
 title: "Week 7: Understanding Time"
 subtitle: "**Establishing a Temporal Context**"
+format:
+  html: default
+  typst:
+    toc: true
+    number-sections: true
 ---
+
  
-![](../images/dating-fossils.png){.lightbox width="50%"}
+![](../images/dating-fossils.jpg){.lightbox width="50%"}
  
 ::: {.callout-tip}
 ## Key Points
@@ -76,8 +82,10 @@ you travelled just before the Summer or you could provide the exact date (say, 0
 a known time/event you provide the context that is typically appropriate for the question. This is an example of a Relative Date. If the question was a 
 bit more formal, however, this might not satisfy and you would want to provide the Absolute (or precise) Date. 
 
-::: {style="float: right; margin-left: 15px; max-width: 25%;"}
-![](../images/dating.png){.lightbox}
+::: {#fig-dating style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/dating.jpg){.lightbox}
+
+Two approaches to dating archaeological and paleontological sites
 
 :::
 
@@ -97,6 +105,8 @@ The beauty of relative dating is in its ability to construct a logical timeline.
 only necessary with narrow inquiry. If we reflect on our timeline of human evolution, for example, I'd be happy if you could recount that *Ardipithecus* came before *Australopithecus* which came
 before *Homo*. This is a relative dating timeline that can be redrawn in a couple of ways [*Diagram 1*]. 
 
+::: {#fig-hominin-evolution layout-rows="2"}
+
 :::: {.columns}
 ::: {.column width="5%"}
 ### **A**
@@ -110,8 +120,6 @@ flowchart LR
 ```
 :::
 ::::
-
-<br>
 
 :::: {.columns}
 ::: {.column width="5%"}
@@ -130,19 +138,15 @@ flowchart LR
 :::
 ::::
 
-
-
-<details>
-
-  <summary> Diagram 1: Relative dating timelines</summary>
-
-Both of the above timelines illustrate the logic of relative dating. Though they do not give you numerical ages, such timelines do well to illustrate an order of events. In many discussions
+Both timelines illustrate the logic of relative dating. Though they do not give you numerical ages, such timelines do well to illustrate an order of events. In many discussions
 of history, these illustrations are sufficient to convey primary points. For instance, it was important for us to know that [bipedalism]{.underline} evolved before increased [encephalization]{.underline}.
+I should also point out that I used two controversal designations in the bottom timeline: H. heidelbergensis and H. bodoensis. For more information on this layout refer back to 
+our discussion in week 5 on "Post-erectus hominins".
+:::
 
-I should also point out that I used two controversal designations in the bottom timeline: *H. heidelbergensis* and *H. bodoensis*. For more information on this layout refer back to 
-our discussion in week 5 on "Post-*erectus* hominins".
 
-</details>
+
+
 
 
 ### Sedimentary Rocks
@@ -183,8 +187,8 @@ glue together to form distinct layers of rock. These are strata. The deepest str
 over again when that stratum is eventually exposed again to the elements and begins to erode. Check out the diagram below for an overview of this process [*Diagram 2*].
 
 
-
-::: {.columns style="display: flex; align-items: center; justify-content: space-between;"}
+::: {#fig-sediment}
+:::: {.columns style="display: flex; align-items: center; justify-content: space-between;"}
 
 ::: {.column width="80%"}
 ```{dot}
@@ -239,7 +243,11 @@ digraph G {
 The processes of sedimentation, cementation, and erosion are commonly considered to be [Uniformitarian]{.underline} processes. It is a constant process by which our planet continues to recycle and reshape its principle structure.
 :::
 
+::::
+
+Lifecycle of Sedimentary Rocks
 :::
+
 
 
 But wait...how do we tell different strata apart? What makes them look different and what does this have to do with fossils and time? 
@@ -254,10 +262,10 @@ store them in the geological record.
 ::: {#fig-stratigraphy layout-ncol=2}
 
 ![An image from Zhangye National Park in Gansu, China. Known to be among the most colorful geological sequences in the world, this exposed landscape is comprised of sandstone and siltstone rich in iron oxide. 
-Minerals such as hematite, chlorite, and goethite are illustrated in the colorful stratigraphuc bands](../images/Zhangye.png)
+Minerals such as hematite, chlorite, and goethite are illustrated in the colorful stratigraphuc bands](../images/Zhangye.jpg)
 
 ![The Painted Hills are a geological unit within the John Day Fossil Beds in Mitchell, Oregon. In addition to the iron oxide noticeable from the red bands, the Painted Hills boast layers of 
-Volcanic Rhyolite (igneous material) that fell over the landscape and created horizons rich in deep purples.](../images/paintedhills.png)
+Volcanic Rhyolite (igneous material) that fell over the landscape and created horizons rich in deep purples.](../images/paintedhills.jpg)
 
 Examples of Stratigraphy from around the world
 :::
@@ -294,9 +302,10 @@ let us focus on the massive potential of **Biostratigraphy** and its use in Rela
 
 ### Time Markers
 
-::: {style="float: right; margin-left: 15px; max-width: 25%;"}
-![Trilobite Fossil](../images/trilobite.png){.lightbox}
+::: {#fig-trilobite style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/trilobite.jpg){.lightbox}
 
+Redlichiida trilobite indicative of an Early to Middle Cambrian age. 
 :::
 
 Biostratigraphy is the study of fossil remains in stratigraphic contexts in order to (1) correlate strata from different environments and (2) provide evidence for the geologic
@@ -345,7 +354,7 @@ than the trilobite example. It shows an array of 7 fossils dispersed across a *s
 that some of the age ranges overlap in some strata but not in others. This is how narrow age ranges are achieved for strata through biostratigraphy. Any one of these fossils could represent an
 age range of hundreds of thousands of years, but to find five different Index Fossils that overlap in a single stratigraphic horizon could narrow this age range down to tens of thousands of years.
 
-![Using Index Fossils](../images/indexfossils.png){.lightbox}
+![Using Index Fossils](../images/indexfossils.jpg){#fig-index .lightbox}
 
 The final application of Biostratigraphy is to apply it alongside of Absolute Dating techniques. We will come to learn that there are only a handful of methods that can provide a numerical age
 range for fossil sites and they tend to be very specific about the materials they are being used on. For example, some of these methods can only be applied to volcanic rocks while others are
@@ -361,7 +370,7 @@ The image below helps exemplify this process. Consider for a moment that you are
  the age of the red spiral shell fossils in your assemblage? You should be able to come up with a rough age of 60 Ma. 
  The red spiral shell fossils, when considering all research areas, are sandwiched between a 50 Ma and a 70 Ma date range. Again, not perfect, but certainly better than nothing. 
 
-![Biostratigraphy and Absolute Dating](../images/biostrat.png){.lightbox width="65%"}
+![Biostratigraphy and Absolute Dating](../images/biostrat.png){#fig-biostrat .lightbox width="65%"}
 
 # Absolute (Radiometric) Dating
 
@@ -393,7 +402,7 @@ One thing that is barely mentioned which is important to understanding this proc
 
 ### Radioactive Decay and Half-Life
 
-::: {style="float: right; margin-left: 15px; max-width: 20%;"}
+::: {#fig-kar style="float: right; margin-left: 15px; max-width: 20%;"}
 ![](../images/k-Ar.png){.lightbox}
 
 :::
@@ -410,7 +419,7 @@ the eruption of the volcano. This is what we mean by “resetting” or “zeroi
 
 #### Understanding Half-Life
 
-::: {style="float: left; margin-right: 15px; max-width: 25%;"}
+::: {#fig-half style="float: left; margin-right: 15px; max-width: 25%;"}
 ![](../images/halflife.png){.lightbox}
 
 :::
@@ -443,7 +452,7 @@ three common isotopes (12, 13 14). Carbon 14 (^14^C) is radioactive. It originat
 cosmic waves. The high-energy neutrons of these cosmic rays collide with Nitrogen 14 atoms (Atomic Number=7, Mass Number=14). When these particles 
 collide, the incoming neutrons knock out a proton thus losing a proton and gaining a neutron. This accounts for the creation of ^14^C.
 
-::: {style="float: right; margin-left: 15px; max-width: 40%;"}
+::: {#fig-car1 style="float: right; margin-left: 15px; max-width: 40%;"}
 ![](../images/carbon1.png){.lightbox}
 
 :::
@@ -455,7 +464,7 @@ in the biosphere than the hydrosphere. This is because the materials that we are
 Thus, carbon is constantly cycled through the biosphere, including radioactive carbon. This doesn’t mean that the carbon isn’t also always decaying but as long as we 
 continue consuming carbon, the amount of ^14^C in our bodies will be the same as everything else consuming carbon. 
 
-::: {style="float: left; margin-right: 15px; max-width: 25%;"}
+::: {#fig-car2 style="float: left; margin-right: 15px; max-width: 25%;"}
 ![](../images/carbon2.png){.lightbox}
 
 :::
@@ -473,13 +482,43 @@ potassium-argon dating is an indirect method (does not directly date what we wan
 
 ### Limitations of Carbon Dating
 
-The most notable limitation of Carbon Dating is the short half-life of ^14^C. Only dating materials as old as ~50-55 ka means that this method is inapplicable to many geochronological questions.
-As long as we stick within the field of Archaeology, however, it is mostly a non-issue. More pressing issues relate to the fluctuating concentrations of ^14^C in our atmosphere and to the potential to
-confuse the method's [precision]{.underline} with the [accuracy]{.underline} of its application. 
+The most notable limitation of Carbon Dating is the short half-life of ^14^C. Only dating materials as old as ~50-55 ka means that this method is inapplicable to 
+many geochronological questions.
+As long as we stick within the field of Archaeology, however, it is mostly a non-issue. More pressing issues relate to the 
+fluctuating concentrations of ^14^C in our atmosphere and to the potential to confuse the method's [precision]{.underline} with the [accuracy]{.underline} of its application. 
 
 #### Calibrating the Carbon Record
 
-The issue of fluctuating ^14^C concentrations is mentioned in the textbook when discussing Calibration Curves. 
+Dendrochronology is the study of Tree-Ring Dating. In short, this method is grounded in the understanding that concentric rings are formed throughout a tree’s core 
+throughout life and that the rings can be counted as successive years. Extensive records of tree-ring dates are strung together by overlapping multiple samples of 
+trees of the same species and from the same regions. This system works because rings depicting the same patterns in different trees illustrate the same years of 
+growth. The matching of patterns is possible because the rings vary in size and color depending on environmental conditions. Thus, the same environmental conditions 
+in a ten-year span will create the same ring pattern on young trees and old trees of the same species in a particular area. The difference in age of these samples is 
+important. If, say, the older tree was already 100 years old at this time, and then died shortly after, the rings for that ten-year span would be near the outer layer 
+of the tree core (new rings form beneath the tree bark). Thus, the record is preserved at the end of a 100-year lifespan with the inner core representing the beginning 
+of it. If we assume that the younger tree continued to grow for another 100 years after that, the same ten-year span would be found deep in the inner core of the tree. 
+While each of these trees accounts for 100-year records of growth, overlapping the conforming ten-span provides dendrochronologists with a 200-year record. The current 
+dendrochronological record stretches back more than 11,000 years (Friedrich et al., 2004; Leavitt and Bannister 2009). 
+
+In accounting for the known fluctuations of radiocarbon in our atmosphere, dendrochronologists work with radiocarbon labs to calibrate ^14^C concentrations over the 
+tree-ring record. Since carbon dating works on all organic material, ^14^C levels can be calculated for each ring (or at least averages for sets of rings) throughout 
+this 11,000+ year timeline. It thus detects years where the concentrations are higher (which would mean higher baseline) or lower (lower baseline). This allows researchers 
+to adjust their findings to the accurate year. Say, for instance, a radiocarbon analysis came back with a 50% concentration. Your instinct would be to suggest that the 
+sample is 5,730 years old (half-life of ^14^C). But then you match your findings with the tree-ring record and notice that that specific concentration matches with a 
+ring that is 7,000 years old. You would then know that at this time 7,000 years ago, the ^14^C concentrations were higher than they are today. 
+
+To use our example from earlier, years with higher concentrations of carbon would be like a person born with 12 fingers instead of 10. It would still take 
+40 years to lose half of their fingers, but the measurement would be of 6 fingers not 5. If you read these results not knowing that the person began with 12 
+fingers, you might be mislead into thinking that less time has passed than actual has (29.4 years instead of 40 years). 
+
+In summary, we know that the half-life of ^14^C is 5,730 years but that the baseline atmospheric concentration of this isotope varies through time. 
+To use the tree-ring record, archaeologists can circumvent the issue of fluctuating ^14^C levels by comparing the raw results of their analysis to the ^14^C 
+levels in dated tree-rings. While this process does sidestep the calculation of the carbon age of materials, it is important to remember that 1) the tree ring 
+record is only approximately 11-12 thousand years old, 2) not all materials used in ^14^C analysis are wood (bones, seeds, and etcetera), and 3) not all wood 
+in archaeological contexts preserves the needed rings to match against the tree-ring record. Thus, beyond the evident applications of tree-ring calibration 
+(in match specific dates), the method also informed geochronologists about the expected error in their analyses (being that carbon levels do in fact vary). 
+This is why will see signifiers in academic literature as it reflects Calibrated or Uncalibrated dates.  
+
 
 
 ::: {.text-center}
@@ -487,3 +526,25 @@ The issue of fluctuating ^14^C concentrations is mentioned in the textbook when 
 
 *Good review of Carbon Dating and Calibration*
 :::
+
+#### Precision and Accuracy
+
+Even with the known fluctuation of ^14^C in our atmosphere, Carbon Dating is prettey dang precise. This, however, doesn't always mean it is accurate. When using the term
+precision, we are simply stating that the method works. The analysis will provide you with an age for that sample that you can be confident in. But the age for that sample is 
+not always the age for the use of that artifact. There are a couple of ways to consider the potential for [inaccurate]{.underline} age estimations from radiocarbon analysis.
+
+First: Probably the most ubiquitous material used in carbon dating is charcoal. This burnt wood is commonly found preserved in cooking pits from habitation areas. While the charcoal
+provides a great sample for carbon dating, the archaeologist must be aware that only a small section of that wood is there to sample. If the piece came from deep within the tree core,
+it will reflect an old age but probably not the actual age of its use in the fire. This is known as the **old wood problem**. The age of that piece of charcoal is precise but it does not accurately
+reflect when it was used by humans. This also means that it does not provide a reliable age estimation for the site. 
+
+Second: Archaeologists often find good samples of wood for carbon dating in ancient construction materials (say like beams used for building construction). One potential pitfall in associating the
+carbon date of this beam with the archaeological site is that you can't actually be sure if the tree was felled at the time of construction. The recycling of materials is not uncommon in the archaeological record.
+That said, when populations reuse materials salvaged from earlier settlements, archaeologists are faced with potentially misleading temporal evidence. The wooden beam in this case would 
+date to an earlier period of time than the construction of the particular site in question. 
+
+Third: The final variation of this **old wood problem** concerns driftwood. Archaeologists here in Hawai'i know this issue well. Just as in the previous example, we have come to understand that 
+finding wood in a site does not necessarily mean that the age of the site matches that of the wood. This is particularly the case when working in coastal environments where wood of various ages
+can drift on shore and be used by the populations inhabiting the area. 
+
+In all of the above cases we can see that, despite being precise, associating carbon dates with archaeological sites can still be inaccurate.

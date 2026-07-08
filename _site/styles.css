@@ -46,3 +46,37 @@
 .sidebar-item-section > .sidebar-item-container > .sidebar-item-text.sidebar-link {
   font-weight: bold !important;
 }
+
+/* 1. Clean, Modern Formatting for the Caption Block */
+.figure-caption, 
+figcaption,
+.table-caption,
+caption {
+  display: block !important;          /* Replaces flex block to restore natural text wrapping */
+  text-align: left !important;        /* Left-aligns your description text */
+  font-style: italic !important;      /* Makes your description italicized */
+  color: #566573 !important;          /* Muted charcoal tint */
+  max-width: 90% !important;          /* Keeps text width proportional */
+  margin: 10px auto 0 auto !important; /* Centers the whole text block beneath images/tables */
+}
+
+/* 2. Style Just the Prefix Label ("Fig. 1" or "Tbl. 1") */
+.figure-caption .counter, 
+figcaption .counter,
+.table-caption .counter,
+caption .counter {
+  display: inline !important;         /* Forces prefix onto the exact same line as text */
+  font-style: normal !important;      /* Keeps the prefix upright and crisp */
+  font-weight: bold !important;       /* Makes the prefix stand out */
+  margin-right: 5px !important;       /* Creates clean breathing room after the period */
+}
+
+/* 3. The Underline Override Fix */
+.figure-caption u, 
+figcaption u,
+.figure-caption .underline,
+figcaption .underline {
+  text-decoration: underline !important; /* Forces underline back into italic environments */
+  display: inline !important;            /* Restores native text behavior */
+  font-style: normal !important;         /* OPTIONAL: Stands terms upright so they pop out */
+}

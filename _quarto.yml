@@ -5,6 +5,11 @@ website:
   title: "ANTH151"
   site-url: "https://cusisom.github.io/ANTH151/"
   repo-url: "https://github.com/cusisom/ANTH151"
+  other-links:
+    - text: PDF
+      icon: file-pdf
+      href: "{{< meta title >}}.pdf"
+      
   sidebar:
     style: "docked"
     collapse-level: 1
