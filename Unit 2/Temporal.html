@@ -73,6 +73,44 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  // Automatically checks GitHub for updates every time the page loads
+
+  window.addEventListener('load', () => {
+
+    if (navigator.onLine) {
+
+      fetch(window.location.href, { method: 'HEAD', cache: 'no-cache' })
+
+        .then(response => {
+
+          const lastModified = response.headers.get('Last-Modified');
+
+          const localLastModified = localStorage.getItem('site_last_modified');
+
+          
+
+          if (lastModified && localLastModified && lastModified !== localLastModified) {
+
+            localStorage.setItem('site_last_modified', lastModified);
+
+            window.location.reload(true); // Force a single reload from server
+
+          } else if (lastModified) {
+
+            localStorage.setItem('site_last_modified', lastModified);
+
+          }
+
+        }).catch(err => console.log('Cache check skipped', err));
+
+    }
+
+  });
+
+</script>
+
 <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
@@ -162,8 +200,21 @@ ul.task-list li input[type="checkbox"] {
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Unit 3: Civilization</span></span>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3: Civilization</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 3 Coming Soon</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
@@ -180,7 +231,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#fossils-and-time" id="toc-fossils-and-time" class="nav-link" data-scroll-target="#fossils-and-time">Fossils and Time</a></li>
   <li><a href="#time-markers" id="toc-time-markers" class="nav-link" data-scroll-target="#time-markers">Time Markers</a></li>
   </ul></li>
-  <li><a href="#absolute-radiometric-dating" id="toc-absolute-radiometric-dating" class="nav-link" data-scroll-target="#absolute-radiometric-dating">Absolute (radiometric) Dating</a></li>
+  <li><a href="#absolute-radiometric-dating" id="toc-absolute-radiometric-dating" class="nav-link" data-scroll-target="#absolute-radiometric-dating">Absolute (Radiometric) Dating</a>
+  <ul class="collapse">
+  <li><a href="#radioactive-decay-and-half-life" id="toc-radioactive-decay-and-half-life" class="nav-link" data-scroll-target="#radioactive-decay-and-half-life">Radioactive Decay and Half-Life</a></li>
+  <li><a href="#review-of-carbon-dating" id="toc-review-of-carbon-dating" class="nav-link" data-scroll-target="#review-of-carbon-dating">Review of Carbon Dating</a></li>
+  <li><a href="#limitations-of-carbon-dating" id="toc-limitations-of-carbon-dating" class="nav-link" data-scroll-target="#limitations-of-carbon-dating">Limitations of Carbon Dating</a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -489,7 +545,45 @@ Figure&nbsp;1: Examples of Stratigraphy from around the world
 </figure>
 </div>
 </div>
-<p>Biostratigraphy is the study of fossil remains in stratigraphic contexts in order to (1) correlate strata from different environments and (2) provide evidence for the geologic age of strata within a stratigraphic sequence. The first aspect of this, referred to more specifically as <strong>Fuanal Correlation</strong>, is discussed above. This process allows geologists and paleontologists to match strata from different parts of the world which may have been separated through other geologic/geographic actions (plate techtonics, volcanic eruption, erosion of river valleys, and et cetera). The second approach to Biostratigraphy is the explicit use of fossils as time markers. Key to this effort is the identification of <strong>Index Fossils</strong>.</p>
+<p>Biostratigraphy is the study of fossil remains in stratigraphic contexts in order to (1) correlate strata from different environments and (2) provide evidence for the geologic age of strata within a stratigraphic sequence (see <a href="#tbl-biostrat" class="quarto-xref">Table&nbsp;1</a>). The first aspect of this, referred to more specifically as <strong>Fuanal Correlation</strong>, is discussed above. This process allows geologists and paleontologists to match strata from different parts of the world which may have been separated through other geologic/geographic actions (plate techtonics, volcanic eruption, erosion of river valleys, and et cetera). The second approach to Biostratigraphy is the explicit use of fossils as time markers. Key to this effort is the identification of <strong>Index Fossils</strong>.</p>
+<div class="card border-success w-70 me-auto mb-3">
+<div class="card-header bg-success text-white">
+<p><strong>Applications of Biostratigraphy</strong></p>
+</div>
+<div class="card-body">
+<div id="tbl-biostrat" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-biostrat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 85%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Biostratigraphy</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Correlate strata</strong></td>
+<td>Matching strata from different regions provides context for a study area. Even if you don’t know the age, the correlated strata can add ecological information by identifying fossil species present in one sample but not the other, it can inform on geologic/geographic processes such as plate tectonics and volcanic activity, and establish a relative timeline across the fossil record.</td>
+</tr>
+<tr class="even">
+<td><strong>Identify geologic</strong> <strong>age</strong></td>
+<td>While similar to faunal correlation, identifying a geologic age is a specific agenda which uses distinct fossils sets and known numeric ages to provide a narrow age range for particular stratigraphic units.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-biostrat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Applications of Biostratigraphy
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <p>Index Fossils come from species which are abundant in the fossil record, easy to identify, and have a relatively short geologic age. In meeting these criteria, these fossils not only have the power to identify specific strata from different regions (faunal correlation), but to delineate the specific period of time that that stratum represents. Consider the images to the right and below. On the right is a type of arthropod called a Trilobite. These animals crawled on the seafloor during the Paleozoic era hundreds of thousands of years ago. This specific type of Trilobite, however, has a much narrower existence appearing in the fossil record during the Early Cambrian and disappearing by the Middle Cambrian (existing from approximately 521 to 500 million years ago). This taxonomic order of Trilobite, known as <em>Redlichiida</em>, has a distinctive morphology which makes it easy to identify, it was short lived to other Orders of Trilobite (only existing for about 21 million years), and it was abundant and widespread during its existence. For a paleontologist, this fossil represents a specific moment in time. If one of these fossils is discovered during excavation the team can be confident that they are working in early-to-middle Cambrian beds.</p>
 <p>While some fossils can provide fairly narrow age ranges, most biostratigraphy is achieved through <em>indexing</em> multiple fossils from the same deposit. The image below illustrates a more realistic use of Index Fossils than the trilobite example. It shows an array of 7 fossils dispersed across a <em>stratigraphic column</em>, each associated with a white arrow indicating the species’ existence in the fossil record. Note that some of the age ranges overlap in some strata but not in others. This is how narrow age ranges are achieved for strata through biostratigraphy. Any one of these fossils could represent an age range of hundreds of thousands of years, but to find five different Index Fossils that overlap in a single stratigraphic horizon could narrow this age range down to tens of thousands of years.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -502,21 +596,80 @@ Figure&nbsp;1: Examples of Stratigraphy from around the world
 <p>The image below helps exemplify this process. Consider for a moment that you are a researcher in Area A. This is the only site that does not have the needed material to obtain a numeric age for an assemblage. Despite this, it is still your goal to figure out roughly how old some of these fossils are. Let’s take the red spiral shell fossils, for instance. You know that similar fossils have been found in different parts of the world. In fact, Areas C, B, and D each seem to have a stratigraphic timeline similar to the progression of fossils found in your site. Knowing this, and knowing that the other research areas have absolute dates associated with certain fossils, can you come up with an estimate for the age of the red spiral shell fossils in your assemblage? You should be able to come up with a rough age of 60 Ma. The red spiral shell fossils, when considering all research areas, are sandwiched between a 50 Ma and a 70 Ma date range. Again, not perfect, but certainly better than nothing.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/biostrat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Biostratigraphy and Absolute Dating"><img src="../images/biostrat.png" class="img-fluid figure-img" alt="Biostratigraphy and Absolute Dating"></a></p>
+<p><a href="../images/biostrat.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Biostratigraphy and Absolute Dating"><img src="../images/biostrat.png" class="img-fluid figure-img" style="width:65.0%" alt="Biostratigraphy and Absolute Dating"></a></p>
 <figcaption>Biostratigraphy and Absolute Dating</figcaption>
 </figure>
 </div>
 </section>
 </section>
 <section id="absolute-radiometric-dating" class="level1">
-<h1>Absolute (radiometric) Dating</h1>
+<h1>Absolute (Radiometric) Dating</h1>
 <div style="float: right; margin-left: 15px; max-width: 30%;">
 <p><a href="../images/meltclock.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../images/meltclock.jpg" class="img-fluid"></a></p>
 </div>
-<p>Absolute dating is better referred to as Radiometric dating. This is because, despite refined methods, seldom are obtained dates “absolute”. Any method applied in this venture has a range and a margin of error. Regardless, they are far more specific than anything obtained with relative dating, relying heavily on knowledge and understanding of Geochemistry and Particle Physics. The field of Geochronology (specialization in radiometric dating) explores the nature of matter and radiation. Thus, we will need to take a moment to discuss some fundamentals regarding the structure of atoms and the process of radioactive decay.</p>
-<p>You’ve likely seen a Periodic Table of Elements before (even if you never studied it). The elements represented in this table represent that smallest recognizable/identifiable units of matter. They are definable by their atomic structures, predominately the amount of protons and neutrons found in the nucleus. Elements, as seen in the periodic table, are defined by their Atomic Numbers, which are defined by the number of protons in the nucleus. Atoms that have 6 protons in their nucleus, for instance, all represent the element Carbon. The atomic number of an element is stable. If an atom has any higher or lower a proton count, it is not carbon. While the atomic number of an element is constant, the mass number is variable. The mass number of an element is the sum of protons and neutrons found in the nucleus.</p>
+<p>Absolute dating is better referred to as Radiometric (or Chronometric) dating. This is because, despite refined methods, seldom are dates “absolute”. This was discussed briefly above (in the opening paragraphs of the <strong>Dating</strong> section). These dates always come with a confidence interval (age range) dictated by a margin of error. Thus in the figure above we saw an “Absolute” date of 120±5. Here the margin of error is ±5 and the confidence interval is 115-125 (<em>for those familiar with statistics you can attribute the margin of error to one or, ideally, two standard deviations</em>). The point is, an “Absolute Date” does not necessarily provide an <u>exact</u> date. This is the influence for moving away from the term “Absolute” and shifting to <u>Radiometric</u>. The term Radiometric is the prefered replacement for Absolute because it conveys the methodological approach to these dates. Numerical ages provided in Archaeology and Paleontology typically come from understanding the <strong>Radioactive Decay</strong> of <strong>Isotopes</strong> in Geologic and Organic matter (though there are a few non-Radiometric methods…hence the use of Chronometric by some camps).</p>
+<p>Your book does well to cover the fundementals of Radiometric Dating needed for this class. Be sure you understand the following terms/concepts:</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Be sure to understand these details from the text:</p>
+<ul>
+<li>What is the primary composition of an Atom?</li>
+<li>What are isotopes?</li>
+<li>Why do some isotopes decay?</li>
+</ul>
+</div>
+</div>
+<p>One thing that is barely mentioned which is important to understanding this process is the <strong>Half-Life</strong>, so let’s discuss that here for a moment.</p>
+<section id="radioactive-decay-and-half-life" class="level3">
+<h3 class="anchored" data-anchor-id="radioactive-decay-and-half-life">Radioactive Decay and Half-Life</h3>
+<div style="float: right; margin-left: 15px; max-width: 20%;">
+<p><a href="../images/k-Ar.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="../images/k-Ar.png" class="img-fluid"></a></p>
+</div>
+<p>Hopefully by now you understand that there are unstable atoms and that they eventually stabilize by going through the process of radioactive decay. That’s all well and good, but how does that help us? We use our knowledge of decay rates of different isotopes to determine how much time has elapsed since the material that we are studying first formed. As an example, when a volcano erupts it creates volcanic rocks that are enriched with radioactive isotopes. This happens because of the immense amount of energy coursing through the materials. This energy destabilizes the atomic structure of the materials, making them radioactive. The image on the right depicts this process. Volcanic ash is largely comprised of radioactive potassium (<sup>40</sup>K). As the ash cools down, and the energy dissipates, these radioactive potassium nuclides spontaneously breakdown (decay) into more stable forms (<sup>40</sup>Ar). The moment this process starts is the moment that the <u>Radiometric Clock</u> begins ticking. As long as we know how long it takes for a population of radioactive atoms to decay into stable forms, we can judge how much time has passed since the beginning of the clock. In this example, it would provide us with the amount of time that has elapsed since the eruption of the volcano. This is what we mean by “resetting” or “zeroing” the clock. Easy, right?</p>
+<section id="understanding-half-life" class="level4">
+<h4 class="anchored" data-anchor-id="understanding-half-life">Understanding Half-Life</h4>
+<div style="float: left; margin-right: 15px; max-width: 25%;">
+<p><a href="../images/halflife.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="../images/halflife.png" class="img-fluid"></a></p>
+</div>
+<p>When we measure decay rates, we are not measuring how long it takes for one radioactive atom to decay into a stable form. Instead, we are measuring how long it takes for a population of atoms to decay from their “parent” forms (original radioactive isotope) into a population of daughter atoms. We thus investigate the changing proportion of radioactive isotopes to stable isotopes in our sample material (volcanic rock, flowstones, bones, wood, and etcetera). In the previous example we would measure the abundance of Potassium 40 to Argon 40 in volcanic rock (pumice). It is also important to understand that radioactive decay is spontaneous. As mentioned above, we can only measure the pace of decay through relative terms (not the time it takes for one atom to decay into the daughter product). This means that we are not counting how many atoms there are in a given sample. Instead, we investigate the proportion of parent to daughter atoms. Thus, our unit of measure is not an actual count of atoms. Instead we use the proportional measure of a <strong>half-life</strong>. This is the amount of time it takes for a sample to lose half of it’s radioactive material through decay. The image to the left relates the decay of radioactive Uranium to Lead, stating that the half-life is 1 billion years. Thus it takes 1 billion years for half of the radioactive uranium to decay into the daughter product of lead. After 1 billion years, therefore, there should be a 50-50 ratio of Uranium to Lead. Significantly, after another billion years, you would then observe half of that remaining product! Do see the trick? If we considered radioactive decay to be a regular and linear process, logic would dictate that after the subsequent billion year there would be no more parent product. But that is not what this is saying. The model for radioactive decay suggests that it takes a certain amount of time for half of the radioactive product to decay. Not a specific amount (i.e., certain number of atoms). Just a proportion. But that is all we need.</p>
+<p>A simplified example should help. Hypothetically consider that we, as humans, lose our fingers at a fixed rate over time throughout our lives. Assume the half-life for this is 40 years (meaning that it takes 40 years to lose half of our fingers). Thus, at 40 years old the average person would only have 5 fingers. But what about an 80-year-old? In a linear model of decay, we would expect the 80-year-old to have zero fingers. If you naturally lose 5 fingers over the course of forty years, another 40 years would mean another 5 fingers. This is not the case with radiometric decay. The decay rate of radioactive isotopes is one that is proportional to the larger composition. With a proportionally guided rate of decay, and a half-life of 40 years, the 80-year-old in the example would have 2.5 fingers remaining.</p>
+</section>
+</section>
+<section id="review-of-carbon-dating" class="level3">
+<h3 class="anchored" data-anchor-id="review-of-carbon-dating">Review of Carbon Dating</h3>
+<p>This is a topic also covered pretty well by the textbook but it is an important method worth reviewing here as well. So how does it all work? Carbon is a naturally occurring element that is found in all lifeforms (carbon-based lifeforms…). It has an atomic number of 6 (6 protons) and three common isotopes (12, 13 14). Carbon 14 (<sup>14</sup>C) is radioactive. It originates in the atmosphere as Nitrogen 14 that is irradiated by the sun’s cosmic waves. The high-energy neutrons of these cosmic rays collide with Nitrogen 14 atoms (Atomic Number=7, Mass Number=14). When these particles collide, the incoming neutrons knock out a proton thus losing a proton and gaining a neutron. This accounts for the creation of <sup>14</sup>C.</p>
+<div style="float: right; margin-left: 15px; max-width: 40%;">
+<p><a href="../images/carbon1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="../images/carbon1.png" class="img-fluid"></a></p>
+</div>
+<p><sup>14</sup>C is found in the same materials as all other carbon isotopes. This is because, while in the atmosphere it binds to oxygen atoms to create carbon dioxide (CO2). Atmospheric CO2 is then cycled into the Biosphere (through metabolic pathways) and the Hydrosphere (through dissolution). For carbon dating we are more interested in the biosphere than the hydrosphere. This is because the materials that we are dating with this method are the organic remains of organisms that consumed carbon (which is all life on our planet). CO2 is consumed by plant life via photosynthesis, plant life is consumed by animals, and animals are consumed by other animals. Thus, carbon is constantly cycled through the biosphere, including radioactive carbon. This doesn’t mean that the carbon isn’t also always decaying but as long as we continue consuming carbon, the amount of <sup>14</sup>C in our bodies will be the same as everything else consuming carbon.</p>
+<div style="float: left; margin-right: 15px; max-width: 25%;">
+<p><a href="../images/carbon2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="../images/carbon2.png" class="img-fluid"></a></p>
+</div>
+<p>Regarding the radiometric clock, this starts at an organism’s death (when it stops consuming <sup>14</sup>C). From here on out, the only <sup>14</sup>C activity occurring in our tissues is decay. No more uptake. The decay process is similar to the initial irradiation. Beta decay commences by ejecting an electron and changing a neutron into a proton. Thus <sup>14</sup>C (6 Protons and 8 neutrons) turns into <sup>14</sup>N (7 protons and 7 neutrons). Since <sup>14</sup>N is a gas, it is a byproduct which disperses into the atmosphere upon its inception, making it impossible for us to measure the proportion of <sup>14</sup>C to <sup>14</sup>N. But since we know how much <sup>14</sup>C is in a living structure (or in the environment), we can see how much has remains in the artifact relative to how much there would be in the “zeroed” clock. From there the process is the same as most radiometric methods. We build or timeline from the knowledge of <sup>14</sup>C having a 5730-year half-life.</p>
+<p>Carbon dating is often considered the most ideal radiometric technique being that it is the only method that can measure radioactive decay directly from the materials we are investigating. In contrast, when we use potassium-argon dating in paleontology, we need to find specific volcanic rocks in association with the fossils we have questions about. In this way, potassium-argon dating is an indirect method (does not directly date what we want to know the age of). This is not to say that there are not limitations with Carbon Dating.</p>
+</section>
+<section id="limitations-of-carbon-dating" class="level3">
+<h3 class="anchored" data-anchor-id="limitations-of-carbon-dating">Limitations of Carbon Dating</h3>
+<p>The most notable limitation of Carbon Dating is the short half-life of <sup>14</sup>C. Only dating materials as old as ~50-55 ka means that this method is inapplicable to many geochronological questions. As long as we stick within the field of Archaeology, however, it is mostly a non-issue. More pressing issues relate to the fluctuating concentrations of <sup>14</sup>C in our atmosphere and to the potential to confuse the method’s <u>precision</u> with the <u>accuracy</u> of its application.</p>
+<section id="calibrating-the-carbon-record" class="level4">
+<h4 class="anchored" data-anchor-id="calibrating-the-carbon-record">Calibrating the Carbon Record</h4>
+<p>The issue of fluctuating <sup>14</sup>C concentrations is mentioned in the textbook when discussing Calibration Curves.</p>
+<div class="text-center">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/wQ7NfrN7MZU" width="500" height="281" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><em>Good review of Carbon Dating and Calibration</em></p>
+</div>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
