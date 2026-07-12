@@ -1,0 +1,29 @@
+Code shortcuts
+
+Tables:
+
+This should be a template that I can use anywhere. See example on Wk. 7 Temporal Context
+
+::: {.card .border-success}
+::: {.card-header .bg-success .text-white}
+**Syllabus Schedule Overview**
+:::
+
+::: {.card-body}
+
+| Week | Topic | Core Concept |
+|---|---|---|
+| Week 1 | Evolution | Natural Selection |
+| Week 2 | Primates | Primate Behavior |
+| Week 3 | Hominins | Bipedalism |
+:::
+:::
+
+IMAGES
+
+Text-Wrapped Image
+
+::: {style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/dating.png){.lightbox}
+
+:::

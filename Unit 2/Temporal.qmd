@@ -1,27 +1,21 @@
 ---
 title: "Week 7: Understanding Time"
 subtitle: "**Establishing a Temporal Context**"
-format:
-  html: default
-  typst:
-    toc: true
-    number-sections: true
 ---
 
  
-![](../images/dating-fossils.jpg){.lightbox width="50%"}
+![](../images/time/dating-fossils.jpg){.lightbox width="50%"}
  
 ::: {.callout-tip}
 ## Key Points
 
 - [**Additional Assigned Reading:**]{ .underline } Ch. 7 in textbook; Section: [Dating Methods]{ .underline}
-- [**Key Terms:**]{ .underline } Beringia, Cordilleran Ice Sheet, Laurentide Ice Sheet, Beringia Standstill,
-Kelp Highway, Ice-Free Corridor, Clovis/Clovis-First 
-- [**Summary:**]{ .underline } The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first 
-settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia
-after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America
-spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America).
-The primary hypotheses which aim to explain this process are the "Kelp Road" and "Ice-Free Corridor" hypotheses.
+- [**Key Terms:**]{ .underline } Relative Dating, Strata, Stratigraphy, Stratum, Law of Superposition, Biostratigraphy,
+Faunal Correlation, Index Fossils, Absolute/Radiometric/Chronometric Dating, Radioactive Decay, Elements, Isotopes, Half-Life, 
+^14^C dating, K-Ar/Ar-Ar dating, Uranium-series dating, Dendrochronology, Carbon Calibration, Old Wood Problem
+- [**Summary:**]{ .underline } One of the most important tasks in archaological and paleontological investigations is in establishing a timeframe for a site.
+Establishing a *Temporal Context* is achieved by these scientists in different ways depending on how old the site is and what materials are available for testing. No method is perfect
+so pay attention to some of the difficulties of each approach. Be sure to take note of the age-ranges (including half-lifes) and needed materials of each method. 
 :::
 
 # Unit 2: Intent and Strategy
@@ -35,7 +29,7 @@ that humans had never seen.
 We discussed what a species *is* for some length in the last unit. While we don't need to open the conversation
 of murky taxonomy back up here, I'd offer one more approach to considering what this taxon represents.
 Recall the term [**Ontogeny**]{ .underline} from our lecture on "Primate Characteristics". This term refers to the developmental
-history of an organism throughout it's individual lifetime. The word has also been co-opted in species discussions
+history of an organism throughout its individual lifetime. The word has also been co-opted in species discussions
 to reflect the evolutionary nature of a single species' existence. We can thus consider the Ontogeny of *Homo sapiens* and
 in doing so come to realize that we have only discussed its infant years so far. The period of time from
 the origin of our species (~300 ka) until it began to *successfully* spread across the globe could, in this
@@ -43,15 +37,15 @@ sense, be compared to the moment of a child's birth until the moment it can comp
 not a perfect analogy it should evoke some degree of understanding about what's to come in our discussions.
  
 ::: {style="float: left; margin-right: 15px; max-width: 20%;"}
-![](../images/zombie.png)
+![](../images/time/zombie.png)
 
 :::
 
 Before we get to any of the material on new cultural adaptations and global exploration, however, we have to take some time to understand
-how it is that we know when and under what conditions our species began to navigate the Earth. That's right, buckle your seatbelts, it is time
-for us to have "the talk". Over the next couple of weeks we will thus be learning about *how* we "know" what we "know". Being that much of our understanding
+how it is that we know when and under what conditions our species began to navigate the Earth. That's right, buckle your seatbelts, it is time to talk about Methods. 
+Over the next couple of weeks we will thus be learning about how it is that we *know* what we *know*. Being that much of our understanding
 of human history and adaptation is dependant on time and environment, it is important that you come to understand our methods in reconstructing these
-contextual aspects of human paleontology and archaeology. I can't stress enough how important these methods are to our fields of study. Perhaps surprisingly, the methods that have become so important to us
+contextual aspects of human paleontology and archaeology. Perhaps surprisingly, the methods that have become so important to us
 are not Anthropological methods at all but those of Geologists (Geochronology and Geochemistry/Biogeochemistry). Biological Anthropology and Archaeology are
 are fields which are inherently multidisciplinary. In this case, we want to study human evolution and cultural development and to do so we need to
 use the methods employed by Geologists to devlop a **Temporal Context** and a **Paleoenvironmental Context**. So here we go...
@@ -75,35 +69,36 @@ This information reviews and expands on the sections in your assigned reading (C
 :::
 
 The first thing that any student learns when it comes to establishing a temporal context in Paleontology and Archaeology is that there are
-two general approaches to this goal: **Relative Dating** and **Absolute (or Radiometric) Dating**. Before getting into the details of each
-we can summarize it with a colloquial analogy. In this hypothetical, let us say that the last time you travelled out of state was in the month of May.
+two general approaches to this goal: **Relative Dating** and **Absolute (or Radiometric/Chronometric) Dating**. Before getting into the details of each
+we can summarize them with a colloquial analogy. In this hypothetical, let's say that the last time you travelled out of state was in the month of May.
 If someone were to ask "when was the last time you travelled out of state?" you could respond in two ways which could satisfy the question: you could say that
-you travelled just before the Summer or you could provide the exact date (say, 05/20/2026). The first response is less exact but in placing it in relative position to 
+you travelled just before the Summer Break or you could provide the exact date (say, 05/20/2026). The first response is less exact but in placing it in relative position to 
 a known time/event you provide the context that is typically appropriate for the question. This is an example of a Relative Date. If the question was a 
 bit more formal, however, this might not satisfy and you would want to provide the Absolute (or precise) Date. 
 
 ::: {#fig-dating style="float: right; margin-left: 15px; max-width: 25%;"}
-![](../images/dating.jpg){.lightbox}
+![](../images/time/dating.jpg){.lightbox}
 
 Two approaches to dating archaeological and paleontological sites
 
 :::
 
-The image to the right highlights this. It shows successive layers of rock that we call **Strata** (see below). On the right side of these rocks are 
+The image to the right highlights this. It shows successive layers of rock that we call **Strata**. On the right side of these rocks are 
 indicators of Absolute age in Millions-of-Years (which we have been abbreviating Ma). The (±) symbol tells you that there is an error range for this date.
-It is known that our numerical dates are seldom 100% precise. Instead they are more likely to provide a range of dates within a certain degree of confidence. 
-Here the upper date is really suggesting that that stratum dates between approximately 115-125 Ma. More on that later. On the left of the rocks, under Relative Dating, there is simply
+It is known that our numerical dates are seldom 100% accurate. Instead they are more likely to provide a range of dates within a certain degree of confidence. 
+Here the upper age is really suggesting that that stratum sits between approximately 115-125 Ma. More on that later. On the left of the rocks, under Relative Dating, there is simply
 an arrow showing that older rocks are on the bottom of this pile and younger ones are on top. This observation,
 known as **The Law of Superposition**, is really only part of the story. As suggested in my analogy above, to make this a bit more explicit we would indicate 
-that one of these layers represents a specific event (say like the date that you travveled out of state or, more to the point, the extinction of dinosaurs). With that we could use the relative 
-dating scheme to say that some strata are older than the extinction of dinosaurs and some are younger (like saying that you travelled before or after the Summer). While this
-brief overview should hopefully get the general difference between the two across, there are some important details of each that you will need to better understand in this class. 
+that one of these layers represents a specific event (say like the date that you traveled out of state or, more to the point, something like the extinction of dinosaurs). With that we could use the relative 
+dating scheme to say that some strata are older than the extinction of dinosaurs and some are younger (like saying that you travelled before or after the Summer Break). We would thus indicate that
+one of the strata illustrates a notable event (like mass extinction), and that the layer below this event occured earlier than it and the layers above occured after it. This is how Superposition works
+and establishes the fundamental logic of Relative Dating.
 
 # Relative Dating
 
 The beauty of relative dating is in its ability to construct a logical timeline. In general discussion of history, specific dates are details that are 
 only necessary with narrow inquiry. If we reflect on our timeline of human evolution, for example, I'd be happy if you could recount that *Ardipithecus* came before *Australopithecus* which came
-before *Homo*. This is a relative dating timeline that can be redrawn in a couple of ways [*Diagram 1*]. 
+before *Homo*. This is a relative dating timeline that can be redrawn in a couple of ways [@fig-hominin-evolution]. 
 
 ::: {#fig-hominin-evolution layout-rows="2"}
 
@@ -154,11 +149,11 @@ our discussion in week 5 on "Post-erectus hominins".
 The foundation of relative dating methods is situated in [Sedimentology](https://www.usgs.gov/publications/sedimentology-general-introduction-and-definitions-fluvial-sediment-and-channel) 
 (the study of sedimentary rocks and the processes by which the are formed). If by chance you read the non-assigned sections of Chapter 7 in the textbook, you have learned that Sedimentary, 
 Igneous, and Metamorphic are the three primary rock classes in Geology. We are interested in Sedimentary rocks here because (1) they are most likely to preserve
-fossils and (2) because they form in predictable chronological ways. As suggested by the name, Sedimentary rocks are formed by sediments of other materials. While
-largely sediments from other rocks, they are also regularly comprised of other materials (organic or inorganic). The original material (the sediments) come from the
-process of **erosion** which all matter is subjected to. Be it wind, rain, sun, or simply time, all things erode into smaller pieces. When this happens, the sediments begin a new life detached 
-from their parent structure. Depending on the size of the eroded particle, a variety of energetic forces now act to move it from one spot to another. Energetic disparity across different regions 
-therefore creates areas of high erosion (high energy environments) and areas of **deposition** (lower energy environments where sediments are deposited). Depositional environments are where we see 
+fossils and (2) because they form in predictable chronological ways. As suggested by the name, these are formed by sediments of other materials. While
+largely made up of other geologic material, they are also regularly comprised of other materials (organic or inorganic). The original sediments that form these rocks come from the
+process of **erosion**. Be it wind, rain, sun, or simply time, all things erode into smaller pieces. When this happens, the sediments begin a new life detached 
+from their parent structure. Depending on the size of the eroded particle, a variety of energetic forces will then act to move it from one spot to another. Energetic disparity across different regions 
+therefore creates areas of high erosion and transport (high energy environments) and areas of **deposition** (lower energy environments where sediments are deposited). Depositional environments are where we see 
 the formation of sedimentary rocks and, ultimately, the best preservation of fossils.
 
 ### Strata, Stratigraphy, and Superposition
@@ -172,19 +167,26 @@ energy. Then it falls (becoming sediment). Being a low energy environment, this 
 transported here faces this fate and becomes deposited as sediment just the same. We therefore have a "bed" of sediments that forms. This is essentially a sandbox (or a lake bed, 
 river bed, and etcetera). 
 
-[Sidenote: understanding the energy requirements for sediment transportation is actually pretty cool. When looking at depositional environments you can begin to form an idea of the 
+
+::: {.callout-tip}
+## Sidenote on Sedimentation
+
+Understanding the energy requirements for sediment transport is actually pretty cool. When looking at depositional environments you can begin to form an idea of the 
 original setting. If, for instance, you are hiking and come across a dried up river bed that has large stones scattered throughout, you can predict that the river was 
 flowing fast and hard enough at this point to carry such large stones. If you then continue to follow it and notice that the stones get smaller, or just become beds of sand, you can 
 observe how the flow of water changed in different parts of the river. Maybe it's not all that cool to you, but I love this stuff. Such understanding has a tendency of making the 
-world seem infinitely more awesome.] 
+world seem infinitely more awesome
 
-OK, now picture this depositional environment. It could be a sand dune or the bottom of a lake or ocean. In any case sediments are slowly accumulating and burying whatever lied there 
+:::
+
+
+OK, now picture this depositional environment. It could be a sand dune or the bottom of a lake or ocean. In any case sediments are slowly accumulating and burying whatever lay there 
 before. As more and more sediment piles up, the underlying material becomes subjected to more and more pressure and heat. Combine this with the groundwater that percolates through these 
-materials and the sediments begin to literally glue together. This is the process of Sedimentary Rock formation. From here we can have little doubt what the **Law of Superposition** is 
-all about. Physical structures succomb to erosion,  eroded particles are carried away from from their parent structures until the transporting energy dissipates and they become sediments, 
+materials and the sediments begin to literally glue together. This is the process of Sedimentary Rock formation (@fig-sediment). Physical structures succomb to erosion,  eroded particles are carried away from from their parent structures until the transporting energy dissipates and they become sediments, 
 sediments accumulate in depositional environments and bury the sediments that came before them, and finally the buried sediments (under the forces of pressure, heat, and moisture perculation) 
-glue together to form distinct layers of rock. These are strata. The deepest strata, be necessity, formed before the strata above them. BAM! Superposition. Suffice it to say that this cycle starts all
-over again when that stratum is eventually exposed again to the elements and begins to erode. Check out the diagram below for an overview of this process [*Diagram 2*].
+glue together to form distinct layers of rock. These are strata and anything that gets cought in the process becomes trapped and (hopefully) preserved through time. The deepest strata, by 
+necessity, formed before the strata above them. **BAM! Superposition**. Suffice it to say that this cycle starts all
+over again when that stratum is eventually exposed again to the elements and begins to erode. 
 
 
 ::: {#fig-sediment}
@@ -254,7 +256,7 @@ But wait...how do we tell different strata apart? What makes them look different
 
 One of the beautiful things about sedimentary rocks being used as time markers is that they can often tell you about shifts in the environment.
 Darker strata, for instance, commonly reflect regions abundant with life where the decomposition of organic matter 
-mixes with sediments to make these darker hues. White horizons could signify an abundance of quartz or could be dense bands of limestone (made up of shells from microscopic marine organisms).
+mixes with sediments to make these darker hues. White horizons could signify an abundance of quartz or, when composed of Limestone, reflect ancient ocean floors (Limestone is comprised of marine shells).
 Bands of red strata might suggest that this layer was rich in iron which subsequently oxidized when exposed to high oxygen environments just as they can turn green in oxygen reducing environments. 
 Whatever the case, the sedimentary rocks preserve the conditions of the depositional environments from which they formed. They lock these evidentary materials in stone and 
 store them in the geological record. 
@@ -262,21 +264,29 @@ store them in the geological record.
 ::: {#fig-stratigraphy layout-ncol=2}
 
 ![An image from Zhangye National Park in Gansu, China. Known to be among the most colorful geological sequences in the world, this exposed landscape is comprised of sandstone and siltstone rich in iron oxide. 
-Minerals such as hematite, chlorite, and goethite are illustrated in the colorful stratigraphuc bands](../images/Zhangye.jpg)
+Minerals such as hematite, chlorite, and goethite are illustrated in the colorful stratigraphuc bands](../images/time/Zhangye.jpg)
 
 ![The Painted Hills are a geological unit within the John Day Fossil Beds in Mitchell, Oregon. In addition to the iron oxide noticeable from the red bands, the Painted Hills boast layers of 
-Volcanic Rhyolite (igneous material) that fell over the landscape and created horizons rich in deep purples.](../images/paintedhills.jpg)
+Volcanic Rhyolite (igneous material) that fell over the landscape and created horizons rich in deep purples.](../images/time/paintedhills.jpg)
 
 Examples of Stratigraphy from around the world
 :::
 
 ### Fossils and Time
 
+::: {#fig-fossilization style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/time/fossilization.jpg){.lightbox}
+
+The ideal process of fossilization. An animal dies in a depositional environment and slowly becomes buried in sediments. As the sedimentary process continues, the hard tissues (bones and teeth)
+of this animal become preserved in rock. Eventually this rock becomes exposed and the fossils are uncovered by paleontologists (or archaeologists). 
+
+:::
+
 From here there should be little problem understanding how the relative dating of fossils takes place. These strata are far from isolated. In fact, 
 many **Stratigraphic Horizons** represent the same period of time across huge continental masses. But it is not just 
-the sedimentary matter that helps us to identify and define them. Even more useful to this cause are the fossils that get buried within these horizons in successive 
+the geological material that helps us to identify and define them. Even more useful to this cause are the fossils that get buried within these horizons in successive 
 layers. Whether they are transported by the same energetic forces as the sediments themselves or they simply become buried in the environments that they die in, 
-plants, animals, and even bacteria can become preserved in these strata. Such environments create tombs which encase the most structurally sound components of 
+plants, animals, and even bacteria can become preserved in these strata (@fig-fossilization). Such environments create tombs which encase the most structurally sound components of 
 the organisms that get buried within (often shells, bones, and teeth). What this means is that successive strata have the ability to preserve a record of the life that existed on our planet hundreds, 
 thousands, millions, and even billions of years ago. This is the record that allows to definitively say, "No, Dinosaurs and Humans did not coexist. Dinosuars went extinct 
 long before the first human-like animals ever existed. In fact, barring the continued success of archosaurs (including dinosaurs but currently represented by crocodilians and birds), 
@@ -290,29 +300,30 @@ found in the same stratigraphic layers." I just don't think that tells you much,
 strata from different parts of the world. Let's say you have two stratigraphic sequences in different regions that look the same but vary in depth. This is a common occurence. 
 The strata might be color patterned (say grey, green, black, grey, white, red) in East Africa and India. But in India the red stratum is two meters deep and in East Africa it is 
 barely visible (or absent altogether). You might have a thought that they represent the same period of time but you really can't tell. The best possible way of solving this 
-riddle is to look at the fossils. Having not discussed it much, it may seem like the inclusion of fossils in strata is a rarity. Not really. There is [a lot]{.underline} of 
+riddle is to look at the fossils and to establish a stratigraphic pattern based on the organisms that lived in each period of time. 
+
+::: {.callout-tip}
+## Sidenote on Finding Fossils
+
+Having not discussed it much, it may seem like the inclusion of fossils in strata is a rarity. Not really. There is [a lot]{.underline} of 
 life on this planet and most of it gets buried after death. While fossilization is a relatively rare occurence, even a rare occerence can have a large yield if the base material 
 is abundant. In the right environment, fossils should be an expectation not a surprise. In most stories of fossil hunting (including my own) the struggle is not finding fossils *per se*
 but finding the desired fossils. In my previous research, for example, I was part of a team investigating the presence of *H. erectus* in a specific region of Ethiopia. While this was a daunting task
 which provided only a few quality specimens from this species, the region provided thousands of fossils from other animals. Though not our primary research goal, one important aspect of this project
 was establishing the specific context of the region at the time that *H. erectus* lived in it. It is largely due to these fossils and their quality as [Time Markers]{.underline} and 
 [Environmental Indicators]{.underline} that we were successful in this goal. We will come back to the notion of fossils being environmental indicators in the next lecture. For now,
-let us focus on the massive potential of **Biostratigraphy** and its use in Relative Dating.  
+let us focus on the massive potential of Biostratigraphy and its use in Relative Dating.  
+
+:::
 
 
 ### Time Markers
 
-::: {#fig-trilobite style="float: right; margin-left: 15px; max-width: 25%;"}
-![](../images/trilobite.jpg){.lightbox}
-
-Redlichiida trilobite indicative of an Early to Middle Cambrian age. 
-:::
-
-Biostratigraphy is the study of fossil remains in stratigraphic contexts in order to (1) correlate strata from different environments and (2) provide evidence for the geologic
-age of strata within a stratigraphic sequence (see @tbl-biostrat). The first aspect of this, referred to more specifically as **Fuanal Correlation**, is discussed above. This process allows 
+**Biostratigraphy** is the study of fossil remains in stratigraphic contexts in order to (1) correlate strata from different environments and (2) provide evidence for the geologic
+age of strata within a stratigraphic sequence (see @tbl-biostrat). The first of these goals, referred to more specifically as **Fuanal Correlation**, is discussed above. This process allows 
 geologists and paleontologists to match strata from different parts of the world which may have been separated through other geologic/geographic actions (plate techtonics, 
-volcanic eruption, erosion of river valleys, and et cetera). The second approach to Biostratigraphy is the explicit use of fossils as time markers. Key to this effort is the 
-identification of **Index Fossils**. 
+volcanic eruption, erosion of river valleys, and etcetera). The second approach to Biostratigraphy is the explicit use of fossils as time markers. Key to this effort is the 
+identification of materials that we call Index Fossils. 
 
 
 
@@ -327,8 +338,8 @@ identification of **Index Fossils**.
 | Biostratigraphy        | Description                                                                                                                                     | 
 +========================+=================================================================================================================================================+
 | **Correlate strata**   | Matching strata from different regions provides context for a study area. Even if you don't know the age, the correlated strata can             |
-|                        | add ecological information by identifying fossil species present in one sample but not the other, it can inform on geologic/geographic          |
-|                        | processes such as plate tectonics and volcanic activity, and establish a relative timeline across the fossil record.                            |
+|                        | add ecological information by identifying fossil species present in one sample but not the other. This process can also inform on               |
+|                        | processes such as plate tectonics and volcanic activity, and establish a relative timeline (series of events) across the fossil record.         |
 +------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Identify geologic**  | While similar to faunal correlation, identifying a geologic age is a specific agenda which uses distinct fossils sets and known numeric ages to | 
 | **age**                | provide a narrow age range for particular stratigraphic units.                                                                                  |
@@ -339,22 +350,30 @@ identification of **Index Fossils**.
 :::
 
 
+::: {#fig-trilobite style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/time/trilobite.jpg){.lightbox}
 
+Redlichiida trilobite indicative of an Early to Middle Cambrian age. 
+:::
 
-Index Fossils come from species which are abundant in the fossil record, easy to identify, and have a relatively short geologic age. 
-In meeting these criteria, these fossils not only have the power to identify specific strata from different regions (faunal correlation), but to delineate the specific period 
+**Index Fossils** come from species which are abundant in the fossil record, easy to identify, and have a relatively short geologic age. 
+In meeting these criteria, the fossils not only have the power to identify specific strata from different regions (faunal correlation), but to delineate the specific period 
 of time that that stratum represents. Consider the images to the right and below. On the right is a type of arthropod called a Trilobite. These animals crawled on the seafloor during the Paleozoic era hundreds
 of thousands of years ago. This specific type of Trilobite, however, has a much narrower existence appearing in the fossil record during the Early Cambrian and
 disappearing by the Middle Cambrian (existing from approximately 521 to 500 million years ago). This taxonomic order of Trilobite, known as *Redlichiida*, has a distinctive morphology which
-makes it easy to identify, it was short lived to other Orders of Trilobite (only existing for about 21 million years), and it was abundant and widespread during its existence. For a paleontologist, 
+makes it easy to identify, it was short lived relative to other Orders of Trilobite (only existing for about 21 million years), and it was abundant and widespread during its existence. For a paleontologist, 
 this fossil represents a specific moment in time. If one of these fossils is discovered during excavation the team can be confident that they are working in early-to-middle Cambrian beds. 
+
+![Chronology of Trilobite Orders. Image from [trilobites.info](https://www.trilobites.info/geotime.htm)](../images/time/trilo.png){.lightbox width="70%"}
 
 While some fossils can provide fairly narrow age ranges, most biostratigraphy is achieved through *indexing* multiple fossils from the same deposit. The image below illustrates a more realistic use of Index Fossils
 than the trilobite example. It shows an array of 7 fossils dispersed across a *stratigraphic column*, each associated with a white arrow indicating the species' existence in the fossil record. Note
 that some of the age ranges overlap in some strata but not in others. This is how narrow age ranges are achieved for strata through biostratigraphy. Any one of these fossils could represent an
 age range of hundreds of thousands of years, but to find five different Index Fossils that overlap in a single stratigraphic horizon could narrow this age range down to tens of thousands of years.
 
-![Using Index Fossils](../images/indexfossils.jpg){#fig-index .lightbox}
+![Using Index Fossils. Notice that the red and blue strata illustrate different combinations of fossils through time. While most
+of the fossils exist through the entire stratigraphic column, there are two which have narrow age ranges. These two fossils help to
+differentiate the horizons and provide a successive view of life in this region over time.](../images/time/indexfossils.jpg){#fig-index .lightbox}
 
 The final application of Biostratigraphy is to apply it alongside of Absolute Dating techniques. We will come to learn that there are only a handful of methods that can provide a numerical age
 range for fossil sites and they tend to be very specific about the materials they are being used on. For example, some of these methods can only be applied to volcanic rocks while others are
@@ -366,20 +385,21 @@ a numeric age.
 The image below helps exemplify this process. Consider for a moment that you are a researcher in Area A. This is the only site that does not have the needed material to obtain a
  numeric age for an assemblage. Despite this, it is still your goal to figure out roughly how old some of these fossils are. Let’s take the red spiral shell fossils, for instance. 
  You know that similar fossils have been found in different parts of the world. In fact, Areas C, B, and D each seem to have a stratigraphic timeline similar to the progression of 
- fossils found in your site. Knowing this, and knowing that the other research areas have absolute dates associated with certain fossils, can you come up with an estimate for 
+ fossils found in your site. Knowing this, and knowing that the other research areas have absolute dates associated with certain fossils, can you estimate
  the age of the red spiral shell fossils in your assemblage? You should be able to come up with a rough age of 60 Ma. 
  The red spiral shell fossils, when considering all research areas, are sandwiched between a 50 Ma and a 70 Ma date range. Again, not perfect, but certainly better than nothing. 
 
-![Biostratigraphy and Absolute Dating](../images/biostrat.png){#fig-biostrat .lightbox width="65%"}
+![Biostratigraphy and Absolute Dating. Use the overlapping strata across the four stratigraphic columns to identify the approximate age of the red spiral shells.](../images/time/biostrat.png){#fig-biostrat .lightbox width="65%"}
 
 # Absolute (Radiometric) Dating
 
 ::: {style="float: right; margin-left: 15px; max-width: 30%;"}
-![](../images/meltclock.jpg){.lightbox}
+![](../images/time/meltclock.jpg){.lightbox}
 
 :::
 
-Absolute dating is better referred to as Radiometric (or Chronometric) dating. This is because, despite refined methods, seldom are dates “absolute”. This was discussed briefly above (in the opening paragraphs of the **Dating** section). These dates always come with a confidence interval (age range) dictated by a margin of error. Thus in 
+Absolute dating is better referred to as Radiometric (or Chronometric) dating. This is because, despite refined methods, seldom are dates “absolute”. This was discussed briefly above 
+(in reference to @fig-dating). These dates always come with a confidence interval (age range) dictated by a margin of error. Thus in 
 the figure above we saw an "Absolute" date of 120±5. Here the margin of error is ±5 and the confidence interval is 115-125 (*for those familiar with statistics you can attribute the 
 margin of error to one or, ideally, two standard deviations*). The point is, an "Absolute Date" does not necessarily provide an [exact]{.underline} date. This is the influence for
 moving away from the term "Absolute" and shifting to [Radiometric]{.underline}. The term Radiometric is the prefered replacement for Absolute because it conveys the methodological approach to these dates. Numerical ages provided in Archaeology and Paleontology 
@@ -402,8 +422,14 @@ One thing that is barely mentioned which is important to understanding this proc
 
 ### Radioactive Decay and Half-Life
 
-::: {#fig-kar style="float: right; margin-left: 15px; max-width: 20%;"}
-![](../images/k-Ar.png){.lightbox}
+::: {#fig-kar style="float: right; margin-left: 15px; max-width: 30%;"}
+![](../images/time/k-Ar.png){.lightbox}
+
+Two different ways that ^40^K decays into different byproducts. The right side of this image illustrates the decay of potassium into calcium. Here an 
+electron is emitted, and a neutron picks up a positive charge, transitioning it to a proton. This is called *beta decay*. On the left side of the image, 
+we see the parent atom decay into Argon. The process in this case is called *electron capture* in that a proton is converted to a neutron (giving us 18 
+protons and [22]{.underline} neutrons in the daughter atom (typo in figure). 
+
 
 :::
 
@@ -411,27 +437,29 @@ Hopefully by now you understand that there are unstable atoms and that they even
 That’s all well and good, but how does that help us? We use our knowledge of decay rates of different isotopes to determine how much time has elapsed 
 since the material that we are studying first formed. As an example, when a volcano erupts it creates volcanic rocks that are enriched with radioactive 
 isotopes. This happens because of the immense amount of energy coursing through the materials. This energy destabilizes the atomic structure of the materials, 
-making them radioactive. The image on the right depicts this process. Volcanic ash is largely comprised of radioactive potassium (^40^K). As the ash cools down, and 
-the energy dissipates, these radioactive potassium nuclides spontaneously breakdown (decay) into more stable forms (^40^Ar). The moment this process starts is the 
+making them radioactive. @fig-kar on the right depicts this process. Volcanic ash is largely comprised of radioactive potassium (^40^K). As the ash cools down, and 
+the energy dissipates, these radioactive nuclides spontaneously breakdown (decay) into more stable forms (^40^Ar). The moment this process starts is the 
 moment that the [Radiometric Clock]{.underline} begins ticking. As long as we know how long it takes for a population of radioactive atoms to decay into stable forms, 
 we can judge how much time has passed since the beginning of the clock. In this example, it would provide us with the amount of time that has elapsed since 
-the eruption of the volcano. This is what we mean by “resetting” or “zeroing” the clock. Easy, right? 
+the eruption of the volcano. This is what we mean by “resetting” or “zeroing” the clock. 
 
 #### Understanding Half-Life
 
 ::: {#fig-half style="float: left; margin-right: 15px; max-width: 25%;"}
-![](../images/halflife.png){.lightbox}
+![](../images/time/halflife.png){.lightbox}
+
+The decay of Uranium into Throium through successive half-lifes.
 
 :::
 
 When we measure decay rates, we are not measuring how long it takes for one radioactive atom to decay into a stable form. Instead, we are measuring how 
 long it takes for a population of atoms to decay from their “parent” forms (original radioactive isotope) into a population of daughter atoms. We thus 
 investigate the changing proportion of radioactive isotopes to stable isotopes in our sample material (volcanic rock, flowstones, bones, wood, and etcetera).
-In the previous example we would measure the abundance of Potassium 40 to Argon 40 in volcanic rock (pumice). It is also important to understand that radioactive decay is spontaneous. 
-As mentioned above, we can only measure the pace of decay through relative terms (not the time it takes for one atom to decay into the daughter product). 
-This means that we are not counting how many atoms there are in a given sample. Instead, we investigate the proportion of parent to daughter atoms. Thus, our unit of measure 
-is not an actual count of atoms. Instead we use the proportional measure of a **half-life**. This is the amount of time it takes for a sample to lose half of it’s radioactive material through decay. 
-The image to the left relates the decay of radioactive Uranium to Lead, stating that the half-life is 1 billion years. Thus it takes 1 billion years for half of the radioactive uranium to decay into 
+In the previous example we would measure the abundance of ^40^K to ^40^Ar in volcanic rock (pumice). It is also important to understand that radioactive decay is spontaneous. 
+As mentioned above, we can only measure the pace of decay through relative terms (not the time it takes for one atom to decay into another). 
+This means that we are not counting how many atoms there are in a given sample. Instead, we investigate how much time it takes for approximately half of the parent product to decay into the daughter product. Thus, our unit of measure 
+is not an actual count of atoms, it is instead the measure of a **half-life**. This is the amount of time it takes for a sample to lose half of its radioactive material through decay. 
+@fig-half relates the decay of radioactive Uranium to Lead, stating that the half-life is 1 billion years. Thus it takes 1 billion years for half of the radioactive uranium to decay into 
 the daughter product of lead. After 1 billion years, therefore, there should be a 50-50 ratio of Uranium to Lead. Significantly, after another billion years, 
 you would then observe half of that remaining product! Do see the trick? If we considered radioactive decay to be a regular and linear process, logic would 
 dictate that after the subsequent billion year there would be no more parent product. But that is not what this is saying. The model for radioactive decay 
@@ -441,19 +469,21 @@ But that is all we need.
 A simplified example should help. Hypothetically consider that we, as humans, lose our fingers at a fixed rate over time throughout our lives. Assume the half-life for this is 
 40 years (meaning that it takes 40 years to lose half of our fingers). Thus, at 40 years old the average person would only have 5 fingers. But what about an 
 80-year-old? In a linear model of decay, we would expect the 80-year-old to have zero fingers. If you naturally lose 5 fingers over the course of forty years, 
-another 40 years would mean another 5 fingers. This is not the case with radiometric decay. The decay rate of radioactive isotopes is one that is proportional 
+another 40 years would mean another 5 fingers. This is not the case with radioactive decay. The decay rate of radioactive isotopes is one that is proportional 
 to the larger composition. With a proportionally guided rate of decay, and a half-life of 40 years, the 80-year-old in the example would have 2.5 fingers remaining. 
 
 ### Review of Carbon Dating
 
-This is a topic also covered pretty well by the textbook but it is an important method worth reviewing here as well. So how does it all work? 
+Carbon Dating is a topic also covered pretty well by the textbook but it is an important method and worth reviewing here as well. So how does it all work? 
 Carbon is a naturally occurring element that is found in all lifeforms (carbon-based lifeforms…). It has an atomic number of 6 (6 protons) and 
-three common isotopes (12, 13 14). Carbon 14 (^14^C) is radioactive. It originates in the atmosphere as Nitrogen 14 that is irradiated by the sun’s 
-cosmic waves. The high-energy neutrons of these cosmic rays collide with Nitrogen 14 atoms (Atomic Number=7, Mass Number=14). When these particles 
-collide, the incoming neutrons knock out a proton thus losing a proton and gaining a neutron. This accounts for the creation of ^14^C.
+three common isotopes (12, 13 14). Carbon 14 (^14^C) is radioactive. It originates in the atmosphere as Nitrogen 14 (^14^N) that is irradiated by the sun’s 
+cosmic waves. The high-energy neutrons of these cosmic rays collide with ^14^N atoms (Atomic Number=7, Mass Number=14). When these particles 
+collide, the incoming neutrons knock out a proton and gain one neutron (shifts from 7-and-7 to 6-and-8). This accounts for the creation of ^14^C.
 
 ::: {#fig-car1 style="float: right; margin-left: 15px; max-width: 40%;"}
-![](../images/carbon1.png){.lightbox}
+![](../images/time/carbon1.png){.lightbox}
+
+The distribution of ^14^C through the atmosphere, biosphere, and hydrosphere. 
 
 :::
 
@@ -461,35 +491,41 @@ collide, the incoming neutrons knock out a proton thus losing a proton and gaini
 Atmospheric CO2 is then cycled into the Biosphere (through metabolic pathways) and the Hydrosphere (through dissolution). For carbon dating we are more interested 
 in the biosphere than the hydrosphere. This is because the materials that we are dating with this method are the organic remains of organisms that consumed carbon 
 (which is all life on our planet). CO2 is consumed by plant life via photosynthesis, plant life is consumed by animals, and animals are consumed by other animals. 
-Thus, carbon is constantly cycled through the biosphere, including radioactive carbon. This doesn’t mean that the carbon isn’t also always decaying but as long as we 
-continue consuming carbon, the amount of ^14^C in our bodies will be the same as everything else consuming carbon. 
+Thus, carbon is constantly cycled through the biosphere (including radioactive carbon). This doesn’t mean that the carbon isn’t also always decaying but as long as we 
+continue consuming it, the amount of ^14^C in our bodies will be the same as everything else consuming carbon (see @fig-car2 for stepwise process). 
 
 ::: {#fig-car2 style="float: left; margin-right: 15px; max-width: 25%;"}
-![](../images/carbon2.png){.lightbox}
+![](../images/time/carbon2.png){.lightbox}
+
+^14^C cycle from inception to decay.
 
 :::
 
-Regarding the radiometric clock, this starts at an organism’s death (when it stops consuming ^14^C). From here on out, the only ^14^C activity occurring in our 
+The radiometric clock for ^14^C decay begins with the death of an organism (when it stops consuming ^14^C). From here on out, the only ^14^C activity occurring in our 
 tissues is decay. No more uptake. The decay process is similar to the initial irradiation. Beta decay commences by ejecting an electron and changing a neutron 
 into a proton. Thus ^14^C (6 Protons and 8 neutrons) turns into ^14^N (7 protons and 7 neutrons). Since ^14^N is a gas, it is a byproduct which disperses into the atmosphere 
-upon its inception, making it impossible for us to measure the proportion of ^14^C to ^14^N. But since we know how much ^14^C is in a living structure (or in the environment), 
-we can see how much has remains in the artifact relative to how much there would be in the “zeroed” clock. From there the process is the same as most radiometric methods. 
-We build or timeline from the knowledge of ^14^C having a 5730-year half-life. 
-
-Carbon dating is often considered the most ideal radiometric technique being that it is the only method that can measure radioactive decay directly from the materials we are investigating. 
-In contrast, when we use potassium-argon dating in paleontology, we need to find specific volcanic rocks in association with the fossils we have questions about. In this way, 
-potassium-argon dating is an indirect method (does not directly date what we want to know the age of). This is not to say that there are not limitations with Carbon Dating.
+upon its inception, unfortunately making it impossible for us to measure the proportion of the two isotopes. But since we know how much ^14^C is in the living organisms around us, 
+we can see how much remains in the sample material relative to how much there would be in the “zeroed” clock (living organisms). From there the process is the same as most radiometric methods. 
+We build our timeline from the knowledge of ^14^C having a [half-life of 5,730 years]{.underline}. 
 
 ### Limitations of Carbon Dating
 
 The most notable limitation of Carbon Dating is the short half-life of ^14^C. Only dating materials as old as ~50-55 ka means that this method is inapplicable to 
 many geochronological questions.
-As long as we stick within the field of Archaeology, however, it is mostly a non-issue. More pressing issues relate to the 
-fluctuating concentrations of ^14^C in our atmosphere and to the potential to confuse the method's [precision]{.underline} with the [accuracy]{.underline} of its application. 
+As long as we stick within the field of Archaeology, however, it is mostly a non-issue. More pressing issues with this method relate to the 
+fluctuating concentrations of ^14^C in our atmosphere and to the potential to confuse the method's [precision]{.underline} with the [accuracy]{.underline} of its application. Both of these
+issues need to be understood before having any confidence in published ^14^C dates.
 
 #### Calibrating the Carbon Record
 
-Dendrochronology is the study of Tree-Ring Dating. In short, this method is grounded in the understanding that concentric rings are formed throughout a tree’s core 
+::: {#fig-dendro style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/time/dendro.jpg){.lightbox}
+
+Cross-dating in dendrochronology
+
+:::
+
+Dendrochronology is the study of Tree-Ring Dating. In short, this method is grounded in the understanding that concentric rings are formed within a tree’s core 
 throughout life and that the rings can be counted as successive years. Extensive records of tree-ring dates are strung together by overlapping multiple samples of 
 trees of the same species and from the same regions. This system works because rings depicting the same patterns in different trees illustrate the same years of 
 growth. The matching of patterns is possible because the rings vary in size and color depending on environmental conditions. Thus, the same environmental conditions 
@@ -502,7 +538,7 @@ dendrochronological record stretches back more than 11,000 years (Friedrich et a
 
 In accounting for the known fluctuations of radiocarbon in our atmosphere, dendrochronologists work with radiocarbon labs to calibrate ^14^C concentrations over the 
 tree-ring record. Since carbon dating works on all organic material, ^14^C levels can be calculated for each ring (or at least averages for sets of rings) throughout 
-this 11,000+ year timeline. It thus detects years where the concentrations are higher (which would mean higher baseline) or lower (lower baseline). This allows researchers 
+this 11,000+ year timeline. It thus detects years where the concentrations are higher (which would mean higher baseline) or lower (lower baseline) (see @fig-calb). This allows researchers 
 to adjust their findings to the accurate year. Say, for instance, a radiocarbon analysis came back with a 50% concentration. Your instinct would be to suggest that the 
 sample is 5,730 years old (half-life of ^14^C). But then you match your findings with the tree-ring record and notice that that specific concentration matches with a 
 ring that is 7,000 years old. You would then know that at this time 7,000 years ago, the ^14^C concentrations were higher than they are today. 
@@ -510,6 +546,14 @@ ring that is 7,000 years old. You would then know that at this time 7,000 years 
 To use our example from earlier, years with higher concentrations of carbon would be like a person born with 12 fingers instead of 10. It would still take 
 40 years to lose half of their fingers, but the measurement would be of 6 fingers not 5. If you read these results not knowing that the person began with 12 
 fingers, you might be mislead into thinking that less time has passed than actual has (29.4 years instead of 40 years). 
+
+::: {#fig-calb style="float: right; margin-left: 15px; max-width: 25%;"}
+![](../images/time/calibration.jpg){.lightbox}
+
+Calibrating the carbon record. Note the fluctuating concentrations of ^14^C in the tree-rings. Along with the cross-dating of dendrochronological samples, this provides a record of
+^14^C concentrations through time. 
+
+:::
 
 In summary, we know that the half-life of ^14^C is 5,730 years but that the baseline atmospheric concentration of this isotope varies through time. 
 To use the tree-ring record, archaeologists can circumvent the issue of fluctuating ^14^C levels by comparing the raw results of their analysis to the ^14^C 

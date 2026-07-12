@@ -5,10 +5,6 @@ website:
   title: "ANTH151"
   site-url: "https://cusisom.github.io/ANTH151/"
   repo-url: "https://github.com/cusisom/ANTH151"
-  other-links:
-    - text: PDF
-      icon: file-pdf
-      href: "{{< meta title >}}.pdf"
       
   sidebar:
     style: "docked"
@@ -26,10 +22,12 @@ website:
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1
         contents:
-          - href: "Unit 2/North_America.qmd"
-            text: "Wk 10.Peopling of the Americas"
           - href: "Unit 2/Temporal.qmd"
             text: "Wk 7. Temporal Context"
+          - href: "Unit 2/Climate.qmd"
+            text: "Wk. 8 Environmental Context"
+          - href: "Unit 2/North_America.qmd"
+            text: "Wk 10.Peopling of the Americas"
         
       - section: "Unit 3: Civilization"
         collapse-level: 1
@@ -39,6 +37,7 @@ website:
 
 format:
   html:
+    bibliography: references.bib
     include-in-header: header.html
     tbl-cap-location: bottom
     theme:
