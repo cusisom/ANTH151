@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -43,6 +62,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-cbbc44a06b6ab5512d326a67c40a5eb4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -218,7 +240,18 @@ ul.task-list li input[type="checkbox"] {
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-evolution" id="toc-what-is-evolution" class="nav-link active" data-scroll-target="#what-is-evolution">What is Evolution?</a></li>
+  <li><a href="#back-to-evolutionary-thought" id="toc-back-to-evolutionary-thought" class="nav-link" data-scroll-target="#back-to-evolutionary-thought">Back to Evolutionary Thought</a>
+  <ul class="collapse">
+  <li><a href="#jean-baptiste-lamarck" id="toc-jean-baptiste-lamarck" class="nav-link" data-scroll-target="#jean-baptiste-lamarck">Jean Baptiste Lamarck</a></li>
+  <li><a href="#hutton-and-lyell" id="toc-hutton-and-lyell" class="nav-link" data-scroll-target="#hutton-and-lyell">Hutton and Lyell</a></li>
+  </ul></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -246,11 +279,104 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We are beginning this course with a brief review of evolutionary theory. Before taking this week’s quiz, you should understand the following concepts:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Key Points
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><u><strong>Additional Assigned Reading:</strong></u> Ch. 2 in textbook; Sections: <u>Environmental Reconstruction</u></li>
+<li><u><strong>Key Terms:</strong></u> Oxygen Isotope Fractionation,</li>
+<li><u><strong>Summary:</strong></u> One of the most important tasks in archaological and paleontological investigations is in establishing a timeframe for a site. Establishing a <em>Temporal Context</em> is achieved by these scientists in different ways depending on how old the site is and what materials are available for testing. No method is perfect so pay attention to some of the difficulties of each approach. Be sure to take note of the age-ranges (including half-lifes) and needed materials of each method.</li>
+</ul>
+</div>
+</div>
+<div id="fig-Chain" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 20%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Evolution/Chain.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;1: The representation of Aristotles taxonomy as Scala Naturae or “The Great Chain of Being”"><img src="../images/Evolution/Chain.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Chain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The representation of Aristotles taxonomy as <em>Scala Naturae</em> or “The Great Chain of Being”
+</figcaption>
+</figure>
+</div>
+<p>Chapter two of Explorations begins with a short overview of the development of Evolutionary Thought. One primary purpose of this section is to steer you away from thinking that Charles Darwin (to be discussed at length below) was the first (or only) person to “discover” how life has and continues to evolve. They open by discussing Aristotle, which is not surprising but is maybe a little misplaced. Aristotle is well known for his systematic sorting of life (what we call taxonomy today) based on different levels of complexity. The text suggests that he did so by considering such factors as morphology (structure), physiology, mode of reproduction, and behavior. Such an endeavor was absolutly significant in developing evolutionary thinking but it was not necessarily designed to discussed how life comes into being and how it changes over time (evolution). Aristotle was dedicated to making sense of the world and in doing so he developed a way to sort and organize nature.</p>
+<p>Interestingly, the taxonomic work comprised by Aristotle was later co-opted (and misrepresetned) by the Christian church which was even later misconstrued by the evolutionary-thinking public. The first of these accounts is reflected in the development of <em>Scala Naturae</em> which included theological figures at either end of the scale. This transformed Aristotles taxonomy from one based on biological complexity to one based on closeness to “Gods” image. Note from the image (<a href="#fig-Chain" class="quarto-xref">Figure&nbsp;1</a>) that these scales were not limited to types of plants and animals but also types of humans (peasants and nobels). The second mis-representation of Aristotles taxonomy is promoted in <em>Lay</em> evolutionary discourse (how evolution is understood by a less-informed public). The ranking of organisms based on complexity became a means of understanding how life evolves from less-to-more complex forms. We have all seen the depictions of human evolution that looks like a linear progression from Ape to Human, right (<a href="#fig-Linear" class="quarto-xref">Figure&nbsp;2</a>)?</p>
+<div id="fig-Linear" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 40%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Linear-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Evolution/Linear.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;2: Common portrayal of human evolution in a linear trajectory from Ape to Human."><img src="../images/Evolution/Linear.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Linear-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Common portrayal of human evolution in a linear trajectory from Ape to Human.
+</figcaption>
+</figure>
+</div>
+<p>This is the exact misunderstanding that I am referencing. The Great Chain of Being got people thinking that life evolves along a trajectory towards the more complex (and often more “perfect”). This is sometimes true…and sometimes not. Certainly it is not a requirment of evolution. So, before going much further, let us define some terms.</p>
+<section id="what-is-evolution" class="level1">
+<h1>What is Evolution?</h1>
+<div id="fig-Axol" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 20%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Axol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Evolution/Axol.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: The evolution of the Axolotl is from a genetic shutoff during a Salamanders metamorphosis. Notice the dotted line showing how the Juvenile stage can bypass the final form and produce eggs (reproduce) without physical maturity."><img src="../images/Evolution/Axol.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Axol-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: The evolution of the Axolotl is from a genetic shutoff during a Salamanders metamorphosis. Notice the dotted line showing how the Juvenile stage can bypass the final form and produce eggs (reproduce) without physical maturity.
+</figcaption>
+</figure>
+</div>
+<p><strong>Evolution</strong> is less complicated and controversial than often presumed. At its core the a process of <u>change over time</u>. As mentioned above, this change does not need to be from less complex to more complex, it is just change. For instance, one awesome example that flys in the face of linear progression is the evolution of animals such as the Axolotl <span class="citation" data-cites="Voss1997">(<a href="#ref-Voss1997" role="doc-biblioref">Voss and Shaffer 1997</a>)</span> which underwent a process called <em>Paedomorphosis</em>, essentially stopping the process of metamorphosis in the Salamander ancestor. In this case, the Axolotl form is the precursor of the more “complex” Salamander form but it evolved to stay in the aquatic stage of its metamorphosis. This is absolutely an evolutionary step. It just would not fit the linear depiction so commonly seen.</p>
+<p>One of my favorite anaogies for evolutionary thinking is referred to as the Red Queen Hypothesis. If you are at all familiar with Alice in Wonderland or, even better, <em>Through the Looking Glass</em> (part two of the series by Lewis Carroll), you may have an image in your head of the Red Queen. There is a specific scene in this story when Alice first returns to Wonderland and encounters the Queen. During their conversation, the Queen grabs Alice by the wrist and begins to run. Minutes go by and they are running just as fast as they can. Alice is panting and her hair is blowing wildly behind her until suddenly they stop. As Alice begins to catch her breath, she looks around in amazement. For as long and as fast as they were running, it seemed to her that they had not moved at all from their original location.</p>
+<p>The book reads as so:</p>
+<div id="fig-Alice" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 40%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Alice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Evolution/Queen.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;4: Alice running with the Red Queen. In reference to an evolutionary system, continuing adaptation is needed in order for a species to maintain its relative fitness amongst the systems it is co-evolving with."><img src="../images/Evolution/Queen.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Alice-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Alice running with the Red Queen. In reference to an evolutionary system, continuing adaptation is needed in order for a species to maintain its relative fitness amongst the systems it is co-evolving with.
+</figcaption>
+</figure>
+</div>
+<div class="italic">
+<p>Alice looked round her in great surprise. ‘Why, I do believe we’ve been under this tree the whole time! Everything’s just as it was!’</p>
+<p>‘Of course it is,’ said the Queen, ‘what would you have it?’</p>
+<p>‘Well, in our country,’ said Alice, still panting a little, ‘you’d generally get to somewhere else — if you ran very fast for a long time, as we’ve been doing.’</p>
+<p>‘A slow sort of country!’ said the Queen. ‘Now, here, you see, it takes all the running you can do, to keep in the same place.</p>
+<p>If you want to get somewhere else, you must run at least twice as fast as that!</p>
+</div>
+<p>This quote has been used in a variety of ways but here it is used to convey a singular point: Evolution is not a means of progressing forward. It is a means of keeping up with the world around. It is a necessary constant. Life must continue to evolve, not to become ever more complex, but to simply exist in a dynamic world. If life (or a particular species) stops evolving, it becomes extinct.</p>
+<p>As instructive as the Red Queen Hypothesis is, it does not fully represent Evolution. It is moreso an analogy for Evolution by means of Natural Selection, which we will discuss below. This is because of the emphasis put on the <em>need</em> to evolve…the need to keep up with the world around. As such it includes terms such as <strong>Adaptation</strong> and <strong>Fitness</strong> which are key to understanding what Natural Selection is. Evolution as a singular concept, however, does not require adaptation, it only requires change. Thus, you will encounter non-adaptive evolutionary mechanisms such as <strong>Genetic Drift</strong> and <strong>Migration</strong> that result in evolutionary change without the selection of adaptive traits. The Red Queen reference is therefore a means to get you thinking about the process of evolution as a constant and as a non-linear system.</p>
+</section>
+<section id="back-to-evolutionary-thought" class="level1">
+<h1>Back to Evolutionary Thought</h1>
+<p>Aristotle did not discuss evolution so much. In fact he mostly adhered to the notion that life was fixed, unchanging, and eternal. The next historical figure mentioned in the text, however, did write about the felxibility of life. Al-Jahiz pretty much hit the nail on the head when discussing the struggle for existence and the process of inheritance and transformation. He wasn’t the only one either. Again, a major reason for these first couple of sections in your book is to illustrate that evolution wasn’t a new concept by the time Darwin wrote about it. We will come to see that Darwin was made famous not for his discovery of Evolution by Natural Selection, but for his explanation of how it works. In fact, all of the early scholars mentioned<br>
+in the text play a part in building the foundation for his ultimate monumental monograph. <em>(That said, we shouldn’t be surprised that it is mostly the Western European scholars that garner most of the credit in our literature)</em></p>
+<p>The 18th and 19th centuries were big for investigating and promoting evolutionary theory, especially in Western Europe where academic discourse was a favorite pasttime of the wealthy elite. It is from this era that we solidified our committment to the use of Binomial Nomenclature through the lens of Linnaean Taxonomy and began heavily investing in studies of the diversity of life and comparison of organisms from around the world. Your book does well to mention the contributions of Carolus Linnaeus, Compte de Buffon, Georges Cuvier, James Hutton, Charles Lyell, Jean-Baptiste Lamarck, Alfred Russel Wallace, and Thomas Malthus. These are absolutely major players that contributed greatly to Darwin’s great synthesis. A few of these names are of particular importance as we come to understand what Natural Selection is.</p>
+<section id="jean-baptiste-lamarck" class="level2">
+<h2 class="anchored" data-anchor-id="jean-baptiste-lamarck">Jean Baptiste Lamarck</h2>
+<p>Lamarck gets a lot of flack in Biology and Anthropology textbooks (though your book treats him pretty well). The <em>Theory of Inheritance of Acquired Characteristics”, as the book says, was the first attempt by a Western scholar to explain how evolution works. If we simplify his theory, it becomes clear why this attempt is so commonly ridiculed. Lamarck suggested that life in any environment is sometimes faced with changing conditions. Maybe the climate gets colder or warmer, or the habitat becomes wetter or drier. In these instances, Lamarck suggests, the life which occupies said environment must respond by changing its behavior (survival strategy). So far, this is all rather brilliant for the time. The perceived misstep in this theory comes from step three. This step suggests that, after changing its behavior, an organisms morphology will also change and, </em>importantly*, these physical changes which are acquired during life can subsequently by passed on to the next generation. This is illustrated in the text by the progressive lengthening of giraffe necks. Unfortunatly, it matters very little how much you change your body during life, your kids are unlikely to inheret the modifications (imagine if you lost your arm in an accident and had a child after…would they be born with one less arm?).</p>
+<p>Lamarck got a lot of things right. Very much like Al-Jahiz he recognized that the physical environment plays a big part in how life evolves and brilliantly pointed out that physical traits can be passed from parent to offspring. Even his ideas of acquired characteristics being inherited are having a bit of a resurgence as we continue to understand the role of epigenetics and transmission of biomarkers.</p>
+</section>
+<section id="hutton-and-lyell" class="level2">
 
 
 
-</main> <!-- /main -->
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Hutton and Lyell</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Voss1997" class="csl-entry" role="listitem">
+Voss, S. Randal, and H. Bradley Shaffer. 1997. <span>“Adaptive Evolution via a Major Gene Effect: <span>Paedomorphosis</span> in the <span>Mexican</span> Axolotl.”</span> <em>Proceedings of the National Academy of Sciences of the United States of America</em> 94 (25): 14185–89. <a href="https://doi.org/10.1073/pnas.94.25.14185">https://doi.org/10.1073/pnas.94.25.14185</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -652,6 +778,38 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
