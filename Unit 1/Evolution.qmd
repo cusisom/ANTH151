@@ -23,7 +23,7 @@ The representation of Aristotles taxonomy as *Scala Naturae* or "The Great Chain
 :::
 
 Chapter two of Explorations begins with a short overview of the development of Evolutionary Thought. One primary purpose of this section
-is to steer you away from thinking that Charles Darwin (to be discussed at length below) was the first (or only) person to "discover"
+is to steer you away from thinking that Charles Darwin (discussed below) was the first (or only) person to "discover"
 how life has and continues to evolve. They open by discussing Aristotle, which is not surprising but is maybe a little misplaced. Aristotle is
 well known for his systematic sorting of life (what we call taxonomy today) based on different levels of complexity. The text suggests that 
 he did so by considering such factors as morphology (structure), physiology, mode of reproduction, and behavior. Such an endeavor was 
@@ -32,11 +32,11 @@ how life comes into being and how it changes over time (evolution). Aristotle wa
 he developed a way to sort and organize nature. 
 
 Interestingly, the taxonomic work comprised by Aristotle was later co-opted
-(and misrepresetned) by the Christian church which was even later misconstrued by the evolutionary-thinking public. The first of these accounts
+(and misrepresentned) by the Christian church which was even later misconstrued by the evolutionary-thinking public. The first of these accounts
 is reflected in the development of *Scala Naturae* which included theological figures at either end of the scale. This transformed Aristotles 
 taxonomy from one based on biological complexity to one based on closeness to "Gods" image. Note from the image (@fig-Chain) that these scales were not limited
 to types of plants and animals but also types of humans (peasants and nobels). The second mis-representation of Aristotles taxonomy is promoted
-in *Lay* evolutionary discourse (how evolution is understood by a less-informed public). The ranking of organisms based on complexity became a means
+in *lay* evolutionary discourse (how evolution is understood by a less-informed public). The ranking of organisms based on complexity became a means
 of understanding how life evolves from less-to-more complex forms. We have all seen the depictions of human evolution that looks like a linear progression from Ape to Human, right (@fig-Linear)?
 
 ::: {#fig-Linear style="float: right; margin-right: 15px; max-width: 40%;"}
@@ -59,17 +59,17 @@ eggs (reproduce) without physical maturity.
 
 :::
 
-**Evolution** is less complicated and controversial than often presumed. At its core the a process of [change over time]{.underline}. As
+**Evolution** is less complicated and controversial than often presumed. At its core, it is a process of [change over time]{.underline}. As
 mentioned above, this change does not need to be from less complex to more complex, it is just change. For instance, one 
 awesome example that flys in the face of linear progression is the evolution of animals such as the Axolotl  [@Voss1997] which underwent a process
-called *Paedomorphosis*, essentially stopping the process of metamorphosis in the Salamander ancestor. In this case, the Axolotl form is the precursor 
+called *Paedomorphosis* (essentially stopping the process of metamorphosis in the Salamander ancestor). In this case, the Axolotl form is the precursor 
 of the more "complex" Salamander form but it evolved to stay in the aquatic stage of its metamorphosis. This is absolutely an evolutionary step. It just
 would not fit the linear depiction so commonly seen. 
 
-One of my favorite anaogies for evolutionary thinking is referred to as the Red Queen Hypothesis. If you are at all familiar with Alice in Wonderland or, even better,
+One of my favorite analogies for evolutionary thinking, instead of relying on the linear progression model, is referred to as the Red Queen Hypothesis. If you are at all familiar with Alice in Wonderland or, even better,
 *Through the Looking Glass* (part two of the series by Lewis Carroll), you may have an image in your head of the Red Queen. There is a specific scene in this story
 when Alice first returns to Wonderland and encounters the Queen. During their conversation, the Queen grabs
-Alice by the wrist and begins to run. Minutes go by and they are running just as fast as they can. Alice is panting and her hair is blowing wildly behind her until
+Alice by the wrist and begins to run. Minutes go as they sprint through wonderland. Alice is panting and her hair is blowing wildly behind until
 suddenly they stop. As Alice begins to catch her breath, she looks around in amazement. For as long and as fast as they were running, it seemed to her that they had
 not moved at all from their original location. 
 
@@ -101,10 +101,11 @@ This quote has been used in a variety of ways but here it is used to convey a si
 up with the world around. It is a necessary constant. Life must continue to evolve, not to become ever more complex, but to simply exist in a dynamic world. If life
 (or a particular species) stops evolving, it becomes extinct. 
 
-As instructive as the Red Queen Hypothesis is, it does not fully represent Evolution. It is moreso an analogy for Evolution by means of Natural Selection, which we will discuss 
-below. This is because of the emphasis put on the *need* to evolve...the need to keep up with the world around. As such it includes terms such as **Adaptation** and **Fitness** which
+As instructive as this is, it still does not fully represent Evolution. It is moreso an analogy for Evolution by means of Natural Selection, which we will discuss 
+below. The Red Queen is a somewhat imperfect metaphor only because of the emphasis put on a *need* to evolve...the need to keep up with the world around. It includes terms such as **Adaptation** and **Fitness** which
 are key to understanding what Natural Selection is. Evolution as a singular concept, however, does not require adaptation, it only requires change. Thus, you will encounter
-non-adaptive evolutionary mechanisms such as **Genetic Drift** and **Migration** that result in evolutionary change without the selection of adaptive traits. The Red Queen reference
+non-adaptive evolutionary mechanisms such as <span title="Random changes in allele frequencies within a population from one generation to the next">
+**Genetic Drift**</span> and **Migration** that result in evolutionary change without the selection of adaptive traits. The Red Queen reference
 is therefore a means to get you thinking about the process of evolution as a constant and as a non-linear system. 
 
 # Back to Evolutionary Thought
@@ -112,25 +113,25 @@ is therefore a means to get you thinking about the process of evolution as a con
 Aristotle did not discuss evolution so much. In fact he mostly adhered to the notion that life was fixed, unchanging, and eternal. The next historical figure mentioned in the text,
 however, did write about the felxibility of life. Al-Jahiz pretty much hit the nail on the head when discussing the struggle for existence and the process of inheritance and transformation.
 He wasn't the only one either. Again, a major reason for these first couple of sections in your book is to illustrate that evolution wasn't a new concept by the time Darwin wrote about it.
-We will come to see that Darwin was made famous not for his discovery of Evolution by Natural Selection, but for his explanation of how it works. In fact, all of the early scholars mentioned \
-in the text play a part in building the foundation for his ultimate monumental monograph. *(That said, we shouldn't be surprised that it is mostly the Western European scholars that
-garner most of the credit in our literature)*
+We will come to see that Darwin was made famous not for his discovery of Evolution by Natural Selection, but for his explanation of how it works. Further, he did so by learning from
+the many others who discussed evolution before he did. In fact, all of the early scholars mentioned
+in the text play a part in building the foundation for his ultimate monumental monograph. 
 
 The 18th and 19th centuries were big for investigating and promoting evolutionary theory, especially in Western Europe where academic discourse was a favorite pasttime of the wealthy 
-elite. It is from this era that we solidified our committment to the use of Binomial Nomenclature through the lens of Linnaean Taxonomy and began heavily investing in studies of the diversity
+elite. It is from this era that we solidified our committment to the use of *Binomial Nomenclature* through the lens of Linnaean Taxonomy and began heavily investing in studies of the diversity
 of life and comparison of organisms from around the world. Your book does well to mention the contributions of Carolus Linnaeus, Compte de Buffon, Georges Cuvier, James Hutton, Charles Lyell,
 Jean-Baptiste Lamarck, Alfred Russel Wallace, and Thomas Malthus. These are absolutely major players that contributed greatly to Darwin's great synthesis. A few of these names are of particular
 importance as we come to understand what Natural Selection is.
 
 ### Jean Baptiste Lamarck
 
-Lamarck gets a lot of flack in Biology and Anthropology textbooks (though your book treats him pretty well). The *Theory of Inheritance of Acquired Characteristics", as the book says,
+Lamarck gets a lot of flack in Biology and Anthropology textbooks (though your book treats him pretty well). The *Theory of Inheritance of Acquired Characteristics*, as the book says,
 was the first attempt by a Western scholar to explain how evolution works. If we simplify his theory, it becomes clear why this attempt is so commonly ridiculed. Lamarck suggested that
 life in any environment is sometimes faced with changing conditions. Maybe the climate gets colder or warmer, or the habitat becomes wetter or drier. In these instances, Lamarck suggests,
 the life which occupies said environment must respond by changing its behavior (survival strategy). So far, this is all rather brilliant for the time. The perceived misstep in this theory comes
 from step three. This step suggests that, after changing its behavior, an organisms morphology will also change and, *importantly*, these physical changes which are acquired during life
-can subsequently by passed on to the next generation. This is illustrated in the text by the progressive lengthening of giraffe necks. Unfortunatly, it matters very little how much
-you change your body during life, your kids are unlikely to inheret the modifications (imagine if you lost your arm in an accident and had a child after...would they be born with one less
+can subsequently be passed on to the next generation. This is illustrated in the text by the progressive lengthening of giraffe necks. Unfortunatly, it matters very little how much
+you change your body during life, your kids are unlikely to inherit the modifications (imagine if you lost your arm in an accident and had a child after...would they be born with one less
 arm?). 
 
 Lamarck got a lot of things right. Very much like Al-Jahiz he recognized that the physical environment plays a big part in how life evolves and brilliantly pointed out that physical
@@ -160,14 +161,14 @@ the primary point is well-illustrated.
 We will talk about Malthus a good deal in this class. Make sure you understand what is meant by **Carrying Capacity**. Malthus was an economist that was interested in population pressure
 and resource limits. He recognized that people have a high <span title="Surviving to reproductive age, finding a mate, and leaving fertile/viable offspring">
 **Reproductive Fitness**</span> regardless of resource availability. More to the point, he observed that populations had a tendency to 
-grow geometrically (growth multiplies by a constant) while resources tend to grow linearlly (adding a fixed amount). Thus, populations will
-grow faster than resources. Populations, however, cannot grow indefintely in this way. At some point people will enevitably outweigh the amount 
+grow geometrically (growth multiplies by a constant) while resources tend to grow linearlly (adding a fixed amount). Thus, populations
+grow faster than resources. Populations, however, cannot grow indefintely in this way. At some point people will outweigh the amount 
 of available resources. Malthus referred to this as reaching the Carrying Capacity, or the number of people, other living organisms, or crops that 
 a region can support without environmental degradation.
 
 Of course, populations are seldom aware of their carrying capacity and have no agency in trying to maintain population size relative to it.
 This leads to the unfortunate consequences of growing population pressure: Malthusian Checks. Malthus suggested that population size would
-be kept in check as it neared or surpassed an environments carrying capacity by episodes of famine, disease, and interpersonal conflict (i.e., warfare)
+be kept in check as it neared or surpassed an environments carrying capacity by episodes of famine, disease, and interpersonal conflict (*i.e., warfare*)
 that would subsequently drop the population back under the resource threshold. 
 
 
