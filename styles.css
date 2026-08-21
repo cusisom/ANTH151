@@ -80,3 +80,20 @@ figcaption .underline {
   display: inline !important;            /* Restores native text behavior */
   font-style: normal !important;         /* OPTIONAL: Stands terms upright so they pop out */
 }
+
+/* 1. On very wide desktop screens, expand the layout to your preferred width */
+@media (min-width: 1400px) {
+  :root {
+    --quarto-body-width: 1200px !important;
+  }
+}
+
+/* 2. Prevent the left TOC and left Sidebar from crashing on medium screens */
+@media (max-width: 1399px) and (min-width: 992px) {
+  :root {
+    --quarto-body-width: 700px !important;
+  }
+  main.content {
+    overflow-x: auto; /* Adds a safety net to prevent text clipping */
+  }
+}
