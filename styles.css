@@ -80,3 +80,23 @@ figcaption .underline {
   display: inline !important;            /* Restores native text behavior */
   font-style: normal !important;         /* OPTIONAL: Stands terms upright so they pop out */
 }
+
+/* Only apply the extra wide layout on large desktop screens */
+@media (min-width: 1400px) {
+  #quarto-document-content, 
+  .quarto-container,
+  main.content {
+    max-width: 1200px !important;
+    width: 1200px !important;
+  }
+}
+
+/* Ensure text wraps nicely and doesn't overlap sidebars on medium/small screens */
+@media (max-width: 1399px) {
+  main.content {
+    max-width: 100% !important;
+    width: auto !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

@@ -42,9 +42,6 @@ format:
     tbl-cap-location: bottom
     theme:
       - minty
-    grid:
-      margin-width: 0px
-      body-width: 1200px
     css: styles.css
     from: markdown+emoji
     toc: true
