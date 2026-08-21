@@ -1,0 +1,14 @@
+---
+title: "Week Two: Humans as Primates"
+---
+
+::: {.callout-tip}
+## Key Points
+
+- [**Additional Assigned Reading:**]{ .underline } Ch. 5 in textbook; Sections: [Studying Primates in Biological Anthropology]{ .underline}, [Key Traits Used to Distinguish Between Primate Taxa]{.underline};
+Ch. 6 in textbook; Sections: [Sexual Selection]{.underline}, [Communication]{.underline}, [The Question of Culture]{.underline}
+- [**Key Terms:**]{ .underline } 
+- [**Summary:**]{ .underline } 
+:::
+
+![Primates are a remarkably variable and diverse taxonomic Order. This is the Order that you belong to.](../images/primates/primates.jpg){#fig-primates .lightbox width="70%"}

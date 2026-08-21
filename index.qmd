@@ -24,7 +24,7 @@ will be redundant if you read the syllabus but reviewing it twice is not a bad c
 to the How To Use This Site section. 
 
 Emerging Humanity is listed as "An introduction to human biological evolution and the archaeology of culture in the world prior to AD 1500". More specifically the course is designed
-to foster an understanding of human development and culture changes through time from prehistory to the present (or near present) and across major regions of the globe. It is meant
+to foster an understanding of human development and culture change through time from prehistory to the present (or near present) and across major regions of the globe. It is meant
 to both feature populations which varied in time and space as well as emphasize, at some point, unique cultural aspects of Hawaiian, Pacific, and/or Asian societies. 
 
 My approach to designing this course is thus: we will learn about the origin of our species, *Homo sapiens* and the ancestral hominins that preceded us, track the spread of our species across the globe (or at least
@@ -49,6 +49,20 @@ will end with the development of early Hawaiian civilizations and their unificat
 
 #### Exam Guide
 
+<div style="margin-bottom: 20px;">
+  <a class="btn btn-primary" href="files/Anth 151 online Exam format.pdf" download="Anth 151 online Exam format.pdf">
+    <i class="bi bi-download"></i> Download Exam Guide
+  </a>
+</div>
+
+<!-- Creates an interactive click-to-expand section -->
+<details>
+  <summary style="cursor: pointer; color: #007bff; font-weight: bold; margin-bottom: 10px;">
+    Preview Exam Guide
+  </summary>
+  <iframe src="files/Anth 151 online Exam format.pdf" width="100%" height="800px" style="border: 1px solid #ccc;"></iframe>
+</details>
+
 # How To Use This Site
 
 #### Navigating :airplane:
@@ -59,6 +73,10 @@ Each page will additionally display a Contents menu that can help you navigate f
 some will be Assigned, each week's page title will be followed by a (S) or an (A) respectively. The specific reading assignments are also noted under the Class Schedule and Reading Assignments heading
 in the syllabus. 
 
+I know that navigating two websites and a variety of textbooks and articles could get a little confusing. I will do my best to make things as straightforward as possible. To differentiate through
+the two website options, I will be sure to specify whether I am refering to the **Lamaku Site** or the **Course Webpage**. As is mentioned below, any journal articles that we read will be viewable (and
+downloadable) on the Lamaku Site and on our Course Webpage. 
+
 #### "Chapters" :book:
 
 For lack of a better term, we can refer to the weekly content pages as chapters. These chapters will either review/expand on your assigned reading, provide you a window to view an assigned article (or articles) and 
@@ -67,9 +85,13 @@ chapter title as these will tell you whether the chapter is Assigned or Supplime
 
 - Assigned reading format:
 	- textbook: ch.xx
-	- website: ch. xx
+	- Course Webpage: ch. xx
 
-Each Figure, Table, and Video in these web chapters is expandable by clicking on it. Some will also have drop down captions like the image above. Be sure to read through that information too when a website chapter is assigned. 
+**Important**: The assigned reading listed on the syllabus is a short reference. It does not specify which sections from the text book you are assigned to read. For this information you can
+either consult the corresponding week on this website or through the Lamaku site. Do not put yourself through the trouble of reading more than you have too. 
+
+Each Figure, Table, and Video in these web chapters is expandable by clicking on it. Some will also have drop down captions like the image above. Be sure to read through that information 
+too when a website chapter is assigned. 
 
 Articles will be presented in the same way as the syllabus above. There will be a window that can be expanded to read online as well as a button to download the PDF. These files will also be available on 
 our Lamaku page.

@@ -17,17 +17,19 @@ website:
         collapse-level: 1
         contents:
           - href: "Unit 1/Evolution.qmd"
-            text: "Wk 1. Evolution"
+            text: "Ch 1. Evolution (S)"
+          - href: "Unit 1/Primates.qmd"
+            text: "Ch 2. Humans as Primates (A)"
         
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1
         contents:
           - href: "Unit 2/Temporal.qmd"
-            text: "Wk 7. Temporal Context"
+            text: "Ch 7. Temporal Context (A)"
           - href: "Unit 2/Climate.qmd"
-            text: "Wk. 8 Environmental Context"
+            text: "Ch. 8 Environmental Context (A)"
           - href: "Unit 2/North_America.qmd"
-            text: "Wk 10.Peopling of the Americas"
+            text: "Ch 10. Peopling of the Americas (A)"
         
       - section: "Unit 3: Civilization"
         collapse-level: 1

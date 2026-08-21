@@ -245,12 +245,12 @@ that populations can change through selective breeding, Darwin went on to explai
 
 | Observations and Inferences | Description | 
 |---|---|---|
-| Variation | Populations vary greatly in their traits  | 
-| Inheritence | Traits are inherited from parents to offspring | 
-| Over-Production | All species are capable of reproducing quicker than available resources | 
-| Differential Survival | Due to resource limits, not all offspring survive | 
-| Inference #1 | Advantageous traits lead to greater fitness | 
-| Inference #2 | With differential-survival, the accumulation of favorable traits will change the population over time | 
+| **Variation** | Populations vary greatly in their traits  | 
+| **Inheritence** | Traits are inherited from parents to offspring | 
+| **Over-Production** | All species are capable of reproducing quicker than available resources | 
+| **Differential Survival** | Due to resource limits, not all offspring survive | 
+| **Inference #1** | Advantageous traits lead to greater fitness | 
+| **Inference #2** | With differential-survival, the accumulation of favorable traits will change the population over time | 
 
 : This is a quick and dirty overview of how Natural Selection was explained by Darwin {#tbl-naturalselection}
 
