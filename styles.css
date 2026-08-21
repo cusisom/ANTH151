@@ -81,22 +81,19 @@ figcaption .underline {
   font-style: normal !important;         /* OPTIONAL: Stands terms upright so they pop out */
 }
 
-/* Only apply the extra wide layout on large desktop screens */
+/* 1. On very wide desktop screens, expand the layout to your preferred width */
 @media (min-width: 1400px) {
-  #quarto-document-content, 
-  .quarto-container,
-  main.content {
-    max-width: 1200px !important;
-    width: 1200px !important;
+  :root {
+    --quarto-body-width: 1200px !important;
   }
 }
 
-/* Ensure text wraps nicely and doesn't overlap sidebars on medium/small screens */
-@media (max-width: 1399px) {
+/* 2. Prevent the left TOC and left Sidebar from crashing on medium screens */
+@media (max-width: 1399px) and (min-width: 992px) {
+  :root {
+    --quarto-body-width: 700px !important;
+  }
   main.content {
-    max-width: 100% !important;
-    width: auto !important;
-    padding-left: 20px;
-    padding-right: 20px;
+    overflow-x: auto; /* Adds a safety net to prevent text clipping */
   }
 }
