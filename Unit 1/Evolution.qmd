@@ -61,7 +61,7 @@ eggs (reproduce) without physical maturity.
 
 **Evolution** is less complicated and controversial than often presumed. At its core, it is a process of [change over time]{.underline}. As
 mentioned above, this change does not need to be from less complex to more complex, it is just change. For instance, one 
-awesome example that flys in the face of linear progression is the evolution of animals such as the Axolotl  [@Voss1997] which underwent a process
+awesome example that flies in the face of linear progression is the evolution of animals such as the Axolotl  [@Voss1997] which underwent a process
 called *Paedomorphosis* (essentially stopping the process of metamorphosis in the Salamander ancestor). In this case, the Axolotl form is the precursor 
 of the more "complex" Salamander form but it evolved to stay in the aquatic stage of its metamorphosis. This is absolutely an evolutionary step. It just
 would not fit the linear depiction so commonly seen. 
@@ -188,7 +188,7 @@ because of his networking abilities as he was because of his ideas.
 ::: {#fig-Capacity style="float: right; margin-right: 15px; max-width: 40%;"}
 ![](../images/Evolution/wallaceline.jpg){.lightbox}
 
-Discovery of a deep underwater trench that did not provided a land connection between the islands of SE Asia (Sunda) the islands of the Australian landmass (Sahul).
+Discovery of a deep underwater trench that did not provide a land connection between the islands of SE Asia (Sunda) the islands of the Australian landmass (Sahul).
 Wallace drew an imaginary line separating these regions (Wallace Line).   
 
 :::
@@ -309,11 +309,11 @@ Representation of Normal Distribution. We can use this as a means to consider th
 :::
 
 To understand how these different mechanisms work we should first try to think of how a single trait might vary in a population. Consider the following hypothetical in reference to the bell curve depicted
-here. We will imagine a species of fish that lives in a lake. As might be expected, this species varys in size. Some are pretty big, some are pretty small, but most of the population sits somewhere in the middle.
+here. We will imagine a species of fish that lives in a lake. As might be expected, this species varies in size. Some are pretty big, some are pretty small, but most of the population sits somewhere in the middle.
 This can be represnted on the bellcurve by identifying the middle (high point) of the curve as the most common size (medium). As the curve dips on the left, we are seeing size reduction and as it dips on the right,
 we are seeing enlargement. Thus, the left *tail* of the curve represents the smallest individuals in the population and the *tails* on the right represent the largest individuals. 
 
-With this population in mind, we can now alter the *selective pressures* to force its evolution through time. Specifically, we are going to change the physical enviornment and the predator population
+With this population in mind, we can now alter the *selective pressures* to force its evolution through time. Specifically, we are going to change the physical environment and the predator population
 in discrete ways for each selective mechanism.
 
 
