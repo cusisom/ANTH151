@@ -3,12 +3,11 @@ project:
 
 website:
   title: "ANTH151"
-  site-url: "https://cusisom.github.io/ANTH151/"
-  repo-url: "https://github.com/cusisom/ANTH151"
-      
+  site-url: "https://github.io"
+  repo-url: "https://github.com"
   sidebar:
-    style: "docked"
-    collapse-level: 1
+    style: "floating"       # FIXED: Changing from 'docked' allows the sidebar to collapse
+    collapse-level: 1       # Adds toggle capabilities to individual category headers
     contents:
       - href: index.qmd
         text: Home
@@ -49,4 +48,10 @@ format:
     toc: true
     toc-title: Contents
     toc-location: left
+    grid:                     # FIXED: Explicit pixel constraints to align elements smoothly
+      sidebar-width: 260px
+      margin-width: 260px
+      body-width: 900px
+      gutter-width: 20px
+
 

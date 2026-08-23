@@ -1,1 +1,1 @@
-Sitemap: https://cusisom.github.io/ANTH151/sitemap.xml
+Sitemap: https://github.io/sitemap.xml
