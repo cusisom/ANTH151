@@ -46,7 +46,7 @@
   /* Shift the actual lecture content far enough to clear both active left columns */
   main.content {
     grid-column: 1 / -1 !important; /* Break free of Quarto's compiled website tracks */
-    margin-left: 560px !important;  /* Creates exactly 560px of safe clearing space */
+    margin-left: 470px !important;  /* Creates exactly 560px of safe clearing space */
     max-width: 900px !important;    /* Keeps text standard and highly readable */
   }
 }
