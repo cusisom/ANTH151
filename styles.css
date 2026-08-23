@@ -59,7 +59,7 @@
   /* Force the text content to take up the rest of the screen without gaps */
   main.content {
     flex-grow: 1 !important;
-    max-width: 900px !important;
+    max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
