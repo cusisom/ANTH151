@@ -22,6 +22,7 @@
 }
 
 /* styles.css */
+/* FIXED: Optimized layout to protect the left sidebar on smaller windows */
 @media (min-width: 992px) {
   /* 1. Completely collapse the right-side margin structure */
   .quarto-margin-sidebar, 
@@ -30,17 +31,22 @@
     width: 0px !important;
   }
 
-  /* 2. Force the main text container to swallow the ghost tracks on the right */
+  /* 2. Fluid grid column assignment instead of strict 'screen-end' placement */
   main.content {
-    /* Tells the body text to stretch from track 4 all the way to the screen edge */
-    grid-column: 4 / screen-end !important;
-    
-    /* Dynamically balances the page using standard margins */
+    grid-column: 4 / 13 !important; /* Spans across standard grid tracks safely */
     max-width: 1200px !important; 
     margin-left: auto !important;
     margin-right: auto !important;
   }
 }
+
+/* 3. Global sidebar safety net to wrap long text links instead of clipping them */
+#quarto-sidebar, .quarto-sidebar {
+  word-wrap: break-word !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+
 
 /* Targets the collapsible section headings in Quarto's sidebar */
 .sidebar-item-section > .sidebar-item-container > .sidebar-item-text.sidebar-link {

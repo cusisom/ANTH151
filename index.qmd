@@ -87,7 +87,7 @@ chapter title as these will tell you whether the chapter is Assigned or Supplime
 	- textbook: ch.xx
 	- Course Webpage: ch. xx
 
-**Important**: The assigned reading listed on the syllabus is a short reference. It does not specify which sections from the text book you are assigned to read. For this information you can
+**Important**: The assigned reading listed on the syllabus is a short reference. It does not specify which sections from the textbook you are assigned to read. For this information you can
 either consult the corresponding week on this website or through the Lamaku site. Do not put yourself through the trouble of reading more than you have too. 
 
 Each Figure, Table, and Video in these web chapters is expandable by clicking on it. Some will also have drop down captions like the image above. Be sure to read through that information 
