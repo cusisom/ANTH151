@@ -22,13 +22,23 @@
 }
 
 /* ==========================================
-   2. ELIMINATE THE RIGHT GHOST GAP
+   2. NATIVE GRID ALLOCATION FOR STACKED LEFT PANELS
    ========================================== */
 @media (min-width: 992px) {
-  /* Forces the content area to swallow the empty right-side space */
+  /* Set explicit, consistent physical baselines for both stacked left elements */
+  #quarto-sidebar, 
+  .quarto-sidebar,
+  #quarto-margin-sidebar,
+  .quarto-margin-sidebar {
+    min-width: 250px !important;
+    max-width: 280px !important;
+  }
+
+  /* Force the text content to align tightly next to the panels without overlapping */
   main.content {
-    grid-column: 4 / screen-end !important; /* Tells the text to stretch to the right edge */
-    max-width: 1000px !important;           /* Limits row width for perfect readability */
+    grid-column: 5 / 13 !important; /* Shuts down the overlaying by starting at track 5 */
+    max-width: 950px !important;   /* Keeps formatting looking clean on wide viewports */
+    margin-left: 20px !important;   /* Defines a tight margin buffer near the columns */
     margin-right: auto !important;
   }
 }
