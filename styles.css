@@ -22,43 +22,16 @@
 }
 
 /* ==========================================
-   2. PRODUCTION GRID FIX (SOLVES THE LIVE OVERLAP)
-   ========================================== */
-@media (min-width: 992px) {
-  /* Set a clean, fixed proportional width for the primary sidebar container */
-  #quarto-sidebar, 
-  .quarto-sidebar,
-  .sidebar {
-    width: 260px !important;
-    max-width: 260px !important;
-    min-width: 260px !important;
-  }
-
-  /* Force the live Table of Contents container to step OUT of the sidebar's way */
-  #quarto-margin-sidebar,
-  .quarto-margin-sidebar {
-    left: 280px !important; /* Positions it precisely to the right of the navigation menu */
-    width: 240px !important;
-    max-width: 240px !important;
-    min-width: 240px !important;
-  }
-
-  /* Shift the actual lecture content far enough to clear both active left columns */
-  main.content {
-    grid-column: 1 / -1 !important; /* Break free of Quarto's compiled website tracks */
-    margin-left: 470px !important;  /* Creates exactly 560px of safe clearing space */
-    max-width: 900px !important;    /* Keeps text standard and highly readable */
-  }
-}
-
-/* ==========================================
-   3. TEXT OVERFLOW PROTECTION & CAPTIONS
+   2. TEXT OVERFLOW PROTECTION & CAPTIONS
    ========================================== */
 .sidebar-item-text, 
 .sidebar-link,
 nav.sidebar-navigation a,
 #TOC a,
-.toc-actions a {
+.toc-actions a,
+#quarto-sidebar, 
+.quarto-sidebar,
+#quarto-margin-sidebar {
   white-space: normal !important;
   word-break: break-word !important;
   overflow-wrap: break-word !important;
