@@ -1,99 +1,91 @@
-/* target the exact table cells inside our custom paleo container */
+/* ==========================================
+   1. TABLE FORMATTING & CUSTOM PALEO STYLES
+   ========================================== */
 .paleo-table table {
   width: 100%;
   border-collapse: collapse;
 }
 
 .paleo-table th {
-  background-color: #D17376 !important; /* Dark Gray Header */
-  color: #282E25 !important;            /* White Text */
+  background-color: #D17376 !important; 
+  color: #282E25 !important;            
   text-align: left !important;
   padding: 10px;
 }
 
 .paleo-table td {
-  background-color: #D6C3C3 !important; /* Light Gray Rows */
-  color: #212529 !important;            /* Dark Text */
-  text-align: left !important;          /* Keeps text left-aligned */
+  background-color: #D6C3C3 !important; 
+  color: #212529 !important;            
+  text-align: left !important;          
   padding: 10px;
   border-bottom: 1px solid #dee2e6;
 }
 
-/* FIXED: Both sidebars on the left without text clipping */
+/* ==========================================
+   2. PRODUCTION GRID FIX (SOLVES THE LIVE OVERLAP)
+   ========================================== */
 @media (min-width: 992px) {
-  /* 1. Prevent the navigation sidebar and left TOC from squishing under 250px */
+  /* Set a clean, fixed proportional width for the primary sidebar container */
   #quarto-sidebar, 
   .quarto-sidebar,
-  #quarto-margin-sidebar {
-    min-width: 250px !important;
-    max-width: 280px !important;
+  .sidebar {
+    width: 260px !important;
+    max-width: 260px !important;
+    min-width: 260px !important;
   }
 
-  /* 2. Push the main lecture content safely rightward so it never overlaps the left panels */
+  /* Force the live Table of Contents container to step OUT of the sidebar's way */
+  #quarto-margin-sidebar,
+  .quarto-margin-sidebar {
+    left: 280px !important; /* Positions it precisely to the right of the navigation menu */
+    width: 240px !important;
+    max-width: 240px !important;
+    min-width: 240px !important;
+  }
+
+  /* Shift the actual lecture content far enough to clear both active left columns */
   main.content {
-    grid-column: 4 / 13 !important;
-    padding-left: 20px !important;
-    max-width: 1200px !important; 
-    margin-left: auto !important;
-    margin-right: auto !important;
+    grid-column: 1 / -1 !important; /* Break free of Quarto's compiled website tracks */
+    margin-left: 470px !important;  /* Creates exactly 560px of safe clearing space */
+    max-width: 900px !important;    /* Keeps text standard and highly readable */
   }
 }
 
-/* 3. Global safety net: Forces long chapter links and TOC headers to wrap text naturally */
+/* ==========================================
+   3. TEXT OVERFLOW PROTECTION & CAPTIONS
+   ========================================== */
 .sidebar-item-text, 
 .sidebar-link,
 nav.sidebar-navigation a,
 #TOC a,
-.toc-actions a,
-#quarto-sidebar, 
-.quarto-sidebar {
+.toc-actions a {
   white-space: normal !important;
   word-break: break-word !important;
   overflow-wrap: break-word !important;
 }
 
-/* Targets the collapsible section headings in Quarto's sidebar */
 .sidebar-item-section > .sidebar-item-container > .sidebar-item-text.sidebar-link {
   font-weight: bold !important;
 }
 
-/* 1. Clean, Modern Formatting for the Caption Block */
-.figure-caption, 
-figcaption,
-.table-caption,
-caption {
-  display: block !important;          /* Replaces flex block to restore natural text wrapping */
-  text-align: left !important;        /* Left-aligns your description text */
-  font-style: italic !important;      /* Makes your description italicized */
-  color: #566573 !important;          /* Muted charcoal tint */
-  max-width: 90% !important;          /* Keeps text width proportional */
-  margin: 10px auto 0 auto !important; /* Centers the whole text block beneath images/tables */
+.figure-caption, figcaption, .table-caption, caption {
+  display: block !important;          
+  text-align: left !important;        
+  font-style: italic !important;      
+  color: #566573 !important;          
+  max-width: 90% !important;          
+  margin: 10px auto 0 auto !important; 
 }
 
-/* 2. Style Just the Prefix Label ("Fig. 1" or "Tbl. 1") */
-.figure-caption .counter, 
-figcaption .counter,
-.table-caption .counter,
-caption .counter {
-  display: inline !important;         /* Forces prefix onto the exact same line as text */
-  font-style: normal !important;      /* Keeps the prefix upright and crisp */
-  font-weight: bold !important;       /* Makes the prefix stand out */
-  margin-right: 5px !important;       /* Creates clean breathing room after the period */
+.figure-caption .counter, figcaption .counter, .table-caption .counter, caption .counter {
+  display: inline !important;         
+  font-style: normal !important;      
+  font-weight: bold !important;       
+  margin-right: 5px !important;       
 }
 
-/* 3. The Underline Override Fix */
-.figure-caption u, 
-figcaption u,
-.figure-caption .underline,
-figcaption .underline {
-  text-decoration: underline !important; /* Forces underline back into italic environments */
-  display: inline !important;            /* Restores native text behavior */
-  font-style: normal !important;         /* OPTIONAL: Stands terms upright so they pop out */
-}
-
-/* 1. On very wide desktop screens, expand the layout to your preferred width */
-@media (min-width: 1400px) {
-  :root {
-    --quarto-body-width: 1200px !important;
-  }
+.figure-caption u, figcaption u, .figure-caption .underline, figcaption .underline {
+  text-decoration: underline !important; 
+  display: inline !important;            
+  font-style: normal !important;         
 }
