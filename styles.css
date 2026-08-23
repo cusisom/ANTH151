@@ -22,7 +22,19 @@
 }
 
 /* ==========================================
-   2. TEXT OVERFLOW PROTECTION & CAPTIONS
+   2. ELIMINATE THE RIGHT GHOST GAP
+   ========================================== */
+@media (min-width: 992px) {
+  /* Forces the content area to swallow the empty right-side space */
+  main.content {
+    grid-column: 4 / screen-end !important; /* Tells the text to stretch to the right edge */
+    max-width: 1000px !important;           /* Limits row width for perfect readability */
+    margin-right: auto !important;
+  }
+}
+
+/* ==========================================
+   3. TEXT OVERFLOW PROTECTION & CAPTIONS
    ========================================== */
 .sidebar-item-text, 
 .sidebar-link,
