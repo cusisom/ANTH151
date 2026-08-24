@@ -17,19 +17,18 @@ Ch. 6 in textbook; Sections: [Sexual Selection]{.underline}, [Communication]{.un
 
 This is always kind of a fun section. It is one that is expanded on much more in the Biological Anthropology course and is aimed at 1) illustrating to students
 what the taxonomic group we belong to looks like, 2) walking through some of the fundementals of comparative anatomy and adaptive behavior/morphology, and 3) introducing the
-field of Primatology (of which students could choos to pursue a career in). For this class, however, it is a very brief introduction to understanding primates so that we can
-move forward into understanding our evolutionary history. Thus, we will spend this week only on non-human primates and use this knowledge as a yardstick to measure evolutionary changes
+field of Primatology (of which students could choose to pursue a career in). For this class, however, it is a very brief introduction to understanding primates so that we can
+move forward into understanding our evolutionary history. Thus, we will spend this week on non-human primates and use this knowledge as a yardstick to measure evolutionary changes
 in <span title="the narrowest group of human ancestors that is seperate from all other primates"> **hominins**</span>. 
 
 So what is a **Primate**? *You are a primate*! But you are not just a primate, right? You are also a **Mammal** (a placential mammal at that), a **Vertebrate**, an **Animal**, and etcetera. It 
 turns out that you belong to a number of different (but nested) taxonomic groups. How we define where we fall in this taxonomy depends on how narrow you want to be. For instance, you can define
 humans as being warm-blooded organisms which produce live offspring and nurse said offspring with mammary glands. This is all well and good, and is certainly accurate, but it is not very 
-helpful in defining *humans* specifically. What we have effectively done here is to identify our **Ancestral Traits** which ally us with all other placential mammals. Your reading covers 
-this crucial detail in the *Types of Traits* section. When biologists discuss particular groups of organisms, they often begin by sorting through these Ancestral and <span title="the traits most specifically associated with the group in question (evolved specifically in that group)"> **Derived Traits**</span>. This does not mean that other groups do not have some of these traits
+helpful in defining *humans* specifically. What we have effectively done here is to identify some of our **Ancestral Traits** which ally us with all other placential mammals. Your reading covers 
+this crucial detail in the *Types of Traits* section. When biologists discuss particular groups of organisms, they often begin by sorting through these Ancestral and <span title="the traits most specifically associated with the group in question (evolved specifically in that group)"> **Derived Traits**</span>. 
+Derived traits are those that are specifically associated with a specific group of organisms. This does not mean that other groups do not have some of these traits
 (consider that both Birds and Dragonflies have wings), but when looking at derived traits we can say that these specific traits definitely evolved in this particular group's evolutionary history.
 We can try to clear up a little confusion by discussing the ancestral and derived traits of Primates. 
-
-## Primate Derived Traits
 
 ::: {#fig-Tax1 style="float: right; margin-right: 15px; max-width: 40%;"}
 ![](../images/primates/Tax1.jpg){.lightbox}
@@ -42,19 +41,81 @@ The image was taken from *Sir Marlon: Virtual Classroom*
 
 :::
 
-As mentioned, Primates share a number of ancestral traits with different organims. Consider (@fig-Tax1), on the bottom left of this image you get a glimpse at our entire
+
+Primates share a number of ancestral traits with different organisms. Consider (@fig-Tax1). On the bottom left of this image you get a glimpse at our
 broad taxonomy (from Domain to Species). Notice that the name of our *Order* is Primates and that Primates are nested within Mammalia, Chordata, Animalia, and Eukarya. This tells us
 that we share traits (Ancestral) with all other members of these groups. When considering primates, examine the middle section of the image. Everything on the left (under Mammalia) is an Ancestral trait
 and everything on the right (under Primates) is derived for our Order. So, *yes* we are Mammals, but if we are to be more specific, we should define the Derived traits which make us primates.
 Later in this unit we will be even more narrow and define the derived traits which make us Hominins, members of the genus *Homo*, and finally, *Homo sapiens*. But first, Primates.
 
-The book does a good job of explaining primates in terms of a *suite of characteristics*. It emphasizes this because there is no singular trait that can be used to say that something is or is not a primate.
-Consider for instance the Opposable Thumb that we are so well known for. Opossums and Racoons, as well as Pandas, Koalas, Otters, and other animals also have this feature. Opposability of the thumb has
-evolved many times in many different animal groups and can not therefore be sued to specifically define primates. When used in combination with other traits, however, this characteristic can be informative.
-Thus, it is important to consider what combination of traits (unique or otherwise) make primates primates. In general, you can think about our Order in terms of adaptations associated with **vision**,
-**manual dexterity**, and **cognition**. 
+## Primate Derived Traits
+
+
+The book does a good job of explaining primates in terms of a *suite of characteristics*. It emphasizes this because there is no singular trait that can be used to say whether something is or is not a primate.
+Of course, it would be so much easier if we could define these groups with singular characteristics. Many of the higher taxonmic classifications work this way. Eukaryotes have cells with specific organelles 
+(such as the Mitochondria). Chordates have a spinal cord or pseudo-spinal chord (notochord). Animals are multicellular, mobile consumers. Which requires a few more characteristics, but that is straightforward.
+The farther you go down the line, however, the more specifically each group needs to be defined. This should make some sense for a nested classification. With each narrower assessment, the categories get more 
+*specific* (...all the way down to *species*). In our case, specificity does not mean a singular specific trait, but rather a specific organization of traits. A major reason for this is that, in the grand scheme of things,
+the narrow traits that define these more specific group are typically less consequential. This means that many organisms can exist with or without them and, because evolution is working off of pre-existing body plans (decent
+with modification), these features have a tendency to come in and out of existence often. Hence the evolution of wings which has evolved separately in insects, birds (archosaurs), and mammals (and kinda fish...though I don't know too much
+about this trait in fish). The different taxonomic groups do not require the existence of wings but their presence is derived in particular groups within each. Thus, wings become part of a suite of traits for different taxa.
+
+::: {#fig-thumb1 style="float: left; margin-right: 15px; max-width: 40%;"}
+![](../images/primates/thumb.gif){.lightbox}
+
+Illustrating the act an act of digital opposition. Specifically showing the muscle action for Flexor Pollicis Longus, one of the 6 muscles that activate to oppose the thumb against the fifth digit (pinky).
+
+:::
+
+Closer to home, we can discuss the **Opposable Thumb** that primates are so well-known for. Opposing the thumb simply means that the thumb can be moved to sit across from the other fingers. More specifically, the pad of the thumb
+can be positioned to face, and come in contact with the pads of the other digits, most notably the fifth (the "pinky finger"). This provides the hands with strong grasping abilities, allowing the user to wrap their
+hand around an object. Many vertebrates have five digits across their hands and feet but only some species can employ a <span title="wrapping all fingers and the palm tightly around an object"> **power**</span> 
+and/or <span title="using pad of thumb against the fingers"> **precision**</span> grip to hold onto substrates and/or to manipulate objects in the environment. While a defining trait, primates share the ability with animals such
+as Opossums and Raccoons, Otters, and Koalas (see also the *Shared Trait Caveat* below if interested). It is thus not a super useful classificatory trait on its own but if we were to combine the trait with others, a unique minimum set of traits could be established which defines the group. 
+Thus, it is important to consider what combination of traits (unique or otherwise) make primates primates. While there is a decent list of specifics, it may be first useful to the primate derived traits in broad categories.
+
+The Primate Order emerged at some point shortly before, or just after the extinction of the Dinosaurs (somewhere between 90 and 55 million years ago). They evolved to take advantage of an <span title="in and amongst the trees"> **Arboreal Environment**</span>
+adapted in three primary arenas. They developed increased dexterity to traverse branched environments and adapted to move through them efficiently. To help navigate and subsist amongst the trees, these animals adapted a 3-dimensional and 
+<span title="seeing three color spectrums"> **Trichromatic**</span> visual field. And along the way they evolved complex, high-functioning brains. It is then instructive to think about primate traits in terms of **Vision**,
+**Dexterity**, and **Cognition**.
+  
+
+
+  
+<details> 
+  <summary>Shared Trait Caveat</summary> 
+
+::: {style="float: right; margin-left: 20px; margin-bottom: 10px;"}
+
+  ![](../images/primates/phyly.jpg){.lightbox}
+:::
+
+  Many traits are shared across different vertebrate groups but are [not necessarily Ancestral]{.underline}. For the trait to be considered Ancestral for the group, it must have evolved [once]{.underline} in that evolutionary line. In the science of Systematics (science behind the classification of life), this illustrates the difference between Monophyletic and Polyphyletic groupings. Monophylic means a single group that shares a common ancestor and shares traits because of that whereas polyphyletic refers to a group that shares traits by chance and did not inherit that trait from a common ancestor (not an evolutionarily related group). The evolution of the opposable thumb in different large animal taxa (i.e., different Orders) such as Primates, Carnivora, and in Marsupials happened through a process called **Convergent Evolution** (the independent evolution of similar features in species of different lineages), where each group of animals developed this trait independently. Ancestral traits, on the other hand are found at the most recent common ancestors of the groups in question, and help us to form monophyletic groups.
+
+  <div style="clear: both;"></div> 
+</details>
+
+
+ 
 
 ## Vision
+
+::: {.card .border-success .w-70 .me-auto .mb-3}
+::: {.card-header .bg-success .text-white}
+**Primate Vision Adaptations and Morphology**
+:::
+::: {.card-body}
+
+| Trait | Description | Tradeoff|
+|---|---|---|
+| Stereoscopy | Forward facing eyes | Reduced Peripheral Vision/Reduced Prognathism/Olfaction |
+| Post-Orbital bar/plate/closure | Scaffolding for eyes/protection from masticatory muscles | Reduced Masticatory Power/Metabolic Energy |
+| Trichromatism | Ability to see Red Spectrum in addition to Blue/Yellow | Reduced Night Vision |
+
+: Very brief overview of key visual adaptations in *most* primates {#tbl-vision}
+
+:::
+:::
 
 ## Manual Dexterity
 
