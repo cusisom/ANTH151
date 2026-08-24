@@ -48,10 +48,11 @@ format:
     toc: true
     toc-title: Contents
     toc-location: left
+    page-layout: full
     grid:                     # FIXED: Explicit pixel constraints to align elements smoothly
       sidebar-width: 260px
       margin-width: 260px
-      body-width: 900px
+      body-width: 2000px
       gutter-width: 20px
 
 

@@ -38,7 +38,43 @@ A glance at how life can be classified. This image illustrates
 the two of the highest broad taxonomic categories (Domain and Kingdom) and depicts how they
 are differentiated. Notice how the Kingdoms fit into (or nest into) different 
 Domains. This also shows how humans fit into the narrower Class and Order categories. 
+The image was taken from *Sir Marlon: Virtual Classroom*
 
 :::
 
-As mentioned, Primates share a number of ancestral traits with different organims. 
+As mentioned, Primates share a number of ancestral traits with different organims. Consider (@fig-Tax1), on the bottom left of this image you get a glimpse at our entire
+broad taxonomy (from Domain to Species). Notice that the name of our *Order* is Primates and that Primates are nested within Mammalia, Chordata, Animalia, and Eukarya. This tells us
+that we share traits (Ancestral) with all other members of these groups. When considering primates, examine the middle section of the image. Everything on the left (under Mammalia) is an Ancestral trait
+and everything on the right (under Primates) is derived for our Order. So, *yes* we are Mammals, but if we are to be more specific, we should define the Derived traits which make us primates.
+Later in this unit we will be even more narrow and define the derived traits which make us Hominins, members of the genus *Homo*, and finally, *Homo sapiens*. But first, Primates.
+
+The book does a good job of explaining primates in terms of a *suite of characteristics*. It emphasizes this because there is no singular trait that can be used to say that something is or is not a primate.
+Consider for instance the Opposable Thumb that we are so well known for. Opossums and Racoons, as well as Pandas, Koalas, Otters, and other animals also have this feature. Opposability of the thumb has
+evolved many times in many different animal groups and can not therefore be sued to specifically define primates. When used in combination with other traits, however, this characteristic can be informative.
+Thus, it is important to consider what combination of traits (unique or otherwise) make primates primates. In general, you can think about our Order in terms of adaptations associated with **vision**,
+**manual dexterity**, and **cognition**. 
+
+## Vision
+
+## Manual Dexterity
+
+## Cognition
+
+# Differentiating Primates
+
+## Diet and Dentition
+
+### Body Size
+
+## Locomotion
+
+### Verticle Clinging and Leaping (VCL)
+
+### Quadrupedalism (Arboreal and Terrestrial)
+
+### Suspensory (Quadrumanus and Brachiation)
+
+#### Knuckle-Walking
+
+### Bipedalism
+	
