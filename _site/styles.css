@@ -22,26 +22,56 @@
 }
 
 /* ==========================================
-   2. NATIVE GRID ALLOCATION FOR STACKED LEFT PANELS
+   2. UNIVERSAL FLEX OVERRIDE (FIXES FULL SCREEN & OVERLAP)
+   ========================================== */
+/* ==========================================
+   2. UNIVERSAL FLEX OVERRIDE (FIXES FULL SCREEN & OVERLAP)
    ========================================== */
 @media (min-width: 992px) {
-  /* Set explicit, consistent physical baselines for both stacked left elements */
-  #quarto-sidebar, 
-  .quarto-sidebar,
-  #quarto-margin-sidebar,
-  .quarto-margin-sidebar {
-    min-width: 250px !important;
-    max-width: 280px !important;
+  /* Turn the master container into a standard side-by-side flex row */
+  .quarto-container-fluid {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+    max-width: 100% !important;
+    padding-left: 20px !important;
   }
 
-  /* Force the text content to align tightly next to the panels without overlapping */
+  /* Force navigation menu to be a clean, distinct left block - RESTORED STICKY */
+  #quarto-sidebar, .quarto-sidebar {
+    position: sticky !important; /* Changed from relative */
+    top: 2rem !important;        /* Gives space from top of window */
+    max-height: calc(100vh - 4rem) !important; /* Prevents leaking past screen height */
+    overflow-y: auto !important; /* Adds scrolling inside sidebar if items overflow */
+    width: 250px !important;
+    min-width: 250px !important;
+    max-width: 250px !important;
+    margin-right: 20px !important;
+  }
+
+  /* Force Table of Contents to sit neatly right next to the menu - RESTORED STICKY */
+  #quarto-margin-sidebar, .quarto-margin-sidebar {
+    position: sticky !important; /* Changed from relative */
+    top: 2rem !important;        /* Gives space from top of window */
+    max-height: calc(100vh - 4rem) !important; /* Prevents leaking past screen height */
+    overflow-y: auto !important; /* Adds scrolling inside TOC if items overflow */
+    width: 240px !important;
+    min-width: 240px !important;
+    max-width: 240px !important;
+    margin-right: 40px !important;
+    display: block !important;
+  }
+
+  /* Force the text content to take up the rest of the screen without gaps */
   main.content {
-    grid-column: 5 / 13 !important; /* Shuts down the overlaying by starting at track 5 */
-    max-width: 950px !important;   /* Keeps formatting looking clean on wide viewports */
-    margin-left: 20px !important;   /* Defines a tight margin buffer near the columns */
-    margin-right: auto !important;
+    flex-grow: 1 !important;
+    max-width: 1200px !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 }
+
 
 /* ==========================================
    3. TEXT OVERFLOW PROTECTION & CAPTIONS
@@ -50,10 +80,7 @@
 .sidebar-link,
 nav.sidebar-navigation a,
 #TOC a,
-.toc-actions a,
-#quarto-sidebar, 
-.quarto-sidebar,
-#quarto-margin-sidebar {
+.toc-actions a {
   white-space: normal !important;
   word-break: break-word !important;
   overflow-wrap: break-word !important;
@@ -70,17 +97,4 @@ nav.sidebar-navigation a,
   color: #566573 !important;          
   max-width: 90% !important;          
   margin: 10px auto 0 auto !important; 
-}
-
-.figure-caption .counter, figcaption .counter, .table-caption .counter, caption .counter {
-  display: inline !important;         
-  font-style: normal !important;      
-  font-weight: bold !important;       
-  margin-right: 5px !important;       
-}
-
-.figure-caption u, figcaption u, .figure-caption .underline, figcaption .underline {
-  text-decoration: underline !important; 
-  display: inline !important;            
-  font-style: normal !important;         
 }

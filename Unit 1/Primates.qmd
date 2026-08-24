@@ -12,3 +12,33 @@ Ch. 6 in textbook; Sections: [Sexual Selection]{.underline}, [Communication]{.un
 :::
 
 ![Primates are a remarkably variable and diverse taxonomic Order. This is the Order that you belong to.](../images/primates/primates.jpg){#fig-primates .lightbox width="70%"}
+
+# What are Primates?
+
+This is always kind of a fun section. It is one that is expanded on much more in the Biological Anthropology course and is aimed at 1) illustrating to students
+what the taxonomic group we belong to looks like, 2) walking through some of the fundementals of comparative anatomy and adaptive behavior/morphology, and 3) introducing the
+field of Primatology (of which students could choos to pursue a career in). For this class, however, it is a very brief introduction to understanding primates so that we can
+move forward into understanding our evolutionary history. Thus, we will spend this week only on non-human primates and use this knowledge as a yardstick to measure evolutionary changes
+in <span title="the narrowest group of human ancestors that is seperate from all other primates"> **hominins**</span>. 
+
+So what is a **Primate**? *You are a primate*! But you are not just a primate, right? You are also a **Mammal** (a placential mammal at that), a **Vertebrate**, an **Animal**, and etcetera. It 
+turns out that you belong to a number of different (but nested) taxonomic groups. How we define where we fall in this taxonomy depends on how narrow you want to be. For instance, you can define
+humans as being warm-blooded organisms which produce live offspring and nurse said offspring with mammary glands. This is all well and good, and is certainly accurate, but it is not very 
+helpful in defining *humans* specifically. What we have effectively done here is to identify our **Ancestral Traits** which ally us with all other placential mammals. Your reading covers 
+this crucial detail in the *Types of Traits* section. When biologists discuss particular groups of organisms, they often begin by sorting through these Ancestral and <span title="the traits most specifically associated with the group in question (evolved specifically in that group)"> **Derived Traits**</span>. This does not mean that other groups do not have some of these traits
+(consider that both Birds and Dragonflies have wings), but when looking at derived traits we can say that these specific traits definitely evolved in this particular group's evolutionary history.
+We can try to clear up a little confusion by discussing the ancestral and derived traits of Primates. 
+
+## Primate Derived Traits
+
+::: {#fig-Tax1 style="float: right; margin-right: 15px; max-width: 40%;"}
+![](../images/primates/Tax1.jpg){.lightbox}
+
+A glance at how life can be classified. This image illustrates
+the two of the highest broad taxonomic categories (Domain and Kingdom) and depicts how they
+are differentiated. Notice how the Kingdoms fit into (or nest into) different 
+Domains. This also shows how humans fit into the narrower Class and Order categories. 
+
+:::
+
+As mentioned, Primates share a number of ancestral traits with different organims. 
