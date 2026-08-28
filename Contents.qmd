@@ -1,0 +1,29 @@
+Contents for 151 (toc)
+
+    contents:
+      - href: index.qmd
+        text: Home
+        
+      - section: "Unit 1: Human Evolution"
+        collapse-level: 1
+        contents:
+          - href: "Unit 1/Evolution.qmd"
+            text: "Ch 1. Evolution (S)"
+          - href: "Unit 1/Primates.qmd"
+            text: "Ch 2. Humans as Primates (A)"
+        
+      - section: "Unit 2: Ancient Migrations"
+        collapse-level: 1
+        contents:
+          - href: "Unit 2/Temporal.qmd"
+            text: "Ch 7. Temporal Context (A)"
+          - href: "Unit 2/Climate.qmd"
+            text: "Ch. 8 Environmental Context (A)"
+          - href: "Unit 2/North_America.qmd"
+            text: "Ch 10. Peopling of the Americas (A)"
+        
+      - section: "Unit 3: Civilization"
+        collapse-level: 1
+        contents:
+          - href: index.qmd
+            text: "Unit 3 Coming Soon"

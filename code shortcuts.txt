@@ -27,3 +27,37 @@ Text-Wrapped Image
 ![](../images/dating.png){.lightbox}
 
 :::
+
+
+## This is a embedded image slideshow format. Untested.
+
+
+
+<div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+  
+    <!-- Slide 1 (Must have the 'active' class) -->
+    <div class="carousel-item active">
+      ![](../images/primates/squirrel1.jpg){.lightbox}
+    </div>
+    
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      ![](../images/primates/raccoon1.jpg){.lightbox}
+    </div>
+    
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      ![](../images/primates/image3.png){.lightbox}
+    </div>
+    
+  </div>
+  
+  <!-- Left and Right Navigation Arrow Buttons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </button>
+</div>

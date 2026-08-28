@@ -23,12 +23,8 @@ website:
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1
         contents:
-          - href: "Unit 2/Temporal.qmd"
-            text: "Ch 7. Temporal Context (A)"
-          - href: "Unit 2/Climate.qmd"
-            text: "Ch. 8 Environmental Context (A)"
-          - href: "Unit 2/North_America.qmd"
-            text: "Ch 10. Peopling of the Americas (A)"
+          - href: index.qmd
+            text: "Unit 2 Coming Soon"
         
       - section: "Unit 3: Civilization"
         collapse-level: 1

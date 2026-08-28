@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -190,20 +209,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Unit 2/Temporal.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ch 7. Temporal Context (A)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Unit 2/Climate.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ch. 8 Environmental Context (A)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../Unit 2/North_America.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ch 10. Peopling of the Americas (A)</span></a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Unit 2 Coming Soon</span></a>
   </div>
 </li>
       </ul>
@@ -234,23 +241,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-are-primates" id="toc-what-are-primates" class="nav-link active" data-scroll-target="#what-are-primates">What are Primates?</a>
   <ul class="collapse">
   <li><a href="#primate-derived-traits" id="toc-primate-derived-traits" class="nav-link" data-scroll-target="#primate-derived-traits">Primate Derived Traits</a></li>
-  <li><a href="#vision" id="toc-vision" class="nav-link" data-scroll-target="#vision">Vision</a></li>
   <li><a href="#manual-dexterity" id="toc-manual-dexterity" class="nav-link" data-scroll-target="#manual-dexterity">Manual Dexterity</a></li>
+  <li><a href="#vision" id="toc-vision" class="nav-link" data-scroll-target="#vision">Vision</a>
+  <ul class="collapse">
+  <li><a href="#stereoscopic-vision" id="toc-stereoscopic-vision" class="nav-link" data-scroll-target="#stereoscopic-vision">Stereoscopic Vision</a></li>
+  <li><a href="#trichromatic-vision" id="toc-trichromatic-vision" class="nav-link" data-scroll-target="#trichromatic-vision">Trichromatic Vision</a></li>
+  </ul></li>
   <li><a href="#cognition" id="toc-cognition" class="nav-link" data-scroll-target="#cognition">Cognition</a></li>
-  </ul></li>
-  <li><a href="#differentiating-primates" id="toc-differentiating-primates" class="nav-link" data-scroll-target="#differentiating-primates">Differentiating Primates</a>
-  <ul class="collapse">
-  <li><a href="#diet-and-dentition" id="toc-diet-and-dentition" class="nav-link" data-scroll-target="#diet-and-dentition">Diet and Dentition</a>
-  <ul class="collapse">
-  <li><a href="#body-size" id="toc-body-size" class="nav-link" data-scroll-target="#body-size">Body Size</a></li>
-  </ul></li>
-  <li><a href="#locomotion" id="toc-locomotion" class="nav-link" data-scroll-target="#locomotion">Locomotion</a>
-  <ul class="collapse">
-  <li><a href="#verticle-clinging-and-leaping-vcl" id="toc-verticle-clinging-and-leaping-vcl" class="nav-link" data-scroll-target="#verticle-clinging-and-leaping-vcl">Verticle Clinging and Leaping (VCL)</a></li>
-  <li><a href="#quadrupedalism-arboreal-and-terrestrial" id="toc-quadrupedalism-arboreal-and-terrestrial" class="nav-link" data-scroll-target="#quadrupedalism-arboreal-and-terrestrial">Quadrupedalism (Arboreal and Terrestrial)</a></li>
-  <li><a href="#suspensory-quadrumanus-and-brachiation" id="toc-suspensory-quadrumanus-and-brachiation" class="nav-link" data-scroll-target="#suspensory-quadrumanus-and-brachiation">Suspensory (Quadrumanus and Brachiation)</a></li>
-  <li><a href="#bipedalism" id="toc-bipedalism" class="nav-link" data-scroll-target="#bipedalism">Bipedalism</a></li>
-  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -311,7 +308,7 @@ Figure&nbsp;1: Primates are a remarkably variable and diverse taxonomic Order. T
 <section id="what-are-primates" class="level1">
 <h1>What are Primates?</h1>
 <p>This is always kind of a fun section. It is one that is expanded on much more in the Biological Anthropology course and is aimed at 1) illustrating to students what the taxonomic group we belong to looks like, 2) walking through some of the fundementals of comparative anatomy and adaptive behavior/morphology, and 3) introducing the field of Primatology (of which students could choose to pursue a career in). For this class, however, it is a very brief introduction to understanding primates so that we can move forward into understanding our evolutionary history. Thus, we will spend this week on non-human primates and use this knowledge as a yardstick to measure evolutionary changes in <span title="the narrowest group of human ancestors that is seperate from all other primates"> <strong>hominins</strong></span>.</p>
-<p>So what is a <strong>Primate</strong>? <em>You are a primate</em>! But you are not just a primate, right? You are also a <strong>Mammal</strong> (a placential mammal at that), a <strong>Vertebrate</strong>, an <strong>Animal</strong>, and etcetera. It turns out that you belong to a number of different (but nested) taxonomic groups. How we define where we fall in this taxonomy depends on how narrow you want to be. For instance, you can define humans as being warm-blooded organisms which produce live offspring and nurse said offspring with mammary glands. This is all well and good, and is certainly accurate, but it is not very helpful in defining <em>humans</em> specifically. What we have effectively done here is to identify some of our <strong>Ancestral Traits</strong> which ally us with all other placential mammals. Your reading covers this crucial detail in the <em>Types of Traits</em> section. When biologists discuss particular groups of organisms, they often begin by sorting through these Ancestral and <span title="the traits most specifically associated with the group in question (evolved specifically in that group)"> <strong>Derived Traits</strong></span>. Derived traits are those that are specifically associated with a specific group of organisms. This does not mean that other groups do not have some of these traits (consider that both Birds and Dragonflies have wings), but when looking at derived traits we can say that these specific traits definitely evolved in this particular group’s evolutionary history. We can try to clear up a little confusion by discussing the ancestral and derived traits of Primates.</p>
+<p>So what is a <strong>Primate</strong>? <em>You are a primate</em>! But you are not just a primate, right? You are also a <strong>Mammal</strong> (a placential mammal at that), a <strong>Vertebrate</strong>, an <strong>Animal</strong>, and etcetera. It turns out that you belong to a number of different (but nested) taxonomic groups. How we define where we fall in this taxonomy depends on how narrow you want to be. For instance, you can define humans as being warm-blooded organisms which produce live offspring and nurse said offspring with mammary glands. This is all well and good, and is certainly accurate, but it is not very helpful in defining <em>humans</em> specifically. What we have effectively done here is to identify some of our <strong>Ancestral Traits</strong> which ally us with all other placential mammals. Your reading covers this information in the <em>Types of Traits</em> section. When biologists discuss particular groups of organisms, they often begin by sorting through Ancestral and <span title="the traits most specifically associated with the group in question (evolved specifically in that group)"> <strong>Derived Traits</strong></span>. Derived traits are those that are specifically associated with a specific group of organisms. This does not mean that other groups do not have some of these traits (consider that both Birds and Dragonflies have wings), but when identifying derived traits we mean to say that they evolved once in the common ancestor of the group and were passed on (inherited) to the decendent populations (or species). We can try to clear up a little confusion by discussing the ancestral and derived traits of Primates.</p>
 <div id="fig-Tax1" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 40%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-Tax1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -325,19 +322,18 @@ Figure&nbsp;2: A glance at how life can be classified. This image illustrates th
 <p>Primates share a number of ancestral traits with different organisms. Consider (<a href="#fig-Tax1" class="quarto-xref">Figure&nbsp;2</a>). On the bottom left of this image you get a glimpse at our broad taxonomy (from Domain to Species). Notice that the name of our <em>Order</em> is Primates and that Primates are nested within Mammalia, Chordata, Animalia, and Eukarya. This tells us that we share traits (Ancestral) with all other members of these groups. When considering primates, examine the middle section of the image. Everything on the left (under Mammalia) is an Ancestral trait and everything on the right (under Primates) is derived for our Order. So, <em>yes</em> we are Mammals, but if we are to be more specific, we should define the Derived traits which make us primates. Later in this unit we will be even more narrow and define the derived traits which make us Hominins, members of the genus <em>Homo</em>, and finally, <em>Homo sapiens</em>. But first, Primates.</p>
 <section id="primate-derived-traits" class="level2">
 <h2 class="anchored" data-anchor-id="primate-derived-traits">Primate Derived Traits</h2>
-<p>The book does a good job of explaining primates in terms of a <em>suite of characteristics</em>. It emphasizes this because there is no singular trait that can be used to say whether something is or is not a primate. Of course, it would be so much easier if we could define these groups with singular characteristics. Many of the higher taxonmic classifications work this way. Eukaryotes have cells with specific organelles (such as the Mitochondria). Chordates have a spinal cord or pseudo-spinal chord (notochord). Animals are multicellular, mobile consumers. Which requires a few more characteristics, but that is straightforward. The farther you go down the line, however, the more specifically each group needs to be defined. This should make some sense for a nested classification. With each narrower assessment, the categories get more <em>specific</em> (…all the way down to <em>species</em>). In our case, specificity does not mean a singular specific trait, but rather a specific organization of traits. A major reason for this is that, in the grand scheme of things, the narrow traits that define these more specific group are typically less consequential. This means that many organisms can exist with or without them and, because evolution is working off of pre-existing body plans (decent with modification), these features have a tendency to come in and out of existence often. Hence the evolution of wings which has evolved separately in insects, birds (archosaurs), and mammals (and kinda fish…though I don’t know too much about this trait in fish). The different taxonomic groups do not require the existence of wings but their presence is derived in particular groups within each. Thus, wings become part of a suite of traits for different taxa.</p>
-<div id="fig-thumb1" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 40%;">
+<p>The book does a good job of explaining primates in terms of a <em>suite of characteristics</em>. It emphasizes this because there is no singular trait that can be used to say whether something is or is not a primate. Of course, it would be so much easier if we could define these groups with singular characteristics. Many of the higher taxonmic classifications work this way. Eukaryotes have cells with specific organelles (such as the Mitochondria). Chordates have a spinal cord or pseudo-spinal cord (notochord). Animals are multicellular, mobile consumers. Which requires a few more characteristics, but is still pretty straightforward. The farther you go down the line, however, the more specifically each group needs to be defined. This should make some sense for a nested classification. With each narrower assessment, the categories get more <em>specific</em> (…all the way down to <em>species</em>). In our case, specificity does not mean a singular unique trait, but rather a specific organization of traits. A major reason for this is that, in the grand scheme of things, the narrow traits that define these more specific group are typically less consequential. This means that many organisms can exist with or without them and, because evolution is working off of pre-existing body plans (<em>decent with modification</em>), these features have a tendency to come in and out of existence often. Hence the evolution of wings which has evolved seperately in insects, birds (archosaurs), and mammals (and kinda fish…though I don’t know too much about this trait in fish). The different taxonomic groups do not require the existence of wings but their presence is derived in particular groups within each. Thus, wings become part of a suite of traits for different taxa.</p>
+<div id="fig-thumb1" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 30%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-thumb1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="../images/primates/thumb.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: Illustrating the act an act of digital opposition. Specifically showing the muscle action for Flexor Pollicis Longus, one of the 6 muscles that activate to oppose the thumb against the fifth digit (pinky)."><img src="../images/primates/thumb.gif" class="img-fluid figure-img"></a>
+<a href="../images/primates/thumb.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;3: Showing primary muscle actions of thumb opposition."><img src="../images/primates/thumb.gif" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-thumb1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3: Illustrating the act an act of digital opposition. Specifically showing the muscle action for Flexor Pollicis Longus, one of the 6 muscles that activate to oppose the thumb against the fifth digit (pinky).
+Figure&nbsp;3: Showing primary muscle actions of thumb opposition.
 </figcaption>
 </figure>
 </div>
-<p>Closer to home, we can discuss the <strong>Opposable Thumb</strong> that primates are so well-known for. Opposing the thumb simply means that the thumb can be moved to sit across from the other fingers. More specifically, the pad of the thumb can be positioned to face, and come in contact with the pads of the other digits, most notably the fifth (the “pinky finger”). This provides the hands with strong grasping abilities, allowing the user to wrap their hand around an object. Many vertebrates have five digits across their hands and feet but only some species can employ a <span title="wrapping all fingers and the palm tightly around an object"> <strong>power</strong></span> and/or <span title="using pad of thumb against the fingers"> <strong>precision</strong></span> grip to hold onto substrates and/or to manipulate objects in the environment. While a defining trait, primates share the ability with animals such as Opossums and Raccoons, Otters, and Koalas (see also the <em>Shared Trait Caveat</em> below if interested). It is thus not a super useful classificatory trait on its own but if we were to combine the trait with others, a unique minimum set of traits could be established which defines the group. Thus, it is important to consider what combination of traits (unique or otherwise) make primates primates. While there is a decent list of specifics, it may be first useful to the primate derived traits in broad categories.</p>
-<p>The Primate Order emerged at some point shortly before, or just after the extinction of the Dinosaurs (somewhere between 90 and 55 million years ago). They evolved to take advantage of an <span title="in and amongst the trees"> <strong>Arboreal Environment</strong></span> adapted in three primary arenas. They developed increased dexterity to traverse branched environments and adapted to move through them efficiently. To help navigate and subsist amongst the trees, these animals adapted a 3-dimensional and <span title="seeing three color spectrums"> <strong>Trichromatic</strong></span> visual field. And along the way they evolved complex, high-functioning brains. It is then instructive to think about primate traits in terms of <strong>Vision</strong>, <strong>Dexterity</strong>, and <strong>Cognition</strong>.</p>
+<p>Closer to home, we can discuss the <strong>Opposable Thumb</strong> that primates are so well-known for. Opposability of the thumb simply means that the thumb can be moved over the palm to sit across from the other fingers. More specifically, the pad of the thumb can be positioned to face and come in contact with the pads of the other digits, most notably the fifth (the “pinky finger”). This provides the hands with strong grasping abilities, allowing the user to wrap their hand around an object. Many vertebrates have five digits across their hands and feet but only some species can employ a <span title="wrapping all fingers and the palm tightly around an object"> <strong>power</strong></span> and/or <span title="using pad of thumb against the fingers"> <strong>precision</strong></span> grip to hold onto substrates and/or to manipulate objects in the environment. While a defining trait, primates share this <span title="grasping"> <strong>Prehensile</strong></span> ability with animals such as Opossums and Raccoons, Otters, and Koalas (see also the <em>Shared Trait Caveat</em> below if interested). It is thus not a super useful classificatory trait on its own but if we were to combine the trait with others, a unique minimum set of traits could be established which defines the group, and that’s the goal. Thus, it is important to consider what combination of traits (unique or otherwise) make primates primates. While there is a decent list of specifics, it may be first useful to the primate derived traits in broad categories.</p>
 <details>
 <summary>
 Shared Trait Caveat
@@ -350,9 +346,322 @@ Shared Trait Caveat
 
 </div>
 </details>
+<p>The Primate Order emerged at some point shortly before, or just after the extinction of the Dinosaurs (somewhere between 90 and 55 million years ago). They evolved to take advantage of an <span title="in and amongst the trees"> <strong>Arboreal Environment</strong></span>, adapting in three primary ways. They developed increased dexterity to traverse branched environments and adapted to move through them efficiently. To help navigate and subsist amongst the trees, these animals adapted a 3-dimensional and <span title="seeing three color spectrums"> <strong>Trichromatic</strong></span> visual field. And along the way primates evolved complex, high-functioning brains. It is then instructive to think about primate traits in terms of <strong>Vision</strong>, <strong>Dexterity</strong>, and <strong>Cognition</strong>.</p>
+</section>
+<section id="manual-dexterity" class="level2">
+<h2 class="anchored" data-anchor-id="manual-dexterity">Manual Dexterity</h2>
+<p>As I mentioned before, much of our anatomy is ancestral. A good starting point to undersand our adapted dexterity then is to consider the ancestral trait of being <strong>Pentadactyl</strong>. Pentadactyl means that we have 5 digits (fingers and toes) per hand/foot. Consider how many mammals have modified this trait. Horses have only one digit on each foot. Cats and dogs really only have 4. The Tapirs of South America have 3. Primates, rodents, and related mammals retain the 5-digit (pentadactyl) appendage. Our hands (and most primate feet) <em>have</em> been modified, however, for enhanced grasping (or prehensility). Adaptations associated with the hands and feet of primates emerged early in our evolutionary history in a group of pseudo-primates called <em>Plesiadapiforms</em> (no need to remember this term). Identifiable in the species <em>Carpolestes simpsoni</em> (or this one), the first adaptation in the primate trajectory was the development of the <strong>Opposable Big Toe</strong> and the presence of a <strong>Flattened Toenail</strong> over it instead of a claw. Keep in mind that the evolution of traits which define taxonomic groups is often an additive process. Not all traits emerge at the same time. Primates share a deep common ancestor with Rodents and so exhibited a number of rodent-like traits early on. These traits were subsequently modified through evolution as the group began adapting strongly to arboreal conditions. Thus, these early rodent-like Plesiadapiforms scurried through the trees and slowly accumulated traits that would come to represent primates.</p>
+<div id="fig-thumb1" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 25%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-thumb1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/carpolestes.gif" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;4: Artist rendition of Carpolestes simposoni."><img src="../images/primates/carpolestes.gif" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-thumb1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Artist rendition of <em>Carpolestes simposoni</em>.
+</figcaption>
+</figure>
+</div>
+<p>Ok, so the opposable big toe and the replacement of a claw with a flattened toenail developed before any of the other traits we are going to discuss. But why these traits? How come these traits form the floor of the primate evolutionary tree? I began explaining the value of Prehensile hands and feet above. Primates are some of the only animals in the world that can effectively grip objects and substraits of variable size. This ability can be used to hang from branches, wield tools, and/or manipulate small objects. Additionally, the flattened nails over these digits expose the pads of our fingers and toes which have developed concentric ridges (<strong>Frictional Ridges</strong>) across their surfaces. These <em>finger prints</em> have a couple of different functions which ultimately aid in generating friction across surfaces (though not necessarily in the way that you’d think (<span class="citation" data-cites="Scheibert2009">Scheibert et al. (<a href="#ref-Scheibert2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="Warman2009">Warman and Ennos (<a href="#ref-Warman2009" role="doc-biblioref">2009</a>)</span>, <span class="citation" data-cites="Yum2020">Yum et al. (<a href="#ref-Yum2020" role="doc-biblioref">2020</a>)</span>). The adaptation of prehensile digits, with wide fingertips covered in nails (not claws), and ridged finger pads all work together to increase grip strength across different surfaces. These likely evolved in <em>Carpolestes</em> to assist in traversing small and narrow branches that a clawed animal would have difficulty grasping (<span class="citation" data-cites="Silcox2013">Silcox et al. (<a href="#ref-Silcox2013" role="doc-biblioref">2013</a>)</span>). This is particularly the case as one appendage (arm/hand) would inevitably be used to reach and collect resources (such as small flowers, fruits, or insects) while the other three worked to stabilize the body across that small branch. Check out the two videos below for a better understanding of these dynamic traits.</p>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-nails" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-nails-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/7w2gCBL1MCg" width="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-nails-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: <em>Nails not Claws</em>
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-friction" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-friction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/sm8vvOyjKZ4" width="100%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-friction-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: <em>Friction climbing in primates</em>
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="card border-success w-70 me-auto mb-3">
+<div class="card-header bg-success text-white">
+<p><strong>Primate Dexterity Adaptations and Morphology</strong></p>
+</div>
+<div class="card-body">
+<div id="tbl-dexterity" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-dexterity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Trait</th>
+<th>Description</th>
+<th>Tradeoff</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Prehensility</strong></td>
+<td>Grasping ability afforded by opposable digits</td>
+<td>Stiffness of feet/reduced running speed and efficiency</td>
+</tr>
+<tr class="even">
+<td><strong>Flattened finger/toe nails</strong></td>
+<td>Lack of claws. Exposing digital pads</td>
+<td>Loss of defensive/offensive trait. Inability to climb flat surfaces</td>
+</tr>
+<tr class="odd">
+<td><strong>Frictional Ridges</strong></td>
+<td>Finger prints. Increased mechanical traction/slip prevention</td>
+<td>Not sure there is one</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-dexterity-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Very brief overview of key dexterity adaptations in <em>most</em> primates
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 </section>
 <section id="vision" class="level2">
 <h2 class="anchored" data-anchor-id="vision">Vision</h2>
+<p>While the evolution of dexterous appendages was key in the initial development of primate anatomy, it is not a stretch to suggest that subsequent visual adaptations were among the more dynamic and inluential modifications for our success. As our primate ancestors became more accustomed to moving through arboreal environments, adaptations emphasizing visual perception began to emerge. Sensory systems dictate how an organism perceives the world around it and alterations to these systems have large scale impacts on neurocomplexity. Any one change to such a system can have big evolutionary impacts, but primates developed two (3-dimensional vision and enhanced color vision) that greatly shifted our trajectory.</p>
+<section id="stereoscopic-vision" class="level3">
+<h3 class="anchored" data-anchor-id="stereoscopic-vision">Stereoscopic Vision</h3>
+<p>Seeing in three dimensions (<strong>Stereoscopic Vision</strong>) mostly accounts for the ability to perceive depth. <strong>Depth Perception</strong> is a sensory process where the brain determines spatial relationships in terms of <u>distance</u>, <u>speed</u>, and <u>trajectory</u>. It is such a significant adaptation that it has evolved in a variety of large taxonomic groups in different ways. One common strategy to perceive the 3-dimensional world is to integrate inputs from mutliple sensory organs simultaneosly. While <span title="the combined effort of multiple sensory organs to perceive the surrounding environment"> <em>multi-sensory integration</em></span> is a clever way to perceive the 3-dimensional world, with each integrated sense organ there is a reduction in processing speed and an increase in processing cost (metabolic energy). This is exactly the case for 3-D vision (<span class="citation" data-cites="Surmeli2025">SURMELI (<a href="#ref-Surmeli2025" role="doc-biblioref">2025</a>)</span>). Many fish, for example, have a built in system (<em>lateral line</em>) for detecting change in water pressure and currents that, along with visual perception, help them map out their 3-dimensional environment. Mammals, as well, often employ whiskers along with visual or olfactory organs to sense changes in air and/or water currents. As these animals utilize multiple inputs simultaneously to perceive their environments, they incur the aforementioned penalties. An alternative strategy to perceiving depth is accomplished in the streamlined visual system of animals such as Primates. While it requires emphasizing one sensory receptor over another (<u>Evolutionary Tradeoff</u>), adapting Stereoscopic Vision allows for a highly efficient and rapid sensory pathway which optimizes visual acuity and depth perception.</p>
+<div id="fig-stereo" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 25%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-stereo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/stereo.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure&nbsp;7: Stereoscopic vision refers to overlapping fields of vision that facilitate depth perception."><img src="../images/primates/stereo.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stereo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Stereoscopic vision refers to overlapping fields of vision that facilitate depth perception.
+</figcaption>
+</figure>
+</div>
+<p>Stereoscopic vision is facilitated by the forward migration of the eyes to the front of the primate face. Like Carnivores, Primates benefit from the ability of overlapping visual fields to piece together 3D environments. Many non-predatory mammals, including the Primate Last Common Ancestor, instead have laterally postioned eyes (placed on the sides of the head, like Cattle or Deer). While this placement doesn’t allow the individual to perceive depth all that well, it does provide a wide-ranging visual field that increases detection of potential predators. As seen in <a href="#fig-stereo" class="quarto-xref">Figure&nbsp;7</a>, this evolutionary shift represents a tradeoff on either side of the visual scale. The centrally placed eyes of the Lemur create an overlapping field of vision (A + B), granting them high-fidelity stereoscopic vision. This shift in eye placement, however, leaves stereoscopic animals blind to the space behind. The laterally placed eyes of the Rabbit provide a greater visual range with the included ability to pretty-well see behind them.</p>
+<section id="associated-costs" class="level4">
+<h4 class="anchored" data-anchor-id="associated-costs">Associated Costs</h4>
+<p>A morphological shift at this scale requires a fair amount of reshaping (or remodelling) of the skull. Imagine the skull is made out of a block of clay. Any sort of reshaping you do of one region (say around the eyes) will necessarily pull clay from another region. All organisms have their own delicate internal economy. This is to say that the materials and energy that are put into the development of bodily tissues (muscles, bones and sinews) are finite. Thus, when optimization of a body occurs over evolutionary time, it is done so through a series of distinct <span title="evolutionary improvement of one trait at the cost of another"> <strong>Evolutionary Tradeoffs</strong></span>. Hence, molding extra clay into one region of our clay-block skull incurs a tradeoff which removes clay from a different region. Here inlies the issue for Primates. Remodelling our sensory dependence since the Primate Last Common Ancestor required reducing the energy and material allocation dedicated to smell and redistributed it to highten our vision (<span class="citation" data-cites="Barton1995">Barton et al. (<a href="#ref-Barton1995" role="doc-biblioref">1995</a>)</span>). Notice in <a href="#fig-viscompare" class="quarto-xref">Figure&nbsp;8</a> how the Lemur skull has its cheek bones shifted forward and its snout pulled back. This is the exact tradeoff that we are talking about and can explain in a bit more detail.</p>
+<div id="fig-viscompare" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 20%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-viscompare-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/viscompare.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Figure&nbsp;8: Top-down comparison of the eye placement in (a) Treeshrews and (b) Lemurs. Notice that the eyes do not necessarily move. Instead it is as if they pivot forward. As they do two things happen: 1) the nasal region shortens and, 2) the boney region around the eye becomes thicker."><img src="../images/primates/viscompare.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-viscompare-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: Top-down comparison of the eye placement in (a) Treeshrews and (b) Lemurs. Notice that the eyes do not necessarily move. Instead it is as if they pivot forward. As they do two things happen: 1) the nasal region shortens and, 2) the boney region around the eye becomes thicker.
+</figcaption>
+</figure>
+</div>
+<section id="cost-1-reduced-prognathism-olfaction" class="level5">
+<h5 class="anchored" data-anchor-id="cost-1-reduced-prognathism-olfaction">Cost #1: Reduced Prognathism &amp; Olfaction</h5>
+<p>First, shifting the eyes forward requires new scaffolding. Pulling (or pivoting) the eyes forward requires 1) larger boney attachment for the muscles of the eyes and 2) a larger skeletal barrier between this important sensory organ and the physical environment. Thus, early Primates evolved a distinct boney ring around the eyes called the <strong>Post-Orbital Bar</strong>. This bar acts to fulfill the two above requirements. Scroll through the images below (click on each for descriptions). The first is (<em>image #1</em>) a Gray Squirrel that has a standard rodent morphology for laterally placed eyes. Again, this is a common adaptation for prey animals that do not rely on vision-centric depth perception to navigate their environments. As you move through the next two images, you can see two different strategies for the development of stereoscopy. The Raccoon (<em>image #2</em>) illustrates a common morphological shift to stereoscopy where the eyes pivot forward by repositioning and bolstering the cheek bones (<em>Zygomatic bones</em>). The Fishing Cat (<em>image #3</em>) has a similar morphology but places less emphasis on the cheek bones and more emphasis on developing a boney ring around the eyes. We will come to see that these two strategies directly relate to the primary muscles used while chewing. Finally, the Pachylemur skull (<em>image #4</em>) exhibits broad cheek bones with a full boney ring around the eye orbit.</p>
+<!-- Outer Bound Box (Max-width 300px) -->
+<div id="primateSlider" class="carousel slide" data-bs-interval="false" style="max-width: 300px; width: 100%; float: right; margin-left: 20px; margin-bottom: 15px; overflow: hidden; position: relative;">
+  
+  <!-- Carousel Image Slides Track -->
+  <div class="carousel-inner">
+  
+    <!-- Slide 1 (active) -->
+    <div class="carousel-item active" style="position: relative;">
+      <!-- Slide Number Badge overlaying the top-right corner -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">1 / 4</span>
+      </div>
+      
+      <a href="../images/primates/squirrel1.jpg" class="lightbox" data-gallery="primate-gallery" title="Gray Squirrel" data-description="Laterally placed eyes. Great peripheral vision but little depth perception. ">
+        <img src="../images/primates/squirrel1.jpg" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Squirrel Monkey">
+      </a>
+    </div>
+    
+    <!-- Slide 2 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">2 / 4</span>
+      </div>
+      
+      <a href="../images/primates/raccoon1.jpg" class="lightbox" data-gallery="primate-gallery" title="Raccoon" data-description="The eyes pivot centrally by pushing the cheek bones forward. Notice that there is no additional upper or posterior scaffolding">
+        <img src="../images/primates/raccoon1.jpg" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Raccoon">
+      </a>
+    </div>
+    
+    <!-- Slide 3 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">3 / 4</span>
+      </div>
+      
+      <a href="../images/primates/cat.jpg" class="lightbox" data-gallery="primate-gallery" title="Fishing Cat (*Prionailurus viverrinus*)" data-description="Similar to the Raccoon but there was very little movement of the cheeck bones. There is, however, additional scaffolding around the eye socket">
+        <img src="../images/primates/cat.jpg" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Cat">
+      </a>
+    </div>
+    
+    <!-- Slide 4 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">4 / 4</span>
+      </div>
+      
+      <a href="../images/primates/pachylemur.jpg" class="lightbox" data-gallery="primate-gallery" title="Pachylemur" data-description="This Lemur species went extinct about 1000 years ago. Notice the complete boney ring around the forward-positioned eyes">
+        <img src="../images/primates/pachylemur.jpg" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Cat">
+      </a>
+    </div>
+    
+  </div>
+  
+  <!-- Left Control Arrow -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#primateSlider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1); transform: scale(1.0);"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  
+  <!-- Right Control Arrow -->
+  <button class="carousel-control-next" type="button" data-bs-target="#primateSlider" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1); transform: scale(1.0);"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+<!-- Inline CSS to make sure text layout behaves nicely on phones -->
+<style>
+@media (max-width: 576px) {
+  #primateSlider {
+    float: none !important;
+    margin: 0 auto 20px auto !important;
+  }
+}
+</style>
+<p>In each of the three stereoscopic animals, you should also be able to notice the reduction of the snout as you did in <a href="#fig-viscompare" class="quarto-xref">Figure&nbsp;8</a>. The term that anthropologists use to examine this phenomenon is <strong>Prognathism</strong>. While not mentioned in the assigned chapters from our textbook, Prognathism (the forward portrusion jaw and face) is an important morphological variable in a lot of anthropological research (<em>including primatology, paleoanthropology, bioarchaeology, and forensic anthropology</em>). Applied here we would say that as primates evolved stereoscopic vision they experienced a correlated reduction in <em>prognathism</em>. This provides evidence of one of the associated costs of stereoscopy. As our primate ancestors developed highly 3-dimensional vision they sacrificed (<em>evolutionary tradeoff</em>) acuity in the sense of smell (<em>olfaction</em>).</p>
+</section>
+<section id="cost-2-bite-force" class="level5">
+<h5 class="anchored" data-anchor-id="cost-2-bite-force">Cost #2: Bite Force</h5>
+<div id="fig-masmus" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 20%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-masmus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/masmus.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure&nbsp;9: Illustrating two primary masticatory (chewing) muscles (Temporalis and Masseter muscles)."><img src="../images/primates/masmus.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-masmus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Illustrating two primary masticatory (chewing) muscles (<em>Temporalis and Masseter muscles</em>).
+</figcaption>
+</figure>
+</div>
+<p>There is another mechanical variable, beyond the repositioning of the eyes, that had to be reconfigured as we evolved into being a stereoscopic group of animals. One of my favorite parts of this is the unforseen danger having your eyeballs placed right in front of the muscles of the jaw. Notice in <a href="#fig-masmus" class="quarto-xref">Figure&nbsp;9</a> that the larger of these two muscles (<em>Temporalis Muscle</em>) is positioned directly behind the eye. You can feel how this muscle works. Take a second and place your fingertips on your temples (soft spot just behind your eyes). While holding this position, try clinching your jaw by biting down (be sensible…don’t hurt yourself). You should feel this jaw muscle bulge in your temples. Importantly, what you do not feel is any pressure in your eyes. The reason for this is a part of this evolutionary story.</p>
+<div id="fig-tarsier" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 25%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tarsier-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/tarsier.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Figure&nbsp;10: Side-by-side images of a Tarsier and Tarsier Skull. Tarsiers are a nocturnal primate which evolved huge eyes so that it can hunt at night. These eyes require the additional scaffolding of a Post-Orbital Plate."><img src="../images/primates/tarsier.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tarsier-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Side-by-side images of a Tarsier and Tarsier Skull. Tarsiers are a nocturnal primate which evolved huge eyes so that it can hunt at night. These eyes require the additional scaffolding of a <strong>Post-Orbital Plate</strong>.
+</figcaption>
+</figure>
+</div>
+<p>The obvious danger here is that a large temporalis muscle, when in use, can put enough pressure on the eyeball to cause serious damage. This is not often actually a problem in the animal kingdom but became one for Primates. While other animals typically have either small jaw muscles, small eyes, are an otherwise large surface for both the eyes and the jaw muscles to comfortably sit, the primate evolutionary strategy affords none of these benefits. This didn’t really become the case, however, until the evolution of Monkeys from the more Lemur-like (<em>Tarsier-like…</em>) early Primates. Lemurs and other <span title="a somewhat colloquial term for the group of Primates which maintain more ancestral morphologies. More specifically, Lemurs, Lorises, and Tarsiers"> <strong>Prosimians</strong> </span> did not need any barrier between these tissues because they had yet to develop stronger jaws and bigger brains (relative to their descendents at least). A notable exception is the <em>Tarsier</em> that developed such large eyes that it needed a more inclusive boney eye-socket. The Tarsier evolved this needed function through the development of a <span title="the combined effort of multiple sensory organs to perceive the surrounding environment"> <em>Post-Orbital Plate</em></span> (<a href="#fig-tarsier" class="quarto-xref">Figure&nbsp;10</a>) which provided a partial barrier between the eyes and the muscles behind them. Of course, very few Primates have eyes as large (relatively) as do Tarsiers. This holds true for the earliest groups of Monkeys that evolved from the Trasier-like ancestor. Thus, the Post-Orbital plate was not a necessary adaptation outside of the Tarsier lifestyle, though it maybe laid the groundwork for the subsequent adaptation in Monkeys.</p>
+<p>Real quick, let’s talk about how the reduced sense of smell effected the Primate lifestyle. I think we have a tendency to think of olfaction being useful to smell food and otherwise detect changes in our environment. In much of the mammalian world, the sense of smell is also crucial for communication. Think of domestic cats and dogs. They pee on everything! And they aren’t alone. Most of the mammals in the world do this. Paricularly the more solitary ones. The pheremones in urine are personal indicators. They can be used to establish territories and to indicate reproductive receptiveness. Losing these abilities for long-distance communication, the less prognathic Monkeys that evolved from prosimians were forced to become more sociable. This is why you commonly see Monkeys (and Apes and Humans) depicted in groups. We evolved into social animals as our sense of smell got worse. This is all well and good but group existence introduced some distinctly new dynamics for Primates. Of particular influence was the introduction of direct mate competition. Potential mates were no longer choosing their partners after seeking them out through trails of pheremone latent scents. Instead, most of the potential mates lived within the same community and would need to directly compete for their shot at reproduction. While this new form of mate competition impacted the morphology of males and females alike, we see the most explicit changes occur with males that developed aggressive traits to help them establish dominance over a group and the breeding rights that come with it.</p>
+<p>Here is how this ties in with the above discussion on the eye-to-jaw muscle barrier. Weapons typically take one of three forms in the world of mammals. You either have sharp claws, sharp teeth, or both. We discussed earlier why Primates would not necessarily want sharp claws, so that strategy is off the table (along with the option of having both). Big sharp teeth though…that works for us. Do not be tricked into thinking that the large fangs of Mandrills or Chimpanzees are for eating meat. Nope, the big ol’ fangs seen in non-human Primates are used as weapons, most commonly used during mate competition. To use these weapons effectively, however, you need increased bite force, and this requires very large temporalis muscles.</p>
+<p>And so we can wrap this section on the morphological changes associated with stereoscopic vision up. The last big shift with the facial bones around the eyes was an extension of what we saw with the Tarsier. To protect the eyes from the very large Temporalis muscles that became necessary for social competition in “Higher Primates” (Monkeys, Apes, and Humans), these animals evolved to have complete <strong>Post-Orbital Closure</strong>. It required more of those finite resources to build this boney barrier but we could continue to take resources from olfaction and dedicate them to vision. This is true too for our last major vision-related adaptation. While not visible in the gross morphology as much, it is clear through behavioral and genetic studies that, as opposed to the Prosimians, Higher Primates developed a greater range of color vision during the evolution of Monkeys.</p>
+<!-- Outer Bound Box (Max-width 300px) -->
+<div id="Mandrill" class="carousel slide" data-bs-interval="false" style="max-width: 300px; width: 100%; float: right; margin-left: 20px; margin-bottom: 15px; overflow: hidden; position: relative;">
+  
+  <!-- Carousel Image Slides Track -->
+  <div class="carousel-inner">
+  
+    <!-- Slide 1 (active) -->
+    <div class="carousel-item active" style="position: relative;">
+      <!-- Slide Number Badge overlaying the top-right corner -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">1 / 3</span>
+      </div>
+      
+      <a href="../images/primates/mandrill.jpg" class="lightbox" data-gallery="primate-gallery" title="Male Mandrill" data-description="Male in middle of social display (a yawn with a purpose)">
+        <img src="../images/primates/mandrill.jpg" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Mandrill">
+      </a>
+    </div>
+    
+    <!-- Slide 2 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">2 / 3</span>
+      </div>
+      
+      <a href="../images/primates/mandrill.webp" class="lightbox" data-gallery="primate-gallery" title="Mandrill Skull" data-description="Mandrill skull in lateral view. Notice the huge area for the temporalis muscles to sit">
+        <img src="../images/primates/mandrill.webp" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Mandrill Skull">
+      </a>
+    </div>
+    
+    <!-- Slide 3 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">3 / 3</span>
+      </div>
+      
+      <a href="../images/primates/monkmas.png" class="lightbox" data-gallery="primate-gallery" title="Mandrill Masacatory Muscles (*Prionailurus viverrinus*)" data-description="Illustrating the large temporalis muscles. Don't worry about the highlighted word but we will learn more about that Sagittal Crest later.">
+        <img src="../images/primates/monkmas.png" class="d-block w-100" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="Muscles">
+      </a>
+    </div>
+    
+  </div>
+  
+  <!-- Left Control Arrow (Updated data-bs-target) -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#Mandrill" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1); transform: scale(1.0);"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  
+  <!-- Right Control Arrow (Updated data-bs-target) -->
+  <button class="carousel-control-next" type="button" data-bs-target="#Mandrill" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1); transform: scale(1.0);"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+<!-- Inline CSS to make sure text layout behaves nicely on phones (Updated ID target) -->
+<style>
+@media (max-width: 576px) {
+  #Mandrill {
+    float: none !important;
+    margin: 0 auto 20px auto !important;
+  }
+}
+</style>
+</section>
+</section>
+</section>
+<section id="trichromatic-vision" class="level3">
+<h3 class="anchored" data-anchor-id="trichromatic-vision">Trichromatic Vision</h3>
+<p>Wow that was a lot. I will keep this section brief. One last key difference between how Primates see the world versus other mammals is in the degree of color vision that most Primates have. This really just amounts to being able to see in the Red Spectrum. As you can see in <a href="#tbl-vision" class="quarto-xref">Table&nbsp;2</a>, the evolutionary tradeoff for color vision was acute night vision. There is a fascinating evolutionary story to be told about why mammals evolved high-fidelity night vision during the Mesozoic (time of the Dinosaurs) but, as much as I’d love to tell you all about it, this story is truly not necessary for you to understand in this class. And so I will get to the point. Just as there are material tradeoffs associated with our skeletal scaffolding, so too is there a biochemical trade off with cellular dominance in our eyes. You have maybe heard that our visual perception is largely mediated by cells referred to as <em>Rods</em> and <em>Cones</em>. Each of these is a light-detecting cell type and both are in competition (figuratively) for space in the retina. Rods are the primary light receptors that, while highly sensitive to light are not configured to distinguish colors. Cones are less sensitive and so need ample light to function but, when doing so are employed to provide high-resolution color detail. As Primates switched from the noturnal habits common of prosimians into being primarily <em>diurnal</em>, they no longer required acute night vision and opted for color sensitivity instead. This adaptation was heavily selected for in the Primate lifestyle by 1) helping to differentiate ripe fruit and flowers in their environment (dietary adaptation) and 2) displaying social signals through colorful skin (social adaptation).</p>
+<div id="fig-color" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-color-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/color.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;11: There are different versions of color vision depending on the proportions of rods and cones in the retina. While most mammals are Dichromatic, Primates devloped Trichromatic Vision allowin us and most other higher primates see the red spectrum."><img src="../images/primates/color.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-color-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: There are different versions of color vision depending on the proportions of rods and cones in the retina. While most mammals are Dichromatic, Primates devloped Trichromatic Vision allowin us and most other higher primates see the red spectrum.
+</figcaption>
+</figure>
+</div>
 <div class="card border-success w-70 me-auto mb-3">
 <div class="card-header bg-success text-white">
 <p><strong>Primate Vision Adaptations and Morphology</strong></p>
@@ -376,17 +685,22 @@ Shared Trait Caveat
 </thead>
 <tbody>
 <tr class="odd">
-<td>Stereoscopy</td>
+<td><strong>Stereoscopy</strong></td>
 <td>Forward facing eyes</td>
-<td>Reduced Peripheral Vision/Reduced Prognathism/Olfaction</td>
+<td>Reduced Peripheral Vision/Reduced Prognathism</td>
 </tr>
 <tr class="even">
-<td>Post-Orbital bar/plate/closure</td>
+<td><strong>Reduced Prognathism</strong></td>
+<td>Shortening of the snout</td>
+<td>Reduced Olfactory abilities (sense of smell)</td>
+</tr>
+<tr class="odd">
+<td><strong>Post-Orbital bar/plate/closure</strong></td>
 <td>Scaffolding for eyes/protection from masticatory muscles</td>
 <td>Reduced Masticatory Power/Metabolic Energy</td>
 </tr>
-<tr class="odd">
-<td>Trichromatism</td>
+<tr class="even">
+<td><strong>Trichromatism</strong></td>
 <td>Ability to see Red Spectrum in addition to Blue/Yellow</td>
 <td>Reduced Night Vision</td>
 </tr>
@@ -394,51 +708,126 @@ Shared Trait Caveat
 </table>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-vision-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Very brief overview of key visual adaptations in <em>most</em> primates
+Table&nbsp;2: Very brief overview of key visual adaptations in <em>most</em> primates
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
 </section>
-<section id="manual-dexterity" class="level2">
-<h2 class="anchored" data-anchor-id="manual-dexterity">Manual Dexterity</h2>
 </section>
 <section id="cognition" class="level2">
 <h2 class="anchored" data-anchor-id="cognition">Cognition</h2>
-</section>
-</section>
-<section id="differentiating-primates" class="level1">
-<h1>Differentiating Primates</h1>
-<section id="diet-and-dentition" class="level2">
-<h2 class="anchored" data-anchor-id="diet-and-dentition">Diet and Dentition</h2>
-<section id="body-size" class="level3">
-<h3 class="anchored" data-anchor-id="body-size">Body Size</h3>
-</section>
-</section>
-<section id="locomotion" class="level2">
-<h2 class="anchored" data-anchor-id="locomotion">Locomotion</h2>
-<section id="verticle-clinging-and-leaping-vcl" class="level3">
-<h3 class="anchored" data-anchor-id="verticle-clinging-and-leaping-vcl">Verticle Clinging and Leaping (VCL)</h3>
-</section>
-<section id="quadrupedalism-arboreal-and-terrestrial" class="level3">
-<h3 class="anchored" data-anchor-id="quadrupedalism-arboreal-and-terrestrial">Quadrupedalism (Arboreal and Terrestrial)</h3>
-</section>
-<section id="suspensory-quadrumanus-and-brachiation" class="level3">
-<h3 class="anchored" data-anchor-id="suspensory-quadrumanus-and-brachiation">Suspensory (Quadrumanus and Brachiation)</h3>
-<section id="knuckle-walking" class="level4">
-<h4 class="anchored" data-anchor-id="knuckle-walking">Knuckle-Walking</h4>
-</section>
-</section>
-<section id="bipedalism" class="level3">
-<h3 class="anchored" data-anchor-id="bipedalism">Bipedalism</h3>
+<p>I very much enjoy conversations regarding evolutionary side effects (clearly). While side effects can be discussed in terms of <em>trade-offs</em> as was the case for our visual adaptations above, many side effects are neutral and, occasionally, others are beneficial. Further, while some traits start out as side effects, if beneficial in some way, selection has a tendency of doubling down and emphasizing them. This seems to be the case with the famously large primate brain.</p>
+<p>Truth be told, primates (including humans) do not have the largest brains in the animal kingdom. Not even close. Naturally, a blue whale has a much larger brain than you. It weighs roughly 15 pounds, which is larger than your entire head. Now you should be thinking, “Well, that’s not fair. Blue whales weigh between 110 and 330 thousand pounds. Everything about these animals is bigger than us.” Super true. How very insightful of you. When we talk about brain size in different animals, seldom do we actually care about the <em>absolute</em> size of the brain. The blue whale brain is <em>absolutely</em> way bigger than yours but relative to the size of its body (again between 110 and 330 thousand pounds), the 15-pound brain is pretty dang small (at most about .0136% of its body mass). The human brain only weighs around 3 pounds but contributes to roughly 2% of the human body weight. This is a massive difference! Even more so, the human brain demands approximately 20% of our bodily energy and oxygen (<span class="citation" data-cites="Herculano-Houzel2011">Herculano-Houzel (<a href="#ref-Herculano-Houzel2011" role="doc-biblioref">2011</a>)</span>). It is thus not the <em>absolute</em> size of the brain but the <em>relative</em> size and energetic demand that we track. We refer to this relative measure as the <strong>Encephalization Quotient</strong>, or simply as <em>Encephalization</em>.</p>
+<p>The trend towards increased encephalization in Primates can be attributed to a couple of these early adaptations. Much attention in this regard is given to the rewiring of the brain with the development of both Stereoscopic and Trichromatic vision. As discussed above, stereoscopic vision in mammals is not unique to primates. Besides us, the Felids (cats) are specifically adapted to seeing the 3-dimensional world. Cats, however, process this information a bit differently and so have differently adapted neurological pathways. For the felids, vision is focused largely on movement (the speed and trajectory components of depth perception). If you are particularly interested, you can look into the differences in the Visual Cortex and <em>lateral geniculate nucleus</em>, but this is much more technical than is needed here (<span class="citation" data-cites="Barton1998">Barton (<a href="#ref-Barton1998" role="doc-biblioref">1998</a>)</span>). What you should understand is that the pathways for detecting movement in a 3D world are distinctly different from those which emphasize fine detail, high-fidelity shape, and color. This is the primate strategy, and it is one that is far more costly (energetically) than that employed by cats. Thus, while Stereoscopy is definitely a player in the evolutionary trend towards greater encephalization, Trichromatic vision seems to have kicked this trend into high gear.</p>
+<div id="fig-visbrain" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-visbrain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/visbrain.avif" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;12: The image was made to summarize the Kay et al.&nbsp;(2026) article. Illustrates how the evolution of the Primate brain is tied to increased visual input."><img src="../images/primates/visbrain.avif" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-visbrain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: The image was made to summarize the Kay et al.&nbsp;(2026) article. Illustrates how the evolution of the Primate brain is tied to increased visual input.
+</figcaption>
+</figure>
+</div>
+<div id="fig-faces" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 30%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-faces-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/primates/faces.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;13: The ability to express emotions with facial gesturing was an adaptation in the evolution of Monkeys (anthropoids)."><img src="../images/primates/faces.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-faces-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;13: The ability to express emotions with facial gesturing was an adaptation in the evolution of Monkeys (anthropoids).
+</figcaption>
+</figure>
+</div>
+<p>Part of the primate encephalization story is tied to our increased social structure. This plays into vision as well, given that primate brains had to adapt more strongly to recognizing facial gestures. This requirement went hand-in-hand with living in social groups during <span title="Taxonomic grouping (infraorder) that includes Monkeys, Apes, and Humans"> <strong>Anthropoid</strong></span> evolution. While vocalizations are important too, they are also dangerous. In most contexts primates are prey animals and do their best to not alert potential predators. Look through (<a href="#fig-faces" class="quarto-xref">Figure&nbsp;13</a>), you can probably tell what these monkeys are thinking/feeling without the need for vocalization. Further, living in social groups means that individuals must navigate delicate relationships, placing additional processing stress on the primate brain that did not exist before.</p>
+<p>Finally, a key aspect of increasing cognition in primates relates to our <span title="Pregnancy period"> <strong>gestation period</strong></span> and <span title="Formative (growing-up) period"> <strong>Ontogeny</strong></span>. In both cases, primates evolved to extend these life-history traits. The prolonged gestation allows for more overall development during the pregnancy period which provides a greater stream of nutrition and less environmental stress to the growing fetus. The <strong>extended ontogeny</strong> reflects a longer growing up process (and, in turn a longer brain development process) where social/cultural inputs are are adding greatly to what will become the fully developed brain.</p>
+<p>The increased encephalization and overall cognition of primates seems to have largely began as a side effect of other adaptive influences. As this highly effective and efficient brain begun to have significant returns, however, selection began to emphasize it more and the primate internal economy began to dedicate more metabolic resources to it. We will see this come into play again when we begin talking about hominins and human evolution in the coming weeks.</p>
+<div class="card border-success w-70 me-auto mb-3">
+<div class="card-header bg-success text-white">
+<p><strong>Primate Cognitive Adaptations and Morphology</strong></p>
+</div>
+<div class="card-body">
+<div id="tbl-brain" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-brain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Trait</th>
+<th>Description</th>
+<th>Tradeoff</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Hightened Visual Cortex and processing regions</strong></td>
+<td>Growth of occipital, temporal, and parietal lobe</td>
+<td>Reduced olfactory bulbs</td>
+</tr>
+<tr class="even">
+<td><strong>Increased Social Behavior</strong></td>
+<td>Increased information sharing, cooperative feeding, child rearing, defense…etc</td>
+<td>Food/Mate competition</td>
+</tr>
+<tr class="odd">
+<td><strong>Greater Encephalization</strong></td>
+<td>More energy dedicated to brain growth and function</td>
+<td>Energy taken from other mechanical process (i.e., strength and speed)</td>
+</tr>
+<tr class="even">
+<td><strong>Prolonged Gestation and Ontogeny</strong></td>
+<td>Increased <em>in utero</em> and childhood development</td>
+<td>Reduced reproductive output, increased birthing complications (large brained babies)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-brain-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Very brief overview of key cognitive adaptations in <em>most</em> primates
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
-</section>
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Barton1998" class="csl-entry" role="listitem">
+Barton, R A. 1998. <span>“Visual Specialization and Brain Evolution in Primates.”</span> <em>Proceedings of the Royal Society B: Biological Sciences</em> 265 (1409): 1933–37. <a href="https://doi.org/10.1098/rspb.1998.0523">https://doi.org/10.1098/rspb.1998.0523</a>.
+</div>
+<div id="ref-Barton1995" class="csl-entry" role="listitem">
+Barton, R. A., A. Purvis, and P. H. Harvey. 1995. <span>“Evolutionary Radiation of Visual and Olfactory Brain Systems in Primates, Bats and Insectivores.”</span> <em>Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences</em> 348 (1326): 381–92. <a href="https://doi.org/10.1098/rstb.1995.0076">https://doi.org/10.1098/rstb.1995.0076</a>.
+</div>
+<div id="ref-Herculano-Houzel2011" class="csl-entry" role="listitem">
+Herculano-Houzel, Suzana. 2011. <span>“Scaling of <span>Brain Metabolism</span> with a <span>Fixed Energy Budget</span> Per <span>Neuron</span>: <span>Implications</span> for <span>Neuronal Activity</span>, <span>Plasticity</span> and <span>Evolution</span>.”</span> <em>PLoS ONE</em> 6 (3): e17514. <a href="https://doi.org/10.1371/journal.pone.0017514">https://doi.org/10.1371/journal.pone.0017514</a>.
+</div>
+<div id="ref-Scheibert2009" class="csl-entry" role="listitem">
+Scheibert, J., S. Leurent, A. Prevost, and G. Debrégeas. 2009. <span>“The <span>Role</span> of <span>Fingerprints</span> in the <span>Coding</span> of <span>Tactile Information Probed</span> with a <span>Biomimetic Sensor</span>.”</span> <em>Science</em> 323 (5920): 1503–6. <a href="https://doi.org/10.1126/science.1166467">https://doi.org/10.1126/science.1166467</a>.
+</div>
+<div id="ref-Silcox2013" class="csl-entry" role="listitem">
+Silcox, Mary T., Eric J. Sargis, Jonathan I. Bloch, and Doug M. Boyer. 2013. <span>“Morphological <span>Evidence</span> for <span>Primate Origins</span> and <span>Supraordinal Relationships</span>.”</span> In <em>Handbook of <span>Paleoanthropology</span></em>. Springer, Berlin, Heidelberg. <a href="https://doi.org/10.1007/978-3-642-27800-6_29-5">https://doi.org/10.1007/978-3-642-27800-6_29-5</a>.
+</div>
+<div id="ref-Surmeli2025" class="csl-entry" role="listitem">
+SURMELI, ADA SANEM. 2025. <em><span>Evaluating the Impact of Multisensory Multitasking and Cognitive Load on Task Performance in Virtual Environments</span></em>. February.
+</div>
+<div id="ref-Warman2009" class="csl-entry" role="listitem">
+Warman, Peter H., and A. Roland Ennos. 2009. <span>“Fingerprints Are Unlikely to Increase the Friction of Primate Fingerpads.”</span> <em>Journal of Experimental Biology</em> 212 (13): 2016–22. <a href="https://doi.org/10.1242/jeb.028977">https://doi.org/10.1242/jeb.028977</a>.
+</div>
+<div id="ref-Yum2020" class="csl-entry" role="listitem">
+Yum, Seoung-Mok, In-Keun Baek, Dongpyo Hong, et al. 2020. <span>“Fingerprint Ridges Allow Primates to Regulate Grip.”</span> <em>Proceedings of the National Academy of Sciences</em> 117 (50): 31665–73. <a href="https://doi.org/10.1073/pnas.2001055117">https://doi.org/10.1073/pnas.2001055117</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
