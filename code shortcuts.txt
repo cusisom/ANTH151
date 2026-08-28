@@ -61,3 +61,7 @@ Text-Wrapped Image
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
   </button>
 </div>
+
+### Bolded text with definition if hovering over
+
+<span title="the narrowest group of human ancestors that is seperate from all other primates"> **hominins**</span>
