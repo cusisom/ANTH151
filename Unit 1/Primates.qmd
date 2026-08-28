@@ -7,8 +7,12 @@ title: "Week Two: Humans as Primates"
 
 - [**Additional Assigned Reading:**]{ .underline } Ch. 5 in textbook; Sections: [Studying Primates in Biological Anthropology]{ .underline}, [Key Traits Used to Distinguish Between Primate Taxa]{.underline};
 Ch. 6 in textbook; Sections: [Sexual Selection]{.underline}, [Communication]{.underline}, [The Question of Culture]{.underline}
-- [**Key Terms:**]{ .underline } 
-- [**Summary:**]{ .underline } 
+- [**Key Terms:**]{ .underline } Ancestral/Derived Traits, Primate, Prehensile, Arboreal, Pentadactyl, Opposable Toe, Flattened Nails, Frictional Ridges, Depth Perception, Evolutionary Tradeoff,
+Post-Orbital Bar/Plate/Closure, Prognathism, Trichromatism, Stereoscopic Vision, Encephalization, Gestation, Ontogeny. [Terms from Textbook:]{.underline} Heterodont, Incisors, Canines, Premolars, Molars, 
+Sexual Dimorphism, Dental Formula, Diastema, Folivore, Frugivore, Omnivore, Locomotion, Verticle Clinging and Leaping (VCL), Arboreal/Terrestrial Quadrupedalism, Brachiation, Bipedalism.
+- [**Summary:**]{ .underline } The book gives you a decent overview of what primates *are*. It does, however, gloss over some key aspects of why primates evolved in this way. From the textbook and the reading
+here, students will develop a good sense of what makes primates unique in the Animal Kingdom. The emphasis placed here on early primate traits is significant to understanding how it is that humans (hominins)
+began to evolve in the first place. Take some time to understand the selective importance placed on primate Dexterity, Vision, and Cognition. 
 :::
 
 ![Primates are a remarkably variable and diverse taxonomic Order. This is the Order that you belong to.](../images/primates/primates.jpg){#fig-primates .lightbox width="70%"}
