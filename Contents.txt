@@ -11,6 +11,8 @@ Contents for 151 (toc)
             text: "Ch 1. Evolution (S)"
           - href: "Unit 1/Primates.qmd"
             text: "Ch 2. Humans as Primates (A)"
+          - href: "Unit 1/Paleoanthropology.qmd"
+            text: "Ch 3. Paleoanthropology (A)"
         
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1

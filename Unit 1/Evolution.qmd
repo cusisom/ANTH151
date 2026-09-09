@@ -337,7 +337,7 @@ that selection will favor the mean of our distribution (medium-sized fish) and e
 own mechanism that includes dynamic scenarios such as **Heterozygote Advantage** and **Frequency-Dependent Selection**. These cases are [not]{.underline} the same as Stabilizing Selection.
 Please do not confuse them.
 
-### Disruptive Selection
+### Disruptive Selection {#disruptive-selection}
 
 The last of these primary mechanisms is arguably the most interesting. We can re-set the scenario. Forget about the dry conditions and let's just say that a new predator was introduced to the lake.
 This predator preys on the fish species in this scenario but is limited by its own size constraints. Being a somewhat larger fish, it is too slow to catch the smallest member of our population
