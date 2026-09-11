@@ -21,6 +21,8 @@ website:
             text: "Ch 2. Humans as Primates (A)"
           - href: "Unit 1/Paleoanthropology.qmd"
             text: "Ch 3. Paleoanthropology (A)"
+          - href: "Unit 1/Early_Homs.qmd"
+            text: "Ch 4. Early Hominins and Origins of the Genus *Homo* (A)"
         
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1

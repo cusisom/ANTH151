@@ -6,7 +6,7 @@ title: "Week Three: Paleoanthropology (A)"
 ## Key Points
 - [**Additional Assigned Reading:**]{ .underline } None
 - [**Key Terms:**]{ .underline } Paleoanthropology, CLCA, *Pithecanthropus erectus*, Neanderthal, Post-Orbital Constriction, Bipedal/Bipedalism, Australopithecus, Piltdown Man, Foramen Magnum, Fluorine Dating, Taung Child,
-Megafauna
+Megafauna, anagenesis, cladogenesis
 - [**Important Names:**]{ .underline } Thomas Huxley, William King, Eugene DuBois, Charles Dawson, Raymond Dart
 - [**Summary:**]{ .underline } Paleoanthropology is a field of two timelines. Most commonly we think of the evolutionary timeline which begins with our most distant hominin ancestors and 
 continues until the evolution of our species and the modern condition. Additionally there is a historical timeline. This history not only depicts the development of our field
@@ -76,7 +76,7 @@ Selection explains all of life, including humans'.
 :::
 
 Darwin existed in a wealthy, aristocratic social sphere in 19th Century England. Navigating this environment was likely pretty comfortable except when it came to disrupting the common dogma. This, of course,
-was already something that he was engaged in, being that evolution was starkly contra to notions of permanence and godly design. But the scientific world was becoming more aware of the need to reconcile
+was already something that he was engaged in, being that evolution was starkly counter to notions of permanence and godly design. But the scientific world was becoming more aware of the need to reconcile
 the diversity and variation in nature with the teachings of the Bible. Thus, discussing evolution on its own was growing in acceptance, even among the theological crowd. Knowing that this was a somewhat tenuous
 situation already, Darwin was extra careful to avoid the topic of how humans fit into this evolutionary scheme. People could largely accept that other plants and animals were mutable and influenced by
 the laws of nature, but humans (Man) was said to have been created by God in God's image. Being a wealthy aristocrat, Darwin was nervous about how a denial of this accepted truth would affect him and his
@@ -172,7 +172,7 @@ This yellow dot illustrates a common ancestor of both <span title="plural form o
 the argument posed by Darwin and Huxley, chimps and humans represent species A and B from the image. Recall our discussion of 
 [disruptive selection](Evolution.qmd#disruptive-selection) in Week 1. Populations can diverge depending on how selection favors different variants. The common ancestor of humans and chimps (referred to as the Chimpanzee 
 Last Common Ancestor or **CLCA**) was a living population with natural variation. During a period of time called the <span title="a geological Period spanning from approximately 23-5 million-years-ago (Ma)"> **Miocene**</span>,
-selection favored two different strategies which divided the population into seperate lineages. This process, seen in image #2 of the figure, is called Cladogenesis. As opposed to <span title="linear evolution of one species
+selection favored two different strategies which divided the population into seperate lineages. This process, seen in image #2 of the figure, is called **Cladogenesis**. As opposed to <span title="linear evolution of one species
 into a form distinct enough to be called a new species"> **anagenesis**</span>, Cladogenesis divides the population into two distinct forms. Darwin and Huxley argued this evolutionary relationship for modern apes
 and humans. In saying as much, they were suggesting that this common ancestor did not have a living correlate (it was neither chimp nor human), though it was likely to be more ape-like than human-like. This last assessment
 was based off of the more *derived* morphology of humans and is what likely led to the public conflating "evolved from apes" with "evolved from Chimpanzees".
@@ -436,12 +436,13 @@ fossils under heavy suspicion.
 
 Oakley worked for the British Museum and so was not subject to the same regulations as outside researchers. By this time more fossils resembling Dart's *Australopithecus* specimen, along with more remains of
 *Homo erectus* had generated anxiety when regarding Piltdown Man. Oakley was among the skeptics. Curious about the antiquity of the remains, and eager to test new scientific methods in determining the age
-of archaeological materials, he jumped at the opportunity to test this Piltdown paradox. The test he was to perform is called **Fluorine Absorption Dating**. It operates from the premise that buried 
+of archaeological materials, he jumped at the opportunity to test this Piltdown paradox. The test he was to perform is called <span title="a dating method that identifies temporal context by determining 
+if the tested materials are older or younger than other materials"> *relative dating* </span> dating procedure known as **Fluorine Absorption Dating**. It operates from the premise that buried 
 bone has the tendency to absorb elemental materials from the surrounding soils and percolating water. This method does not so work to provide a direct age of fossil materials but instead provides valuable context. In essence,
 it can tell us if all of the materials being tested are of the *same* age. If they were all deposited together, having the same *depositional context*, each bone should have the same Fluorine concentration. And so Oakley tested
 different bones from the Piltdown assemblage. What did he find out, you might ask? Drum roll please...
 
-::: {#fig-hoax style="float: right; margin-right: 15px; max-width: 20%;"}
+::: {#fig-hoax style="float: right; margin-right: 15px; max-width: 40%;"}
 ![](../images/paleo/hoax.jpg){.lightbox}
 
 Piltdown man was fully exposed by 1953
