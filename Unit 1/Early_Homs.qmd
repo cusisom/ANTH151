@@ -6,9 +6,12 @@ lightbox: auto
 
 ::: {.callout-tip}
 ## Key Points
-- [**Additional Assigned Reading:**]{ .underline } 
-- [**Key Terms:**]{ .underline } 
-- [**Important Names:**]{ .underline } 
+- [**Additional Assigned Reading:**]{ .underline } Ch. 9: Sections: Defining Hominins, Dig Deeper, Paleoenvironment and Human Evolution (all), Skeletal Adaptations for Bipedalism, Early Hominins,and Genus Australopithecus (all)
+- [**Key Terms:**]{ .underline } Bipedalism, C4 Plants, Carrion, Fallback Foods, Foramen Magnum, Gracile, Hominin, Morphology, Niche, Orthograde, Pleistocene, Post-Canine Megadontia, Post-Orbital Constriction,
+Robust, Sagittal Crest, Savanna, Suspensory Locomotion, Thermoregulation, Zygomatic Arch
+- [**Important Species:**]{ .underline } *S. tchadensis*, *O. tugenensis*, *Ar. ramidus*, *Au. anamensis*, *Au. africanus*, *Au. aethiopicus*, *Au. boisei*, *Au. robustus*
+- [**Summary:**]{ .underline} This chapter reviews the early stages of hominin evolution from the emergence of our clade until the rise of the genus *Homo*. Key evolutionary discussions emphasize the causes and consequences of bipedalism
+and the cladogenesis of robust and gracile australopithecines. By the end of this reading students should have an idea of what circumstances lead to the evolution of the genus *Homo* and from what ancestral stock. 
 :::
 
 ![The human fossil record is complex and diverse, stretching back as far as 7 million years. While there are an abundance of fossils and numerous proposed fossil species, we will focus only on a select few. That said, there is a lot to know about these ancestors.](../images/EarlyHoms/phy1.jpg){#fig-primates .lightbox width="60%"}
@@ -34,10 +37,10 @@ in the quiz), but they will be important when reviewing and discussing the fossi
 
 Probably the most difficult set of terms to get used to are those associated with anatomical positions. These are a specific set of words that circumvent the issues associated with how we typically refer to directions.
 Many of your day-to-day directional terms are *relative* to your (our an object's) orientation. You might refer to something being on the *left* side of the street but if you were to turn around and face the opposite direction, the
-left side has now changed. If, for instance, I am holding a Femur (large leg bone) and reference an interesting feature, I cannot say that this feature is on the left side of the bone. That is simply because different people
-may be looking at the bone from different positions or angle. Further, if I were to turn the bone around or upside down, the term *left* would be refering to a different spot.Anyone that has spent time on boats is 
-familiar with this distinction. Just as in anatomy, directions on a boat cannot be so casual, they have to be *absolute*. This is why left and right are more specifically defined as *port* and *starboard*. It does 
-not matter how you are looking at the boat, port is port and starboard is starboard. These, of course, are specific to that context. The following terms, however, are specific to anatomy and will come up in the text often.
+left side has now changed. If a were to apply the same logic to a bone, say, for instance, I am holding a Femur (large leg bone) and reference an interesting feature, I cannot say that this feature is on the left side. 
+Different people may be looking at the bone from different positions or angle. Further, if I were to turn the bone around or upside down, the term *left* would be refering to a different spot. Anyone that has spent time 
+on boats is familiar with this distinction. Just as in anatomy, directions on a boat cannot be so casual, they have to be *absolute*. This is why left and right are more specifically defined as *port* and *starboard*. 
+It does not matter how you are looking at the boat, port is port and starboard is starboard. These, of course, are specific to that context. The following terms, however, are specific to anatomy and will come up in the text often.
 
 
 ::: {.card .border-success .w-70 .me-auto .mb-3}
@@ -51,11 +54,11 @@ not matter how you are looking at the boat, port is port and starboard is starbo
 
 | Term | Definition | Examples |
 |---|---|---|
-| **Standard Anatomical Position** | This is our primary reference point for using anatomical terms. It references a complete body with the limbs stretched out and no bones crossing each other | It's essentially a person standing up straight, with arms at the side and palms open forward |
+| **Standard Anatomical Position (SAP)** | This is our primary reference point for using anatomical terms. It references a complete body with the limbs stretched out and no bones crossing each other | It's essentially a person standing up straight, with arms at the side and palms open forward |
 | **Anterior/Posterior**| These are the fundamental front/back terms. Anterior is your front and posterior is your back.| Your face is on the anterior aspect of your skull. Your calf is on the posterior aspect of your leg |
-| **Medial/Lateral**| Medial refers to the portion closest to the midline. Lateral refers to the farthest from the midline. In this case, your midline bisects you into symmetrical halfs (lengthwise between the eyes) | Your big toe is medial and your pinky toe is lateral |
-| **Proximal/Distal**| Also refering to the midline but specific to limb bones. Easier to think of them as *upper and lower* portions. Proximal is the upper portion and Distal is lower | Your proximal femur attaches to your hip (pelvis). Your distal femur attaches to your tibia (shin bone) |
-| **Superior/Inferior**| Think of these as Top and Bottom. Unlike Proximal and Distal, these terms seldom refer to portions of limb bones but reference the "bird's eye" or "ant's eye" view of them | You wear a hat on the superior aspect of your skull. You walk on the Inferior aspect of your foot |
+| **Medial/Lateral**| Medial refers to the portion closest to the midline. Lateral refers to the farthest from the midline. In this case, your midline bisects you into symmetrical halfs (lengthwise between the eyes) | Your big toe is medial and your pinky toe is lateral. In SAP, your pinky finger is medial and your thumb is lateral. |
+| **Proximal/Distal**| Easiest to think of as *upper and lower* portions of limb bones. Proximal is the upper portion and Distal is lower | Your proximal femur attaches to your hip (pelvis). Your distal femur attaches to your tibia (shin bone) |
+| **Superior/Inferior**| Think of these as Top and Bottom. Unlike Proximal and Distal, these terms seldom refer to portions of limb bones but reference the "bird's eye" or "ant's eye" view of bones in SAP | You wear a hat on the superior aspect of your skull. You walk on the Inferior aspect of your foot |
 
 : Review of commonly used directional terms when referencing human (or hominin) anatomy {#tbl-directions}
 
@@ -64,16 +67,16 @@ not matter how you are looking at the boat, port is port and starboard is starbo
 :::
 :::
 
-While anatomical terms are generally absolute, the can still be used relatively to each other. For instance, in a broad sense both the eyes and the nose are situated medially on the face but the eyes are positioned laterally
-to the nose. Further, manyy of these terms are used in combined forms for specific descriptions of position. The Foramen Magnum is a good example. When Dart discussed this feature of *Australopithecus africanus* he didn't 
+While anatomical terms are generally absolute, they can still be used relatively to each other. For instance, in a broad sense both the eyes and the nose are situated medially on the face but the eyes are positioned laterally
+to the nose while simultaneosly being medial to the ears. Further, many of these terms are used in combined forms for specific descriptions of position. The Foramen Magnum is a good example. When Dart discussed this feature of *Australopithecus africanus* he didn't 
 just state that it was positioned *inferiorly* but rather that it was positioned *Antero-inferiorly* (Inferior and Anterior). We will run into this a few times through these next couple of chapters. 
 
 
 #### Osteology Terms
 
-Osteology is the study of the skeletal system (or simply the study of bones). Given that most of what we examine in the human fossil record are old bones, this field is of critical importance. Fortunately, you have some
-experience refering to bones. Many of these terms are used in everyday discourse and so should not be too much of a shock to you. That said, we do need to be specific about the bones we are referencing. The table below
-is therefore a very short list of bones that we will be referencing in these chapters.
+**Osteology** is the study of the skeletal system (or simply the study of bones). Given that most of what we examine in the human fossil record are old bones, this field is of critical importance. Fortunately, you have some
+experience referring to bones. Many of these terms are used in everyday discourse and so should not be too much of a shock to you. That said, we do need to be specific about the bones we are referencing. The table below
+is therefore a very short list of bones that we will encounter in these chapters.
 
 ::: {.card .border-success .w-70 .me-auto .mb-3}
 ::: {.card-header .bg-success .text-white}
@@ -87,12 +90,12 @@ is therefore a very short list of bones that we will be referencing in these cha
 | Term | Definition | Relevance |
 |---|---|---|
 | **Dentition** | Dentition is a specific way of referencing teeth. The specific teeth that we have are Incisors, Canines, Premolars, and Molars. You read about these in the textbook (Ch. 6) | We will look at the changing size of Denition throughout the human fossil record. This will be used to discuss both diet and behavior |
-| **Femur**| The Proximal bone of the leg, also known as the thigh bone. The Femur is the largest bone of the body and joints at the pelvis to form the hip joint and at the tibia to form the knee joint| The length and curvature of the femur or of great significnace when discussing Bipedal Locomotion |
-| **Hallux**| The technical term for the Big Toe | A keystone trait of non-human primates (and therefore our ancestry) is the opposable Hallux. Hominins lost this trait as we adapted to a bipedal lifestyle |
-| **Ilium**| One of three bones comprising either half of the Pelvis. The Iluium is best thought of as the Blade of your Hip | The ilia (plural form) create attachment sites for the Gluteal Muscles. These are key for propulasion and balance |
-| **Ischium**| One of the three bones comprising either hale of the Pelvis. The Ischium is the inferior-most of the three bones and can be thought of as the bones that you Sit on | The Ischia (plural form) create muscle attachment sites for the Hamstrings. These are key for forward and upward propulsion |
-| **Pelvis**| The Pelvis is a composit structure that serves to connect the thorax with the hindlimbs (legs). It is comprised of two *Os Coxae* each of which are made from the union of an Ilium, Ischium, and Pubis. Anteriorly, these Os Coxae join together at the pubis. Posteriorly they connect to the large triangular Sacrum | - |
-| **Pubis**| One of the three bones comprising either hale of the Pelvis. The Pubis is the smallest and anterior-most of the three bones | We will not discuss the pubis much in this Unit other than its association with the other bones of the Pelvis |
+| **Femur**| The Proximal bone of the leg, also known as the thigh bone. The Femur is the largest bone of the body and joins at the pelvis to form the hip joint and at the tibia to form the knee joint| The length and curvature of the femur are of great significance when discussing Bipedal Locomotion |
+| **Hallux**| The technical term for the bones of the Big Toe | A keystone trait of non-human primates (and therefore our ancestry) is the opposable Hallux. Hominins lost this trait as we adapted to a bipedal lifestyle |
+| **Ilium**| One of three bones comprising either half of the Pelvis. The Iluium is best thought of as the Blade of your Hip | The ilia (plural form) create attachment sites for the Gluteal Muscles. These are key for propulsion and balance |
+| **Ischium**| One of the three bones comprising either half of the Pelvis. The Ischia are the inferior-most of the three bones and can be thought of as the bones that you Sit on | The Ischia (plural form) create muscle attachment sites for the Hamstrings. These are key for forward and upward propulsion |
+| **Pelvis**| The Pelvis is a composite structure that serves to connect the thorax with the hindlimbs (legs). It is comprised of two *Os Coxae* each of which are made from the union of an Ilium, Ischium, and Pubis. Anteriorly, these Os Coxae join together at the pubis. Posteriorly they connect to the large triangular Sacrum | - |
+| **Pubis**| One of the three bones comprising either half of the Pelvis. The Pubis is the smallest and anterior-most of the three bones | We will not discuss the pubis much in this Unit other than its association with the other bones of the Pelvis |
 | **Sacrum**| This is the postero-medial (posterior and medial) aspect of the Pelvis which serves as the posterior anchor for the two Os Coxae | The Sacrum is also the connecting point of the Vertebral Column to the Pelvis and so provides insight into the changes of two different anatomical regions |
 | **Tibia**| The Distal most bone of your leg (Proximal to the Ankle). Also known as the Shin bone | The Superior Tibia joins the Inferior Femur to form the knee joint. As we shifted to a bipedal posture, both of these joint surfaces had to rearrange to position our knees under the center of gravity |
 | **Vertebrae**| Plural form of Vertebra. The vertebrae make up the individual bones of you vertebral column (your Spine). It is comprised of different types of vertebrae that we will encounter throughout this chapter: Cervical, Thorocic, and Lumbar Vertebrae. | The different types of vertebrae comprise different regions of the spine (neck, upper back, lower back). These connect with each other to form distinct curves which have changes in shape throughout our evolution |
@@ -109,11 +112,11 @@ is therefore a very short list of bones that we will be referencing in these cha
 # Earliest Hominins
 
 After reading through the last chapter you should have a good bearing on what a Hominin is. We, of course, are hominins but so is every member of our ancestry since the split from the CLCA (see last chapter if you forgot what this means).
-Knowning that hominins are direct human ancestors is all well and good, but that is hardly a descriptive definintion. Recall our discussion of Ancestral and Derived Traits in [Chapter 2](Primates.qmd#What-are-Primates?). We 
-definine taxonomic groups by these traits as much as we definine them by their evolutionary histories/relationships. Thus, if we are using the term *Hominin* (a taxonomic tribe), we need to be able to associate specific traits
-which differentiate it from other members of the next highest taxonomic group (in this case Hominidae). The question boils down to, "what makes hominins different than members of the Chimpanzee lineage?" While easy to point the 
-differences in modern taxa (between chimps and humans), these criteria must apply to all members of the group...include fossil species. As we saw in the previous chapter, this creates a more challenging situation. Fortunately for 
-us, we have already come to learn that the defining characteristic of Hominins is our **Bipedal** anatomy. Ever since the establishment of this trait as our most basal adaptation, the search for hominin ancestry became the 
+Knowing that hominins are direct human ancestors is all well and good, but this is hardly a descriptive definintion. Recall our discussion of Ancestral and Derived Traits in [Chapter 2](Primates.qmd#what-are-primates). We 
+define taxonomic groups by these traits as much as we definine them by their evolutionary histories and relationships. Thus, if we are using the term *Hominin* (a taxonomic tribe), we need to be able to associate specific traits
+which differentiate it from other members of the next highest taxonomic group (in this case Hominidae). The question boils down to, "what makes hominins different than members of the Chimpanzee lineage?" While easy to point at the 
+differences in modern taxa (between chimps and humans), these criteria must apply to all members of the group...including fossil species. As we saw in the previous chapter, this creates a more challenging situation. Fortunately for 
+us, we have already come to learn that the defining characteristic of Hominins is our **bipedal** anatomy. Ever since the establishment of this trait as our most basal adaptation, the search for hominin ancestry became the 
 search for the earliest bipeds in the human fossil record. 
 
 The textbook (Ch. 9) provides a brief overview of the three earliest candidate hominins: *Sahelanthropus tchadensis*, *Orrorin tugenensis*, and *Ardipithecus ramidus*. Of these three, only *Ardipithecus* has so far been confirmed
@@ -191,18 +194,20 @@ The original fossil assemblages of *S. tchadensis* (reconstructed) and *O. tugen
 
 The oldest *potential* hominin fossil dates between 7.2-6.7 Ma (*get used to time being represented this way. (**Ma**) means millions of years ago*). It was found in the Sahel Desert of  northern Chad (West-Central Africa), and
 named by the research team for this area (the Sahel human from Chad). Announced in 2002, ***S. tchadensis*** was first represented by a single, highly fragmentary and clearly distorted skull. Fortunately the skull fragments
-were mostly cemented together and, with the exception of the distortion, preserved most of the originally morphology of the individual (@Bobe2022; @Zollikofer2005). Debate regarding
+were mostly cemented together and, with the exception of the distortion, preserved most of the original cranial morphology of the individual (@Bobe2022; @Zollikofer2005). Debate regarding
 the hominin status of *S. tchadensis* focuses on at two primary morphological structures. The first of these concerns the placement and orientation of the **Foramen Magnum**. While this feature is postioned somewhat more
-antero-inferiorly than modern Chimpanzees, it is said that it still overlaps as much with modern and fossil apes as it does with other hominins. This ambiguity is not helped by the fragmentary/distorted nature of the skull,
-which could obscure the true position, nor by the fact that there is only a single cranial specimen (little comparative morphology). Thus, *S. tchadensis* has sat in limbo as different research groups argued about its
-bipedal abilities. There was, however, a potential breakthrough in this debate as a 2022 publication of associated post-cranial bones. The 2 forearm bones (Ulnae) and single partial femur were originally thought to belong
-to be nonhominin faunal remains. Subsequent analysis by @Daver2022, however, suggested otherwise. Unfortunately, these remains are seemingly as ambiguous as the skull and so the debate wages on. On the whole, I believe that
-most of the paleoanthropological community believes that *Sahelanthropus* is either a very early hominin or a very late ape-like ancestor just before the CLCA split (@Williams2026). 
+antero-inferiorly than modern chimpanzees, it is said that it still overlaps as much with apes as it does with other hominins. This ambiguity is not helped by the fragmentary/distorted nature of the skull,
+(which could obscure the true position) nor by the fact that there is only a single cranial specimen (little comparative morphology). Thus, *S. tchadensis* has sat in limbo as different research groups argued about its
+bipedal abilities. There was, however, a potential breakthrough in this debate with a 2022 publication of associated post-cranial bones. The 2 forearm bones (Ulnae) and single partial femur were originally thought 
+to be non-hominin faunal remains. Subsequent analysis by @Daver2022, however, suggested otherwise. It became clear that they did in fact belong to *S. tchadensis* and might very well solve the bipedal mystery being that
+the femur changes shape in the transition from quadrupedalism to bipedalism. While originally determined to belong to a biped, these too seem to fit in a space inbetween apes and hominins. On the whole, I believe that
+most of the paleoanthropological community believes that *Sahelanthropus* is either a very early hominin or a very late ape-like ancestor just before the CLCA split (@Williams2026). At very least, it was on its way to being
+a fully upright walker.
 
 \
 
-***Orrorin tugenensis***, dating to ~6 Ma, has also been a debated species since being published on in 2001. One of the biggest issues with this *potential* hominin is the remarkably meager fossil assemblage. Comprised of
-only 21 fragmentary fossil pieces, the only potential indicator of hominin status is a single proximal femur. While the specimen has indicators of bipedality, the sparse material for comparative studies, the lack of clear association
+***Orrorin tugenensis***, dating to ~6 Ma, has also been a debated species since first published on in 2001. One of the biggest issues with this *potential* hominin is the remarkably meager fossil assemblage. Comprised of
+only 21 fragmentary fossil pieces, the only potential indicator of hominin status is a single proximal femur. While the specimen has indications of bipedality, the sparse material for comparative studies, lack of clear association
 between the fossils in the assemblage, and the morphological overlap with other hominins and non-human primates makes *O. tugenensis* a difficult designation (@Bobe2022; @Williams2026). There simply is not enough material or strong enough 
 contextual clues to make large claims about it. Thus, debates continue. 
 
@@ -220,8 +225,7 @@ their place in the human family tree (as basal ancestors), *and*, importantly, t
 learned much about the morphology and ecology of early hominins and have come to realize that the authors of these publications were not far off in their interpretations. Let's break down the issue at hand.
 
 Both of these purported hominin species exhibited distinct morphological overlap with hominin and nonhominin primate fossils. The morphology suggests that each animal was at least *partially* bipedal and, in both cases, the post-cranial
-materials and associated fauna suggested that they lived in a forested environment in which they moved arboreally (with strong climbing adaptations). The presumption since at least the 1970s (and more likely since Raymond
-Dart published on *Au. africanus*) was that our ancestors adapted bipedality in an arid open <span title="open grasslands with sparse patches of woodland"> **Savanna** </span> and had largely abandoned their arboreal tendencies (*see @fig-savanna*). Much like the debates regarding hominin trait progression from our previous
+materials and associated fauna suggested that they lived in a forested environment in which they moved arboreally (with strong climbing adaptations). The presumption since at least the 1970s, however, was that our ancestors adapted bipedality in an arid open <span title="open grasslands with sparse patches of woodland"> **Savanna** </span> and had largely abandoned their arboreal tendencies (*see @fig-savanna*). Much like the debates regarding hominin trait progression from our previous
 reading, this paradigm was instilled in the community and became the focus of nearly all hypotheses regarding *why* hominins had evolved in the first place. This is the other <span title="You might not find it fun...but many of us really do"> *fun* </span>
 part of our field. Whenever we find new fossils (new morphology, potential adaptations, and ecology), it becomes our job to explain why these animals existed. What is the *selective* story? Why did our ancestors begin
 to walk around on two legs? This is a research agenda that I have always loved.
@@ -244,7 +248,7 @@ Cover shot of "The Animal Within" (1974), depicting interpretations of early hom
 
 :::
 
-Both variations of this theory (weapon/tool-wielding) were later dismissed as the leading selective pressure for bipedalism as more fossils were found and it became clear that tool manufacture, carnivory, and the large brains associated with both occurred
+Both variations of this theory (weapon/tool-wielding) were later dismissed as the leading selective pressure for bipedalism as more fossils were found and it became clear that tool manufacture, carnivory, and the large brains associated with both, occurred
 much later in our evolutionary timeline than had been expected. It was thus clear that bipedalism had to have benefitted our ancestors while we were still very much ape-like. And so paleoanthropologists of the 20th Century began looking
 to other explanations. While hypotheses were diverse, many of these scholars based their explanations on a notable observation: hominin fossils had, as of yet, only been found in savanna environments. It was therefore logical
 to assume that this environment, which was dramatically different from the forests occupied by chimpanzees, must have been the primary evolutionary influence. 
@@ -254,17 +258,17 @@ to assume that this environment, which was dramatically different from the fores
 The book muddles this a little bit. Or maybe I do...not sure, but savanna hypotheses are typically more directed at the diverse explanations of bipedal evolution in the 20th Century. In the book this is conflated with a broader look at the
 influence of habitat and climate on our overall evolution. In looking specifically at what it calls the Savanna (or Aridity) Hypothesis, it says little about the theory besides the expansion of
 savannas driving bipedal evolution. This is a pretty major oversimplification that does little to help us understand why fossil species such as *S. tchadensis* and *O. tugenensis* were so intensly debated. It therefore does
-little to help us understand why the interpretation of those fossils is important important to the current paleoanthropological paradigm. 
+little to help us understand why the interpretation of those fossils is important to the current paleoanthropological paradigm. 
 
 @tbl-savanna reviews the four most commonly discussed theories of the time. In each case, the proposed selective pressure requires little more than the hominin ability to walk or stand in an upright posture. This contrasts the
 theories promoted by Darwin and Dart and allows for most every other aspect of the hominin anatomy and behavior to fall within what was known about chimpanzees. The first three theories on the list (Aquatic, Postural Feeding, and Vigilance)
-are fairly self-explanatory and follow common logic. If you are not animal adept at swimming, for example, being able to walk upright through a body of water could afford a major advantage. Having observed the proponderance
-of rivers and deltas bisecting savanna environments, and the tendency of chimps and gorillas to assum this posture in similar circumstances, @Hardy1960 developed a fairly logical environmental influence for this trait. He maybe
+are fairly self-explanatory and follow simple logic. If you are not an animal adept at swimming, for example, being able to walk upright through a body of water could afford a major advantage. Having observed the proponderance
+of rivers and deltas bisecting savanna environments, and the tendency of chimps and gorillas to assume this posture in similar circumstances, @Hardy1960 emphasized a fairly logical environmental influence for bipedalism. He maybe
 didn't consider the abundance of crocodiles and hippos in these aquatic environments, but it was still a decent explanation. Similarly, @Jolly1970 and @Wescott1967 studied the behavior of other primates when assuming an 
-<span title="a more specific term for the upright posture"> **orthograde** </span> stance. Baboons commonly do this while collecting food and a variety of animals will do so when either trying to intimidate or simply observe
-nearby threats. The last of the theories depicted in the table, referred simply as <span title="managing temperature. More specifically in reference to internal body temp"> **Thermoregulation** </span>, is an attempt to explain 
-bipedalism *and* the loss of body hair in hominins. It suggests that standing upright allows us to reduce <span title="how much sunlight directly hits our body"> *solar exposure*, by reducing how much surface area is exposed.
-Quadrupeds, for example, are constantly exposing their entire back to the sun. Bipeds, however, have an easier time shifting our body to keep out of the sun. Further, Wheeler determined that the midday sun exposure would 
+<span title="a more specific term for the upright posture"> **orthograde** </span> stance. Baboons commonly sit or stand upright while collecting food, and a variety of animals will do so when either trying to intimidate or simply observe
+nearby threats. Taking a somewhat more physiological approach, the last of the theories depicted in the table, referred to as <span title="managing temperature. More specifically in reference to internal body temp"> **Thermoregulation** </span>, is an attempt to explain 
+bipedalism *and* the loss of body hair in hominins. It suggests that standing upright allows us to reduce <span title="how much sunlight directly hits our body"> *solar exposure*, by reducing how much surface area is exposed across the body.
+Quadrupeds, for example, are constantly exposing their entire back to the sun. Bipeds, however, have an easier time shifting our body to keep out of the sun. Further, Wheeler determined that the midday sun exposure (when directly over head) would 
 be reduced by roughly 60% simply by standing upright. This posture would therefore reduce the potential for heat stress as well as the use of metabolic energy (used to cool
 down) while also helping to conserve water (otherwise used when panting or sweating) (@Wheeler1984).
 
@@ -289,9 +293,9 @@ down) while also helping to conserve water (otherwise used when panting or sweat
 :::
 :::
 
-This was the state of the field when *S. tchadensis* and *O. tugenensis* were published on. Each was associated with a forested environment and, while potentially bipedal, would only have been so in a reduced capacity (maybe more Orthograde than Bipedal). 
-We firmly believed that a savanna based theory could be the only explanation of bipedal evolution and that our ancestors would have evolved to *walk* upright, not just stand. Given the contextual issues and
-fragmentary nature of these fossils, their power to overturn the predominant paradigm was weak. That all changed with the 2009 reveal of *Ardipithecus ramidus*. 
+This was the state of the field when *S. tchadensis* and *O. tugenensis* were published on. Both fossil species were associated with a forested environment and, while potentially bipedal, would only have been so in a reduced capacity (maybe more Orthograde than Bipedal). 
+This did not satisfy the [paleoanthropological community. We firmly believed that a savanna based theory could be the only explanation of bipedal evolution and that our ancestors would have evolved to *walk* upright, 
+not just stand. Given the contextual issues and fragmentary nature of these fossils, their power to overturn the predominant paradigm was weak. That all changed, howver, with the 2009 reveal of *Ardipithecus ramidus*. 
 
 ## *Ardipithecus ramidus*
 
@@ -308,24 +312,25 @@ from Cal Berkeley (Tim White), uncovered enough fossil material to reconstruct n
 as old as Ardi (~4.4 Ma). 
 
 The anatomical evidence for Ardi's bipedal status is compelling. The cranial fossils, while fragmentary, clearly illustrated the antero-inferior position of the foramen magnum. Further, for those who still challeneged this, the hip bones
-of the pelvis (ilia) were formed and positioned as they are in a biped (see *Bipedal Morphology* below). This solidifies the species status as a hominin. The surprising aspects of this find were twofold. First, like the 
-other fossils discussed so far, Ardi was clearly associated with a forested environment. This was determined by examining the numerous other non-hominin fossils found with it that represent species that are only found in these environments.
-Second, *Ar. ramidus* exhibits distinct arboreal adaptations. These include upper-limb traits observed in *S. tchadensis* and *O. tugenensis*, but also adds a lower pelvis (ischium) which resembles an ape and a very distinct opposable hallux. 
-This last trait was very much a surprise to everyone involved in paleoanthropology. It is now clear from this that our earliest hominin ancestors 1) evolved in a forested environment, 2) evolved an upright posture before upright mobility,
-and 3) adapted bipedality while still arboreal (@Lovejoy2009; @Lovejoy2009a; @White2009).
+of the pelvis (ilia) were formed and positioned as they are in a biped (see *Skeletal Adaptations for Bipedalism* in textbook). These traits together solidified Ardi's status as a hominin. The surprising aspects of this find were twofold. First, like the 
+other fossils discussed so far, Ardi was clearly associated with a forested environment. This was determined by examining the numerous other non-hominin fossils associated with it that represent species only found in these environments.
+Second, *Ar. ramidus* exhibits distinct arboreal adaptations previously unknown for any hominin. These include some of the upper-limb traits observed in *S. tchadensis* and *O. tugenensis*, but also includes an ischium 
+which resembles that of an ape and a very distinct **opposable hallux**. This last trait was very much a surprise to everyone. From this it became clear that our earliest hominin ancestors 1) evolved in a forested 
+environment, 2) evolved an upright *posture* before upright *mobility*, and 3) adapted bipedality while still arboreal (@Lovejoy2009; @Lovejoy2009a; @White2009). Suffice it to say, both *S. tchadensis* and *O. tugenensis*
+have had to be reconsidered since the reveal of Ardi and *her* environment. 
 
 ### Where we are
 
 Clearly the theories of bipedal evolution had to change. Every explanation emphasizing adaptations to a savanna environment died with the 2009 Ardi publication(s). Whatever the selective pressure for bipedalism,
-we now know that it occured while we were living an arboreal lifestyle. With that, three predominant theories had emerged: **Energetic Efficiency**, **Home Base/Male Provisioning**, and a revised version of
-the **Postural Feeding** hypothesis. Each of these theories incorporates the forested environment but acknowledges that, at the time of *Ar. ramidus*, the forests were shrinking and becoming increasinly patchy 
+we now know that it occured while we were living an arboreal lifestyle. With that, three predominant theories have emerged: **Energetic Efficiency**, **Home Base/Male Provisioning**, and a revised version of
+the **Postural Feeding** hypothesis. Each of these theories incorporates the forested environment but acknowledges that, at the time of *Ar. ramidus*, the forests were shrinking and becoming increasingly patchy 
 (discussed as the *Aridity Hypothesis* in the textbook). This meant two things for our earliest hominin ancestors. First, habitat structure began to look different. Instead of a single, somewhat homogenous dense
 forest, they now occupied patches of forest with swathes of open land seperating them. Second (and super important), the resource base that they were reliant on was shrinking. We presume (from dental records)
-that the earliest, forest dwelling hominins had a predominantly soft fruit diet much like chimpanzees. As forests were shrinking so was the amount of available fruit. These two environmental changes placed a heavy selective 
+that the earliest, forest dwelling hominins had a predominantly soft fruit diet much like chimpanzees. As forests were shrinking, however, so was the amount of available fruit. These two environmental changes placed a heavy selective 
 pressure on both our ancestors and the ancestors of chimpanzees. Hominins aside, this is very likely the environmental shift that influenced the initial split of our two clades. 
 
-Having spent the earlier years of my anthropological career tackling this topic, I could spend a tremendoous amount of time discussing these theories. I absolutely have my own strong opinions on which of these 
-is most likely and which is utter rubish (*insert more colorful language here*).I will restrain myself though since this is an intro class which doesn't
+Having spent the earlier years of my anthropological career tackling this topic, I could spend a tremendous amount of time discussing these theories. I certainly have my own strong opinions on which 
+is most likely and which is utter rubish (*insert more colorful language here*). I will restrain myself though since this is an intro class which doesn't
 focus on human evolution or even biological anthropology. Thus, review the table below for a general understanding of each. [Keep in mind that this topic is available as one of your exam options]{ .underline}. 
 Just as above (@tbl-savanna), I am including the primary citations by each theory so you can review the articles yourself, if you so choose. 
 
@@ -355,7 +360,7 @@ Just as above (@tbl-savanna), I am including the primary citations by each theor
 Concensus currently holds that there is unlikely to be one, singular motivating factor (often referred to as an *evolutionary prime mover*). It is far more likely that there were a handful of coincidental
 benefits of bipedalism. If you are to consider the theories above, all three of them could have been operating in tandem. Postural feeding could allow greater access to food. This could have benefitted some indivduals
 more than others (those better or worse adapted for gathering sparse resources). If males began <span title="pursuing and attracting a potential mate"> **courting** </span> potential mates by <span title="supplying resources"> 
-**provisioning** </span>, those that could gather more food would have better access to mates. The conservation of energy when moving terrestrially would additionally be a net positive for the whole species as the 
+**provisioning** </span>, those that could gather more food would have better access to mates (and increasing chances of reproduction/passing on traits). The conservation of energy when moving terrestrially would additionally be a net positive for the whole species as the 
 resource pool was shrinking. If each of these only provided a slight competitive advantage (see *competitive environment* below), they would have a better chance of surviving and reproducing than those without. 
 
 <details>
@@ -365,9 +370,18 @@ resource pool was shrinking. If each of these only provided a slight competitive
 ![](../images/EarlyHoms/fitness.png){.lightbox}
 :::
 
-Let us not forget that evolution is competitive. Maybe not directly in the sense that all creatures are antogonistic towards each other, but moreso that there are finite resources and mates. This unconscious competition drives evolution. Traits that are beneficial to the individual will typically provide some gain in metabolic energy (either through increased access to resources, lower resource requirement, are lower chance of injury and illness), and increased access to mates. While it is easy to think of different species competing with each other, it is <span title="members of the same species"> **conspecifics** </span> that are in greatest competition (clearly for mates).
+Let us not forget that evolution is competitive. Maybe not directly in the sense that all creatures are antogonistic towards each other, but moreso that there are finite resources and mates. This unconscious 
+competition drives evolution. Traits that are beneficial to the individual will typically provide some gain in metabolic energy (either through increased access to resources, lower resource requirement, or lower 
+chance of injury and illness), and increased access to mates. While it is easy to think of different species competing with each other, it is <span title="members of the same species"> **conspecifics** </span> that 
+are in greatest competition (clearly for mates).
 
-If we consider the population of animals that was to be the CLCA. As far as we can tell, these animals were ape-like but largely occupied a habitat-level similar to arboreal monkeys. They would have lived above the branches but moved somewhat similar to Orangutans (similar to how you would climb around branches). This in itself is a fun story, but not the point we need to make. If you were to picture a population of these animals, and then begin to restrict their access to resources, the species would have to adapt different strategies or face possible extinction. This is what happened. Some members of the species became more efficient by switching to a terrestrial life. Living amid forest patches and open land, these populations adapted to move quickly across open land. Having inherited long hands and fingers (for suspensory locomotion), they faced some difficulty walking on open hands (like monkeys) and so curled their fingers in to walk on their knuckles. This population specialized to patchy forest environments. Other members of the ancestral population simultaneously developed traits that (if the above theories hold true) increased resource access in the tree canopy, shifted their reproductive pattern to suite more solitary (potentially monogamus) lifestyles, and lowered metabolic costs of terrestrial locomotion. Thus, we have a potential scenario for the cladogenic split between the chimpanzee and hominin lineages. 
+If we consider the population of animals that was to be the CLCA. As far as we can tell, these animals were ape-like but largely occupied a habitat-level similar to arboreal monkeys. They would have lived above the 
+branches but moved more like Orangutans (similar to how you would climb around branches). This in itself is a fun story, but not the point we need to make. If you were to picture a population of these animals, 
+and then begin to restrict their access to resources, the species would have to adapt different strategies or face possible extinction. This is what happened. Some members of the species became more efficient by switching 
+to a terrestrial life. Living amid forest patches and open land, these populations adapted to move quickly across open land. Having already inherited long hands and fingers (for suspensory locomotion) from early ape ancestors, 
+they faced some difficulty walking on open hands (like monkeys) and so curled their fingers in to instead walk on their knuckles. This population specialized to patchy forest environments. Other members of the ancestral 
+population simultaneously developed traits that (if the above theories hold true) increased resource access in the tree canopy, shifted their reproductive pattern to suit more solitary (potentially monogamus) 
+lifestyles, and lowered the metabolic costs of terrestrial locomotion. Thus, we have a potential scenario for the cladogenic split between the chimpanzee and hominin lineages. 
 
 ```{dot}
 //| fig-cap: "The Cladogenic Split of the CLCA Population into Panin and Hominin Lineages"
@@ -414,17 +428,18 @@ digraph G {
 </details>
 
 The evolutionary prime mover(s) aside, bipedalism did confer an advantage to our hominin ancestors and ultimately primed us for the biggest environmental shift in our evolutionary history. The savanna theories for
-bipdal evolution discussed above, may not have been the initial influence but at some point very likely encouraged the continued refinement of this trait. When we left the forests, we did so with the ability
-to see over and collect seeds from the tall savanna grasses (Vigilance and Postural Feeding theories). We not only conserved energy through our upward mobility but were able to reduce solar exposure and 
-wade across shallow bodies of water. These advantages, however, did not mean life was easy for hominins. The savanna is a very different world than the forest and required a new set of adaptations to effectively navigate.
+bipdal evolution discussed above may not have been the initial influence but they very likely encouraged the continued refinement of this trait. When we left the forests, we did so with the ability
+to see over and collect seeds from the tall savanna grasses (Vigilance and Postural Feeding theories), and we were able to reduce solar exposure and 
+wade across shallow bodies of water. In becoming bipedal in the forests, we were primed to adjust to life in the open grasslands. These advantages, however, did not mean life would have been easy for hominins. 
+The savanna is a very different world than the forest and required a new set of adaptations to effectively navigate.
 
-The move to entirely terrestrial enviornments meant that bipedalism was no longer a secondary mode of locomotion. This meant abandoning some of the earlier arboreal traits (such as the opposable hallux) to make for 
-a more efficient stride. It also meant shifting the primary diet. One thing that savannas are particularly lacking in is tropical fruit. Having left a frugivorous lifestyle, hominins now adapted what had previously
+The move to entirely terrestrial enviornments meant that bipedalism was no longer a secondary mode of locomotion, thus requiring the abandonment some of the earlier arboreal traits (such as the opposable hallux) to make for 
+a more efficient stride. It also meant shifting the primary diet. One thing that savannas are particularly lacking in is tropical fruit. Having left a frugivorous lifestyle, hominins now adapted to what had previously
 been <span title="secondary resources consumed when preferred diet is unavailable. They provide the needed nutrition but are of lower quality"> **fallback foods** </span> such as grasses, seeds, and roots. They were also
 handcuffed to a degree by a new group of predators. Lions, Hyaenas, Cheetahs, Wild Dogs, and even Jackles and Large Birds of Prey were all new potential threats. The only defense that these primates had against such an
-array of (mostly) nocturnal and terrestrial predators was our ability to climb. Savannas are low in tress but not absent of them. Thus, climbing in trees at night (roosting) would have been the best way to avoid danger.
-This constrained the pressure to go "all in" on bipedalism by maintaining some key arboreal traits. It is with this new set of pressures and adaptations that we identify the emergence of the longest lived hominin 
-genus in our lineage: the genus ***Australopithecus**.  
+array of (mostly) nocturnal and terrestrial predators was our ability to climb. Trees are scarce in savannas but not absent. Thus, climbing in trees at night (roosting) would have been the best way to avoid danger.
+This constrained the pressure to go "all in" on bipedalism by maintaining some key arboreal traits (such as long arms and fingers and an elongated ischium). It is with this new set of pressures and adaptations that 
+we identify the emergence of the longest lived hominin genus in our lineage: the genus ***Australopithecus***.  
 
 You will have read the textbook sections reviewing this genus and so I won't spend much time reiterating that information. There are a couple of key notes of interest and some minor squabbles that I'd 
 like to discuss, however, which are relevant to how we think about our evolutionary history. 
@@ -451,7 +466,7 @@ gracile category because at about 2.5 Ma there was another big cladogenic event 
 you why this is poor logic. 
 
 First and foremost, we [do not]{ .underline} categorize something based on what it *is not*. Our evolutionary timeline is not binary. This is particularly true if both of the later forms (robust and gracile) are different
-in these traits than the ancestral species'. Both *Au. anamensis* and *Au. afarensis* occured prior to this major cladogenesis. Neither are as robust as the "Robust Australopithecines" but neither is as gracile as the "Gracile Australopithecines".
+in these traits than the ancestral species. Both *Au. anamensis* and *Au. afarensis* occured prior to this major cladogenesis. Neither are as robust as the "Robust Australopithecines" but neither is as gracile as the "Gracile Australopithecines".
 It may seem semantic but it matters. We cannot step away from our general understanding of macroevolution. To that end, selection cannot act on traits that are yet to exist. Gracile and Robust australopithecines have distinct morphologies
 that developed out of the variation present in the ancestral population (such as *Au. afarensis*). In short, the genus needed time to develop before either robust or gracile group could form. It is then improper to 
 designate these earlier hominins as either category. Instead it is best to omit them from the divide and place species such as *Au. aethiopicus*, *Au. boisei*, and *Au. robustus* in the robust group while placing 
@@ -559,18 +574,84 @@ digraph G {
 
 #### Why Divide?
 
+This week's material is pretty fun for me. In this overview we get to cover two of my favorite topics in human evolution. The first was the story of bipedal evolution. Super exciting with still so many unknowns 
+(anybody want to be a paleoanthropologist??). My other favorite story is the one we are discussing here. At some point around 2.5 Ma, the growing Australopithecus population (probably *Au. afarensis*) experienced a cladogenic
+split. Much like the chimpanzee/hominin divide discussed above, two strategies developed which split this species into two distinct groups. As the book suggests, this population divide is strongly tied to dietary 
+strategies.
 
-# Stone Tools and the Genus *Homo*
+Since the text covers the robust story and adaptations pretty well, we can start there. You know already that the early australopithecines adapted to eating fallback foods. These
+resources would have been more difficult to chew and digest than the soft fruit diet of their forest-dwelling ancestors, but they were plentiful. Thus they subsisted on young leaves, grass seeds, flowers, berries,
+and, to some degree, young grasses. Keep in mind that while these animals were largely vegitarian, processing and digesting leaves and grasses is very much different than digesting fruit and flowers. They adapted
+strong jaws and big teeth to chew this tough and fibrous diet and developed a longer digestive tract to break it down and extract the locked-away nutrition. This is a hallmark suite of adaptations associated with the 
+*entire genus*, not just "robust" species. As the species expanded, there would have been natural variation in the environments that they occupied. Some populations would have existed in more resource-plentiful regions,
+while others less so. This, of course, would encourage growing variation in the species on the whole. The populations in more resource-rich environments would have more dietary variety and so could live a largely omnivorous,
+foraging life. This is broad dietary <span title="a specific mode of life in an organisms ecosystem"> **niche** </span> is what we typically associated with *Au. afarensis*. Other populations, however, were less fortunate.
 
-## First tools users
+We havent talked much about climate but you should have read a little about both the Aridity Hypothesis and the Turnover Pulse Hypothesis in the textbook. In each case the authors state that the global climate was changing dramatically at 
+the time of australopithecus evolution. Broadly, the world was in a cooling trend. Be aware that this [does not]{ .underline} mean that Africa was *cold* during our evolution. The global cooling trend means that, while some regions
+did experience the onset of colder (eventually ice-age) climates, *all* regions experienced increased aridity. As climates cool, glaciers begin to form in northern latitudes. This pulls moisture from the atmosphere and the sea.
+The decrease in atmospheric mositure results in the reduction of water-greedy habitats such as rainforests and an increase in water-conservative habitats such as grasslands. This was the environmental scenario at hand
+in the African savannas during the time of australopithecus. The peak periord of global cooling during this time is called the <span title="geological period spaning from roughly 2.6 Ma to about 14 thousand years ago (ka)">
+**Pleistocene** </span>, the onset of which coincides perfectly with our cladogenic split. 
 
-## First Tool Cultures
+### Robust Australopithecines
 
-## Genus *Homo*
+Ok, the stage is set. *Au. afarensis* was a long-lived and wide-ranging species that encountered environments differently affected by this climate change. The **Robust Australopithecines** seem to have adapted away from
+the more plentiful regions. They came to rely almost entirely on a diet of grasses, roots, and seeds, becoming a highly specialized, herbivorous group of hominins. Thus, the suite of adaptive traits that the original *Au. afarensis* population
+had to help them process fallback foods were doubled-down on with the robust clade (@fig-robust). They developed giant molars and premolars (**post-canine megadontia**), huge chewing muscles that required massive connection points along
+the skull (**sagittal crest** and **large zygomatics**), large openings for these chewing muscles (**post-orbital constriction** and **flaring zygomatic arches**), and developed a massive torso fit to house an exagerated 
+gastrointestinal tract. Again, they took the foundational australopithecus adaptations and pushed them to their biological limit. 
 
-### *H. rudolfensis* and/or *H. habilis*?
+This strategy worked well for the robust clade. Their diet was not the highest quality but, if there is one thing that savannas have an abundance of, it's grasses, roots, and tubers. Thus, the robust australopithecines
+existed as herbivorus specialists for more than a million years (see @tbl-homs). 
 
+![The robust traits of these hominins were not to the genus but heavily emphsized.](../images/EarlyHoms/robust.jpg){#fig-robust .lightbox width="50%"}
 
+### Gracile Australopithecines
+
+When reading about the turnover pulse hypothesis, you hopefully picked up on the advantages associated with being a generalist rather than a specialist. As noted in the text, the distinction in survivability was not
+as dramatic with hominins as it is with other taxa, but there is still a notable difference in the relative success between the two groups. This should make sense to you given the context we have already established.
+Robust australopithecines did well with their adaptations to herbivory but I would still rather be among the hominins living in the more plentiful environments. These hominins did not need to dedicate so much developmetal energy
+to massive jaws, teeth, chewing muscles, and GI tracts, and so existed, at least initially, much the same way as *Au. afarensis* did. At around 2.9 Ma, however, we begin to see a reverse trend in robusticity. Teeth get to be smaller than
+those in the ancestral stock. Body size reduces as well. But arguably the most significant evolutionary change is that, while body size reduced, the brain of these increasingly gracile hominins continued to expand. This is what makes 
+gracile australopithecines so fascinating (and distinctly different from *Au. afarensis* and *Au. anamensis*). 
+
+::: {#fig-africanus style="float: right; margin-right: 15px; max-width: 20%;"}
+![](../images/EarlyHoms/africanus.jpg){.lightbox}
+
+Verdict is out on what specifically *Au. africanus* ate. Generalized forager in a nutritionally diverse environment is the current consensus.
+
+:::
+
+*Au. africanus* is the primary model of a gracile australopithecine. While the brain size increase does not seem like a huge leap, shifting from about 400-450 ccs (cubic centimeters) to upwards of 550 ccs, when paired
+with the reduction in body size, this is a massive *encephalization* leap. This shift in morphology and energy partitioning (more energy spent on brain development than bodily development) suggests that they not only
+had a softer diet than the robust australopithecines but a far more nutritious one. So what exactly were they eating? We're not entirely sure yet, but there is plenty of ongoing research looking to find out.
+
+The easiest explanation for the morphology/energy shift is that gracile australopithecines began consuming animal protein more regularly than their evolutionary predecessors. This was initially supported by isotopic
+analyses of *Au. africanus* teeth that showed a heavy diet of what are called <span title="plants such as grasses, adapted to arid landscapes."> **C4 plants** </span> (@Sponheimer1999). Not being particularly built to process grasses
+like their robust counterparts, this evidence was used to suggest that gracile australopithecines were consuming meat from animals that subsist on grass (such as elephants or zebra). This is another well-established pathway for
+isotopic accumulation. It made perfect sense. Animal protein is full of easily accessible nutrients that would fuel an expensive brain. It is also much easier to digest which meant that we could dedicate less developmental
+energy to costly digestive systems. The theory was perfect and aligned beautifully with a brilliant research paradigm referred to as the Expensive Tissue Hypothesis (@Aiello1995). All was right in the world until a 
+*very* recent study which entirely disproved everything...ugh (@Ludecke2025). A more careful examination (with more refined technology than previously available) revealed that *Au. africanus* was overwhelmingly
+vegitarian. Insect protein was likely, but meat from large animals was not. This, of course, left us looking for answers elsewhere.
+
+The current consensus, while still somewhat tenuous, is that gracile australopithecines were optimal foragers and the ultimate omnivores. They occupied environments which offered the same herbivorous resource exploited 
+on the savannas (such as high quality tubers) as well as sparse fruit and berries, abundant insect communities (such as termite mounds), rich sugar resources (honey being of major interest (@Brand-Miller2026), and, 
+maybe occassional leftovers from scavengable predator kills (certainly not large portions of meat). This last resource potential is at the center of the debate. 
+
+We can wrap up this discussion with a focus on the significance of of these hominins and their new dietary niche. If you haven't guessed yet, meat consumption is going to be a major turning point in our evolutionary history
+and one that paves the way for the genus *Homo*. Shifting to a more carnivorous diet will ultimately require greater group cooperation, critical thinking, and the manufacture of tools. These requirements/achievements create 
+a positive feedback loop which encourages advanced social behavior and critical thinking, placing greater selective pressure on our expanding brains and fueling these with progressively more nutritous diets. One thing we know for sure
+is that new meat-eating lifestyle did not happen suddenly with the evolution of *Homo*. 
+
+The best bet is that the lifestyle of gracile australopithecines shifted our dietary range and strategy. Even if they were not directly consuming meat,
+*Au. africanus* was an opportunistic forager. This lead to the incorporation of foods rich in sugars, carbohydrates, and proteins, all leading to an increase in brain size. We also know that <span title="the remains of
+dead animals"> **carrion** </span> is a commonly available resource in savanna environments. The only problems truly faced by australopithecines interested in scavenging this resource were 1) the presence of other
+scavengers such as hyaenas, jackals, and vultures, and 2) the dearth of salvageable meat from these remains. Fortunately, primates are clever. The ultimate tipping point, whether it happens with the earliest members of the
+genus *Homo* or the latest occuring gracile australopithecines, was the discovery of **bone marrow** and the ability to harvest it. This key resource is hyper-nutritious and really only accessible to hominins by the use
+of stone implements to break through the hard surface of long bones. The scavenging of carrion is thus considered a major catalyst for the development of stone tools and group behavior (to fight off competitors) which leads to the next stage of human evolution in the Pleistocene. 
+
+From here, we can move into our last discussion of this unit: the origin and evolution of our genus and the emergence of our species, *Homo spaiens*.
 
 # Species Table
 
@@ -581,15 +662,24 @@ digraph G {
 ::: {.card-body}
 
 
-| Species | Date Range | Region |
-|---|---|---|
-|  |  |  |
-| |  | |
-| |  | |
+| Species | Abbreviation | Date Range | Region |
+|---|---|---|---|
+| *Sahelanthropus tchadensis* | *S. tchadensis* | 7.2-6.7 Ma | Sahel Desert, Chad |
+| *Orrorin tugenensis* | *O. tugenensis* | ~6 Ma | Tugen Hills, Kenya |
+| *Ardipithecus ramidus* | *Ar. ramidus* | ~ 4.4 Ma | Afar Desert, Ethiopia |
+| *Australopithecus anamensis* | *Au. anamensis* | 4.2-3.8 Ma | Lake Turkana, Kenya |
+| *Australopithecus afarensis* | *Au. afarensis* | 3.9-2.9 Ma | EARS, Ethiopia, Kenya, Tanzania |
+| *Australopithecus africanus* | *Au. africanus* | 2.9-2.1 Ma | Various localities, South Africa |
+| *Australopithecus aethiopicus* | *Au. aethiopicus* | 2.7-2.3 Ma | EARS Ethiopia, Kenya, Tanzania |
+| *Australopithecus boisei* | *Au. boisei* | 2.4-1.4 Ma | East Africa: Kenya, Malawi, Tanzania, Ethiopia |
+| *Australopithecus robustus* | *Au. robustus* | 2-1 Ma | South Africa |
 
-
-: Brief summary of forest-based theories for bipedal evolution {#tbl-forest}
+: Overview of key hominin species {#tbl-homs}
 
 
 :::
 :::
+
+# Pau
+
+\
