@@ -23,6 +23,8 @@ website:
             text: "Ch 3. Paleoanthropology (A)"
           - href: "Unit 1/Early_Homs.qmd"
             text: "Ch 4. Early Hominins and Origins of the Genus *Homo* (A)"
+          - href: "Unit 1/Genus_Homo.qmd"
+            text: "Ch. 5. Stone tools, Early *Homo*, and the emergence of *H. sapiens* (S)"    
         
       - section: "Unit 2: Ancient Migrations"
         collapse-level: 1

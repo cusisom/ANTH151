@@ -80,18 +80,23 @@ as Opossums and Raccoons, Otters, and Koalas (see also the *Shared Trait Caveat*
 and that's the goal. 
 Thus, it is important to consider what combination of traits (unique or otherwise) make primates primates. While there is a decent list of specifics, it may be first useful to the primate derived traits in broad categories.
 
+::: {#shared-trait-caveat}
 <details> 
   <summary>Shared Trait Caveat</summary> 
 
 ::: {style="float: right; margin-left: 20px; margin-bottom: 10px;"}
-
   ![](../images/primates/phyly.jpg){.lightbox}
 :::
 
-  Many traits are shared across different vertebrate groups but are [not necessarily Ancestral]{.underline}. For the trait to be considered Ancestral for the group, it must have evolved [once]{.underline} in that evolutionary line. In the science of Systematics (science behind the classification of life), this illustrates the difference between Monophyletic and Polyphyletic groupings. Monophylic means a single group that shares a common ancestor and shares traits because of that whereas polyphyletic refers to a group that shares traits by chance and did not inherit that trait from a common ancestor (not an evolutionarily related group). The evolution of the opposable thumb in different large animal taxa (i.e., different Orders) such as Primates, Carnivora, and in Marsupials happened through a process called **Convergent Evolution** (the independent evolution of similar features in species of different lineages), where each group of animals developed this trait independently. Ancestral traits, on the other hand are found at the most recent common ancestors of the groups in question, and help us to form monophyletic groups.
+  Many traits are shared across different vertebrate groups but are [not necessarily Ancestral]{.underline}. For the trait to be considered Ancestral for the group, it must have evolved [once]{.underline} in that evolutionary line. 
+  In the science of Systematics (science behind the classification of life), this illustrates the difference between Monophyletic and Polyphyletic groupings. Monophylic means a single group that shares a common ancestor and shares traits 
+  because of that whereas polyphyletic refers to a group that shares traits by chance and did not inherit that trait from a common ancestor (not an evolutionarily related group). The evolution of the opposable thumb in different large animal 
+  taxa (i.e., different Orders) such as Primates, Carnivora, and in Marsupials happened through a process called **Convergent Evolution** (the independent evolution of similar features in species of different lineages), where each group of animals 
+  developed this trait independently. Ancestral traits, on the other hand are found at the most recent common ancestors of the groups in question, and help us to form monophyletic groups.
 
   <div style="clear: both;"></div> 
 </details>
+:::
 
 
 The Primate Order emerged at some point shortly before, or just after the extinction of the Dinosaurs (somewhere between 90 and 55 million years ago). They evolved to take advantage of an <span title="in and amongst the trees"> **Arboreal Environment**</span>,
