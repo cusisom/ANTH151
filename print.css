@@ -1,0 +1,25 @@
+@media print {
+  /* Hide navigation, sidebars, search bars, and footers */
+  .navbar, .sidebar, .quarto-sidebar-toggle, .nav-page-repo, #quarto-search, .footer {
+    display: none !important;
+  }
+
+  /* Expand the main content area to use the full page width */
+  .page-columns .column-body, .page-columns .column-page {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Prevent headings from breaking across pages awkwardly */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Ensure code blocks wrap properly instead of overflowing */
+  pre, code {
+    white-space: pre-wrap !important;
+    word-wrap: break-word !important;
+  }
+}

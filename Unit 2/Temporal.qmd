@@ -5,18 +5,31 @@ subtitle: "**Establishing a Temporal Context**"
 
  
 ![](../images/time/dating-fossils.jpg){.lightbox width="50%"}
- 
-::: {.callout-tip}
-## Key Points
 
-- [**Additional Assigned Reading:**]{ .underline } Ch. 7 in textbook; Section: [Dating Methods]{ .underline}
-- [**Key Terms:**]{ .underline } Relative Dating, Strata, Stratigraphy, Stratum, Law of Superposition, Biostratigraphy,
-Faunal Correlation, Index Fossils, Absolute/Radiometric/Chronometric Dating, Radioactive Decay, Elements, Isotopes, Half-Life, 
-^14^C dating, K-Ar/Ar-Ar dating, Uranium-series dating, Dendrochronology, Carbon Calibration, Old Wood Problem
-- [**Summary:**]{ .underline } One of the most important tasks in archaological and paleontological investigations is in establishing a timeframe for a site.
-Establishing a *Temporal Context* is achieved by these scientists in different ways depending on how old the site is and what materials are available for testing. No method is perfect
-so pay attention to some of the difficulties of each approach. Be sure to take note of the age-ranges (including half-lifes) and needed materials of each method. 
+### 📅 Week 5 Reading Assignment
+
+::: {.panel-tabset}
+
+## 🎯 Key Overview
+
+::: {.p-3 .bg-light .rounded .border-start .border-primary .border-3}
+*   **Additional Assigned Reading:** Explorations: Chapter 7: Explorations
+*   **Important Species:** *Homo sapiens*, *Homo neanderthalensis*
+*   **Key Terms:** 14C dating, Absolute/Radiometric/Chronometric Dating, Biostratigraphy, Carbon Calibration, Dendrochronology, Elements, Faunal Correlation, Half-Life, Index Fossils, Isotopes, K-Ar/Ar-Ar dating, Law of Superposition,
+Old Wood Problem, Radioactive Decay, Relative Dating, Strata, Stratigraphy, Stratum, Uranium-series dating
+*   **Summary:** One of the most important tasks in archaological and paleontological investigations is in establishing a timeframe for a site. Establishing a Temporal Context is achieved by these scientists in different ways depending 
+on how old the site is and what materials are available for testing. No method is perfect so pay attention to some of the difficulties of each approach. Be sure to take note of the age-ranges (including half-lifes) and needed materials 
+of each method.
 :::
+
+## 📖 Chapter 7 *(≤ 8 pages)*
+
+*   **I. Dating Methods** (Pgs. 16-24)
+    *   *Relative Dating* (Pgs. 17-18)
+	*	*Chronometric Dating (Pgs. 18-24)
+
+:::
+
 
 # Unit 2: Intent and Strategy
 
@@ -161,9 +174,9 @@ the formation of sedimentary rocks and, ultimately, the best preservation of fos
 To understand Relative Dating you must have knowledge of some rudimentary terms. Both **Stratigraphy** and the **Law of Superposition** are mentioned in the text, so we 
 don't need to spend too much time on them here. Stratigraphy is simply the study of **Strata**. While the text doesn't provide much of a definition for strata, the term 
 also quickly becomes self evident: each identifiable layer of sedimentary rock is refered to as a single stratum (*singular*) or, when multiple are discussed, layers of 
-Strata (*plural*). With these details out of the way we can start to envision what is really meant by **The Law of Superposition**. Sediments are carried from the orignial 
+Strata (*plural*). With these details out of the way we can start to envision what is really meant by **The Law of Superposition**. Sediments are carried from the original 
 structure that they eroded from by some energetic force (gravity, wind, water...) until the energy dwindles enough for the weight of the particle to overcome the transporting 
-energy. Then it falls (becoming sediment). Being a low energy environment, this particle is not the only one that falls of in the area. Anything that has been energetically 
+energy. Then it falls (becoming sediment). Being a low energy environment, this particle is not the only one that falls off in the area. Anything that has been energetically 
 transported here faces this fate and becomes deposited as sediment just the same. We therefore have a "bed" of sediments that forms. This is essentially a sandbox (or a lake bed, 
 river bed, and etcetera). 
 
@@ -184,7 +197,7 @@ OK, now picture this depositional environment. It could be a sand dune or the bo
 before. As more and more sediment piles up, the underlying material becomes subjected to more and more pressure and heat. Combine this with the groundwater that percolates through these 
 materials and the sediments begin to literally glue together. This is the process of Sedimentary Rock formation (@fig-sediment). Physical structures succomb to erosion,  eroded particles are carried away from from their parent structures until the transporting energy dissipates and they become sediments, 
 sediments accumulate in depositional environments and bury the sediments that came before them, and finally the buried sediments (under the forces of pressure, heat, and moisture perculation) 
-glue together to form distinct layers of rock. These are strata and anything that gets cought in the process becomes trapped and (hopefully) preserved through time. The deepest strata, by 
+glue together to form distinct layers of rock. These are strata and anything that gets caught in the process becomes trapped and (hopefully) preserved through time. The deepest strata, by 
 necessity, formed before the strata above them. **BAM! Superposition**. Suffice it to say that this cycle starts all
 over again when that stratum is eventually exposed again to the elements and begins to erode. 
 
