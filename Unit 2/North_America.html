@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Week Ten: Peopling of North America (A) – ANTH151</title>
+<title>Week Ten: Peopling of North America (S) – ANTH151</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -112,6 +131,35 @@ ul.task-list li input[type="checkbox"] {
 </script>
 
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -125,9 +173,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      ANTH151
-      </li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Unit 2/Temporal.html">Unit 2: Ancient Migrations</a></li><li class="breadcrumb-item"><a href="../Unit 2/North_America.html">Ch 10. Peopling of the Americas (S)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -201,13 +247,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Unit 2: Ancient Migrations</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Unit 2/Temporal.html" class="sidebar-item-text sidebar-link">
@@ -223,7 +269,13 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Unit 2/Migrations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ch 9. Ancient Corridors and Early Human Migrations (A)</span></a>
+ <span class="menu-text">Ch 9. Ancient Corridors and Early Human Migrations (S)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Unit 2/North_America.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Ch 10. Peopling of the Americas (S)</span></a>
   </div>
 </li>
       </ul>
@@ -251,8 +303,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#initial-upper-paleolithic-migrations" id="toc-initial-upper-paleolithic-migrations" class="nav-link active" data-scroll-target="#initial-upper-paleolithic-migrations">Initial Upper Paleolithic Migrations</a></li>
+  <li><a href="#week-10-reading-assignment" id="toc-week-10-reading-assignment" class="nav-link active" data-scroll-target="#week-10-reading-assignment">📅 Week 10 Reading Assignment</a></li>
+  <li><a href="#corridors-and-migrations" id="toc-corridors-and-migrations" class="nav-link" data-scroll-target="#corridors-and-migrations">Corridors and Migrations</a>
+  <ul class="collapse">
+  <li><a href="#glacial-cycling-and-shifting-corridors" id="toc-glacial-cycling-and-shifting-corridors" class="nav-link" data-scroll-target="#glacial-cycling-and-shifting-corridors">Glacial Cycling and Shifting Corridors</a>
+  <ul class="collapse">
+  <li><a href="#reading-the-climate-record" id="toc-reading-the-climate-record" class="nav-link" data-scroll-target="#reading-the-climate-record">Reading the Climate Record</a></li>
+  <li><a href="#the-impacts-of-climate-cycling" id="toc-the-impacts-of-climate-cycling" class="nav-link" data-scroll-target="#the-impacts-of-climate-cycling">The Impacts of Climate Cycling</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#out-of-africa-i-and-ii" id="toc-out-of-africa-i-and-ii" class="nav-link" data-scroll-target="#out-of-africa-i-and-ii">Out of Africa (I and II)</a>
+  <ul class="collapse">
+  <li><a href="#sinai-arabia-or-both" id="toc-sinai-arabia-or-both" class="nav-link" data-scroll-target="#sinai-arabia-or-both">Sinai, Arabia, or both?</a></li>
+  </ul></li>
+  <li><a href="#coming-to-america" id="toc-coming-to-america" class="nav-link" data-scroll-target="#coming-to-america">Coming to America</a>
+  <ul class="collapse">
+  <li><a href="#inner-asian-mountain-corridor" id="toc-inner-asian-mountain-corridor" class="nav-link" data-scroll-target="#inner-asian-mountain-corridor">Inner Asian Mountain Corridor</a></li>
   <li><a href="#reaching-north-america" id="toc-reaching-north-america" class="nav-link" data-scroll-target="#reaching-north-america">Reaching North America</a></li>
+  </ul></li>
+  <li><a href="#oh-brave-new-world-with-such-ice-sheets-in-it" id="toc-oh-brave-new-world-with-such-ice-sheets-in-it" class="nav-link" data-scroll-target="#oh-brave-new-world-with-such-ice-sheets-in-it">Oh Brave New World, With Such Ice Sheets in it</a>
+  <ul class="collapse">
+  <li><a href="#berengia-standstill" id="toc-berengia-standstill" class="nav-link" data-scroll-target="#berengia-standstill">Berengia Standstill</a></li>
+  <li><a href="#some-key-sites" id="toc-some-key-sites" class="nav-link" data-scroll-target="#some-key-sites">Some Key Sites</a></li>
+  <li><a href="#clovis-first" id="toc-clovis-first" class="nav-link" data-scroll-target="#clovis-first">Clovis First</a></li>
+  <li><a href="#kelp-highway" id="toc-kelp-highway" class="nav-link" data-scroll-target="#kelp-highway">Kelp Highway</a></li>
+  </ul></li>
+  <li><a href="#this-weeks-reading" id="toc-this-weeks-reading" class="nav-link" data-scroll-target="#this-weeks-reading">This Week’s Reading</a></li>
+  <li><a href="#pau" id="toc-pau" class="nav-link" data-scroll-target="#pau">Pau</a></li>
   </ul>
 </nav>
 </nav>
@@ -263,9 +340,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page-right" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Unit 2/Temporal.html">Unit 2: Ancient Migrations</a></li><li class="breadcrumb-item"><a href="../Unit 2/North_America.html">Ch 10. Peopling of the Americas (S)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Week Ten: Peopling of North America (A)</h1>
+<h1 class="title">Week Ten: Peopling of North America (S)</h1>
 </div>
 
 
@@ -295,16 +372,14 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><u><strong>Time Period:</strong></u> MIS 2 (Last Glacial Maximum) and MIS 1</li>
 <li><u><strong>Key Terms:</strong></u> Beringia, Cordilleran Ice Sheet, Laurentide Ice Sheet, Beringia Standstill, Kelp Highway, Ice-Free Corridor, Clovis/Clovis-First</li>
-<li><u><strong>Summary:</strong></u> The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America). The primary hypotheses which aim to explain this process are the “Kelp Road” and “Ice-Free Corridor” hypotheses.</li>
+<li><u><strong>Key Sites:</strong></u></li>
+<li><u><strong>Summary:</strong></u> The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America). The primary hypotheses which aim to explain this process are the “Kelp Highway” and “Ice-Free Corridor” hypotheses.</li>
 </ul>
 </div>
 </div>
-<section id="initial-upper-paleolithic-migrations" class="level2">
-<h2 class="anchored" data-anchor-id="initial-upper-paleolithic-migrations">Initial Upper Paleolithic Migrations</h2>
-<p>We have been covering the Upper Paleolithic spread of <em>Homo sapiens</em> since the last large pulse out of Africa (~65-60 ka), through the Arabian Peninsula (~60-55 ka: Levantine Corridor and Inner Arabian “green windows”), into West Asia and the Caucuses (~45 ka: Turkey, Iran, Armenia, Azerbaijan, Georgia), and into Northeast and East Asia (~45-40 ka: Russia (Siberia), Mongolia, China).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../images/migroutes1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="African and Eurasian Middle-to-Upper Paleolithic Migration Routes"><img src="../images/migroutes1.png" class="img-fluid figure-img" alt="African and Eurasian Middle-to-Upper Paleolithic Migration Routes"></a></p>
+<p><a href="../images/Migrations/migs.webp" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="African and Eurasian Middle-to-Upper Paleolithic Migration Routes"><img src="../images/Migrations/migs.webp" class="img-fluid figure-img" alt="African and Eurasian Middle-to-Upper Paleolithic Migration Routes"></a></p>
 <figcaption>African and Eurasian Middle-to-Upper Paleolithic Migration Routes</figcaption>
 </figure>
 </div>
@@ -312,145 +387,475 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/lK4QrbkKboU" width="500" height="281" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <p><em>Decent review of migrations</em></p>
 </div>
-<p>I will cover more on the South Asian route in the next lecture. We also made mention of the spread of H. sapiens into Europe from the Caucuses following the Danube River. Europe was subsequently insular for a time before Mesolithic and Neolithic expansion. Since I designed this course with a trajectory towards understanding how the earliest populations occupied the primary regions that we (in this class) live, I am omitting further discussion on what was happening in Europe at this time. While the ancestries of Polynesians and Native Americans can both be traced to the Middle-to-Upper Paleolithic populations that migrated into eastern Asia, the origins of these peoples have different timelines. While the earliest evidence of people in North America can be traced as far back ~24 ka (still paleolithic), Polynesia was not colonized until deep into the Neolithic (see time frames for Paleolithic, Mesolithic, and Neolithic below). While we will have to do a little jumping back and forth through time in the next unit, I will mostly try to keep a linear temporal path. Thus, our story picks up in Northeast Asia at the time just before reaching North America.</p>
-<div class="paleo-table">
-<div id="tbl-paleo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<section id="week-10-reading-assignment" class="level3">
+<h3 class="anchored" data-anchor-id="week-10-reading-assignment">📅 Week 10 Reading Assignment</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">🎯 Key Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">📖 Article: Raff 2021</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="p-3 bg-light rounded border-start border-primary border-3">
+<ul>
+<li><strong>Additional Assigned Reading:</strong> Article: Raff 2021</li>
+<li><strong>Key Terms:</strong> Corridor, Barrier, Refugium/Refugia, Marine Isotope Stages (MIS), Glacial/Interglacial Periods, Stadial/Interstadial Periods, Paleolithic, Late Pleistocene, Out of Africa I, Out of Africa II, Ice Sheets, Sea Levels, Haplogroup, Arabian Corridor Migration Model (ACMM), Paleosiberians , Ancient East Asians, Last Glacial Maximum, Beringia, Laurentide Ice Sheet, Cordilleran Ice Sheet, Clovis First Theory, Coastal Migration Theory</li>
+<li><strong>Sites:</strong> Yana Rhinoceros Site, Mal’ta, Clovis, Page-Ladson, Monte Verde, Swan Point, Bluefish Caves</li>
+<li><strong>Migratory Regions and Routes:</strong> Levantine Corridor, Sinai Peninsula, Southern Dispersal Model, Bab el-Mandeb Strait, Arabian Corridor, Ice Free Corridor, Kelp Highway, Bering Land Bridge</li>
+<li><strong>Summary:</strong> The earliest evidence of the peopling of the Americas sits between 18-15 ka. The ancestors of the first settlers of the Americas trace back to the Ancient Paleo-Siberians who settled in Northeast Eurasia after migrating through the Inner Asian Mountain Corridor (IAMC). While it is clear that the route into North America spans across the Bering Land Bridge, there is still much research into the path into the heart of the continent (or into S. America). The primary hypotheses which aim to explain this process are the “Kelp Highway” and “Ice-Free Corridor” hypotheses.</li>
+</ul>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<ul>
+<li><strong>I. Focus on</strong>
+<ul>
+<li><em>Major Climate Periods</em></li>
+<li><em>Primary theories for entry into the continent</em></li>
+<li><em>Key sites that show evidence for different theories</em></li>
+<li><em>Pre-Beringia context</em></li>
+<li><em>Evidence for shifting corridors</em></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+<section id="raff-2021-below-is-the-only-assigned-reading-for-this-week.-it-is-also-available-on-our-lamaku-page-under-important-files.-the-additional-information-available-on-this-page-is-supplimentary.-pay-attention-to-the-details-and-citations-if-you-plan-to-use-any-of-these-topics-in-exam-2" class="level4">
+<h4 class="anchored" data-anchor-id="raff-2021-below-is-the-only-assigned-reading-for-this-week.-it-is-also-available-on-our-lamaku-page-under-important-files.-the-additional-information-available-on-this-page-is-supplimentary.-pay-attention-to-the-details-and-citations-if-you-plan-to-use-any-of-these-topics-in-exam-2">Raff 2021 (below) is the only assigned reading for this week. It is also available on our Lamaku page under Important Files. The additional information available on this page is supplimentary. Pay attention to the details and citations if you plan to use any of these topics in Exam 2</h4>
+</section>
+<section id="raff2021-article" class="level4">
+<h4 class="anchored" data-anchor-id="raff2021-article">Raff(2021) Article</h4>
+<div style="margin-bottom: 20px;">
+<p><a class="btn btn-primary" href="../files/Raff2021.pdf" download="Raff(2021).pdf"> <i class="bi bi-download"></i> Download Raff(2021) </a></p>
+</div>
+<!-- Creates an interactive click-to-expand section -->
+<details>
+<summary style="cursor: pointer; color: #007bff; font-weight: bold; margin-bottom: 10px;">
+Preview Article
+</summary>
+<iframe src="../files/Raff2021.pdf" width="100%" height="800px" style="border: 1px solid #ccc;">
+</iframe>
+</details>
+</section>
+</section>
+<section id="corridors-and-migrations" class="level1">
+<h1>Corridors and Migrations</h1>
+<p>Most of this unit, besides methodology, concerns the migratory paths of <em>H. sapiens</em> towards the end of the Pleistocene. To understand this story of human expansion, we can consider the duality of human behavioral flexibility and ingenuity and the occurence of favorable environmental conditions. Without a doubt, early human migrations throughout the paleolithic were dictated by opportunity as much as they were by adaptation. Thus, in the following dialog, we will need to cover both environmental and archaeological/paleontological evidence for dispersals out of Africa and across Eurasia. Given the scope of this course, I will omit details regarding the genetic evidence for Pleistocene dispersals (though those of you working on these topics for exam two should, at least briefly, consider this evidence).</p>
+<p>The term <span title="ecological highway that connects fragmented landscapes"> <strong>corridor</strong> </span> refers to the pathways that would periodically open and close depending on environmental conditions. As passageways for migration, the environmental regulation of these corridors played a large role in how and why Late Pleistocene hominins were able to leave the African continent. Such environmental conditions include the rise and fall of sea levels, the ebb and flow of glacial ice, and the growth and retraction of fertile habitats (<span class="citation" data-cites="Luis2004">Luis et al. (<a href="#ref-Luis2004" role="doc-biblioref">2004</a>)</span>; <span class="citation" data-cites="Rose2007">Rose (<a href="#ref-Rose2007" role="doc-biblioref">2007</a>)</span>). It thus becomes worthwhile to explain how these shifts occur and how they have influenced hominin dispersals before we get into some of the specifics regarding migration routes.</p>
+<section id="glacial-cycling-and-shifting-corridors" class="level2">
+<h2 class="anchored" data-anchor-id="glacial-cycling-and-shifting-corridors">Glacial Cycling and Shifting Corridors</h2>
+<section id="reading-the-climate-record" class="level3">
+<h3 class="anchored" data-anchor-id="reading-the-climate-record">Reading the Climate Record</h3>
+<div id="fig-strat" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 40%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-strat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/pleistocene_stratigraphy.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;1: Overview of temporal divisions of the Middle and Late Pleistocene. Image is an original graphic generated in the Quarto Markdown document workspace."><img src="../images/Migrations/pleistocene_stratigraphy.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-strat-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Overview of temporal divisions of the Middle and Late Pleistocene. Image is an original graphic generated in the Quarto Markdown document workspace.
+</figcaption>
+</figure>
+</div>
+<p>For this unit it will become important to understand a handful of terms related to time. Specifically, we will discuss different divisions of the <strong>Pleistocene</strong> (Geological Epoch), the <strong>Paleolithic</strong> (Cultural/Archaeological phases), and the <u>Marine Isotope Record</u>. These terms should be mostly familiar to you with the exception maybe of the <strong>Marine Isotope Stages (MIS)</strong>. You are familiar, however, with how we measure climate cycles by way of Oxygen Isotope ratios. Continued research in this arena has provided a timeline of climate oscillations stretching as far back as the start of the Pliocene Epoch ~5.3 Ma (<span class="citation" data-cites="Lisiecki2005">Lisiecki and Raymo (<a href="#ref-Lisiecki2005" role="doc-biblioref">2005</a>)</span>). These oscillations between Glacial and Interglacial or Stadial and Interstadial periods are referred to as Marine Isotope Stages. The stages are numbered consecutively after the beginning of the record in present day (MIS 1 is the current era). They then track backwards in time into the Pliocene.</p>
+<p>The terms Glacial/Interglacial and Stadial/Interstadial refer to the same conditions but differ in severity. Thus, while <strong>Glacial</strong> and <strong>Stadial</strong> periods both reflect colder climates, Glacial periods are markedly more severe than Stadials. The same is true for the warmer <strong>Interglacial</strong> and <strong>Interstadial</strong> periods. Marine isotope stages are most commonly designated according to the stronger climate signals (glacials and interglacials) with stadials and interstadials illustrating minor fluctuations within the stage (<a href="#fig-MIS5" class="quarto-xref">Figure&nbsp;2</a>).</p>
+<p>An example of the above can be seen with MIS 5, a warm period known as the <em>Last Interglacial</em>. While clearly warmer than MIS 6 before and MIS 4 after, the climate during MIS 5 (~130-74 ka) alternated between minor warm and cold cycles. It is therefore often subdivided into the more specific categories of MIS 5a-MIS 5e. In this system, MIS 5 begins as a true interglacial (MIS 5e) with a sharp rise in global temperature, but then dips for about ten thousand years (MIS 5d). This same cycle continues until the last interstadial (MIS 5a) of the climate period.</p>
+<p><br>
+<br>
+<br>
+</p>
+<div id="fig-MIS5" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 40%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-MIS5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/MIS 5.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Figure&nbsp;2: Depiction of the last 6 Marine Isotope Stages. Notice the different peaks and dips in MIS 5. It started (MIS 5e) as a true interglacial rise in globale temerature but then dipped and oscillated between not quite glacial and not quite interglacial."><img src="../images/Migrations/MIS 5.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-MIS5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Depiction of the last 6 Marine Isotope Stages. Notice the different peaks and dips in MIS 5. It started (MIS 5e) as a true interglacial rise in globale temerature but then dipped and oscillated between <em>not quite glacial</em> and <em>not quite interglacial</em>.
+</figcaption>
+</figure>
+</div>
+<p>While the specifics can become somewhat cumbersome, there are some quick insights that can be gained from understanding the basic structure of the MIS system. First, climate patterns alternate. This means that the different climate trends stay consistent with even and odd MIS designations. We are currently living in a warm period designated as MIS 1. Since the stage can only change with a climate reversal, you know that MIS 2 was a cold period. The next reversal then would be MIS 3. And so the story goes. <em>Warm periods stick to odd number designations and cold periods stick to even number designations</em>. This is a really easy trick to understand the conditions of an isotope stage without having to remember any particulars about it. With it, I could begin a discussion about MIS 13 and you would already know that the average global climate was relatively warm. Another shorthand trick is to assume that the specific stages are named for the Glacial and Interglacial periods as opposed to Stadials and Interstadials. The exception to this is MIS 3 which is technically an interstadial (though a pretty chaotic one). Otherwise, for our discussions of the Middle and Late Pleistocene, all marine isotope stages can be referred to as glacial or interglacial periods. Glacial periods are given even numbered designations and Interglacials are given odd numbered designations.</p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="the-impacts-of-climate-cycling" class="level3">
+<h3 class="anchored" data-anchor-id="the-impacts-of-climate-cycling">The Impacts of Climate Cycling</h3>
+<p>Being that this is not a course in climatology, diving into the dynamics of climate oscillations seems like overkill at first. Such trends, however, have large scale impacts on our understanding of hominin dispersals. These impacts most notably (at least for this discussion) influence the accessibility of different regions across a landscape. Consider how we navigate our cities. Commuter routes are often dependent on local factors such as traffic, road closures, hazards, and available resources (like a drive thru coffee shop or gas station). Conceptually, this discussion is not much different. On a global scale, environmental conditions may open or close routes, create hard-to-navigate obstructions, and/or produce barren or abundant throughways. It is thus the develpment of these geographic corridors, barriers, and <span title="regions of habitable land that act as a place of refuge in challenging environmental conditions"> <strong>refugia</strong> </span> that set the parameters by which we consider potential dispersal events and migratory pathways of early human populations (<span class="citation" data-cites="MirazonLahr2010">Mirazon Lahr (<a href="#ref-MirazonLahr2010" role="doc-biblioref">2010</a>)</span>). The trouble is that these corridors and habitable zones which would have allowed for large population movements shifted through time and the connections between favorable zones repeatedly appeared and disappered (<span class="citation" data-cites="Scerri2019">Scerri et al. (<a href="#ref-Scerri2019" role="doc-biblioref">2019</a>)</span>).</p>
+<p>As depicted in (<a href="#tbl-corridors" class="quarto-xref">Table&nbsp;1</a>) the primary environmental factors investigated by those studying early human migrations include the expansion and retraction of glacial ice, the development of arid and temperate zones, and the rise and fall of sea levels (<span class="citation" data-cites="Field2005">Field and Lahr (<a href="#ref-Field2005" role="doc-biblioref">2005</a>)</span>; <span class="citation" data-cites="Li2019">Li et al. (<a href="#ref-Li2019" role="doc-biblioref">2019</a>)</span>; <span class="citation" data-cites="Scerri2019">Scerri et al. (<a href="#ref-Scerri2019" role="doc-biblioref">2019</a>)</span>; <span class="citation" data-cites="Timmermann2016">Timmermann and Friedrich (<a href="#ref-Timmermann2016" role="doc-biblioref">2016</a>)</span>). An understanding of these factors has helped us to explain the first ventures <strong>Out of Africa</strong>, and the migrations that led to our historic distribution across the globe (through Europe, Eastern/Northern/Southern Asia, into Southeast Asia/Oceania/Australia, and the first ventures into the Americas). While the primary agenda of this chapter focuses on the north eastern migrations across Eurasia and into North America, it is first worthwhile discussing how our ancestors began expanding their range outside of the African continent.</p>
+<div class="card border-success w-60 me-auto mb-3">
+<div class="card-header bg-success text-white">
+<p><strong>Environmental Impacts of Climate Cycling</strong></p>
+</div>
+<div class="card-body">
+<div id="tbl-corridors" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
-<div aria-describedby="tbl-paleo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="tbl-corridors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
 <thead>
 <tr class="header">
-<th>Paleolithic</th>
+<th><strong>Barrier</strong></th>
+<th>Explanation</th>
+<th>Climate Impact</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Lower Paleolithic (~2.6 Ma-300 ka)</td>
+<td><strong>Ice Sheets</strong></td>
+<td>Ice sheets present a formidable barrier. Not only are the physically obstructive but, even if the are navigable, they are typically devoid of readily consumable resources.</td>
+<td>Ice sheets tend to expand during glacial periods and retract during interglacials</td>
 </tr>
 <tr class="even">
-<td>Middle Paleolithic (~300-40 ka)</td>
+<td><strong>Sea Levels</strong></td>
+<td>Sea levels are not homogeneous through time. The rise and fall depending on global climate. When they rise, they can sink landmasses and close off corridors. When they fall, they can create previously unavailable corridors.</td>
+<td>Sea levels are typically low during glacial periods and high during interglacials</td>
 </tr>
 <tr class="odd">
-<td>Upper Paleolithic (~40-10 ka)</td>
+<td><strong>Habitat</strong></td>
+<td>Habitat is commonly dependent on annual precipitation. This has fluctuated wildly through time. Where there are deserts now there have been verdant landscapes, and vice versa</td>
+<td>Precipitation is typically lower in glacial periods and higher during interglacials</td>
 </tr>
 </tbody>
 </table>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-paleo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Paleolithic Divisions
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-corridors-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: The cycling of climates also reflects a cycling of corridors, barriers, and refugia. Migration routes often change through phases where a glacial or interglacial will open one part of the route while coincidentally closing another. Human migrations are thus dictated through time by shifting conditions.
 </figcaption>
 </figure>
 </div>
 </div>
-<div class="paleo-table">
-<div id="tbl-paleo" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<div aria-describedby="tbl-paleo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table">
-<thead>
-<tr class="header">
-<th>Mesolithic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Europe (~10-4 ka)</td>
-</tr>
-<tr class="even">
-<td>Western Asia (~25-11.6 ka)</td>
-</tr>
-<tr class="odd">
-<td>Eastern Asia (~15-8 ka)</td>
-</tr>
-</tbody>
-</table>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-paleo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Regional timing of Mesolithic
+</section>
+</section>
+</section>
+<section id="out-of-africa-i-and-ii" class="level1">
+<h1>Out of Africa (I and II)</h1>
+<p><span class="citation" data-cites="Scerri2019">Scerri et al. (<a href="#ref-Scerri2019" role="doc-biblioref">2019</a>)</span> reminds us that ancestral <em>H. sapiens</em> did not <em>leave</em> Africa, they instead broadened their range across and beyond the African continent. Ours, of course, was not the first hominin species to do so either. We learned in the last unit that <em>H. erectus</em> represents the first undisputed hominin to venture into the Eurasian landmass. This first sojourn is referred to as <strong>Out-of-Africa I</strong>. As far as we currently know, this expansion of <em>H. erectus</em> resulted in a bit of an evolutionary dead end. While they had an incredible run (more than a million and a half years) and likely speciated into one or two distinct island populations, Eurasian <em>H. erectus</em> dissappeared from the continent by about 108 ka (assuming the Ngondong fossils represent the last occurence). It is notable that they coexisted on the continent with Neanderthals and Denisovans with recent <span title="scientific
+study of ancient proteins recovered from fossils"> <strong>paleoproteomics</strong> </span> research suggesting that <em>H. erectus</em> and Denisovans interbred during their overlap (later adding to the modern human gene pool) (<span class="citation" data-cites="Fu2026">Fu et al. (<a href="#ref-Fu2026" role="doc-biblioref">2026</a>)</span>). That being said, Out-of-Africa I did not persist. Interestingly, the expansion of <em>H. heidelbergensis</em> from Africa into Eurasia during the Middle Pleistocene (simply referred to as the Middle Pleistocene Dispersal) is not labelled as Out-of-Africa II. It did result in a second wave of hominin migrations from Africa into Eurasia, subsequently leading to the evolution of Neanderthals and Denisovans, but by the time we understood this dispersal event, <strong>Out-of-Africa II</strong> (OOA II) had already been designated as a specifically <em>H. sapiens</em> event. It’s likely because of this that modern research now avoids such naming schemes.</p>
+<p>Even as a <em>H. sapiens</em> specific event, OOA II is still a touch ambiguous. This is because <em>H. sapiens</em> expanded and retracted between the continents numerous times. The well-known sites of Misliya Cave, Qafzeh, and Skhul in the Levant, for instance represent some of the earliest evidence of our species in Eurasia but do not reflect the ancestral population of modern humans. Thus, some researchers more specifically refer to the last major migratory pulse of our species leading to the ancestral population of nearly all non-African modern humans, as the <strong>L3-lineage Exodus</strong>. While not as catchy as OOA, this event specifically captures the spread of modern populations across the globe. The L3-lineage Exodus is named for the genetic evidence which points to our ancestral origins. L3 refers to a specific <span title="A genetic population who share a common ancestor. Defined by a unique genetic signature that arose 
+as a set of mutations known as Single-Nucleotide Polymorphisms"> <strong>haplogroup</strong> </span> which emerged in Africa approximately 70,000 years ago (<span class="citation" data-cites="Soares2012">Soares et al. (<a href="#ref-Soares2012" role="doc-biblioref">2012</a>)</span>). While many populations inside Africa reflect older lineages, all modern non-African humans share this unique L3 signature, suggesting that this Late Pleistocene branch of <em>H. sapiens</em> was responsible for the last major colonization of Eurasia and subsequent dispersal around the globe. But how exactly did they do it? What were these migration routes?</p>
+<section id="sinai-arabia-or-both" class="level2">
+<h2 class="anchored" data-anchor-id="sinai-arabia-or-both">Sinai, Arabia, or both?</h2>
+<p>The most logical path between the continents for a terrestrial animal is across the pre-existing land connection known today as the Sinai Peninsula. This patch of land connects Northeast Africa (Egypt) to the Levant along the Eastern Mediterranean Coast (or it did before we dug out the Suez Canal). Commonly referred to as the <strong>Levantine Corridor</strong>, it stands as the most likely entry from the Sinai Peninsula into West Asia and is well-established as the path taken by the earliest OOA II migrants found in archaeological sites across modern day Israel. There is a beautiful logic to taking this route. It moves out of the Nile River Delta region and continues on along the Mediterranean. At very least, staying near sources of water typically means that conditions stay mild and resources stay abundant. This being said, the Levant did not provide the only corridor and, by the looks of the archaeological and genetic records, was not the route for the primary exodus across the Eurasian continent.</p>
+<div id="fig-ArabiaArch" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 20%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ArabiaArch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/ArabiaArch.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Figure&nbsp;3: Logic makes a Southern Dispersal into Arabia during MIS 4 hard to believe but the sudden rise of archaeological sites in this region during MIS 3 is hard to deny. The map here illustrates many of these sites overlaying a modern precipitaion map of the Arabian Peninsula."><img src="../images/Migrations/ArabiaArch.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ArabiaArch-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Logic makes a Southern Dispersal into Arabia during MIS 4 hard to believe but the sudden rise of archaeological sites in this region during MIS 3 is hard to deny. The map here illustrates many of these sites overlaying a modern precipitaion map of the Arabian Peninsula.
 </figcaption>
 </figure>
 </div>
+<p>With relatively little archaeological evidence illustrating migrations out of the Levant and into the rest of Eurasia, many researchers now prefer explaining the primary migratory pulse through an <strong>Arabian Corridor Migration Model (ACMM)</strong>, emphasizing the significance of the near connection point between the Arabian Peninsula and modern day Somalia in East Africa (<span class="citation" data-cites="Field2005">Field and Lahr (<a href="#ref-Field2005" role="doc-biblioref">2005</a>)</span>; <span class="citation" data-cites="Masojc2019">Masojć et al. (<a href="#ref-Masojc2019" role="doc-biblioref">2019</a>)</span>; <span class="citation" data-cites="Rose2007">Rose (<a href="#ref-Rose2007" role="doc-biblioref">2007</a>)</span>). The AACM (also discussed with as a part of the <strong>Southern Dispersal Route</strong> through eastern Eurasia) considers a small gap between the Arabian Peninsula and the Horn of Africa, known as the <strong>Bab al-Mandeb Strait</strong> as a likley crossing point for our species during MIS 4. The path has traditionally received less attention than the Levantine Corridor due to its clear environmental constraints and natural barriers. Specifically, the region is curently known for high aridity, low vegetation, and an absence of even periodic land connections. So why would this model become more popular now? Of course a major influence is the presence of MIS 3 archaeological sites in central Arabian localities such as the Al Marrat Basin (<a href="#fig-ArabiaArch" class="quarto-xref">Figure&nbsp;3</a>), but it has gained even more traction with our increasing ability to reconstruct past environments and climates. While most of the environmental modelling of this region focuses on the emergence of <em>Green Windows</em> during the dynamic Last Interglacial Period (MIS 5) (<span class="citation" data-cites="Jennings2015">Jennings et al. (<a href="#ref-Jennings2015" role="doc-biblioref">2015</a>)</span>), new research has illustrated similar (though less intense) trends during MIS 3. Certainly from about 130-70 ka, the Arabian Peninsula is known to be verdant and habitable, and there is an abundance of archaeology that supports the establishment of human occupations across the region at this time. While a great model for dispersal, we still know from genetic evidence that the Last Interglacial cannot represent the last major pulse of human migrations which ultimately conquered the globe.</p>
+<div id="fig-Bab" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 30%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Bab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/Bab.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Figure&nbsp;4: The Bab al-Mandeb strait is deep enough to have never fully dried out during the Pleistocene, though it would have narrowed considerably (3-4 miles across) making travel between the continents plausable."><img src="../images/Migrations/Bab.jpg" class="img-fluid figure-img"></a>
 </div>
-<div class="paleo-table">
-<div id="tbl-paleo" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<div aria-describedby="tbl-paleo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table">
-<thead>
-<tr class="header">
-<th>Neolithic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Europe (~9-3.7 ka)</td>
-</tr>
-<tr class="even">
-<td>Western Asia (~12-6.5 ka)</td>
-</tr>
-<tr class="odd">
-<td>Eastern Asia (~10-4 ka)</td>
-</tr>
-</tbody>
-</table>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-paleo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;3: Regional timing of Neolithic
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Bab-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: The Bab al-Mandeb strait is deep enough to have never fully dried out during the Pleistocene, though it would have narrowed considerably (3-4 miles across) making travel between the continents plausable.
 </figcaption>
 </figure>
 </div>
+<p>The <em>H. sapiens</em> archaeological record seems to drop off for a while after the Last Interglacial (though Neanderthal sites re-emerge), with most of the Arabian Peninsula cycling back into the arid environment that it is known for today. This shifted suddenly, however, as the Earth’s climate once again transitioned. Instead of a dramatic swing back into an Interglacial Period, MIS 3 (recorded as an Interstadial) provided unique conditions situated inbetween the cold and arid Glacials and warm, moist Interglacials.</p>
+<p>The somewhat sudden emergence of archaeological sites in the heart of the Arabian Peninsula during MIS 3 sits in a bit of conflict with an easy migration story from the Levant into the rest of West Asia. The timing suggests that almost as soon as these habitable landscapes arise, people were there to take advantage of them. It is because of this that people believe Arabia was already occupied at the time of the climate transition. To clarify, if the interstadial swing of MIS 3 occured at ~57 ka and people were occupying the region by ~55 ka, a long migration route from northeast Africa, through the Levant, and into the Arabian Peninsula is hard to reconcile. Instead, it becomes more logical to explain this occurence with an earlier migration into the region during cooler periods (MIS4) and then a fruitful expansion across the peninsula as conditions changed during MIS 3.</p>
+<p>With this model we can better explain the genetic, archaeological, and environmental data. There is one potential hiccup though. While it is possible the the Bab al-Mandeb Strait was crossable on foot at lower sea levels, it is unlikely. Even when sea levels dropped by ~120 m during the MIS 4 Glacial Maxima, there would likely have been a 17 m deep and ~5-6 km wide gap between the two continents (<span class="citation" data-cites="Rohling2013">Rohling et al. (<a href="#ref-Rohling2013" role="doc-biblioref">2013</a>)</span>; <span class="citation" data-cites="Rose2007">Rose (<a href="#ref-Rose2007" role="doc-biblioref">2007</a>)</span>). Six kilometers translates to nearly four miles, a hefty swim for even the fittest of our species. It would seem like this is the nail in the coffin for the ACMM, and certainly is a notable barrier, but we already have evidence of much greater sea crossings from deeper in the human fossil record. I suppose that, if we can reconcile the presence of <em>Homo erectus</em> in Island South East Asia more than half a million years ago, we can probably accept the possibility of a short channel crossing by our species 60-70 thousand years ago.</p>
+</section>
+</section>
+<section id="coming-to-america" class="level1">
+<h1>Coming to America</h1>
+<div id="fig-CTA" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 15%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-CTA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/CTA.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure&nbsp;5: Ok so it wasn’t exactly like it was in this classic. But not too far off…"><img src="../images/Migrations/CTA.jpg" class="img-fluid figure-img"></a>
 </div>
-<p>Let’s clarify some confusing numbers here. If you take a look at the end of the paleolithic and the beginning of the Mesolithic (and notice the same thing for the end of the meso- and beginning of the neolithic), you see varying degrees of overlap. This is because these time periods are not determined by absolute dates. This means that we are not drawing a chronological line in the sand. Instead, they are defined by cultural signatures. Largely this is determined by the degree of mobility and technology exhibited from archaeological sites. In this regard, the Paleolithic commonly signifies mobile hunter/gatherer populations with chipped stone tools (flake and core tools). The Mesolithic signifies semi-sedentary populations with dynamic tools such as harpoons, bows and arrows, and ground stone tools such as adzes and axes. The Neolithic is often directly correlated with the shift to agriculture from hunting and gathering. We will talk about this and the associated innovations in the next unit. The point here is that the Mesolithic and Neolithic occurred at different times in different places.</p>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-CTA-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Ok so it wasn’t exactly like it was in this classic. But not too far off…
+</figcaption>
+</figure>
+</div>
+<p>For the rest of this chapter, I will only briefly be reviewing some of the concpets discussed in your assigned reading (<span class="citation" data-cites="Raff2021">Raff (<a href="#ref-Raff2021" role="doc-biblioref">2021</a>)</span>). Mostly, you will want to pay attention to the story of human migrations from ancient Siberian and East Asian origins, into and through a region known as Beringia (and the Bering Land Bridge), and into the North American Landmass. There are also some details about the further expansion into South America. The article states that there are three major competing theories explaining the <em>how</em>, <em>when</em>, and <em>where</em> of this expansion but you will come to see that there are really only two. In the sections below, I attempt to give you a little context on the ancestors of these migrants and subsequently clarify some points mentioned, but not explained in the text. This reading is supplimental and so will not be used for the quiz, but it should absolutely be reviewed if you are using this topic in Exam 2.</p>
+<p>Once our ancestors settle in West Asia, we begin to track their branching migrations in different directions. Some populations expand Northwest, following the Danube River out past the Black Sea and into Europe, some head East along the river systems of central India (following the <em>Southern Route</em>) towards East and Southeast Asia, and still others head Northeast through the valleys across central Asia into the mountainous regions of Siberia and Northern China. While we wont spend much time discussing the western dispersal in this class, the Southeastern and Northeastern migrations are pivotal to oour understanding of the colonization of the Americas and Polynesia. Because the Americas were reached much before the establishment of island populations in Polynesia, we’ll start there. The beginning of this discussion actually warrants an overview of both of the aforementioned migration routes but illlustrates a relatively smooth story if we concentrate first on the northeast population movement.</p>
+<p><br>
+<br>
+</p>
+<section id="inner-asian-mountain-corridor" class="level2">
+<h2 class="anchored" data-anchor-id="inner-asian-mountain-corridor">Inner Asian Mountain Corridor</h2>
+<div id="fig-IAMC" class="quarto-float quarto-figure quarto-figure-center anchored" style="float: left; max-width: 300px; margin-right: 20px; margin-bottom: 15px; width: 25%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-IAMC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<!-- Outer Bound Box -->
+<div id="IAMCSlider" class="carousel slide" data-bs-interval="false" style="overflow: hidden; position: relative;">
+  
+  <!-- Carousel Image Slides Track -->
+  <div class="carousel-inner">
+  
+    <!-- Slide 1 (active) -->
+    <div class="carousel-item active" style="position: relative;">
+      <!-- Slide Number Badge overlaying the top-right corner -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">1 / 3</span>
+      </div>
+      
+      <a href="../images/Migrations/IAMC.webp" class="lightbox" data-gallery="IAMC-gallery" title="Inner Asian Mountain Corridor" data-description="The proposed IAMC for the spread of pastoralism. Taken from Spengler(2014)">
+        <img src="../images/Migrations/IAMC.webp" class="d-block w-100 figure-img" style="height: 250px; object-fit: cover; border-radius: 8px;" alt="IAMC">
+      </a>
+    </div>
+    
+    <!-- Slide 2 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge overlaying the top-right corner -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">2 / 3</span>
+      </div>
+      
+      <a href="../images/Migrations/Overland.png" class="lightbox" data-gallery="IAMC-gallery" title="OverlandIV" data-description="Route IV (in purple) is the revised overland dispersal route suggested by Li(2019). The red dots (labelled IUP) illustrate archaeological sites from Initial Upper Paleolithic populations. Make note also of site #22. This is Makarovo-4 which sits between Mal'ta and Yana (see next image)">
+        <img src="../images/Migrations/Overland.png" class="d-block w-100 figure-img" style="height: 200px; object-fit: cover; border-radius: 8px;" alt="Overland">
+      </a>
+    </div>
+    
+    <!-- Slide 3 -->
+    <div class="carousel-item" style="position: relative;">
+      <!-- Slide Number Badge overlaying the top-right corner -->
+      <div class="carousel-caption" style="position: absolute; top: 10px; right: 10px; left: auto; bottom: auto; padding: 0; z-index: 10;">
+        <span style="background: rgba(0, 0, 0, 0.65); color: #fff; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; font-family: sans-serif;">3 / 3</span>
+      </div>
+       
+      <a href="../images/yanasite.png" class="lightbox" data-gallery="IAMC-gallery" title="Key Sites" data-description="1: Bukhtarma Cave (grouped with the Altai Denisovan sites, is known for an interaction sphere between H. sapiens, Neanderthals, 
+and Denisovans at around 47 ka) 2: Kara-Bom (49-45 ka) 3: Tolbor-16 (45 ka) 4: Shiyu (45 ka) 5: Yana (32 ka) 6: Mal’ta (~24 ka)">
+        <img src="../images/yanasite.png" class="d-block w-100 figure-img" style="height: 200px; object-fit: cover; border-radius: 8px;" alt="Yana">
+      </a>
+    </div>
+    
+  </div>
+  
+  <!-- Left Control Arrow -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#IAMCSlider" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(1); transform: scale(1.0);"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  
+  <!-- Right Control Arrow -->
+  <button class="carousel-control-next" type="button" data-bs-target="#IAMCSlider" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(1); transform: scale(1.0);"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+<!-- Inline CSS to manage mobile devices -->
+<style>
+@media (max-width: 576px) {
+  #fig-IAMC {
+    float: none !important;
+    margin: 0 auto 20px auto !important;
+  }
+}
+</style>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-IAMC-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Proposed path for Northeastern Migration
+</figcaption>
+</figure>
+</div>
+<p>As stated in the graphics above, the primary focus of this northeastern dispersal is on a series of valleys referred to as the Inner Asian Mountain Corridor or the IAMC (<span class="citation" data-cites="Frachetti2012">Frachetti (<a href="#ref-Frachetti2012" role="doc-biblioref">2012</a>)</span>; <span class="citation" data-cites="Li2019">Li et al. (<a href="#ref-Li2019" role="doc-biblioref">2019</a>)</span>; <span class="citation" data-cites="Spengler2014">Spengler et al. (<a href="#ref-Spengler2014" role="doc-biblioref">2014</a>)</span>). This is a co-opted term that is not typically used in this context but it creates a nice shorthand for our discussion. You can see from the images that the IAMC is more commonly used to depict the spread of pastoralism from central into eastern Asia. I use this because it illustrates the valleys that exist between the Pamir, Tian Shan, and Altai mountain ranges. If you look at the second image (from <span class="citation" data-cites="Li2019">Li et al. (<a href="#ref-Li2019" role="doc-biblioref">2019</a>)</span>) you can also see the extent of glacial ice and paleolakes that would have created a southern border to this route in MIS 3. You can also see from this image that there were parts of this region that maintained higher levels of precipitation, providing a habitable path for settlement and expansion along the way. This Least-Cost analysis was based on the position and timing of archaeological sites in concert with paleoenvironmental reconstructions. Image three in Figure 6 displays some of the key MIS 3 sites that expand past the IAMC into northeastern Asia. These include some of the sites mentioned in the text (notably the Yana Rhinoceros Horn site) illustrating that we had reached the northern border of Siberia, and therefore the northern extent of Eurasia, by ~32 ka (towards the end of MIS 3).</p>
+<p>In terms of this northeastern migration from West Asia, through Central Asia, and into Northeastern Asia, we have hit a bit of a stopping point. There is plenty of archaeology in across these regions throughout MIS 3 to suggest that it was a relatively fruitful time for paleolithic populations. With coincidental flourishes along the Southern Route leading to East Asia (discussed next week), our populations were effectively colonizing the world. In these somewhat warmer and moister conditions, however, the ability to expand farther was hindered. This, of course, changes as the global climate again reverses and transitions into the most recent glacial period, MIS2 (~29-14 ka). Landscapes once again freeze over with glacial ice, once verdant habitats begin to dry out, the range of vegetation shifts and narrows, and the animals which rely on it move to find greener pastures. Fortunately for us, by this time <em>H. sapiens</em> was well-adapted to harsh conditions. We had created systems of technology which facilitated increased mobility and resource flexibility, making a life of following migrating herds far more successful than our recently extinct contemporaries.</p>
+<div id="fig-tent" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 15%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-tent-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/tent.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7" title="Figure&nbsp;7: This is more of a semi-permanent structure but otherwise a good look at the kind of shelter that would be common in the Upper Paleolithic"><img src="../images/Migrations/tent.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-tent-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: This is more of a semi-permanent structure but otherwise a good look at the kind of shelter that would be common in the Upper Paleolithic
+</figcaption>
+</figure>
+</div>
+<p>Permanent shelters would have been a difficult approach in MIS 2. There were few reliable resource patches and the large herd animals would have been regularly on the move. Thus, if human populations were to survive, they would need to become hyper-mobile. With some exceptions, this relegates cave sites to mostly ephemeral stopovers. To circumvent the problem of habitation, Upper Paleolithic peoples began to rely on mobile shelters that could be deconstructed with relative ease. Taking the form of <strong>Domed Tents</strong>, these medium-sized structures were made by lashing together light wooden poles, bones, antlers, and even (to some degree) large tusks, and covering the scaffolding with thick hides. On a smaller scale, the use of hides as clothing continued to be refined. Bone and antler needles were not eniterly new in terms of technological innovation (identifiable in the Middle Paleolithic), but the the practice of sewing and layering clothes to accomodate changing conditions would have become ever more important as life once again adjusted to glacial climates.</p>
+<p>Additional technological achievements were made in the arena of game hunting. The reliance on stone tools had clearly been a hallmark of human success in the Pleistocene, but stones are heavy and quarries are few and far between. As the MIS 2 hunter/gatherer populations began to rely much more on migrating herds of Elk throughout northeastern Eurasia, they also began to rely much more on antler tools. This was so incredibly logical. There are some major benefits of crafting tools from antlers instead of stone in the Upper Paleolithic. First, antlers are a renewable resource. Unlike the horns of antelope, cattle, or the such, antlers (found on deer, elk, and moose) fall off and regrow every year. They are made of strong osseous material that can be readily carved and maintain sharp edges and points through multiple uses. Use of such materials, of course, also means that living areas did not always need to be by a rock quarry. We did not talk much about the materials used for making stone tools but they were usually quite specific, especially for the better crafted implements. Thus, if you were a population reliant on stone tool manufacture, you would need to stay near your source material. Use of antler removed this barrier and allowed H. sapiens to maintain their mobile lifestyle hunting mobile game.</p>
+<div id="fig-antler" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 15%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-antler-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/antler.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8" title="Figure&nbsp;8: The split-based antler point was a wildly effective and efficient tool"><img src="../images/Migrations/antler.jpg" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-antler-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8: The <strong>split-based antler point</strong> was a wildly effective and efficient tool
+</figcaption>
+</figure>
+</div>
+<p>MIS 2 conditions did not just alter the weather and the faunal populations but also the available flora. While we tend to focus more on stone and bone tools, hunting large game was very much dependent on creating spears. For much of the Pleistocene this was not an issue. Neanderthals typically lived in regions dominated by coniferous forests and African Homo sapiens existed in savannahs interspersed by Acacia woodlands. The Upper Paleolithic Eurasian tundra, however, was relatively devoid of trees. Thus, spear shafts were in short supply and high demand. One thing our ancestors would have struggled with was the likelihood of breaking a spear while taking down large animals such as elk. One solution to this problem is provided by using antler spear tips instead of stone. Typically, for a stone tipped spear, the maker would need to split the end of the shaft to attach a stone point. This would then be wrapped tight with sinew to ensure a strong hold. While effective, the split in the wood automatically jeopardizes the structural integrity of that weapon. As the spear is thus thrust into its target, the base of the point continues to put pressure in the split of the shaft. Antler points, on the other hand, began to be fashioned in the opposite way. Since the point material is more easily manipulated, the base of the point could be carved with a split to fit over a tapered shaft. This meant that, on impact, if anything were to break away, it would be the spear point instead of the shaft (<span class="citation" data-cites="Tartar2013">Tartar and White (<a href="#ref-Tartar2013" role="doc-biblioref">2013</a>)</span>). Brilliant! Conserving the lesser available resource was a major boon.</p>
+<p>The last major innovation of note is a huge upgrade in hunting technology. While bow hunting did exist by this time, large herd animals don’t go down so easy. The atlatl (at-lat-ul) or spear thrower is the earliest projectile weapon we developed. Not that other hominins did not throw spears but it would be rather difficult to throw these with the force needed to fatally injure a large animal. Just because these animals are herbivores doesn’t mean they are weak. Quite the opposite. Thus, to take one down was a dangerous game. Hunting parties would need to get close enough to physically thrust spears into their target. This was likely a difficult process. Not only would you need to get this animal in a position to where it could not easily run away (cornered or surrounded) but every individual would be at risk of being gored or trampled. Projectile weaponry would remove each of these problems. The atlatl part implement. The spear thrower component is a short shaft with a curved end. Think of the end of a classic umbrella or a crowbar. The spears made for these were then specifically fashioned with a notch at the base to fit into the curved point of the thrower. These things rip. I remember making them in a field school I attended as an undergrad. They are kinda difficult to use but once you get the hang of it they are wicked effective. The atlatl launches spears two to three times the distance of a good throw and hits with a punch that could dig solidly 8 inches into the target. That is a fatal wound and definitely an effective tool of the Upper Paleolithic hunter (<span class="citation" data-cites="Cattelain1997">Cattelain (<a href="#ref-Cattelain1997" role="doc-biblioref">1997</a>)</span>).</p>
 </section>
 <section id="reaching-north-america" class="level2">
 <h2 class="anchored" data-anchor-id="reaching-north-america">Reaching North America</h2>
-<ul>
-<li>Key Points
-<ul>
-<li>Northeast Asia was populated by ~45 ka
-<ul>
-<li>Siberia, China, Mongolia</li>
-<li>Following the IAMC</li>
-</ul></li>
-<li>Northeastern extent reached by ~30 ka
-<ul>
-<li>Yana Rhinoceros Horn site (~32 ka)</li>
-</ul></li>
-</ul></li>
-</ul>
-<div id="fig-migration" class="quarto-layout-panel">
+<p>Even with these technological achievements, reaching North America from eastern Eurasia has a rather notable obstacle. You are hopefully aware that these two landmasses are not currently connected. The body of water separating them is called the Bering Strait. Despite this seemingly impossible obstacle, this became our MIS 2 migratory path. There are two interrelated terms discussed in conversations of the Bering migration. First is <strong>Beringia</strong>. Beringia is the entirety of the region in question. It hosts a number of different environments with different flora and fauna. Much of this encompasses parts of northeastern Eurasia and northwestern North America as well as the space in-between (<a href="#fig-beringia" class="quarto-xref">Figure&nbsp;9</a>). The second, narrower term is <strong>Bering Land Bridge</strong>. This geographic corridor is a strip of land that is exposed in extreme glacial conditions and the primary corridor for human migrations into North America. While considerably smaller than the extent of Beringia (&gt;600k sq miles), the Bering Land Bridge was by no means a narrow or short passage. For a general reference you can consider it relative to the continental United States. The U.S. is approximately 2800 miles wide (E&lt;-&gt;W) and roughly 1600 miles high (N&lt;-&gt;S). The Land Bridge was roughly 2/3 the height of the U.S and nearly half the length.</p>
+<p>To clarify, this does not mean that migrants had to cross the entire 3000-mile stretch of this bridge. The shortest stretch (even today) between the Eurasian and North American continents is only about 55 miles. This is the Bering Strait. The actual distance covered by different migrating groups is not entirely known. If they migrated straight from the Yana site it would have been approximately 1500-2000 miles to reach the western edge of North America, but there were likely closer populations as well. Truth is that there were probably many different groups from different regions of northeastern Eurasia that ultimately found their way to the Beringia connection. Consider also that no single population crossed the whole of the Bering Land Bridge. This migration occurred slowly over millennia. Thousands of years and hundreds of generations of Upper Paleolithic humans passed until reaching the other end of the bridge.</p>
+<div id="fig-beringia" class="lightbox quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-migration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/iamcsites.png" class="img-fluid figure-img"></p>
-<figcaption>IAMC: Typically, the designation of this path is referenced in regard to later migrations but since it is the same corridor that is used in the Upper Paleolithic, it seems appropriate to use it here as well.</figcaption>
-</figure>
+<div aria-describedby="fig-beringia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/Beringia.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="Figure&nbsp;9: Extent of Beringia and the Bering Land Bridge during the Last Glacial Maximum"><img src="../images/Migrations/Beringia.jpg" class="img-fluid figure-img" style="width:50.0%"></a>
 </div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../images/yanasite.png" class="img-fluid figure-img"></p>
-<figcaption>1: Bukhtarma Cave (grouped with the Altai Denisovan sites, is known for an interaction sphere between H. sapiens, Neanderthals, and Denisovans at around 47 ka) 2: Kara-Bom (49-45 ka) 3: Tolbor-16 (45 ka) 4: Shiyu (45 ka) 5: Yana (32 ka) 6: Mal’ta (~24 ka)</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-migration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: NE Asian migration routes
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-beringia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;9: Extent of Beringia and the Bering Land Bridge during the Last Glacial Maximum
 </figcaption>
 </figure>
 </div>
-<p>Recall that the IAMC largely traverses northeast across Kazakhstan. The first image from this group (Atelian Low Stand), illustrates the number archaeological sites in this corridor from approximately 80-27 ka. The sites are color coordinated to reflect relative age with Orange being Upper Paleolithic (~40-10 ka), Red being Middle Paleolithic (~300-40 ka), and Green showing Lower Paleolithic (~2.6 Ma to 300 ka). You can see that there are some combinations of these colors, suggesting that many of these sites were occupied and reoccupied at various times. The older sites also suggest that the region was important for many hominin groups throughout the paleolithic (including Neanderthals, H. heidelbergensis, Denisovans, and H. sapiens). This corridor not only provided habitable land for many populations, but provided a throughway to reach the northeastern-most expanse of the Eurasian continent.</p>
+<p>When considering this migration, you should have a couple of basic questions.</p>
+<ul>
+<li>First: how do we know that this migration occurred at all and that North America was not occupied by another route or ancestral population?</li>
+<li>Second: Assuming this was the route, how did it become available to migrating populations?</li>
+<li>Third: Why would migrants follow this passage?</li>
+</ul>
+<p>The first question is answered by the presence and timing of archaeological sites and through the genetic connections between Native Americans and Northeast Asian populations. The archaeological evidence is more our speed. I’ve already illustrated the general trajectory of population dispersal during the Middle and Upper Paleolithic. We will come to see that the earliest archaeological sites in North America occur just beyond the western margin of the Bering Land Bridge and coincide beautifully with the timeline in northeastern Eurasia. The second question of how these populations made it across was already answered in the sections above. Glacial conditions leading into MIS 2 (and ultimately spiking in what is known as <strong>The Last Glacial Maximum or LGM</strong> lowered the sea levels dramatically and exposed the underlying continental shelf. The third question represents a theme in this unit. Why did human populations traverse this cold dry environment? Likely because herds of animals were following newly available resource across the grasslands of Beringia. <em>Homo sapiens</em> are intrepid hunter/gathers in the Paleolithic with most of our economy being structured around following herds. Where they went, so did we.</p>
+</section>
+</section>
+<section id="oh-brave-new-world-with-such-ice-sheets-in-it" class="level1">
+<h1>Oh Brave New World, With Such Ice Sheets in it</h1>
+<section id="berengia-standstill" class="level3">
+<h3 class="anchored" data-anchor-id="berengia-standstill">Berengia Standstill</h3>
+<p>While cold conditions led to the exposure of the Bering Land Bridge, they also closed off the access point to most of North America (not that migrating populations were necessarily trying to enter the continent). The oldest sites on the continent date to approximately 24 ka and exist in the eastern-most region of habitable land in Beringia (ex. Blufish Cave (<span class="citation" data-cites="Bourgeon2017">Bourgeon et al. (<a href="#ref-Bourgeon2017" role="doc-biblioref">2017</a>)</span>). The next oldest sites occur at least 4-5 thousand years later and show up much farther south. This gap in time and space is best explained by understanding the presence and extent of North American glaciers during the LGM. Pay attention, you’ll need to know this. There are two main glaciers that blocked entry into North America at this time: the <strong>Cordilleran Ice Sheet</strong> (smaller and along the Pacific coast) and the <strong>Laurentide Ice Sheet</strong> (larger and encompassing most of modern-day Canada). These two masses of ice converge on each other during the LGM to form a desolate glacial barrier.</p>
+<p>Despite giving a Game of Thrones-esque notion of a barrier to more fruitful lands, the inhabitants of Beringia were not trying to get through. They simply followed their food supply and ended up in a fairly accommodating (though freezing) environment. This stopping point along the bridge is known as the Beringia Standstill, when populations occupied and adapted to this habitat for up to 8 thousand years prior to spreading through the rest of the continent(s) (<span class="citation" data-cites="Raghavan2015"><span class="nocase">Raghavan et al.</span> (<a href="#ref-Raghavan2015" role="doc-biblioref">2015</a>)</span>).</p>
+</section>
+<section id="some-key-sites" class="level3">
+<h3 class="anchored" data-anchor-id="some-key-sites">Some Key Sites</h3>
+<div id="fig-standstill" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 30%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-standstill-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/standstill.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Figure&nbsp;10: Some of the key sites associated with the Beringia Standstill (@Vachula2020)."><img src="../images/Migrations/standstill.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-standstill-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;10: Some of the key sites associated with the Beringia Standstill (<span class="citation" data-cites="Vachula2020">Vachula et al. (<a href="#ref-Vachula2020" role="doc-biblioref">2020</a>)</span>).
+</figcaption>
+</figure>
+</div>
+<p>The earliest N. American sites are places such as Bluefish Caves in the Yukon. While they are considered controversial by some due to the nature of the evidence (no human fossils or stone tools), the indirect evidence that does exist is rather convincing and so generally accepted. The more reliable sites along this migration route tend to come a bit later and show up in regions deeper into the continent. Supporting the Beringia Standstill explanation, these sites show up around 10 thousand years after Bluefish. Recall that MIS2, encompassing the Last Glacial Maximum, ends around 14 thousand years ago. Thus, many of these sites pop up at a time when the global temperature had increased significantly. The end of the standstill can then be said to coincide with the retreating of the Laurentide and Cordilleran ice sheets and the opening of new migration corridors (though the <em>Ice-Free Corridor</em> probably wasn’t fully accessible until ~13 ka). There are, of course, a few sites that are much older than opening of the Ice-Free Corridor. Places such as the Page-Ladson site in Florida and the Monte Verde site in Chile, raise questions of other entry points prior to the end of MIS 2. But I suppose we should talk about all proposed paths if we are going to make sense of this.</p>
+<p>The LGM is said to have hit its peak cold around 20 ka, after which the global temperature steadily increases. Once we hit ~15 ka, the steady climb in temperature turns to a sprint, encouraging rapid glacial melt. This change in conditions opens two potentially viable entry routes into the continent commonly referred to as the “Kelp Highway” and the “Ice-Free Corridor”. Both of these corridors were certainly used by migrating populations, though much ink has been spilled in arguments over which corridor was used first: did the first Native American enter the continent by a coastal route or did they find access through the emergent ice-free corridor between the retreating Laurentide and Cordilleran ice sheets?</p>
+</section>
+<section id="clovis-first" class="level2">
+<h2 class="anchored" data-anchor-id="clovis-first">Clovis First</h2>
+<p>This debate begins with the first evidence of human presence in North America during the last Ice Age. Discovery of the Clovis site occurred at a time way before we knew anything about the archaeology of the Bering Land bridge access point. Prior to this it was thought that humans would not have been able to get to the continent without the aid of ppost-glacial, Holocene technology. The Clovis site changed everything. Much like the Neanderthals fossils in Spy (throw back to Unit 1), the significance of Clovis became clear when stone tools were found in association with Ice Age animals (spear points lodged in Mammoth skeletons). Such a discovery required us to figure out how we gained entry at this early age.</p>
+<div id="fig-preclovis" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: right; margin-right: 15px; max-width: 25%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-preclovis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/preclovis.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11" title="Figure&nbsp;11: Some of the key pre-Clovis sites (@Braje2017)."><img src="../images/Migrations/preclovis.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-preclovis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;11: Some of the key pre-Clovis sites (<span class="citation" data-cites="Braje2017">Braje et al. (<a href="#ref-Braje2017" role="doc-biblioref">2017</a>)</span>).
+</figcaption>
+</figure>
+</div>
+<p>As paleoenvironmental research progressed and archaeologists continued to find Late Pleistocene sites across the continent, the first theory explaining the peopling of the Americas began to take shape. Because the distinctive Clovis toolkit appeared across North America by roughly 13 ka, researchers looked to the glacial landscape to find a route that could explain this sudden presence. Early geological models obliged, suggesting that the Cordilleran and Laurentide ice sheets would have separated to form an interior Ice-Free Corridor right around 13.5 to 14 ka. This created a theoretical path leading from the eastern end of the Bering Land Bridge straight to the dense clusters of sites in the American Southwest and Plains. This paradigm became known as the <strong>Clovis-First Theory</strong>, asserting that these big-game hunters were the absolute first humans to enter the Americas south of the ice sheets, and that upon reaching these fertile lands, their populations rapidly dispersed and diversified across the hemisphere (<span class="citation" data-cites="Lesnek2018">Lesnek et al. (<a href="#ref-Lesnek2018" role="doc-biblioref">2018</a>)</span>).</p>
+</section>
+<section id="kelp-highway" class="level2">
+<h2 class="anchored" data-anchor-id="kelp-highway">Kelp Highway</h2>
+<div id="fig-KHH" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 25%;">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-KHH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="../images/Migrations/KHH.png" class="lightbox" data-gallery="quarto-lightbox-gallery-12" title="Figure&nbsp;12: Habitat structure along the coastal migration route (@Erlandson2007)"><img src="../images/Migrations/KHH.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-KHH-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;12: Habitat structure along the coastal migration route (<span class="citation" data-cites="Erlandson2007">Erlandson et al. (<a href="#ref-Erlandson2007" role="doc-biblioref">2007</a>)</span>)
+</figcaption>
+</figure>
+</div>
+<p>With the passage of time and the development of sophisticated dating techniques (e.g., Carbon Dating), more and more sites were discovered dating to the end of MIS 2 and start of MIS1. Two surprising realizations developed from this. First, there were definitely archaeological sites in North America dating to a time before Clovis (<a href="#fig-preclovis" class="quarto-xref">Figure&nbsp;11</a>). This meant, at very least, that the Clovis people were not the first in North America. The second realization was that the majority of these newly discovered sites were along the coast of North and South America. It would have been impossible for people to reach many of these areas by means of the Ice-Free Corridor. This, of course, weakened the explanatory power of the Clovis-First model and forced archaeologists to rethink access routes to the continent.</p>
+<p>The coastal route is referred to as the <strong>Kelp Highway Hypothesis (KHH)</strong> due to the bountiful resource provided by extensive kelp forests along the Pacific coast of N. America. The dashed lines in the <a href="#fig-KHH" class="quarto-xref">Figure&nbsp;12</a> illustrate the extent of these forests. The Kelp Highway Theory suggests that migrating populations in southern Beringia adapted to marine resource exploitation during the standstill. As the LGM waned and the Cordilleran Ice Sheet shrank, land became exposed along the coast and provided suitable habitat to populations that previously occupied the progressively submerging Bering Shelf. Populations expanded rapidly as more land was exposed and the kelp forests proliferated (more productive in inter-glacial periods). There is plenty of speculation about the use of watercraft to aid in rapid migration but, as of yet, no strong archaeological evidence exists (<span class="citation" data-cites="Erlandson2007">Erlandson et al. (<a href="#ref-Erlandson2007" role="doc-biblioref">2007</a>)</span>).</p>
+<p><br>
+<br>
+<br>
+<br>
+</p>
+</section>
+</section>
+<section id="this-weeks-reading" class="level1">
+<h1>This Week’s Reading</h1>
+<p>The text from this chapter should cover most of the context for the assigned article. It also provides a long list of images and citations that can be used in your second exam. The next chapter will cover the last of the material from this unit.</p>
+</section>
+<section id="pau" class="level1">
+<h1>Pau</h1>
+<p><br>
+<br>
+</p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Bourgeon2017" class="csl-entry" role="listitem">
+Bourgeon, Lauriane, Ariane Burke, and Thomas Higham. 2017. <span>“Earliest <span>Human Presence</span> in <span>North America Dated</span> to the <span>Last Glacial Maximum</span>: <span>New Radiocarbon Dates</span> from <span>Bluefish Caves</span>, <span>Canada</span>.”</span> <em>PLOS ONE</em> 12 (1): e0169486. <a href="https://doi.org/10.1371/journal.pone.0169486">https://doi.org/10.1371/journal.pone.0169486</a>.
+</div>
+<div id="ref-Braje2017" class="csl-entry" role="listitem">
+Braje, Todd J., Tom D. Dillehay, Jon M. Erlandson, Richard G. Klein, and Torben C. Rick. 2017. <span>“Finding the First <span>Americans</span>.”</span> <em>Science</em> 358 (6363): 592–94. <a href="https://doi.org/10.1126/science.aao5473">https://doi.org/10.1126/science.aao5473</a>.
+</div>
+<div id="ref-Cattelain1997" class="csl-entry" role="listitem">
+Cattelain, Pierre. 1997. <em><span>CATTELAIN P</span>. - 1997. <span>Hunting</span> During the <span>Upper Palaeolithic</span>. <span>Spearthrower</span> or Bow, or Both ? In <span>Projectile Technologies</span> : <span>Archaeological</span>, <span>Experimental</span> and <span>Ethnoarchaeological Perspectives</span>, Edited by <span>H</span>. <span>Knecht</span>, <span>Plenum Press</span>, <span>New York</span>, 1997.</em>
+</div>
+<div id="ref-Erlandson2007" class="csl-entry" role="listitem">
+Erlandson, Jon M., Michael H. Graham, Bruce J. Bourque, Debra Corbett, James A. Estes, and Robert S. Steneck. 2007. <span>“The <span>Kelp Highway Hypothesis</span>: <span>Marine Ecology</span>, the <span>Coastal Migration Theory</span>, and the <span>Peopling</span> of the <span>Americas</span>.”</span> <em>Journal of Island and Coastal Archaeology</em> 2 (2): 161–74. <a href="https://doi.org/10.1080/15564890701628612">https://doi.org/10.1080/15564890701628612</a>.
+</div>
+<div id="ref-Field2005" class="csl-entry" role="listitem">
+Field, Julie S., and Marta Mirazón Lahr. 2005. <span>“Assessment of the <span>Southern Dispersal</span>: <span>GIS-Based Analyses</span> of <span>Potential Routes</span> at <span>Oxygen Isotopic Stage</span> 4.”</span> <em>Journal of World Prehistory</em> 19 (1): 1–45. <a href="https://doi.org/10.1007/s10963-005-9000-6">https://doi.org/10.1007/s10963-005-9000-6</a>.
+</div>
+<div id="ref-Frachetti2012" class="csl-entry" role="listitem">
+Frachetti, Michael. 2012. <span>“Multiregional <span>Emergence</span> of <span>Mobile Pastoralism</span> and <span>Nonuniform Institutional Complexity</span> Across <span>Eurasia</span>.”</span> <em>Current Anthropology</em> 53 (February): 2–38. <a href="https://doi.org/10.1086/663692">https://doi.org/10.1086/663692</a>.
+</div>
+<div id="ref-Fu2026" class="csl-entry" role="listitem">
+Fu, Qiaomei, Zhongyou Wu, E. Andrew Bennett, et al. 2026. <span>“Enamel Proteins from Six <span>Homo</span> Erectus Specimens Across <span>China</span>.”</span> <em>Nature</em> 655 (8121): 141–47. <a href="https://doi.org/10.1038/s41586-026-10478-8">https://doi.org/10.1038/s41586-026-10478-8</a>.
+</div>
+<div id="ref-Jennings2015" class="csl-entry" role="listitem">
+Jennings, Richard P., Joy Singarayer, Emma J. Stone, et al. 2015. <span>“The Greening of <span>Arabia</span>: <span>Multiple</span> Opportunities for Human Occupation of the <span>Arabian Peninsula</span> During the <span>Late Pleistocene</span> Inferred from an Ensemble of Climate Model Simulations.”</span> <em>Quaternary International</em>, Green <span>Arabia</span>: <span>Human Prehistory</span> at the <span>Cross</span>-roads of <span>Continents</span>, vol. 382 (September): 181–99. <a href="https://doi.org/10.1016/j.quaint.2015.01.006">https://doi.org/10.1016/j.quaint.2015.01.006</a>.
+</div>
+<div id="ref-Lesnek2018" class="csl-entry" role="listitem">
+Lesnek, Alia J., Jason P. Briner, Charlotte Lindqvist, James F. Baichtal, and Timothy H. Heaton. 2018. <span>“Deglaciation of the <span>Pacific</span> Coastal Corridor Directly Preceded the Human Colonization of the <span>Americas</span>.”</span> <em>Science Advances</em> 4 (5): eaar5040. <a href="https://doi.org/10.1126/sciadv.aar5040">https://doi.org/10.1126/sciadv.aar5040</a>.
+</div>
+<div id="ref-Li2019" class="csl-entry" role="listitem">
+Li, Feng, Nils Vanwezer, Nicole Boivin, et al. 2019. <span>“Heading North: <span>Late Pleistocene</span> Environments and Human Dispersals in Central and Eastern <span>Asia</span>.”</span> <em>PLOS ONE</em> 14 (5): e0216433. <a href="https://doi.org/10.1371/journal.pone.0216433">https://doi.org/10.1371/journal.pone.0216433</a>.
+</div>
+<div id="ref-Lisiecki2005" class="csl-entry" role="listitem">
+Lisiecki, Lorraine, and Maureen Raymo. 2005. <span>“A <span>Pliocene</span>-<span>Pleistocene</span> Stack of 57 Globally Distributed Benthic <span><span class="math inline">\(\delta^{18}\)</span></span><span>O</span> Records.”</span> <em>Paleoceanography</em> 20 (January). <a href="https://doi.org/10.1029/2004PA001071">https://doi.org/10.1029/2004PA001071</a>.
+</div>
+<div id="ref-Luis2004" class="csl-entry" role="listitem">
+Luis, J. R., D. J. Rowold, M. Regueiro, et al. 2004. <span>“The <span>Levant</span> Versus the <span>Horn</span> of <span>Africa</span>: <span>Evidence</span> for <span>Bidirectional Corridors</span> of <span>Human Migrations</span>.”</span> <em>American Journal of Human Genetics</em> 74 (3): 532–44. <a href="https://doi.org/10.1086/382286">https://doi.org/10.1086/382286</a>.
+</div>
+<div id="ref-Masojc2019" class="csl-entry" role="listitem">
+Masojć, Mirosław, Ahmed Nassr, Ju Yong Kim, et al. 2019. <span>“Saharan Green Corridors and <span>Middle Pleistocene</span> Hominin Dispersals Across the <span>Eastern Desert</span>, <span>Sudan</span>.”</span> <em>Journal of Human Evolution</em> 130 (May): 141–50. <a href="https://doi.org/10.1016/j.jhevol.2019.01.004">https://doi.org/10.1016/j.jhevol.2019.01.004</a>.
+</div>
+<div id="ref-MirazonLahr2010" class="csl-entry" role="listitem">
+Mirazon Lahr, Marta. 2010. <span>“Saharan Corridors and Their Role in the Evolutionary Geography of <span>‘<span>Out</span> of <span>Africa I</span>’</span>.”</span> <em>Out of Africa 1: The First Hominin Colonisation of Eurasia</em>, January, 27–46.
+</div>
+<div id="ref-Raff2021" class="csl-entry" role="listitem">
+Raff, Jennifer. 2021. <span>“Genomes <span>Reveal Humanity</span>’s <span>Journey</span> into the <span>Americas</span>.”</span> In <em>Scientific American</em>. Https://www.scientificamerican.com/article/genomes-reveal-humanitys-journey-into-the-americas/.
+</div>
+<div id="ref-Raghavan2015" class="csl-entry" role="listitem">
+<span class="nocase">Raghavan, Maanasa, Matthias Steinrücken, Kelley Harris, et al.</span> 2015. <span>“Genomic Evidence for the <span>Pleistocene</span> and Recent Population History of <span>Native Americans</span>.”</span> <em>Science (New York, N.Y.)</em> 349 (6250): aab3884. <a href="https://doi.org/10.1126/science.aab3884">https://doi.org/10.1126/science.aab3884</a>.
+</div>
+<div id="ref-Rohling2013" class="csl-entry" role="listitem">
+Rohling, Eelco J., Katharine M. Grant, Andrew P. Roberts, and Juan-Cruz Larrasoaña. 2013. <span>“Paleoclimate <span>Variability</span> in the <span>Mediterranean</span> and <span>Red Sea Regions</span> During the <span>Last</span> 500,000 <span>Years Implications</span> for <span>Hominin Migrations</span>.”</span> <em>Current Anthropology</em> 54 (S8): S183–201. <a href="https://doi.org/10.1086/673882">https://doi.org/10.1086/673882</a>.
+</div>
+<div id="ref-Rose2007" class="csl-entry" role="listitem">
+Rose, Jeffrey. 2007. <span>“The <span>Arabian Corridor Migration Model</span>: Archaeological Evidence for Hominin Dispersals into <span>Oman</span> During the <span>Middle</span> and <span>Upper Pleistocene</span>.”</span> <em>Proceedings of the Seminar for Arabian Studies</em> 37: 219–37. <a href="https://www.jstor.org/stable/41224068">https://www.jstor.org/stable/41224068</a>.
+</div>
+<div id="ref-Scerri2019" class="csl-entry" role="listitem">
+Scerri, Eleanor, Lounès Chikhi, and Mark Thomas. 2019. <span>“Beyond Multiregional and Simple Out-of-<span>Africa</span> Models of Human Evolution.”</span> <em>Nature Ecology &amp; Evolution</em> 3 (September): 1–3. <a href="https://doi.org/10.1038/s41559-019-0992-1">https://doi.org/10.1038/s41559-019-0992-1</a>.
+</div>
+<div id="ref-Soares2012" class="csl-entry" role="listitem">
+Soares, Pedro, Farida Alshamali, Joana B. Pereira, et al. 2012. <span>“The <span>Expansion</span> of <span class="nocase">mtDNA Haplogroup L3</span> Within and Out of <span>Africa</span>.”</span> <em>Molecular Biology and Evolution</em> 29 (3): 915–27. <a href="https://doi.org/10.1093/molbev/msr245">https://doi.org/10.1093/molbev/msr245</a>.
+</div>
+<div id="ref-Spengler2014" class="csl-entry" role="listitem">
+Spengler, Robert, Michael Frachetti, Paula Dupuy, et al. 2014. <span>“Early Agriculture and Crop Transmission Among <span>Bronze Age</span> Mobile Pastoralists of <span>Central Eurasia</span>.”</span> <em>Proceedings. Biological Sciences / The Royal Society</em> 281 (May): 20133382. <a href="https://doi.org/10.1098/rspb.2013.3382">https://doi.org/10.1098/rspb.2013.3382</a>.
+</div>
+<div id="ref-Tartar2013" class="csl-entry" role="listitem">
+Tartar, Elise, and Randall White. 2013. <span>“The Manufacture of <span>Aurignacian</span> Split-Based Points: <span>An</span> Experimental Challenge.”</span> <em>Journal of Archaeological Science</em> 40 (June): 2723–45. <a href="https://doi.org/10.1016/j.jas.2013.02.009">https://doi.org/10.1016/j.jas.2013.02.009</a>.
+</div>
+<div id="ref-Timmermann2016" class="csl-entry" role="listitem">
+Timmermann, Axel, and Tobias Friedrich. 2016. <span>“Late <span>Pleistocene</span> Climate Drivers of Early Human Migration.”</span> <em>Nature</em> 538 (7623): 92–95. <a href="https://doi.org/10.1038/nature19365">https://doi.org/10.1038/nature19365</a>.
+</div>
+<div id="ref-Vachula2020" class="csl-entry" role="listitem">
+Vachula, Richard, Yongsong Huang, James Russell, Mark Abbott, Matthew Finkenbinder, and Jonathan O’Donnell. 2020. <span>“Sedimentary Biomarkers Reaffirm Human Impacts on Northern <span>Beringian</span> Ecosystems During the <span>Last Glacial</span> Period.”</span> <em>Boreas</em> 49 (May). <a href="https://doi.org/10.1111/bor.12449">https://doi.org/10.1111/bor.12449</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
