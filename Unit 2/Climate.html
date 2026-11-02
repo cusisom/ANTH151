@@ -252,6 +252,12 @@ div.csl-indent {
  <span class="menu-text">Ch 10. Peopling of the Americas (S)</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Unit 2/Austronesia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ch 11. Peopling of the Pacific (S)</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -460,7 +466,7 @@ Figure&nbsp;5: Layer of seasonal “dust spikes” demarcating a single year of 
 <section id="interpreting-ice-core-samples" class="level4">
 <h4 class="anchored" data-anchor-id="interpreting-ice-core-samples">Interpreting Ice Core Samples!</h4>
 <p>This section is important. The primary points to understand are outlined in the diagram below. When investigating oxygen isotope fractionation in Ice Cores, we are interested in how much <sup>18</sup>O made it to the higher latitudes relative to <sup>16</sup>O. The logic is that in colder conditions that will be a much higher proportion of <sup>16</sup>O relative to <sup>18</sup>O in accumulating glacial ice.</p>
-<div id="fig-warmcold" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 50%;">
+<div id="fig-warmcold" class="lightbox quarto-float quarto-figure quarto-figure-center anchored" style="float: left; margin-right: 15px; max-width: 20%;">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-warmcold-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="../images/climate/warmcold.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6" title="Figure&nbsp;6: Oxygen isotope fractionation in warm and cold climate phases"><img src="../images/climate/warmcold.png" class="img-fluid figure-img"></a>
@@ -473,17 +479,32 @@ Figure&nbsp;6: Oxygen isotope fractionation in warm and cold climate phases
 <p>Regardless of climate, evaporation inherently favors the lighter isotope, meaning that atmospheric water vapor always starts with a higher proportion of <sup>16</sup>O than the ocean water it came from. This is a general and expected phenomenon and should not be misinterpreted to mean that <sup>18</sup>O is not evaporated, it’s just that the typical ratio of atmospheric water favors <sup>16</sup>O. Thus, while still an important part of this discussion, differential evaporation is less directly associated with climate than the condensation and precipitation that occurs while the water vapor moves through the atmosphere toward the poles. Here, the <sup>18</sup>O that does evaporate is the first to condense and therefore the first to be “rained-out”. This system is true in both warm and cool climates but greatly exaggerated in <u>cool climates</u> with greater total losses of <sup>18</sup>O. Thus, by the time that this moisture reaches the higher latitudes and is able to contribute to glacial snowpack, nearly all of the <sup>18</sup>O that once existed has been depleted. This process reflects two important concepts relating to the expected ratio of <sup>16</sup>O to <sup>18</sup>O in glacial conditions: first, <sup>16</sup>O is evaporated in much greater proportions than <sup>18</sup>O and second, <sup>18</sup>O has a much greater chance of condensing and precipitating than <sup>16</sup>O. Therefore, the proportion of <sup>16</sup>O in glacial ice during colder climates is going to be much higher than <sup>18</sup>O.</p>
 <p>A key consideration to keep in mind throughout this discussion is that we are describing differences in the relative proportion (the ratio) of these isotopes. Under any conditions, it should be expected that both <sup>16</sup>O and <sup>18</sup>O will be measurable in the sample. Thus, researchers are looking for differentiated time periods which are marked by heavier or lighter isotopic ratios. As described above, in glacial conditions ice core samples will illustrate oxygen isotope concentrations characterized by lower <sup>18</sup>O/<sup>16</sup>O ratios than in warmer, interglacial conditions.</p>
 <p>The converse results are expected in warmer conditions (though this will follow the same principles). While we know that <sup>16</sup>O will always be evaporated at higher proportions than <sup>18</sup>O, the water vapor which moves through the atmosphere towards the poles is better situated to hold on to the <sup>18</sup>O that did evaporate as it gets to higher latitudes. This thus reflects a higher relative proportion of <sup>18</sup>O to <sup>16</sup>O in glacial snowpack during warmer (interglacial) conditions. The image to the left includes one last detail that will become important to us as we examine this same phenomenon in Marine Sediment Cores next.</p>
+<p><br>
+<br>
+</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div id="fig-icecores" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-icecores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<pre class="mermaid mermaid-js" data-label="fig-icecores">graph LR
-    A[Preferential evaporation of &lt;sup&gt;16&lt;/sup&gt;O over &lt;sup&gt;18&lt;/sup&gt;O] --&gt;|Glacial Conditions| B("&lt;sup&gt;18&lt;/sup&gt;O depleted via increased condensation and precipitation")
-    B --&gt; C("Higher ratio of &lt;sup&gt;16&lt;/sup&gt;O to &lt;sup&gt;18&lt;/sup&gt;O in glacial snowpack")
-    A --&gt;|Interglacial Conditions| E("more &lt;sup&gt;18&lt;/sup&gt;O retained in warmer conditions")
-    E --&gt; F("Lower ratio of &lt;sup&gt;16&lt;/sup&gt;O to &lt;sup&gt;18&lt;/sup&gt;O in glacial snowpack")
+<pre class="mermaid mermaid-js" data-label="fig-icecores">%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '14px'}, 'flowchart': { 'htmlLabels': false }}}%%
+flowchart LR
+    A["`Preferential evaporation
+    of Oxygen 16
+    over Oxygen 18`"] --&gt;|Glacial Conditions| B["`Oxygen 18 depleted
+    via increased condensation
+    and precipitation`"]
+    B --&gt; C["`Higher ratio of
+    Oxygen 16 to Oxygen 18
+    in glacial snowpack`"]
+    
+    A --&gt;|Interglacial Conditions| E["`More Oxygen 18
+    retained in
+    warmer conditions`"]
+    E --&gt; F["`Lower ratio of
+    Oxygen 16 to Oxygen 18
+    in interglacial snowpack`"]
 </pre>
 </div>
 </div>
@@ -513,18 +534,34 @@ Figure&nbsp;8: Foraminifera shell. These micrscopic shells have some of the most
 <section id="interpreting-marine-cores" class="level4">
 <h4 class="anchored" data-anchor-id="interpreting-marine-cores">Interpreting Marine Cores!</h4>
 <p>The oxygen isotope ratios recovered fro marine cores follow an opposite pattern to those assessed in ice cores. This should make some sense. Consider the expected ratios from warm interglacial periods in ice cores. <sup>18</sup>O is removed from ocean waters more readily and it is less likely to be rained out as it moves toward the poles in our atmosphere. This should already suggest to you that, while the ice cores show higher concentrations of <sup>18</sup>O, the marine cores might show lower. This is true and even doubley so because of the glacial melt that occurs during these warm phases. Because glacial ice has higher concentrations of <sup>16</sup>O on the whole, in warm interglacial conditions, the ice that is melting a flowing into the ocean is enriched with <sup>16</sup>O. This means that, not only is <sup>18</sup>O more readily removed from ocean waters during interglacial periods but more <sup>16</sup>O floods the the ocean waters during these periods too. Thus, in warm conditions, marine cores illustrate oxygen isotope ratios with lower concentrations of <sup>18</sup>O than are observed in glacial conditions. As the inverse conditions dump <sup>18</sup>O back into ocean waters through increased condensation and precipitation of the heavier isotope and lock away huge stores of <sup>16</sup>O in glacial ice, marine core from glacial periods show an increased ratio of <sup>18</sup>O/<sup>16</sup>O.</p>
+<p><br>
+</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div id="fig-marinecores" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-marinecores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div>
-<pre class="mermaid mermaid-js" data-label="fig-marinecores">graph LR
-    A[Preferential evaporation of &lt;sup&gt;16&lt;/sup&gt;O over &lt;sup&gt;18&lt;/sup&gt;O] --&gt;|Glacial Conditions| B("oceans enriched with &lt;sup&gt;18&lt;/sup&gt;O as it is precipitated back into the waters")
-    B --&gt; C("Higher ratio of &lt;sup&gt;18&lt;/sup&gt;O to &lt;sup&gt;16&lt;/sup&gt;O in foraminifera shell development")
-    A --&gt;|Interglacial Conditions| E("more &lt;sup&gt;18&lt;/sup&gt;O removed from ocean waters and depostied in glacial snowpack")
-    E --&gt; F("Increased glacial melt enriches ocean waters with &lt;sup&gt;16&lt;/sup&gt;O")
-    F --&gt;G("Lower ratio of &lt;sup&gt;18&lt;/sup&gt;O to &lt;sup&gt;16&lt;/sup&gt;O in foraminifera shell development")
+<pre class="mermaid mermaid-js" data-label="fig-marinecores">%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '14px'}, 'flowchart': { 'htmlLabels': false }}}%%
+flowchart LR
+    A["`Preferential evaporation
+    of Oxygen 16
+    over Oxygen 18`"] --&gt;|Glacial Conditions| B["`Oceans enriched with
+    Oxygen 18 as it is precipitated
+    back into the waters`"]
+    B --&gt; C["`Higher ratio of
+    Oxygen 18 to Oxygen 16
+    in foraminifera shell development`"]
+    
+    A --&gt;|Interglacial Conditions| E["`More Oxygen 18 removed
+    from ocean waters and
+    deposited in glacial snowpack`"]
+    E --&gt; F["`Increased glacial melt
+    enriches ocean waters
+    with Oxygen 16`"]
+    F --&gt; G["`Lower ratio of
+    Oxygen 18 to Oxygen 16
+    in foraminifera shell development`"]
 </pre>
 </div>
 </div>
